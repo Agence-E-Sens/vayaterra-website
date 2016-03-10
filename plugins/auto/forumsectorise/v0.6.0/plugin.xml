@@ -1,0 +1,48 @@
+<plugin>
+	<nom>Forum Sectoris&#233;</nom>
+	<slogan>Autoriser les forums sur un secteur particulier</slogan>
+	<auteur>Yffic</auteur>
+	<licence>GPL v3</licence>
+	<version>0.6.0</version>
+	<version_base>0.3</version_base>
+	<etat>stable</etat>
+	<description>
+		<multi>
+			[fr]Ce plugin permet d'activer les forums publics uniquement sur un secteur du site. Tous les nouveaux articles cr&#233;&#233;s dans ce secteur se verront attribuer le type de forum d&#233;fini dans la configuration du plugin. Evidemment ce plugin n'a un int&#233;r&#232;t que si les forums sont d&#233;sactiv&#233;s dans la configuration g&#233;n&#233;rale du site.
+		</multi>
+	</description>
+	<lien>http://contrib.spip.net/Forum-sectorise</lien>
+	<icon>prive/themes/spip/images/forumsectorise-32.png</icon>
+	<prefix>forumsectorise</prefix>
+	<install>base/forumsectorise_install.php</install>
+	<pipeline>
+		<nom>pre_insertion</nom>
+		<inclure>forumsectorise_pipelines.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>formulaire_traiter</nom>
+		<inclure>formulaires/configurer_forumsectorise.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>ieconfig_metas</nom>
+		<inclure>forumsectorise_ieconfig_metas.php</inclure>
+	</pipeline>
+	<pipeline>
+		 <nom>autoriser</nom>
+		 <inclure>inc/forumsectorise_autoriser.php</inclure>
+	</pipeline>
+	<bouton id='forumsectorise' parent='configuration'>
+		<icone>prive/themes/spip/images/forumsectorise-24.png</icone>
+		<titre>forumsectorise:titre_menu</titre>
+		<url>configurer_forumsectorise</url>
+	</bouton>
+	<bouton id='forumsectorise2' parent='bando_configuration'>
+		<icone>prive/themes/spip/images/forumsectorise-16.png</icone>
+		<titre>forumsectorise:titre_menu</titre>
+		<url>configurer_forumsectorise</url>
+	</bouton>
+	<necessite id="SPIP" version="[2.1.0;3.0.99]" />
+	<necessite id="saisies" version="[1.9.0;]" />
+	<necessite id="spip_bonux" version="[1.8;]" />
+	<categorie>communication</categorie>
+</plugin>

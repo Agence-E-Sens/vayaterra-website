@@ -1,0 +1,714 @@
+<!doctype html>
+
+
+<html lang="en" class="no-js">
+<head>
+	<title>#NOM_SITE_SPIP</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,900,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/bootstrap.min.css}" media="screen">	
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/jquery.bxslider.css}" media="screen">
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/magnific-popup.css}" media="screen">
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/owl.carousel.css}" media="screen">
+    <link rel="stylesheet" type="text/css" href="#CHEMIN{css/owl.theme.css}" media="screen">
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/font-awesome.css}" media="screen">
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/animate.css}" media="screen">
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/settings.css}" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/style.css}" media="screen">
+
+	
+	<script type="text/javascript" src="#CHEMIN{js/jquery.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/jquery.migrate.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/jquery.bxslider.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/jquery.magnific-popup.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/owl.carousel.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/bootstrap.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/jquery.imagesloaded.min.js}"></script>
+  	<script type="text/javascript" src="#CHEMIN{js/jquery.isotope.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/retina-1.1.0.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/plugins-scroll.js}"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="#CHEMIN{js/jquery.themepunch.tools.min.js}"></script>
+    <script type="text/javascript" src="#CHEMIN{js/jquery.themepunch.revolution.min.js}"></script>
+	<script type="text/javascript" src="#CHEMIN{js/script.js}"></script>
+
+</head>
+<body style="background:url(squelettes/images/bg.jpg)">
+
+	<!-- Container -->
+	<div id="container">
+		<!-- Header
+		    ================================================== -->
+		<header class="clearfix">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="top-line">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p>
+									<span><i class="fa fa-phone"></i>1234 - 5678 - 9012</span>
+									<span><i class="fa fa-envelope-o"></i>support@vayaterra.com</span>
+									<a href="#"><i class="fa fa-user"></i>Log In</a>
+								</p>
+							</div>	
+							<div class="col-md-6">
+								<ul class="social-icons">
+									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">#LOGO_SITE_SPIP</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+                            <BOUCLE_menu_tout(RUBRIQUES){lang} {racine} >
+                                    <li class="drop"><a href="index.html">#TITRE</a>
+                                        <ul class="dropdown">
+                                            <BOUCLE_condition_sous_rubrique (RUBRIQUES) {id_parent}  {tout}>
+                                             <li><a href="ser-opt6.html">#TITRE</a></li>
+                                             </BOUCLE_condition_sous_rubrique>
+                                         </ul>
+                                    </li>
+                            </BOUCLE_menu_tout>
+								<li class="search drop"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
+								<form class="form-search">
+									<input type="search" placeholder="Search:"/>
+									<button type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</form>
+							    </li>
+						</ul>
+					</div>
+                    <!-- /.navbar-collapse -->
+				</div><!-- /.container -->
+			</nav>
+		</header>
+		<!-- End Header -->
+
+<br><br><br><br><br><br>
+		<!-- Projet
+			================================================== -->
+		<section class="news-section">
+			<div class="container">
+				<div class="title-section alt-title">
+					<h1 style="color:#FFFFFF; background:#000000; padding:5px;">Derniers Projets</h1>
+				</div>
+				<div class="news-box">
+					<div class="arrow-box">
+						<a href="#" class="prev"><i class="fa fa-angle-left"></i></a>
+						<a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+					</div>
+					
+					<div id="owl-demo" class="owl-carousel">
+                        <BOUCLE_article(ARTICLES){id_rubrique == 16}{par date}{0,6}>
+                            <div class="item news-post">
+                            <BOUCLE_img_lien(SPIP_DOCUMENTS_LIENS){id_article}>
+                                    
+                                <BOUCLE_img(DOCUMENTS){id_document}{extension==jpg|png|gif}>
+                                    <img src="#URL_DOCUMENT" alt="">
+                                 </BOUCLE_img>
+
+                             </BOUCLE_img_lien>
+                                <h2><a href="#">#TITRE</a></h2>
+                                <ul class="post-tags">
+                                    <li>[(#DATE|jour)] [(#DATE|nom_mois)] [(#DATE|annee)], </li>
+                                    <li><a href="#">#LESAUTEURS</a> ,</li>
+                                    <li><a href="#">Planing</a></li>
+                                </ul>
+                                <p>#DESCRIPTIF</p>
+                            </div>
+                        </BOUCLE_article>
+						<div class="item news-post">
+							<img src="#CHEMIN{upload/blog/news2.jpg}" alt="">
+							<h2><a href="#">We transport goods</a></h2>
+							<ul class="post-tags">
+								<li>16 April ,</li>
+								<li><a href="#">Besim Dauti</a> ,</li>
+								<li><a href="#">Planing</a></li>
+							</ul>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<div class="item news-post">
+							<img src="#CHEMIN{upload/blog/news2.jpg}" alt="">
+							<h2><a href="#">We transport goods</a></h2>
+							<ul class="post-tags">
+								<li>16 April ,</li>
+								<li><a href="#">Besim Dauti</a> ,</li>
+								<li><a href="#">Planing</a></li>
+							</ul>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<div class="item news-post">
+							<img src="#CHEMIN{upload/blog/news2.jpg}" alt="">
+							<h2><a href="#">We transport goods</a></h2>
+							<ul class="post-tags">
+								<li>16 April ,</li>
+								<li><a href="#">Besim Dauti</a> ,</li>
+								<li><a href="#">Planing</a></li>
+							</ul>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<div class="item news-post">
+							<img src="#CHEMIN{upload/blog/news2.jpg}" alt="">
+							<h2><a href="#">We transport goods</a></h2>
+							<ul class="post-tags">
+								<li>16 April ,</li>
+								<li><a href="#">Besim Dauti</a> ,</li>
+								<li><a href="#">Planing</a></li>
+							</ul>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<div class="item news-post">
+							<img src="#CHEMIN{upload/blog/news2.jpg}" alt="">
+							<h2><a href="#">We transport goods</a></h2>
+							<ul class="post-tags">
+								<li>16 April ,</li>
+								<li><a href="#">Besim Dauti</a> ,</li>
+								<li><a href="#">Planing</a></li>
+							</ul>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<div class="item news-post">
+							<img src="#CHEMIN{upload/blog/news2.jpg}" alt="">
+							<h2><a href="#">We transport goods</a></h2>
+							<ul class="post-tags">
+								<li>16 April ,</li>
+								<li><a href="#">Besim Dauti</a> ,</li>
+								<li><a href="#">Planing</a></li>
+							</ul>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End projets -->
+
+		<!-- projects 
+			================================================== -->
+		<section class="projects-section">
+			<div class="container">
+				<div class="title-section">
+					<h1>Our - Latest Projects</h1>
+					<span>Best Works</span>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+				</div>
+			</div>
+			<div class="project-box iso-call">
+				<div class="project-post buildings isolation">
+					<img src="#CHEMIN{upload/projects/1.jpg}" alt="">
+					<div class="hover-box">
+						<div class="inner-hover">
+							<h2><a href="single-project.html">Duis aute iruret</a></h2>
+							<span>bulding, house</span>
+							<a href="single-project.html" class="link"><i class="fa fa-link"></i></a>
+							<a href="upload/projects/1.jpg}" class="zoom"><i class="fa fa-arrows-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="project-post buildings isolation snd-size">
+					<img src="#CHEMIN{upload/projects/11.jpg}" alt="">
+					<div class="hover-box">
+						<div class="inner-hover">
+							<h2><a href="single-project.html">Duis aute iruret</a></h2>
+							<span>bulding, house</span>
+							<a href="single-project.html" class="link"><i class="fa fa-link"></i></a>
+							<a href="upload/projects/11.jpg}" class="zoom"><i class="fa fa-arrows-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="project-post interior default-size">
+					<img src="#CHEMIN{upload/projects/7.jpg}" alt="">
+					<div class="hover-box">
+						<div class="inner-hover">
+							<h2><a href="single-project.html">Duis aute iruret</a></h2>
+							<span>bulding, house</span>
+							<a href="single-project.html" class="link"><i class="fa fa-link"></i></a>
+							<a href="upload/projects/2.jpg}" class="zoom"><i class="fa fa-arrows-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="project-post buildings">
+					<img src="#CHEMIN{upload/projects/4.jpg}" alt="">
+					<div class="hover-box">
+						<div class="inner-hover">
+							<h2><a href="single-project.html">Duis aute iruret</a></h2>
+							<span>bulding, house</span>
+							<a href="single-project.html" class="link"><i class="fa fa-link"></i></a>
+							<a href="upload/projects/4.jpg}" class="zoom"><i class="fa fa-arrows-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="project-post interior isolation">
+					<img src="#CHEMIN{upload/projects/10.jpg}" alt="">
+					<div class="hover-box">
+						<div class="inner-hover">
+							<h2><a href="single-project.html">Duis aute iruret</a></h2>
+							<span>bulding, house</span>
+							<a href="single-project.html" class="link"><i class="fa fa-link"></i></a>
+							<a href="upload/projects/5.jpg}" class="zoom"><i class="fa fa-arrows-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="project-post energy snd-size">
+					<img src="#CHEMIN{upload/projects/12.jpg}" alt="">
+					<div class="hover-box">
+						<div class="inner-hover">
+							<h2><a href="single-project.html">Duis aute iruret</a></h2>
+							<span>bulding, house</span>
+							<a href="single-project.html" class="link"><i class="fa fa-link"></i></a>
+							<a href="upload/projects/6.jpg}" class="zoom"><i class="fa fa-arrows-alt"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End projects -->
+
+		<!-- about section 
+			================================================== -->
+		<section class="about-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="default-article">
+							<h1>Here you can know everythink about us</h1>
+							<span>About us</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="about.html">Learn More</a>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<!-- Vimeo -->
+						<iframe class="videoembed" src="http://player.vimeo.com/video/23031622?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+						<!-- End Vimeo -->
+					</div>
+					<div class="col-md-4">
+						<img src="#CHEMIN{upload/others/4.jpg}" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End about section -->
+
+		<!-- about section 
+			================================================== -->
+		<section class="about-alternative-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<!-- Nav tabs -->
+						<div class="tab-posts-box">
+							<ul class="nav nav-tabs" id="myTab">
+								<li class="active">
+									<a href="#option1" data-toggle="tab">Option 1</a>
+								</li>
+								<li>
+									<a href="#option2" data-toggle="tab">Option 2</a>
+								</li>
+								<li>
+									<a href="#option3" data-toggle="tab">Option 3</a>
+								</li>
+							</ul>
+
+							<div class="tab-content">
+								<div class="tab-pane active" id="option1">
+									<img src="#CHEMIN{upload/others/1.jpg}" alt="">
+
+									<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. ullamco laboris nisi ut aliquip ex ea commodo.</p>
+								</div>
+								<div class="tab-pane" id="option2">
+									<img src="#CHEMIN{upload/others/2.jpg}" alt="">
+
+									<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. ullamco laboris nisi ut aliquip ex ea commodo.</p>
+								</div>
+								<div class="tab-pane" id="option3">
+									<img src="#CHEMIN{upload/others/3.jpg}" alt="">
+
+									<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="accordion-box">
+							<div class="accord-elem active">
+								<div class="accord-title">
+									<a class="accord-link" href="#"></a>
+									<h2>Vivamus vestibulum nulla nec ante.</h2>
+								</div>
+								<div class="accord-content">
+									<p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.</p>
+								</div>
+							</div>
+
+							<div class="accord-elem">
+								<div class="accord-title">
+									<a class="accord-link" href="#"></a>
+									<h2>Morbi in sem quis dui placerat ornare. </h2>
+								</div>
+								<div class="accord-content">
+									<p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.</p>
+								</div>
+							</div>
+
+							<div class="accord-elem">
+								<div class="accord-title">
+									<a class="accord-link" href="#"></a>
+									<h2>Lorem ipsum dolor sit amet. </h2>
+								</div>
+								<div class="accord-content">
+									<p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.</p>
+								</div>
+							</div>
+
+							<div class="accord-elem">
+								<div class="accord-title">
+									<a class="accord-link" href="#"></a>
+									<h2>Lorem ipsum dolor sit amet. </h2>
+								</div>
+								<div class="accord-content">
+									<p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="second-article">
+							<img src="#CHEMIN{upload/others/3a.jpg}" alt="">
+							<h2>Who we are</h2>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End about section -->
+
+
+		<!-- testimonial-section 
+			================================================== -->
+		<section class="testimonial-section">
+			<div class="container">
+
+				<div class="testimonial-box">
+					<ul class="bxslider">
+						<li>
+							<h2>John Smith</h2>
+							<span>HouseBuild Chief</span>
+							<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a,ultricies in, diam. Sed arcu. Cras consequat.</p>
+						</li>
+						<li>
+							<h2>Besim Dauti</h2>
+							<span>Project Menager</span>
+							<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+						</li>
+						<li>
+							<h2>Quan Ngyen</h2>
+							<span>Electricity Engineer</span>
+							<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</section>
+		<!-- End testimonial section -->
+
+		<!-- quote-section 
+			================================================== -->
+		<section class="quote-section">
+			<div class="container">
+				<form id="quote-form">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="default-article">
+								<h1>Do you plan to build or renovate ?</h1>
+								<span>Free Quote</span>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,		quis nostrud.</p>
+								<a href="contact.html">Contact us</a>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<input name="first-name" id="first-name" type="text" placeholder="First Name">
+							<input name="last-name" id="last-name" type="text" placeholder="Last Name">
+							<input name="mail" id="mail" type="text" placeholder="Email">
+							<input name="tel-number" id="tel-number" type="text" placeholder="Phone">
+						</div>
+						<div class="col-md-3">
+							<select name="type">
+								<option>type</option>
+								<option>package</option>
+								<option>letter</option>
+								<option>money</option>
+								<option>tech devices</option>
+								<option>other</option>
+							</select>
+							<select name="budget">
+								<option>weight</option>
+								<option value="1kg">under 1kg</option>
+								<option value="1-5kg">1-5kg</option>
+								<option value="5-10kg">5-10kg</option>
+								<option value="10-20kg">10-20kg</option>
+								<option value="20kg +">20kg + </option>
+							</select>
+							<select name="your-area">
+								<option>Area you want to send</option>
+								<option value="Huston">Huston</option>
+								<option value="North Caroline">North Caroline</option>
+								<option value="New york">New york</option>
+								<option value="London">London</option>
+								<option value="Berlin">Berlin </option>
+							</select>
+							<select name="time">
+								<option>Time to be done</option>
+								<option value="2 Days">2 Days</option>
+								<option value="1 week">1 week</option>
+								<option value="2 weeks">2 weeks</option>
+								<option value="3 weeks">3 weeks</option>
+								<option value="this month">this month </option>
+							</select>
+						</div>
+						<div class="col-md-3">
+							<textarea name="your-comment" id="your-comment" placeholder="Describe your project..."></textarea>
+							<input type="submit" id="submit-quote" value="Send">
+						</div>
+					</div>
+					<div id="quote-msg" class="message"></div>
+				</form>
+			</div>
+		</section>
+		<!-- End quote section -->
+
+		<!-- clients-section 
+			================================================== -->
+		<section class="clients-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<ul class="client-list">
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client1.png}" alt=""></a>
+							</li>
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client2.png}" alt=""></a>
+							</li>
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client3.png}" alt=""></a>
+							</li>
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client4.png}" alt=""></a>
+							</li>
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client5.png}" alt=""></a>
+							</li>
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client6.png}" alt=""></a>
+							</li>
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client7.png}" alt=""></a>
+							</li>
+							<li>
+								<a href="#"><img src="#CHEMIN{images/clients/client8.png}" alt=""></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<div class="default-article left-align">
+							<h1>Here are our Customer logo list</h1>
+							<span>Our Clients</span>
+							<p>There are some of our partners and customers, who are very satisfied with our work. Do you want to be next one?</p>
+							<a href="contact.html">Contact us</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End clients section -->
+
+		<!-- footer 
+			================================================== -->
+		<footer>
+			<div class="up-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="footer-widget">
+								<h2>About Us</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna.</p>
+								<img src="#CHEMIN{images/footer-logo.png}" alt="">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="footer-widget">
+								<h2>Tags</h2>
+								<ul class="tag-list">
+									<li><a href="#">Building</a></li>
+									<li><a href="#">interior</a></li>
+									<li><a href="#">isolation</a></li>
+									<li><a href="#">kitchen</a></li>
+									<li><a href="#">energy</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="footer-widget">
+								<h2>Flickr widget</h2>
+								<ul class="flickr">
+									<li><a href="#"><img src="#CHEMIN{upload/flickr/1.jpg}" alt=""></a></li>
+									<li><a href="#"><img src="#CHEMIN{upload/flickr/2.jpg}" alt=""></a></li>
+									<li><a href="#"><img src="#CHEMIN{upload/flickr/3.jpg}" alt=""></a></li>
+									<li><a href="#"><img src="#CHEMIN{upload/flickr/4.jpg}" alt=""></a></li>
+									<li><a href="#"><img src="#CHEMIN{upload/flickr/5.jpg}" alt=""></a></li>
+									<li><a href="#"><img src="#CHEMIN{upload/flickr/6.jpg}" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="footer-widget info-widget">
+								<h2>Working Hours</h2>
+								<p class="first-par">You can contact or visit us during working time.</p>
+								<p><span>Tel: </span> 1234 - 5678 - 9012</p>
+								<p><span>Email: </span> nunforest@gmail.com</p>
+								<p><span>Working Hours: </span> 8:00 a.m - 17:00 a.m</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="copyright">
+				&copy; Copyright 2014. "Koncept" by Nunforest. All rights reserved.
+			</p>
+		</footer>
+		<!-- End footer -->
+
+	</div>
+	<!-- End Container -->
+
+	<!-- Revolution slider -->
+	<script type="text/javascript">
+
+		jQuery(document).ready(function() {
+						
+			jQuery('.tp-banner').show().revolution(
+			{
+				dottedOverlay:"none",
+				delay:10000,
+				startwidth:1140,
+				startheight:550,
+				hideThumbs:200,
+				
+				thumbWidth:100,
+				thumbHeight:50,
+				thumbAmount:5,
+				
+				navigationType:"bullet",
+				
+				touchenabled:"on",
+				onHoverStop:"off",
+				
+				swipe_velocity: 0.7,
+				swipe_min_touches: 1,
+				swipe_max_touches: 1,
+				drag_block_vertical: false,
+										
+										parallax:"mouse",
+				parallaxBgFreeze:"on",
+				parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+										
+				keyboardNavigation:"off",
+				
+				navigationHAlign:"center",
+				navigationVAlign:"bottom",
+				navigationHOffset:0,
+				navigationVOffset:"center",
+						
+				shadow:0,
+
+				spinner:"spinner4",
+				
+				stopLoop:"off",
+				stopAfterLoops:-1,
+				stopAtSlide:-1,
+
+				shuffle:"off",
+				
+				autoHeight:"off",						
+				forceFullWidth:"off",						
+										
+										
+										
+				hideThumbsOnMobile:"off",
+				hideNavDelayOnMobile:1500,						
+				hideBulletsOnMobile:"off",
+				hideArrowsOnMobile:"off",
+				hideThumbsUnderResolution:0,
+				
+				hideSliderAtLimit:0,
+				hideCaptionAtLimit:0,
+				hideAllCaptionAtLilmit:0,
+				startWithSlide:0,
+				fullScreenOffsetContainer: ".header"	
+			});
+							
+		});	//ready
+
+		//isotope
+		jQuery(document).ready(function() {
+			var $container = $('.iso-call');
+			// init
+			$container.isotope({
+				// options
+				itemSelector: '.services-project, .project-post',
+				masonry: {
+				    columnWidth: '.default-size'
+				}
+			});	
+		});	//ready
+	</script>
+</body>
+</html>
