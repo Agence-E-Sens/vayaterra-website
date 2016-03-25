@@ -1,118 +1,14 @@
-<!doctype html>
-
-
-<html lang="en" class="no-js">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-	<title>#NOM_SITE_SPIP</title>
-
-	<meta charset="utf-8">
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,900,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/bootstrap.min.css}" media="screen">	
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/jquery.bxslider.css}" media="screen">
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/magnific-popup.css}" media="screen">
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/owl.carousel.css}" media="screen">
-    <link rel="stylesheet" type="text/css" href="#CHEMIN{css/owl.theme.css}" media="screen">
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/font-awesome.css}" media="screen">
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/animate.css}" media="screen">
-    <!-- REVOLUTION BANNER CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/settings.css}" media="screen"/>
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{css/style.css}" media="screen">
-
-	
-	<script type="text/javascript" src="#CHEMIN{js/jquery.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/jquery.migrate.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/jquery.bxslider.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/jquery.magnific-popup.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/owl.carousel.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/bootstrap.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/jquery.imagesloaded.min.js}"></script>
-  	<script type="text/javascript" src="#CHEMIN{js/jquery.isotope.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/retina-1.1.0.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/plugins-scroll.js}"></script>
-    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-    <script type="text/javascript" src="#CHEMIN{js/jquery.themepunch.tools.min.js}"></script>
-    <script type="text/javascript" src="#CHEMIN{js/jquery.themepunch.revolution.min.js}"></script>
-	<script type="text/javascript" src="#CHEMIN{js/script.js}"></script>
+<INCLURE{fond=inc/header}>
 
 </head>
 <body style="background:url(squelettes/images/bg.jpg)">
 
 	<!-- Container -->
 	<div id="container">
-		<!-- Header
-		    ================================================== -->
-		<header class="clearfix">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="top-line">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<p>
-									<span><i class="fa fa-phone"></i>1234 - 5678 - 9012</span>
-									<span><i class="fa fa-envelope-o"></i>support@vayaterra.com</span>
-									<a href="#"><i class="fa fa-user"></i>Log In</a>
-								</p>
-							</div>	
-							<div class="col-md-6">
-								<ul class="social-icons">
-									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-								</ul>
-							</div>	
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html">#LOGO_SITE_SPIP</a>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-                            <BOUCLE_menu_tout(RUBRIQUES){lang} {racine} >
-                                    <li class="drop"><a href="index.html">#TITRE</a>
-                                        <ul class="dropdown">
-                                            <BOUCLE_condition_sous_rubrique (RUBRIQUES) {id_parent}  {tout}>
-                                             <li><a href="ser-opt6.html">#TITRE</a></li>
-                                             </BOUCLE_condition_sous_rubrique>
-                                         </ul>
-                                    </li>
-                            </BOUCLE_menu_tout>
-								<li class="search drop"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
-								<form class="form-search">
-									<input type="search" placeholder="Search:"/>
-									<button type="submit">
-										<i class="fa fa-search"></i>
-									</button>
-								</form>
-							    </li>
-						</ul>
-					</div>
-                    <!-- /.navbar-collapse -->
-				</div><!-- /.container -->
-			</nav>
-		</header>
-		<!-- End Header -->
-
+<INCLURE{fond=inc/entete}>
 <br><br><br><br><br><br>
 		<!-- Projet
 			================================================== -->
@@ -130,14 +26,15 @@
 					<div id="owl-demo" class="owl-carousel">
                         <BOUCLE_article(ARTICLES){id_rubrique == 16}{par date}{0,6}>
                             <div class="item news-post">
-                            <BOUCLE_img_lien(SPIP_DOCUMENTS_LIENS){id_article}>
+                            [(#LOGO_ARTICLE_RUBRIQUE|image_reduire{600,160})]
+                            <!--<BOUCLE_img_lien(SPIP_DOCUMENTS_LIENS){id_article}>
                                     
                                 <BOUCLE_img(DOCUMENTS){id_document}{extension==jpg|png|gif}>
                                     <img src="#URL_DOCUMENT" alt="">
                                  </BOUCLE_img>
 
-                             </BOUCLE_img_lien>
-                                <h2><a href="#">#TITRE</a></h2>
+                             </BOUCLE_img_lien>-->
+                                <h2><a href="spip.php?page=detail&id_article=#ID_ARTICLE">#TITRE</a></h2>
                                 <ul class="post-tags">
                                     <li>[(#DATE|jour)] [(#DATE|nom_mois)] [(#DATE|annee)], </li>
                                     <li><a href="#">#LESAUTEURS</a> ,</li>
@@ -569,63 +466,7 @@
 		</section>
 		<!-- End clients section -->
 
-		<!-- footer 
-			================================================== -->
-		<footer>
-			<div class="up-footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="footer-widget">
-								<h2>About Us</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna.</p>
-								<img src="#CHEMIN{images/footer-logo.png}" alt="">
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="footer-widget">
-								<h2>Tags</h2>
-								<ul class="tag-list">
-									<li><a href="#">Building</a></li>
-									<li><a href="#">interior</a></li>
-									<li><a href="#">isolation</a></li>
-									<li><a href="#">kitchen</a></li>
-									<li><a href="#">energy</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="footer-widget">
-								<h2>Flickr widget</h2>
-								<ul class="flickr">
-									<li><a href="#"><img src="#CHEMIN{upload/flickr/1.jpg}" alt=""></a></li>
-									<li><a href="#"><img src="#CHEMIN{upload/flickr/2.jpg}" alt=""></a></li>
-									<li><a href="#"><img src="#CHEMIN{upload/flickr/3.jpg}" alt=""></a></li>
-									<li><a href="#"><img src="#CHEMIN{upload/flickr/4.jpg}" alt=""></a></li>
-									<li><a href="#"><img src="#CHEMIN{upload/flickr/5.jpg}" alt=""></a></li>
-									<li><a href="#"><img src="#CHEMIN{upload/flickr/6.jpg}" alt=""></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="footer-widget info-widget">
-								<h2>Working Hours</h2>
-								<p class="first-par">You can contact or visit us during working time.</p>
-								<p><span>Tel: </span> 1234 - 5678 - 9012</p>
-								<p><span>Email: </span> nunforest@gmail.com</p>
-								<p><span>Working Hours: </span> 8:00 a.m - 17:00 a.m</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p class="copyright">
-				&copy; Copyright 2014. "Koncept" by Nunforest. All rights reserved.
-			</p>
-		</footer>
-		<!-- End footer -->
-
+<INCLURE{fond=inc/footer}>
 	</div>
 	<!-- End Container -->
 
