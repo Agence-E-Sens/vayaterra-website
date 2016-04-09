@@ -2946,10 +2946,10 @@ Une documentation interne est disponible lorsque le plugin est actif sur la page
 <archive id="agenda_3_5.zip" dtd="paquet">
 <zip>
 	<file>agenda_3_5.zip</file>
-	<size>168671</size>
-	<date>1456759142</date>
+	<size>168676</size>
+	<date>1458577142</date>
 	<source>_plugins_/agenda/trunk</source>
-	<last_commit>2016-02-29 16:08:55</last_commit>
+	<last_commit>2016-03-21 17:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="agenda" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/agenda/trunk/lang/" reference="fr">
@@ -3023,7 +3023,7 @@ Une documentation interne est disponible lorsque le plugin est actif sur la page
 <paquet
 	prefix="agenda"
 	categorie="date"
-	version="3.14.14"
+	version="3.14.15"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/evenement-32.png"
@@ -7452,10 +7452,10 @@ _ Sami môžete tento zásuvný modul používať na zobrazenie svojho vlastnéh
 <archive id="boussole_spip.zip" dtd="paquet">
 <zip>
 	<file>boussole_spip.zip</file>
-	<size>578932</size>
-	<date>1456203844</date>
+	<size>578961</size>
+	<date>1457845444</date>
 	<source>_plugins_/boussole_spip/trunk</source>
-	<last_commit>2016-02-23 05:34:30</last_commit>
+	<last_commit>2016-03-13 05:34:51</last_commit>
 </zip>
 <traductions>
 <traduction module="boussole-spip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/boussole_spip/trunk/lang/" reference="fr">
@@ -7482,7 +7482,7 @@ _ Sami môžete tento zásuvný modul používať na zobrazenie svojho vlastnéh
 		<traducteur nom="Eric Lupinacci" lien="http://trad.spip.net/auteur/_eric_" />
 		<traducteur nom="sylvain" lien="http://trad.spip.net/auteur/sylvain" />
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/boussole-spip?lang_cible=sk" total="88" traduits="80" relire="1" modifs="1" nouveaux="6" pourcent="90.91">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/boussole-spip?lang_cible=sk" total="88" traduits="84" relire="0" modifs="1" nouveaux="3" pourcent="95.45">
 		<traducteur nom="Eric Lupinacci" lien="http://trad.spip.net/auteur/_eric_" />
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
@@ -8421,10 +8421,10 @@ _ This plugin requires [Contacts &amp; Organisations->http://files.spip.org/spip
 <archive id="cesure.zip" dtd="plugin">
 <zip>
 	<file>cesure.zip</file>
-	<size>65576</size>
-	<date>1454666642</date>
+	<size>66038</size>
+	<date>1457975042</date>
 	<source>_plugins_/cesure</source>
-	<last_commit>2016-02-05 10:56:15</last_commit>
+	<last_commit>2016-03-14 17:49:34</last_commit>
 </zip>
 
 <plugin>
@@ -8432,7 +8432,7 @@ _ This plugin requires [Contacts &amp; Organisations->http://files.spip.org/spip
 	<slogan>G&#233;rer les c&#233;sures sur l'affichage public</slogan>
 	<auteur>[ARNO*->arno@rezo.net], sur la base du travail de [Yellow Green->http://yellowgreen.de/hyphenation]</auteur>
 	<licence>Creative Commons by-sa</licence>
-	<version>1.1.2</version>
+	<version>1.1.3</version>
 	<etat>stable</etat>
 	<description>
 		Ce plugin permet d'ins&#233;rer les indications de c&#233;sure optionnelle dans les textes trait&#233;s par SPIP.
@@ -8443,6 +8443,7 @@ _ This plugin requires [Contacts &amp; Organisations->http://files.spip.org/spip
 		Il est actif pour l'allemand, l'anglais et le fran&#231;ais.
 	</description>
 	<lien>http://www.paris-beyrouth.org/tutoriaux-spip/article/le-plugin-de-cesure-html</lien>
+	<options>pb_cesure_options.php</options>
 	<fonctions>pb_cesure_fonctions.php</fonctions>
 	<prefix>pb_cesure</prefix>
 	<necessite id="SPIP" version="[1.9.0;3.1.99]" />
@@ -10746,16 +10747,87 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 
 </archive>
 
-<archive id="cloudzoom.zip">
+<archive id="cloudzoom_v2.zip" dtd="paquet">
 <zip>
-	<file>cloudzoom.zip</file>
-	<size>94530</size>
+	<file>cloudzoom_v2.zip</file>
+	<size>46991</size>
+	<date>1455815942</date>
+	<source>_plugins_/cloudzoom/branches/v2</source>
+	<last_commit>2016-02-18 18:19:01</last_commit>
+</zip>
+<traductions>
+<traduction module="cloudzoom" reference="fr">
+	<langue code="en" />
+</traduction>
+</traductions>
+
+<paquet
+	prefix="cloudzoom"
+	categorie="multimedia"
+	version="2.0.1"
+	etat="test"
+	compatibilite="[2.0.9;3.0.*]"
+	logo="prive/themes/spip/images/cloudzoom-32.png"
+	documentation="http://contrib.spip.net/Cloudzoom"
+>
+
+	<nom>CloudZoom</nom>
+	<!-- images zoomable -->
+
+	<credit lien="http://professorcloud.com/">Professor Cloud</credit>
+	<auteur>Yves Costiou</auteur>
+
+	<traduire module="cloudzoom" reference="fr" gestionnaire="salvatore" />
+
+
+	<pipeline nom="insert_head" inclure="cloudzoom_pipelines.php" />
+
+
+	<menu nom="cloudzoom" titre="cloudzoom:titre_menu_cloudzoom" parent="menu_squelette" icone="images/cloudzoom-16.png" action="configurer_cloudzoom" />
+</paquet>
+
+
+
+</archive>
+
+<archive id="cloudzoom_v3.zip" dtd="paquet">
+<zip>
+	<file>cloudzoom_v3.zip</file>
+	<size>46777</size>
 	<date>1455815944</date>
-	<source>_plugins_/cloudzoom</source>
+	<source>_plugins_/cloudzoom/trunk</source>
 	<last_commit>2016-02-18 18:13:21</last_commit>
 </zip>
+<traductions>
+<traduction module="cloudzoom" reference="fr">
+	<langue code="en" />
+</traduction>
+</traductions>
+
+<paquet
+	prefix="cloudzoom"
+	categorie="multimedia"
+	version="3.0.0"
+	etat="test"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/cloudzoom-32.png"
+	documentation="http://contrib.spip.net/Cloudzoom"
+>
+
+	<nom>CloudZoom</nom>
+	<!-- images zoomable -->
+
+	<credit lien="http://professorcloud.com/">Professor Cloud</credit>
+	<auteur>Yves Costiou</auteur>
+
+	<traduire module="cloudzoom" reference="fr" gestionnaire="salvatore" />
 
 
+	<pipeline nom="insert_head" inclure="cloudzoom_pipelines.php" />
+	<pipeline nom="insert_head_css" inclure="cloudzoom_pipelines.php" />
+
+	<menu nom="cloudzoom" titre="cloudzoom:titre_menu_cloudzoom" parent="menu_squelette" icone="images/cloudzoom-16.png" action="configurer_cloudzoom" />
+</paquet>
 
 
 
@@ -10953,10 +11025,10 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <archive id="collection_json.zip" dtd="paquet">
 <zip>
 	<file>collection_json.zip</file>
-	<size>8308</size>
-	<date>1451232268</date>
+	<size>8631</size>
+	<date>1458511442</date>
 	<source>_plugins_/collection_json/trunk</source>
-	<last_commit>2015-12-27 16:33:18</last_commit>
+	<last_commit>2016-03-20 23:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-collectionjson" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/collection_json/trunk/lang/" reference="fr">
@@ -10971,9 +11043,9 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <paquet
 	prefix="collectionjson"
 	categorie="outil"
-	version="1.2.0"
+	version="1.2.3"
 	etat="test"
-	compatibilite="[3.0.0;3.0.*]"
+	compatibilite="[3.0.0;3.1.*]"
 	logo=""
 >
 	<nom>API Collection+JSON</nom>
@@ -10984,6 +11056,10 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 	<licence>GPL v3</licence>
 	
 	<necessite nom="http" compatibilite="[1.2.0;]" />
+	
+	<pipeline nom="http_collectionjson_get_index_contenu" action="" />
+	<pipeline nom="http_collectionjson_get_collection_contenu" action="" />
+	<pipeline nom="http_collectionjson_get_ressource_contenu" action="" />
 </paquet>
 <multis>
 <nom>
@@ -11907,33 +11983,33 @@ Ce plugin n&#233;ecessite la pr&#233;sence de libxslt sur votre serveur, utilisa
 <archive id="commandes_paypal.zip" dtd="plugin">
 <zip>
 	<file>commandes_paypal.zip</file>
-	<size>4639</size>
-	<date>1450876136</date>
+	<size>4633</size>
+	<date>1458464642</date>
 	<source>_plugins_/commandes_paypal</source>
-	<last_commit>2013-06-01 18:09:41</last_commit>
+	<last_commit>2016-03-20 10:04:02</last_commit>
 </zip>
 
 <plugin>
 	<nom>Commandes pay&#233;es avec Paypal</nom>
 	<auteur>[Les D&#233;veloppements Durables->http://www.ldd.fr]</auteur>
 	<licence>GPL v3</licence>
-	<version>0.2.7</version>
+	<version>0.2.8</version>
 	<etat>dev</etat>
-   <slogan>G&#233;re les retours Paypal</slogan>
+	<slogan>G&#233;re les retours Paypal</slogan>
 	<description>Ce plugin permet de g&#233;rer les retours d'un payement Paypal pour savoir quelle commande a &#233;t&#233; pay&#233;e, et donc changer son statut.</description>
 	<categorie>divers</categorie>
 	<icon>images/commandes_paypal-32.png</icon>
-	
+
 	<prefix>commandes_paypal</prefix>
-	
+
 	<pipeline>
 		<nom>traitement_paypal</nom>
 		<inclure>commandes_paypal_pipelines.php</inclure>
 	</pipeline>
-	
-	<necessite id="SPIP" version="[2.1.8;3.0.99]" />
-	<necessite id="commandes" version="[0.4.0;]" />
-	<necessite id="paypal" version="[0.1.0;]" />
+
+	<necessite id="SPIP" version="[2.1.8;3.1.99]" />
+	<necessite id="commandes" version="[0.4.6;]" />
+	<necessite id="paypal" version="[0.1.4;]" />
 </plugin>
 
 
@@ -13156,10 +13232,10 @@ This plugin has been developped inside the [SPIPMINE->http://contrib.spip.net/Pl
 <archive id="C_et_O_SPIP_3.zip" dtd="paquet">
 <zip>
 	<file>C_et_O_SPIP_3.zip</file>
-	<size>208796</size>
-	<date>1457049842</date>
+	<size>208801</size>
+	<date>1458338642</date>
 	<source>_plugins_/contacts_et_organisations/trunk</source>
-	<last_commit>2016-03-04 01:01:25</last_commit>
+	<last_commit>2016-03-18 23:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="contacts" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/contacts_et_organisations/trunk/lang/" reference="fr">
@@ -13185,7 +13261,7 @@ This plugin has been developped inside the [SPIPMINE->http://contrib.spip.net/Pl
 <paquet
 	prefix="contacts"
 	categorie="auteur"
-	version="2.13.2"
+	version="2.13.3"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/contacts-128.png"
@@ -14523,10 +14599,10 @@ documentation="http://contrib.spip.net/Couleur-de-Rubrique"
 <archive id="courtjus.zip" dtd="paquet">
 <zip>
 	<file>courtjus.zip</file>
-	<size>41466</size>
-	<date>1456679942</date>
+	<size>41418</size>
+	<date>1458512344</date>
 	<source>_plugins_/courtjus/trunk</source>
-	<last_commit>2016-02-28 18:07:17</last_commit>
+	<last_commit>2016-03-20 23:19:03</last_commit>
 </zip>
 <traductions>
 <traduction module="courtjus" reference="fr">
@@ -14536,22 +14612,16 @@ documentation="http://contrib.spip.net/Couleur-de-Rubrique"
 <paquet
 	prefix="courtjus"
 	categorie="navigation"
-	version="1.0.1"
+	version="1.0.2"
 	etat="test"
 	compatibilite="[3.0.16;3.1.*]"
 	logo="prive/themes/spip/images/courtjus-64.png"
 	schema="1.0.1"
 	documentation=""
 >
-	<!--
-		Paquet genere le 2014-05-22 18:47:49
-		(Vous pouvez bien entendu supprimer ces commentaires)
-	-->
-
 	<nom>Court-jus</nom>
 
-	<!-- cette balise peut etre presente plusieurs fois s'il y a plusieurs auteurs -->
-	<auteur lien='http://p.henix.be'>Phenix</auteur>
+	<auteur lien="http://p.henix.be">Phenix</auteur>
 
 	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
 
@@ -14983,10 +15053,10 @@ Kompatibilita: SPIP v1.92x, v2.x.x a v3.0
 <archive id="crayons.zip" dtd="paquet">
 <zip>
 	<file>crayons.zip</file>
-	<size>238151</size>
-	<date>1456203844</date>
+	<size>238153</size>
+	<date>1457845444</date>
 	<source>_plugins_/crayons</source>
-	<last_commit>2016-02-23 05:35:01</last_commit>
+	<last_commit>2016-03-13 05:35:21</last_commit>
 </zip>
 <traductions>
 <traduction module="crayons" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/crayons/lang/" reference="fr">
@@ -15057,7 +15127,7 @@ Kompatibilita: SPIP v1.92x, v2.x.x a v3.0
 		<traducteur nom="olly" lien="http://trad.spip.net/auteur/olly" />
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/crayons?lang_cible=sk" total="52" traduits="51" relire="0" modifs="0" nouveaux="1" pourcent="98.08">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/crayons?lang_cible=sk" total="52" traduits="52" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 	<langue code="sv" url="http://trad.spip.net/tradlang_module/crayons?lang_cible=sv" total="52" traduits="14" relire="0" modifs="0" nouveaux="38" pourcent="26.92">
@@ -15632,10 +15702,10 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <archive id="ctan.zip" dtd="paquet">
 <zip>
 	<file>ctan.zip</file>
-	<size>15797</size>
-	<date>1456686244</date>
+	<size>16561</size>
+	<date>1457867042</date>
 	<source>_plugins_/ctan/trunk</source>
-	<last_commit>2016-02-28 19:34:47</last_commit>
+	<last_commit>2016-03-13 11:21:10</last_commit>
 </zip>
 <traductions>
 <traduction module="ctan" reference="fr">
@@ -15645,7 +15715,7 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <paquet
 	prefix="ctan"
 	categorie="divers"
-	version="1.0.4"
+	version="1.1.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="ctan.png"
@@ -18510,10 +18580,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="documentation.zip" dtd="paquet">
 <zip>
 	<file>documentation.zip</file>
-	<size>467093</size>
-	<date>1454263442</date>
+	<size>467117</size>
+	<date>1457723942</date>
 	<source>_galaxie_/programmer.spip.net/plugin_documentation/trunk</source>
-	<last_commit>2016-01-31 18:20:17</last_commit>
+	<last_commit>2016-03-11 20:05:10</last_commit>
 </zip>
 <traductions>
 <traduction module="documentation" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_galaxie_/programmer.spip.net/plugin_documentation/trunk/lang/" reference="fr">
@@ -18570,17 +18640,17 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 	<pipeline nom="declarer_champs_extras" inclure="base/documentation.php" />
 
 	<necessite nom="cextras" compatibilite="[3.0.0;[" />
-	<necessite nom="saisies" compatibilite="[1.1;[" />
-	<necessite nom="Zpip" compatibilite="[2.0.3;[" />
-	<necessite nom="suivant_precedent" compatibilite="[1.1;[" />
+	<necessite nom="saisies" compatibilite="[1.14.0;]" />
+	<necessite nom="Zpip" compatibilite="[2.0.6;]" />
+	<necessite nom="suivant_precedent" compatibilite="[1.3.2;]" />
 
-	<utilise nom="porte_plume" />
-	<utilise nom="tickets" compatibilite="[2.0;[" />
-	<utilise nom="nospam" compatibilite="[0.6;[" />
-	<utilise nom="coloration_code" compatibilite="[0.5.4;[" />
-	<utilise nom="pages" />
-	<utilise nom="comments" />
-	<utilise nom="polyhier" />
+	<utilise nom="porte_plume" compatibilite="[1.11.5;]" />
+	<utilise nom="tickets" compatibilite="[2.0.2;]" />
+	<utilise nom="nospam" compatibilite="[0.8.5;]" />
+	<utilise nom="coloration_code" compatibilite="[0.6.1;]" />
+	<utilise nom="pages" compatibilite="[1.0.0;]" />
+	<utilise nom="comments" compatibilite="[3.0.3;]" />
+	<utilise nom="polyhier" compatibilite="[2.0.3;]" />
 	<utilise nom="tradrub" compatibilite="[3.0.0;[" />
 	
 	<menu nom='configurer_documentation' parent='menu_squelette' titre="documentation:cfg_titre_documentation" icone="images/documentation-16.png" />
@@ -21088,10 +21158,10 @@ Il propose donc une balise avec param&#232;tres qui va g&#233;n&#233;rer un cham
 <archive id="etiquettes_v2.zip" dtd="paquet">
 <zip>
 	<file>etiquettes_v2.zip</file>
-	<size>37863</size>
-	<date>1453813442</date>
+	<size>37880</size>
+	<date>1457875142</date>
 	<source>_plugins_/etiquettes/trunk</source>
-	<last_commit>2016-01-26 13:59:19</last_commit>
+	<last_commit>2016-03-13 14:18:19</last_commit>
 </zip>
 <traductions>
 <traduction module="etiquettes" reference="fr">
@@ -21107,7 +21177,7 @@ Il propose donc une balise avec param&#232;tres qui va g&#233;n&#233;rer un cham
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/etiquettes.png"
 	documentation="http://contrib.spip.net/Etiquettes,2656"
->	
+>
 
 	<nom>&#201;tiquettes</nom>
 	<!-- Ajouter facilement des mots-clés à tout et n'importe quoi -->
@@ -21119,8 +21189,8 @@ Il propose donc une balise avec param&#232;tres qui va g&#233;n&#233;rer un cham
 	<pipeline nom="insert_head" inclure="etiquettes_pipelines.php" />
 	<pipeline nom="autoriser" inclure="inc/etiquettes_autoriser.php" />
 	
-	<utilise nom="selecteurgenerique" />
-	<utilise nom="nuage" />
+	<utilise nom="selecteurgenerique" compatibilite="[0.7.3;]" />
+	<utilise nom="nuage" compatibilite="[3.2.1;]" />
 </paquet>
 <multis>
 <slogan>
@@ -21548,10 +21618,10 @@ Les évaluations récoltées peuvent vous aider à prendre des décisions, à cr
 <archive id="evaluations_critique.zip" dtd="paquet">
 <zip>
 	<file>evaluations_critique.zip</file>
-	<size>13864</size>
-	<date>1450876158</date>
+	<size>13844</size>
+	<date>1457877844</date>
 	<source>_plugins_/evaluations_critique/trunk</source>
-	<last_commit>2015-06-23 11:08:43</last_commit>
+	<last_commit>2016-03-13 14:38:01</last_commit>
 </zip>
 <traductions>
 <traduction module="eval_critique" reference="fr">
@@ -21559,25 +21629,25 @@ Les évaluations récoltées peuvent vous aider à prendre des décisions, à cr
 </traductions>
 
 <paquet
-        prefix="eval_critique"
-        categorie="squelette"
-        version="1.0.1"
-        etat="dev"
-        compatibilite="[3.0.5;3.1.*]"
-        logo="img/eval_critique-48.png"
-        documentation=""
-        >
+	prefix="eval_critique"
+	categorie="squelette"
+	version="1.0.1"
+	etat="dev"
+	compatibilite="[3.0.5;3.1.*]"
+	logo="img/eval_critique-48.png"
+	documentation=""
+>
 
-    <nom>Critique d'articles</nom>
+	<nom>Critique d'articles</nom>
 
-    <auteur>Cyril Marion, [Ateliers CYM->http://cym.fr]</auteur>
+	<auteur>Cyril Marion, [Ateliers CYM->http://cym.fr]</auteur>
 
-    <licence>GNU/GPL</licence>
+	<licence>GNU/GPL</licence>
 
-    <pipeline nom="insert_head_css" inclure="eval_critique_pipelines.php" />
+	<pipeline nom="insert_head_css" inclure="eval_critique_pipelines.php" />
 
-    <necessite nom="evaluations" compatibilite="[1.1.0;[" />
-    <necessite nom="compositions" compatibilite="[3.0.0;[" />
+	<necessite nom="evaluations" compatibilite="[1.1.0;[" />
+	<necessite nom="compositions" compatibilite="[3.0.0;[" />
 
 </paquet>
 <multis>
@@ -22058,10 +22128,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facteur-3.0.zip" dtd="paquet">
 <zip>
 	<file>facteur-3.0.zip</file>
-	<size>225885</size>
-	<date>1456755542</date>
+	<size>225898</size>
+	<date>1458795842</date>
 	<source>_plugins_/facteur/trunk</source>
-	<last_commit>2016-02-29 15:17:47</last_commit>
+	<last_commit>2016-03-24 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="facteur" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/facteur/trunk/lang/" reference="fr">
@@ -22097,10 +22167,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 	<langue code="oc_ni_mis" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=oc_ni_mis" total="51" traduits="49" relire="0" modifs="1" nouveaux="1" pourcent="96.08">
 		<traducteur nom="sylvain" lien="http://trad.spip.net/auteur/sylvain" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=pt_br" total="51" traduits="49" relire="0" modifs="1" nouveaux="1" pourcent="96.08">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=pt_br" total="51" traduits="51" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=sk" total="51" traduits="47" relire="0" modifs="3" nouveaux="1" pourcent="92.16">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=sk" total="51" traduits="51" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
@@ -22202,10 +22272,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facteurmonitoring.zip" dtd="paquet">
 <zip>
 	<file>facteurmonitoring.zip</file>
-	<size>16050</size>
-	<date>1450876162</date>
+	<size>15941</size>
+	<date>1457885042</date>
 	<source>_plugins_/facteurmonitoring</source>
-	<last_commit>2015-08-27 11:21:22</last_commit>
+	<last_commit>2016-03-13 16:46:19</last_commit>
 </zip>
 <traductions>
 <traduction module="facteurmonitoring" reference="fr">
@@ -22220,16 +22290,16 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 	compatibilite="[3.0.19;3.1.*]"
 	logo="prive/themes/spip/images/facteurmonitoring-64.png"
 	documentation="http://contrib.spip.net/4695"
-> 
-  <nom>Monitoring du Facteur</nom>
-  <auteur lien='http://www.erational.org'>erational</auteur>
+>
+	<nom>Monitoring du Facteur</nom>
+	<auteur lien='http://www.erational.org'>erational</auteur>
 
 	<licence>GNU/GPL</licence>
 	<pipeline nom="taches_generales_cron" inclure="facteurmonitoring_pipelines.php" />
-  <pipeline nom="accueil_informations" inclure="facteurmonitoring_pipelines.php" />
+	<pipeline nom="accueil_informations" inclure="facteurmonitoring_pipelines.php" />
 
-  <necessite nom="saisies" compatibilite="[2.0.0;]" />
-  <necessite nom="facteur" compatibilite="[3.1.0;]" />
+	<necessite nom="saisies" compatibilite="[2.0.0;]" />
+	<necessite nom="facteur" compatibilite="[3.1.0;]" />
 </paquet>
 <multis>
 <nom>
@@ -22551,10 +22621,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="faq.zip" dtd="paquet">
 <zip>
 	<file>faq.zip</file>
-	<size>64844</size>
-	<date>1450876130</date>
+	<size>64846</size>
+	<date>1457885042</date>
 	<source>_plugins_/faq/trunk</source>
-	<last_commit>2015-10-05 17:32:34</last_commit>
+	<last_commit>2016-03-13 16:56:31</last_commit>
 </zip>
 <traductions>
 <traduction module="faq" reference="fr">
@@ -22564,7 +22634,7 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <paquet
 	prefix="faq"
 	categorie="edition"
-	version="3.0.9"
+	version="3.0.10"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="faq_logo-128.png"
@@ -22580,7 +22650,7 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
 	<copyright>2009-2015</copyright>
 
-	<necessite nom="tw" compatibilite="[0.3.1;[" />
+	<necessite nom="tw" compatibilite="[0.8.11;[" />
 
 	<pipeline nom="insert_head_css" inclure="faq_pipelines.php" />
 	<pipeline nom="insert_head" inclure="faq_pipelines.php" />
@@ -22691,16 +22761,16 @@ cache rapide. En-dehors de ce cas, si  un squelette doit afficher quelque chose 
 <archive id="favicon.zip" dtd="paquet">
 <zip>
 	<file>favicon.zip</file>
-	<size>9530</size>
-	<date>1450876162</date>
+	<size>9612</size>
+	<date>1457719442</date>
 	<source>_plugins_/favicon</source>
-	<last_commit>2015-12-10 17:47:47</last_commit>
+	<last_commit>2016-03-11 18:30:24</last_commit>
 </zip>
 
 <paquet
 	prefix="favicon"
 	categorie="multimedia"
-	version="1.0.4"
+	version="1.0.5"
 	etat="stable"
 	compatibilite="[2.1.0;3.1.*]"
 	logo="icon/favicon.png"
@@ -22722,7 +22792,7 @@ cache rapide. En-dehors de ce cas, si  un squelette doit afficher quelque chose 
 <description>
 <multi>
 [fr]Génération automatique, à partir de votre logo de site, de favicon et touch icon pour les différents navigateurs et terminaux.
-	Pour que ce soit esthétiquement réussi, votre logo de site doit être carré, de 150 pixels de côté minimum. Sinon, déposer une image nommée « favicon.png » à la racine du dossier « squelettes ».
+	Pour que ce soit esthétiquement réussi, votre logo de site doit être carré, de 200 pixels de côté minimum. Sinon, déposer une image nommée « favicon.png » à la racine du dossier « squelettes ».
 </multi>
 </description>
 </multis>
@@ -22900,10 +22970,10 @@ cache rapide. En-dehors de ce cas, si  un squelette doit afficher quelque chose 
 <archive id="feuillederoute.zip" dtd="paquet">
 <zip>
 	<file>feuillederoute.zip</file>
-	<size>28430</size>
-	<date>1450876132</date>
+	<size>28431</size>
+	<date>1457885942</date>
 	<source>_plugins_/feuillederoute/trunk</source>
-	<last_commit>2015-06-11 15:00:07</last_commit>
+	<last_commit>2016-03-13 17:06:42</last_commit>
 </zip>
 <traductions>
 <traduction module="feuillederoute" reference="fr">
@@ -22911,15 +22981,15 @@ cache rapide. En-dehors de ce cas, si  un squelette doit afficher quelque chose 
 </traductions>
 
 <paquet
-prefix="feuillederoute"
-categorie="communication"
-version="1.4.3"
-etat="stable"
-compatibilite="[3.0.0;3.1.*]"
-logo="images/feuillederoute-32.png"
-schema="0.0.1"
-documentation="http://contrib.spip.net/Feuille-de-Route"
-	>	
+	prefix="feuillederoute"
+	categorie="communication"
+	version="1.4.3"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="images/feuillederoute-32.png"
+	schema="0.0.1"
+	documentation="http://contrib.spip.net/Feuille-de-Route"
+>
 
 	<nom>Feuille de Route</nom>
 	<!-- Un bouton d'admin pour partager des informations hors publication -->
@@ -22931,7 +23001,7 @@ documentation="http://contrib.spip.net/Feuille-de-Route"
 	<pipeline nom="formulaire_admin" inclure="feuillederoute_pipelines.php" />
 	<pipeline nom="body_prive" inclure="feuillederoute_pipelines.php" />
 	<pipeline nom="autoriser" inclure="inc/feuillederoute_autoriser.php" />
-	
+
 </paquet>
 <multis>
 <nom>
@@ -22961,17 +23031,17 @@ documentation="http://contrib.spip.net/Feuille-de-Route"
 <archive id="ffedata.zip" dtd="paquet">
 <zip>
 	<file>ffedata.zip</file>
-	<size>36367</size>
-	<date>1457136242</date>
+	<size>36369</size>
+	<date>1457888642</date>
 	<source>_plugins_/ffedata/trunk</source>
-	<last_commit>2016-03-05 00:28:42</last_commit>
+	<last_commit>2016-03-13 17:20:11</last_commit>
 </zip>
 <traductions>
 <traduction module="ffedata" reference="fr">
 </traduction>
 </traductions>
 
-<paquet	prefix="ffedata"	categorie="divers"	version="0.7.8"	etat="test"	compatibilite="[3.0.0;3.1.*]"	logo="prive/themes/spip/images/ffedata-64.png"	documentation="http://ressources.jack31.org/Le-plugin-FFE-Data"	schema="1.0.0" >	<nom>Data FFE</nom>	<!-- Récupérer les infos du webservice de la FF Echecs -->	<auteur lien="http://contrib.spip.net/Jacques">Jacques Bouthier</auteur>	<credit lien="http://dataetic.fr/">Nicolas Dorigny</credit>	<credit>Pascal Raynaud</credit>	<licence>GNU/GPL</licence>	<pipeline nom="insert_head_css" inclure="ffedata_fonctions.php" />	<necessite nom="mailcrypt" />	<necessite nom="saisies" compatibilite="[2.4.0;]" />	<necessite nom="chartjs" compatibilite="[1.0.4;]" />	<utilise nom="inserer_modele" compatibilite="[1.2.8;]" /></paquet>
+<paquet	prefix="ffedata"	categorie="divers"	version="0.7.8"	etat="test"	compatibilite="[3.0.0;3.1.*]"	logo="prive/themes/spip/images/ffedata-64.png"	documentation="http://ressources.jack31.org/Le-plugin-FFE-Data"	schema="1.0.0" >	<nom>Data FFE</nom>	<!-- Récupérer les infos du webservice de la FF Echecs -->	<auteur lien="http://contrib.spip.net/Jacques">Jacques Bouthier</auteur>	<credit lien="http://dataetic.fr/">Nicolas Dorigny</credit>	<credit>Pascal Raynaud</credit>	<licence>GNU/GPL</licence>	<pipeline nom="insert_head_css" inclure="ffedata_fonctions.php" />	<necessite nom="mailcrypt" compatibilite="[2.1.0;]" />	<necessite nom="saisies" compatibilite="[2.4.0;]" />	<necessite nom="chartjs" compatibilite="[1.0.4;]" />	<utilise nom="inserer_modele" compatibilite="[1.2.8;]" /></paquet>
 <multis>
 <nom>
 <multi>
@@ -23000,10 +23070,10 @@ documentation="http://contrib.spip.net/Feuille-de-Route"
 <archive id="fil_ariane.zip" dtd="paquet">
 <zip>
 	<file>fil_ariane.zip</file>
-	<size>43765</size>
-	<date>1450876164</date>
+	<size>43727</size>
+	<date>1457888642</date>
 	<source>_plugins_/fil_ariane/trunk</source>
-	<last_commit>2015-06-23 11:11:25</last_commit>
+	<last_commit>2016-03-13 17:36:35</last_commit>
 </zip>
 
 <paquet
@@ -23019,12 +23089,12 @@ documentation="http://contrib.spip.net/Feuille-de-Route"
 	<nom>Fil d'Ariane</nom>
 
 	<auteur lien="http://www.cym.fr">Cyril MARION</auteur>
-    <auteur lien="http://magraine.net">Matthieu Marcillaud</auteur>
+	<auteur lien="http://magraine.net">Matthieu Marcillaud</auteur>
 
 	<licence>GNU/GPL</licence>
 	<traduire gestionnaire="salvatore" module="fil_ariane" reference="fr" />
 
-    <pipeline nom="insert_head" inclure="fil_ariane_pipelines.php" />
+	<pipeline nom="insert_head" inclure="fil_ariane_pipelines.php" />
 
 </paquet>
 <multis>
@@ -23128,10 +23198,10 @@ documentation="http://contrib.spip.net/Feuille-de-Route"
 <archive id="flickr_hasard_3.zip" dtd="paquet">
 <zip>
 	<file>flickr_hasard_3.zip</file>
-	<size>15321</size>
-	<date>1450876156</date>
+	<size>15183</size>
+	<date>1457889542</date>
 	<source>_plugins_/flickr_hasard/trunk</source>
-	<last_commit>2014-11-13 16:02:46</last_commit>
+	<last_commit>2016-03-13 18:13:11</last_commit>
 </zip>
 <traductions>
 <traduction module="flickr_rand" reference="fr">
@@ -23139,18 +23209,18 @@ documentation="http://contrib.spip.net/Feuille-de-Route"
 </traductions>
 
 <paquet
-	prefix="flickr_rand" 
-	categorie="multimedia" 
-	version="1.3.2" 
-	etat="stable"  
-	compatibilite="[3.0.5;3.1.*]" 
+	prefix="flickr_rand"
+	categorie="multimedia"
+	version="1.3.2"
+	etat="stable"
+	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/flickrand-64.png"
-	documentation="http://contrib.spip.net/Flickr-hasard" 
-> 
+	documentation="http://contrib.spip.net/Flickr-hasard"
+>
 	<nom>Flickr hasard</nom>
-  <!-- Affiche une image aleatoire Flickr -->
-  <auteur lien='http://www.erational.org'>erational</auteur>
-  <licence>GNU/GPL v3</licence>
+	<!-- Affiche une image aleatoire Flickr -->
+	<auteur lien='http://www.erational.org'>erational</auteur>
+	<licence>GNU/GPL v3</licence>
 </paquet>
 <multis>
 <nom>
@@ -23734,10 +23804,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="formidable.zip" dtd="paquet">
 <zip>
 	<file>formidable.zip</file>
-	<size>190969</size>
-	<date>1456722242</date>
+	<size>190971</size>
+	<date>1457892242</date>
 	<source>_plugins_/formidable/trunk</source>
-	<last_commit>2016-02-29 05:33:28</last_commit>
+	<last_commit>2016-03-13 18:48:06</last_commit>
 </zip>
 <traductions>
 <traduction module="formidable" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/formidable/trunk/lang/" reference="fr">
@@ -23823,8 +23893,8 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 
 	<necessite nom="spip_bonux" compatibilite="[3.0.0;[" />
 	<necessite nom="saisies" compatibilite="[2.3.0;[" />
-	<necessite nom="verifier" compatibilite="[0.1.0;[" />
-	<necessite nom="yaml" compatibilite="[1.5.0;[" />
+	<necessite nom="verifier" compatibilite="[0.1.11;[" />
+	<necessite nom="yaml" compatibilite="[1.5.2;[" />
 	<necessite nom="facteur" compatibilite="[3.0.3;[" />
 
 	<menu nom="formulaires" titre="formidable:bouton_formulaires" parent="menu_edition" icone="images/formulaire-16.png" />
@@ -24151,10 +24221,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="formulaire_upload_3_0.zip" dtd="paquet">
 <zip>
 	<file>formulaire_upload_3_0.zip</file>
-	<size>19311</size>
-	<date>1450876140</date>
+	<size>19194</size>
+	<date>1457893142</date>
 	<source>_plugins_/formulaire_upload/trunk</source>
-	<last_commit>2014-11-13 21:07:38</last_commit>
+	<last_commit>2016-03-13 19:14:21</last_commit>
 </zip>
 <traductions>
 <traduction module="formupload" reference="fr">
@@ -24179,8 +24249,8 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 	<auteur lien='http://www.erational.org'>erational</auteur>
 	<licence>GNU/GPL</licence>
 
-  <pipeline nom="autoriser" inclure="formulaireupload_autorisations.php" /> 
-  <pipeline nom="insert_head_css"  action="insert_head_css" inclure="formulaireupload_pipelines.php" />
+	<pipeline nom="autoriser" inclure="formulaireupload_autorisations.php" />
+	<pipeline nom="insert_head_css"  action="insert_head_css" inclure="formulaireupload_pipelines.php" />
 	<pipeline nom="insert_head"  action="insert_head" inclure="formulaireupload_pipelines.php" />
 
 </paquet>
@@ -24569,10 +24639,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="forum_sans_previsu.zip" dtd="plugin">
 <zip>
 	<file>forum_sans_previsu.zip</file>
-	<size>29229</size>
-	<date>1450876170</date>
+	<size>29227</size>
+	<date>1457896742</date>
 	<source>_plugins_/forum_sans_previsu/trunk</source>
-	<last_commit>2015-09-20 19:35:30</last_commit>
+	<last_commit>2016-03-13 20:18:01</last_commit>
 </zip>
 <traductions>
 <traduction module="comments" reference="fr">
@@ -24587,26 +24657,26 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 </traductions>
 
 <plugin>
-    <nom>Forum sans prévisualisation</nom>
+	<nom>Forum sans prévisualisation</nom>
 
-    <categorie>communication</categorie>
-    <auteur>Communauté SPIP</auteur>
-    <version>1.0.0</version>
-    <icon>forum_sans_previsu.png</icon>
-    <prefix>forum_sans_previsu</prefix>
-    <etat>stable</etat>
-    <lien>http://contrib.spip.net/4705</lien>
+	<categorie>communication</categorie>
+	<auteur>Communauté SPIP</auteur>
+	<version>1.0.1</version>
+	<icon>forum_sans_previsu.png</icon>
+	<prefix>forum_sans_previsu</prefix>
+	<etat>stable</etat>
+	<lien>http://contrib.spip.net/4705</lien>
 
-    <slogan>Postez rapidement!</slogan>
-    <description>Ce plugin permet de poster un forum sans passer par l'étape prévisualisation.</description>
+	<slogan>Postez rapidement!</slogan>
+	<description>Ce plugin permet de poster un forum sans passer par l'étape prévisualisation.</description>
 	<pipeline>
 		<nom>formulaire_verifier</nom>
 		<inclure>forum_sans_previsu_pipelines.php</inclure>
 	</pipeline>
 
 	<necessite id="SPIP" version="[2.1.0;3.1.99]" />
-	<utilise id="forum" />
-  <utilise id="comments" />
+	<utilise id="forum" version="[0.1.0;]" />
+	<utilise id="comments" version="[2.1.9;]" />
 </plugin>
 
 
@@ -24713,10 +24783,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="forum_perime.zip" dtd="paquet">
 <zip>
 	<file>forum_perime.zip</file>
-	<size>12630</size>
-	<date>1450876146</date>
+	<size>12587</size>
+	<date>1457895842</date>
 	<source>_plugins_/forum_perime</source>
-	<last_commit>2014-11-13 20:38:49</last_commit>
+	<last_commit>2016-03-13 19:24:11</last_commit>
 </zip>
 <traductions>
 <traduction module="forum_perime" reference="fr">
@@ -24737,8 +24807,8 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 	<nom>Forum périmé</nom>
 	<auteur lien='http://www.erational.org'>erational</auteur> 
 	<licence>GNU/GPL</licence>
-  
-  <pipeline nom="formulaire_charger" inclure="forum_perime_pipelines.php" />
+
+	<pipeline nom="formulaire_charger" inclure="forum_perime_pipelines.php" />
 
 </paquet>
 <multis>
@@ -24829,10 +24899,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="foundation_6.zip" dtd="paquet">
 <zip>
 	<file>foundation_6.zip</file>
-	<size>637778</size>
-	<date>1456604344</date>
+	<size>638907</size>
+	<date>1458428644</date>
 	<source>_plugins_/foundation_6/trunk</source>
-	<last_commit>2016-02-27 21:08:08</last_commit>
+	<last_commit>2016-03-20 00:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="foundation_6" reference="fr">
@@ -24842,7 +24912,7 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <paquet
     prefix="foundation_6"
     categorie="outil"
-    version="6.0.11"
+    version="6.0.12"
     etat="stable"
     compatibilite="[3.0.0;3.1.*]"
     logo="prive/themes/spip/images/foundation_6-64.png"
@@ -25696,10 +25766,10 @@ _ Na optimálne fungovanie potrebujete na serveri niektoré ďalšie programy a�
 <archive id="fusion_spip.zip" dtd="paquet">
 <zip>
 	<file>fusion_spip.zip</file>
-	<size>21056</size>
+	<size>21057</size>
 	<date>1457586242</date>
 	<source>_plugins_/fusion_spip/trunk</source>
-	<last_commit>2016-03-10 06:04:01</last_commit>
+	<last_commit>2016-03-10 05:33:00</last_commit>
 </zip>
 <traductions>
 <traduction module="fusion_spip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fusion_spip/trunk/lang/" reference="fr">
@@ -25909,10 +25979,10 @@ _ Na optimálne fungovanie potrebujete na serveri niektoré ďalšie programy a�
 <archive id="gazette.zip" dtd="plugin">
 <zip>
 	<file>gazette.zip</file>
-	<size>6972</size>
-	<date>1450876146</date>
-	<source>_plugins_/gazette</source>
-	<last_commit>2011-10-12 17:53:50</last_commit>
+	<size>6971</size>
+	<date>1458752642</date>
+	<source>_grenier_/gazette</source>
+	<last_commit>2016-03-23 18:04:01</last_commit>
 </zip>
 
 <plugin>
@@ -28018,10 +28088,10 @@ _ Help to use the API in several plugins (Gis, Geoforms...).
 <archive id="gravatar.zip" dtd="paquet">
 <zip>
 	<file>gravatar.zip</file>
-	<size>57517</size>
-	<date>1456203846</date>
+	<size>57544</size>
+	<date>1457845444</date>
 	<source>_plugins_/gravatar</source>
-	<last_commit>2016-02-23 05:36:03</last_commit>
+	<last_commit>2016-03-13 05:36:08</last_commit>
 </zip>
 <traductions>
 <traduction module="gravatar" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gravatar/lang/" reference="fr">
@@ -28051,7 +28121,7 @@ _ Help to use the API in several plugins (Gis, Geoforms...).
 	<langue code="oc_ni_mis" url="http://trad.spip.net/tradlang_module/gravatar?lang_cible=oc_ni_mis" total="15" traduits="15" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="sylvain" lien="http://trad.spip.net/auteur/sylvain" />
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/gravatar?lang_cible=sk" total="15" traduits="14" relire="0" modifs="0" nouveaux="1" pourcent="93.33">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/gravatar?lang_cible=sk" total="15" traduits="15" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
@@ -28252,17 +28322,17 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 <zip>
 	<file>griseus_vignettes.zip</file>
 	<size>437949</size>
-	<date>1450876142</date>
+	<date>1458036242</date>
 	<source>_plugins_/griseus/griseus_vignettes</source>
-	<last_commit>2014-09-14 10:41:01</last_commit>
+	<last_commit>2016-03-15 11:04:02</last_commit>
 </zip>
 
 <paquet
 	prefix="griseusvignettes"
 	categorie="theme"
-	version="0.1.2"
+	version="0.1.3"
 	etat="stable"
-	compatibilite="[3.0.0;3.0.*]"
+	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/griseusvignettes-256.png"
 	documentation="http://contrib.spip.net/Vignettes-Griseus"
 >
@@ -28786,6 +28856,67 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 
 </archive>
 
+<archive id="hashtags.zip" dtd="paquet">
+<zip>
+	<file>hashtags.zip</file>
+	<size>16305</size>
+	<date>1458468242</date>
+	<source>_plugins_/hashtags/trunk</source>
+	<last_commit>2016-03-20 11:04:01</last_commit>
+</zip>
+<traductions>
+<traduction module="hashtags" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="hashtags"
+	categorie="edition"
+	version="0.0.27"
+	etat="dev"
+	documentation="http://contrib.spip.net/Hashtags"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/hashtags-64.png"
+>
+
+	<nom>Hashtags</nom>
+
+	<auteur lien="http://blog.roxing.net/pierrox">Pierre LASZCZAK</auteur>
+	<credit>roxing.net</credit>
+
+	<licence>GNU/GPL</licence>
+
+	<pipeline nom="post_edition" inclure="hashtags_pipelines.php" />
+	<pipeline nom="post_typo" inclure="hashtags_pipelines.php" />
+	<pipeline nom="declarer_tables_interfaces" inclure="hashtags_pipelines.php" />
+
+</paquet>
+<multis>
+<nom>
+<multi>
+[fr]Hashtags
+</multi>
+</nom>
+<slogan>
+<multi>
+[fr]Créer et lier des mots-clés avec la syntaxe #hashtags!
+</multi>
+</slogan>
+<description>
+<multi>
+[fr]{{Syntaxe:}}
+		<code>#tag</code> crée un tag.
+		<code>#!tag</code> crée un tag entouré de balise &lt;strong&gt;.
+		<code>#->tag</code> crée un tag avec un lien automatique vers le mot-clé.
+		<code>#!->tag</code> crée un tag entouré de balise &lt;strong&gt; avec un liens automatique vers le mot-clé.
+		Spip déterminera automatiquement si le mot-clé doit être créé ou simplement lié
+</multi>
+</description>
+</multis>
+
+
+</archive>
+
 <archive id="herbier.zip" dtd="plugin">
 <zip>
 	<file>herbier.zip</file>
@@ -29050,10 +29181,10 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 <archive id="http.zip" dtd="paquet">
 <zip>
 	<file>http.zip</file>
-	<size>202361</size>
-	<date>1451232318</date>
+	<size>202368</size>
+	<date>1458047042</date>
 	<source>_plugins_/http/trunk</source>
-	<last_commit>2015-12-27 17:02:25</last_commit>
+	<last_commit>2016-03-15 14:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="http" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/http/trunk/lang/" reference="fr">
@@ -29084,9 +29215,9 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 <paquet
 	prefix="http"
 	categorie="outil"
-	version="1.2.2"
-	etat="test"
-	compatibilite="[3.0.0;3.0.*]"
+	version="1.2.3"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
 	logo="http.png"
 	documentation="http://contrib.spip.net/Serveur-HTTP-abstrait"
 >
@@ -29314,6 +29445,62 @@ Calculation forms available:
 
 </archive>
 
+<archive id="identite_extra.zip" dtd="paquet">
+<zip>
+	<file>identite_extra.zip</file>
+	<size>11715</size>
+	<date>1458381842</date>
+	<source>_plugins_/identite_extra/trunk</source>
+	<last_commit>2016-03-19 11:04:02</last_commit>
+</zip>
+<traductions>
+<traduction module="identite_extra" reference="fr">
+</traduction>
+<traduction module="plugin-identite_extra" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="identite_extra"
+	categorie="communication"
+	version="1.2.4"
+	etat="test"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/identite_extra-32.png"
+	documentation="https://contrib.spip.net/Identite-Extra"
+	schema="1.0.0"
+>
+
+	<nom>Identité extra</nom>
+
+	<auteur>Sylvain CUSSAC</auteur>
+	<auteur>Pierre LASZCZAK</auteur>
+
+	<utilise nom="ieconfig" compatibilite="[1.3.1;[" />
+
+	<pipeline nom="formulaire_fond" inclure="identite_extra_pipelines.php" />
+	<pipeline nom="formulaire_charger" inclure="identite_extra_pipelines.php" />	
+	<pipeline nom="formulaire_verifier" inclure="identite_extra_pipelines.php" />		
+	<pipeline nom="formulaire_traiter" inclure="identite_extra_pipelines.php" />
+	<pipeline nom="ieconfig_metas" inclure="identite_extra_ieconfig.php" />
+
+</paquet>
+<multis>
+<slogan>
+<multi>
+[fr]Étendre facilement le formulaire Identité du site
+</multi>
+</slogan>
+<description>
+<multi>
+[fr]Déclarez vos champs supplémentaires dans <em>mes_options.php</em>. Une fois saisies dans <em>?exec=configurer_identite</em>, les valeurs sont accessibles dans vos squelettes via <code>#CONFIG{identite_extra/telephone}</code>.
+</multi>
+</description>
+</multis>
+
+
+</archive>
+
 <archive id="indexer_v1.zip" dtd="paquet">
 <zip>
 	<file>indexer_v1.zip</file>
@@ -29378,10 +29565,10 @@ Intégration et requêtes possibles avec Sphinx. Nécessite Sphinx 2.2 ou versio
 <archive id="indexer_v2.zip" dtd="paquet">
 <zip>
 	<file>indexer_v2.zip</file>
-	<size>112240</size>
-	<date>1456956242</date>
+	<size>112258</size>
+	<date>1458497942</date>
 	<source>_plugins_/indexer/trunk</source>
-	<last_commit>2016-03-02 22:46:45</last_commit>
+	<last_commit>2016-03-20 19:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="indexer" reference="fr">
@@ -29952,10 +30139,10 @@ Utilisation :
 <archive id="imagemap_departements.zip" dtd="plugin">
 <zip>
 	<file>imagemap_departements.zip</file>
-	<size>100348</size>
-	<date>1450876164</date>
+	<size>100305</size>
+	<date>1458050642</date>
 	<source>_plugins_/imagemap_departements</source>
-	<last_commit>2014-09-14 12:22:56</last_commit>
+	<last_commit>2016-03-15 15:04:01</last_commit>
 </zip>
 
 <plugin>
@@ -29964,7 +30151,7 @@ Utilisation :
 	<slogan>Mod&#233;le pour afficher une imagemap des d&#233;partements fran&#231;ais</slogan>
 	<auteur>cy_altern</auteur>
 	<licence>GNU/GPL - (c) 2010</licence>
-	<version>0.2.0</version>
+	<version>0.2.2</version>
 	<etat>dev</etat>
 	<description>
 	    Propose un mod&#233;le pour afficher une carte de France avec une imagemap des d&#233;partements:
@@ -29987,7 +30174,7 @@ Cr&#233;dits:
 	<options>imapdepart_options.php</options><!-- gere l'appel de base/imapdepart_base.php -->
 	<fonctions>imapdepart_fonctions.php</fonctions>
 	<categorie>divers</categorie>
-	<necessite id="spip" version="[2.0.0;3.0.99]" />
+	<necessite id="spip" version="[2.0.0;3.1.99]" />
 </plugin>
 
 
@@ -30374,10 +30561,10 @@ Cr&#233;dits:
 <archive id="info_spip.zip" dtd="paquet">
 <zip>
 	<file>info_spip.zip</file>
-	<size>37290</size>
-	<date>1450876166</date>
+	<size>37326</size>
+	<date>1458637442</date>
 	<source>_plugins_/info_spip/trunk</source>
-	<last_commit>2015-11-20 17:26:25</last_commit>
+	<last_commit>2016-03-22 10:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="info_spip" reference="fr">
@@ -30387,7 +30574,7 @@ Cr&#233;dits:
 <paquet
 	prefix="info_spip"
 	categorie="outil"
-	version="0.9.5"
+	version="0.9.6"
 	etat="stable"
 	compatibilite="[2.1.0;3.1.*]"
 	logo="prive/themes/spip/images/info_spip-64.png"
@@ -33847,10 +34034,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="lim.zip" dtd="paquet">
 <zip>
 	<file>lim.zip</file>
-	<size>61963</size>
-	<date>1455293042</date>
+	<size>62000</size>
+	<date>1458723842</date>
 	<source>_plugins_/lim/trunk</source>
-	<last_commit>2016-02-12 16:39:10</last_commit>
+	<last_commit>2016-03-23 10:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="lim" reference="fr">
@@ -33860,7 +34047,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="lim"
 	categorie="maintenance"
-	version="1.1.10"
+	version="1.1.11"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/lim-64.png"
@@ -35538,10 +35725,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailshot-v1.zip" dtd="paquet">
 <zip>
 	<file>mailshot-v1.zip</file>
-	<size>104642</size>
-	<date>1456981448</date>
+	<size>104649</size>
+	<date>1458795842</date>
 	<source>_plugins_/mailshot/trunk</source>
-	<last_commit>2016-03-03 05:37:09</last_commit>
+	<last_commit>2016-03-24 06:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="mailshot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailshot/trunk/lang/" reference="fr">
@@ -35555,7 +35742,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=nl" total="78" traduits="78" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=pt_br" total="78" traduits="77" relire="0" modifs="0" nouveaux="1" pourcent="98.72">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=pt_br" total="78" traduits="78" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
@@ -35579,7 +35766,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="mailshot"
 	categorie="communication"
-	version="1.14.3"
+	version="1.14.4"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/mailshot-32.png"
@@ -35636,10 +35823,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailsubscribers-v1.zip" dtd="paquet">
 <zip>
 	<file>mailsubscribers-v1.zip</file>
-	<size>121130</size>
-	<date>1456981448</date>
+	<size>122114</size>
+	<date>1458795844</date>
 	<source>_plugins_/mailsubscribers/trunk</source>
-	<last_commit>2016-03-03 05:37:26</last_commit>
+	<last_commit>2016-03-24 06:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="mailsubscriber" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailsubscribers/trunk/lang/" reference="fr">
@@ -35667,6 +35854,9 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailsubscriberscfg?lang_cible=nl" total="19" traduits="19" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailsubscriberscfg?lang_cible=pt_br" total="19" traduits="19" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
 <traduction module="paquet-mailsubscribers" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailsubscribers/trunk/lang/" reference="fr">
@@ -37303,10 +37493,10 @@ This plugin works on skeletons which have the <code>#INSERT_HEAD</code> tag.
 <archive id="memoization.zip" dtd="paquet">
 <zip>
 	<file>memoization.zip</file>
-	<size>88452</size>
-	<date>1456203846</date>
+	<size>88623</size>
+	<date>1457845446</date>
 	<source>_plugins_/memoization/trunk</source>
-	<last_commit>2016-02-23 05:36:41</last_commit>
+	<last_commit>2016-03-13 05:36:34</last_commit>
 </zip>
 <traductions>
 <traduction module="memoization" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/memoization/trunk/lang/" reference="fr">
@@ -37323,7 +37513,7 @@ This plugin works on skeletons which have the <code>#INSERT_HEAD</code> tag.
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/memoization?lang_cible=fr" total="25" traduits="25" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/memoization?lang_cible=sk" total="25" traduits="19" relire="0" modifs="0" nouveaux="6" pourcent="76.00">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/memoization?lang_cible=sk" total="25" traduits="25" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
@@ -37946,10 +38136,10 @@ Complément du plugin {{Menus}} par exemple.
 <archive id="menus_1.zip" dtd="paquet">
 <zip>
 	<file>menus_1.zip</file>
-	<size>157151</size>
-	<date>1456203848</date>
+	<size>157097</size>
+	<date>1457845446</date>
 	<source>_plugins_/menus/trunk</source>
-	<last_commit>2016-02-23 05:37:52</last_commit>
+	<last_commit>2016-03-13 05:36:51</last_commit>
 </zip>
 <traductions>
 <traduction module="menus" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/menus/trunk/lang/" reference="fr">
@@ -37994,7 +38184,7 @@ Complément du plugin {{Menus}} par exemple.
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/menus?lang_cible=ru" total="145" traduits="46" relire="0" modifs="1" nouveaux="98" pourcent="31.72">
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/menus?lang_cible=sk" total="145" traduits="144" relire="0" modifs="1" nouveaux="0" pourcent="99.31">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/menus?lang_cible=sk" total="145" traduits="145" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
@@ -39364,10 +39554,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="minibando-dev.zip" dtd="paquet">
 <zip>
 	<file>minibando-dev.zip</file>
-	<size>47407</size>
-	<date>1456203850</date>
+	<size>47417</size>
+	<date>1458469142</date>
 	<source>_plugins_/minibando/trunk</source>
-	<last_commit>2016-02-23 05:38:29</last_commit>
+	<last_commit>2016-03-20 11:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="minibando" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/minibando/trunk/lang/" reference="fr">
@@ -39420,7 +39610,7 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <paquet
 	prefix="minibando"
 	categorie="navigation"
-	version="1.3.4"
+	version="1.3.5"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/minibando-64.png"
@@ -41539,10 +41729,10 @@ Once the necessary plugins are activated, simply determine the language of the s
 <archive id="newsletters-v1.zip" dtd="paquet">
 <zip>
 	<file>newsletters-v1.zip</file>
-	<size>145076</size>
-	<date>1457521442</date>
+	<size>148868</size>
+	<date>1458795846</date>
 	<source>_plugins_/newsletters/trunk</source>
-	<last_commit>2016-03-09 11:23:45</last_commit>
+	<last_commit>2016-03-24 06:04:05</last_commit>
 </zip>
 <traductions>
 <traduction module="newsletter" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk/lang/" reference="fr">
@@ -41556,6 +41746,9 @@ Once the necessary plugins are activated, simply determine the language of the s
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=nl" total="52" traduits="52" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=pt_br" total="52" traduits="52" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
+	</langue>
 </traduction>
 <traduction module="newsletters" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk/lang/" reference="fr">
 	<langue code="de" url="http://trad.spip.net/tradlang_module/newsletters?lang_cible=de" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
@@ -41565,6 +41758,9 @@ Once the necessary plugins are activated, simply determine the language of the s
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/newsletters?lang_cible=fr" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/newsletters?lang_cible=nl" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/newsletters?lang_cible=pt_br" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
 <traduction module="paquet-newsletters" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk/lang/" reference="fr">
@@ -41576,6 +41772,9 @@ Once the necessary plugins are activated, simply determine the language of the s
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-newsletters?lang_cible=nl" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-newsletters?lang_cible=pt_br" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
+	</langue>
 </traduction>
 <traduction module="programmernewsletter" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk/lang/" reference="fr">
 	<langue code="de" url="http://trad.spip.net/tradlang_module/programmernewsletter?lang_cible=de" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
@@ -41585,6 +41784,9 @@ Once the necessary plugins are activated, simply determine the language of the s
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/programmernewsletter?lang_cible=fr" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/programmernewsletter?lang_cible=nl" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/programmernewsletter?lang_cible=pt_br" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
 <traduction module="when" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk/lang/" reference="fr">
@@ -41636,6 +41838,7 @@ Once the necessary plugins are activated, simply determine the language of the s
 [en]Newsletters
 [fr]Newsletters
 [nl] Nieuwsbrieven
+[pt_br]Newsletters
 </multi>
 </nom>
 <slogan>
@@ -41644,6 +41847,7 @@ Once the necessary plugins are activated, simply determine the language of the s
 [en]Compose Newsletters
 [fr]Composer des Infolettres
 [nl]Compose Nieuwsbrieven
+[pt_br]Criar Newsletters
 </multi>
 </slogan>
 <description>
@@ -41652,6 +41856,7 @@ Once the necessary plugins are activated, simply determine the language of the s
 [en]
 [fr]
 [nl]
+[pt_br]
 </multi>
 </description>
 </multis>
@@ -42685,10 +42890,10 @@ a <code> <notation|topten> </ code> ktorá vypíše najlepších 10 článkov.
 <archive id="versioning_v2.zip" dtd="plugin">
 <zip>
 	<file>versioning_v2.zip</file>
-	<size>20895</size>
-	<date>1450876130</date>
+	<size>20885</size>
+	<date>1458399842</date>
 	<source>_plugins_/nouvelle_version/branches/version_2</source>
-	<last_commit>2014-11-11 23:45:12</last_commit>
+	<last_commit>2016-03-19 16:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="versioning" reference="fr">
@@ -42696,37 +42901,37 @@ a <code> <notation|topten> </ code> ktorá vypíše najlepších 10 článkov.
 </traductions>
 
 <plugin>
-    <nom>Nouvelle Bersion</nom>
-    <slogan>Dupliquer & Publier - Agora spirit</slogan>
-    <icon>images/article_new_version-24.png</icon>
-    <auteur>[FwedBoot->mailto:fwedboot@gmail.com]</auteur>
-    <licence>GPL &#169; 2014</licence>
-    <version>2.1.0</version>
+	<nom>Nouvelle version</nom>
+	<slogan>Dupliquer & Publier - Agora spirit</slogan>
+	<icon>images/article_new_version-24.png</icon>
+	<auteur>[FwedBoot->mailto:fwedboot@gmail.com]</auteur>
+	<licence>GPL &#169; 2014</licence>
+	<version>2.1.1</version>
 
-    <etat>test</etat>
-    <description>Ce plugin permet de dupliquer un article et son contenu depuis l'espace privé en ajoutant un bouton dans la navigation de gauche dans l'espace privé, puis de le publier en lieu et place de l'article original. l'article original est alors archivé
+	<etat>test</etat>
+	<description>Ce plugin permet de dupliquer un article et son contenu depuis l'espace privé en ajoutant un bouton dans la navigation de gauche dans l'espace privé, puis de le publier en lieu et place de l'article original. l'article original est alors archivé
 
-    Cela permet en somme une modération des modifications sur un article publié (comme le permettait la fonctionnalité 'nouvelle version' d'Agora-SPIP)
-    </description>
-    <lien></lien>
-    <prefix>versioning</prefix>
+	Cela permet en somme une modération des modifications sur un article publié (comme le permettait la fonctionnalité 'nouvelle version' d'Agora-SPIP)
+	</description>
+	<lien></lien>
+	<prefix>versioning</prefix>
 
-    <pipeline>
-        <nom>boite_infos</nom>
-        <inclure>versioning_pipeline.php</inclure>
-    </pipeline>
+	<pipeline>
+		<nom>boite_infos</nom>
+		<inclure>versioning_pipeline.php</inclure>
+	</pipeline>
 
-    <categorie>edition</categorie>
-    <necessite id="SPIP" version='[2.0.0;2.1.99]' />
+	<categorie>edition</categorie>
+	<necessite id="SPIP" version='[2.0.0;2.1.99]' />
 
-    <pipeline>
-        <nom>declarer_tables_principales</nom>
-        <inclure>base/versioning.php</inclure>
-    </pipeline>
+	<pipeline>
+		<nom>declarer_tables_principales</nom>
+		<inclure>base/versioning.php</inclure>
+	</pipeline>
 
-    <version_base>0.1</version_base>
-    <install>base/versioning_install.php</install>
-    <lien>http://contrib.spip.net/Nouvelle-version-Moderation-de-modifications</lien>
+	<version_base>0.1</version_base>
+	<install>base/versioning_install.php</install>
+	<lien>http://contrib.spip.net/Nouvelle-version-Moderation-de-modifications</lien>
 </plugin>
 
 
@@ -42736,10 +42941,10 @@ a <code> <notation|topten> </ code> ktorá vypíše najlepších 10 článkov.
 <archive id="versioning_v3.zip" dtd="paquet">
 <zip>
 	<file>versioning_v3.zip</file>
-	<size>23091</size>
-	<date>1450876130</date>
+	<size>23089</size>
+	<date>1458399842</date>
 	<source>_plugins_/nouvelle_version/trunk</source>
-	<last_commit>2014-11-11 23:41:31</last_commit>
+	<last_commit>2016-03-19 16:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="versioning" reference="fr">
@@ -42749,9 +42954,9 @@ a <code> <notation|topten> </ code> ktorá vypíše najlepších 10 článkov.
 <paquet
 	prefix="versioning"
 	categorie="edition"
-	version="3.0.0"
+	version="3.0.1"
 	etat="test"
-	compatibilite="[3.0.0 ;3.0.*]"
+	compatibilite="[3.0.0;3.0.*]"
 	logo="images/article_new_version-24.png"
 	schema="0.1"
 	documentation="http://contrib.spip.net/Nouvelle-version-Moderation-de-modifications"
@@ -43123,21 +43328,6 @@ a <code> <notation|topten> </ code> ktorá vypíše najlepších 10 článkov.
 	<autorisation nom="notifications_abonnement_toggle" dist="oui" />
 	<autorisation nom="notifications_abonnement_supprimer" dist="oui" />
 </autorisations>
-
-</archive>
-
-<archive id="nouvelle_version.zip">
-<zip>
-	<file>nouvelle_version.zip</file>
-	<size>46000</size>
-	<date>1450876130</date>
-	<source>_plugins_/nouvelle_version</source>
-	<last_commit>2014-11-11 23:45:12</last_commit>
-</zip>
-
-
-
-
 
 </archive>
 
@@ -47522,10 +47712,10 @@ Okrem toho PlugOnet umožňuje overiť manuálne napísané súbory paquet.xml a
 <archive id="polyhierarchie_v2.zip" dtd="paquet">
 <zip>
 	<file>polyhierarchie_v2.zip</file>
-	<size>25216</size>
-	<date>1453561442</date>
+	<size>24989</size>
+	<date>1458817442</date>
 	<source>_plugins_/polyhierarchie/branches/v2.0</source>
-	<last_commit>2016-01-23 15:35:14</last_commit>
+	<last_commit>2016-03-24 12:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-polyhier" gestionnaire="salvatore" url="http://trad.spip.org" source="svn://zone.spip.org/spip-zone/_plugins_/polyhierarchie/trunk/lang/" reference="fr">
@@ -47546,7 +47736,7 @@ Okrem toho PlugOnet umožňuje overiť manuálne napísané súbory paquet.xml a
 <paquet
 	prefix="polyhier"
 	categorie="navigation"
-	version="2.2.0"
+	version="2.2.2"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/polyhier-32.png"
@@ -49523,10 +49713,10 @@ Ce plugin est un élément autonome de SPIPMINE.
 <archive id="projets_sites.zip" dtd="paquet">
 <zip>
 	<file>projets_sites.zip</file>
-	<size>74233</size>
-	<date>1450876158</date>
+	<size>75692</size>
+	<date>1458939842</date>
 	<source>_plugins_/projets_sites/serveur/trunk</source>
-	<last_commit>2015-05-21 14:53:17</last_commit>
+	<last_commit>2016-03-25 22:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="projets_site" reference="fr">
@@ -49538,9 +49728,9 @@ Ce plugin est un élément autonome de SPIPMINE.
 <paquet
 	prefix="projets_sites"
 	categorie="divers"
-	version="1.7.7"
+	version="1.8.1"
 	etat="stable"
-	compatibilite="[3.0.5;3.0.*]"
+	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/projets_sites-64.png"
 	documentation=""
 	schema="1.5.0"
@@ -49550,23 +49740,28 @@ Ce plugin est un élément autonome de SPIPMINE.
 	<auteur>Teddy Payet</auteur>
 
 	<licence>GNU/GPL</licence>
-	<credit lien="https://www.iconfinder.com/icons/127910/document_file_format_specification_specs_standard_tag_text_xaml_xml_icon">Aha-Soft (Icône webservice)</credit>
-	<necessite nom="saisies" compatibilite="[1.24.0;]" />
-	<necessite nom="projets" compatibilite="[1.0.9;]" />
+	<credit lien="https://www.iconfinder.com/icons/127910/document_file_format_specification_specs_standard_tag_text_xaml_xml_icon">
+		Aha-Soft (Icône webservice)
+	</credit>
+	<necessite nom="saisies" compatibilite="[2.2.3;]"/>
+	<necessite nom="projets" compatibilite="[1.0.9;]"/>
 
-	<pipeline nom="declarer_tables_objets_sql" inclure="base/projets_sites.php" />
-	<pipeline nom="declarer_tables_interfaces" inclure="base/projets_sites.php" />
-	<pipeline nom="declarer_tables_auxiliaires" inclure="base/projets_sites.php" />
+	<pipeline nom="lister_logiciels_noms" action=''/>
 
-	<pipeline nom="autoriser" inclure="projets_sites_autorisations.php" />
+	<pipeline nom="declarer_tables_objets_sql" inclure="base/projets_sites.php"/>
+	<pipeline nom="declarer_tables_interfaces" inclure="base/projets_sites.php"/>
+	<pipeline nom="declarer_tables_auxiliaires" inclure="base/projets_sites.php"/>
 
-	<pipeline nom="taches_generales_cron" inclure="projets_sites_pipelines.php" />
-	<pipeline nom="affiche_milieu" inclure="projets_sites_pipelines.php" />
-	<pipeline nom="header_prive" inclure="projets_sites_pipelines.php" />
-	<pipeline nom="optimiser_base_disparus" inclure="projets_sites_pipelines.php" />
+	<pipeline nom="autoriser" inclure="projets_sites_autorisations.php"/>
 
-	<menu nom="projets_sites" titre="projets_site:titre_projets_sites" parent="menu_edition" icone="images/projets_site-16.png" action="projets_sites" />
-	<menu nom="projets_site_creer" titre="projets_site:icone_creer_projets_site" parent="outils_rapides" icone="images/projets_site-new-16.png" action="projets_site_edit" parametres="new=oui" />
+	<pipeline nom="taches_generales_cron" inclure="projets_sites_pipelines.php"/>
+	<pipeline nom="affiche_milieu" inclure="projets_sites_pipelines.php"/>
+	<pipeline nom="header_prive" inclure="projets_sites_pipelines.php"/>
+	<pipeline nom="optimiser_base_disparus" inclure="projets_sites_pipelines.php"/>
+	<pipeline nom="lister_logiciels_noms" inclure="projets_sites_pipelines.php"/>
+
+	<menu nom="projets_sites" titre="projets_site:titre_projets_sites" parent="menu_edition" icone="images/projets_site-16.png" action="projets_sites"/>
+	<menu nom="projets_site_creer" titre="projets_site:icone_creer_projets_site" parent="outils_rapides" icone="images/projets_site-new-16.png" action="projets_site_edit" parametres="new=oui"/>
 
 </paquet>
 <multis>
@@ -49582,8 +49777,7 @@ Ce plugin est un élément autonome de SPIPMINE.
 </slogan>
 <description>
 <multi>
-[fr]Ce plugin va vous permettre d'ajouter à vos projets les infos sur vos
-    sites en production, en recette et en développement.
+[fr]Ce plugin va vous permettre d'ajouter à vos projets les infos sur vos sites en production, en recette et en développement.
 </multi>
 </description>
 </multis>
@@ -51369,10 +51563,10 @@ Pour raison de sécurité, seul le webmestre a la possibilité de créer et modi
 <archive id="reservation_evenement.zip" dtd="paquet">
 <zip>
 	<file>reservation_evenement.zip</file>
-	<size>188640</size>
-	<date>1457265842</date>
+	<size>188542</size>
+	<date>1458925442</date>
 	<source>_plugins_/reservation_evenement/branches/v1</source>
-	<last_commit>2016-03-06 12:32:52</last_commit>
+	<last_commit>2016-03-25 18:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-reservation_evenement" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/reservation_evenement/trunk/lang/" reference="fr">
@@ -51423,7 +51617,7 @@ Pour raison de sécurité, seul le webmestre a la possibilité de créer et modi
 <paquet
   prefix="reservation_evenement"
   categorie="date"
-  version="1.21.16"
+  version="1.21.19"
   etat="test"
   compatibilite="[3.0.16;3.1.*]"
   logo="prive/themes/spip/images/reservation_evenement-64.png"
@@ -52252,10 +52446,10 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <archive id="rss_commits.zip" dtd="paquet">
 <zip>
 	<file>rss_commits.zip</file>
-	<size>68225</size>
-	<date>1450876132</date>
+	<size>68321</size>
+	<date>1458346742</date>
 	<source>_plugins_/rss_commits/trunk</source>
-	<last_commit>2015-02-18 13:19:11</last_commit>
+	<last_commit>2016-03-19 01:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="commit" reference="fr">
@@ -52269,7 +52463,7 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <paquet
 	prefix="rss_commits"
 	categorie="divers"
-	version="0.6.2"
+	version="0.6.3"
 	etat="dev"
 	compatibilite="[3.0.8;3.0.*]"
 	logo="prive/themes/spip/images/commits-64.png"
@@ -54422,10 +54616,10 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 <archive id="selecteur_generique_v1.zip" dtd="paquet">
 <zip>
 	<file>selecteur_generique_v1.zip</file>
-	<size>33449</size>
-	<date>1456376646</date>
+	<size>35217</size>
+	<date>1457864342</date>
 	<source>_plugins_/selecteur_generique/trunk</source>
-	<last_commit>2016-02-25 05:36:08</last_commit>
+	<last_commit>2016-03-13 11:08:43</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-selecteurgenerique" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/selecteur_generique/trunk/lang/" reference="fr">
@@ -54468,8 +54662,8 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 <paquet
 	prefix="selecteurgenerique"
 	categorie="outil"
-	version="1.0.0"
-	etat="test"
+	version="1.1.3"
+	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/selecteur_generique-64.png"
 	documentation="http://contrib.spip.net/Selecteur-generique"
@@ -54479,6 +54673,8 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 
 	<auteur>Fil</auteur>
 	<auteur>kent1</auteur>
+	<auteur lien="http://www.ldd.fr">Les Développements Durables</auteur>
+	<auteur>RastaPopoulos</auteur>
 
 	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
 	
@@ -54762,10 +54958,10 @@ Selects spip objects, store them and customize their display depending on the se
 <archive id="selections_editoriales_v1.zip" dtd="paquet">
 <zip>
 	<file>selections_editoriales_v1.zip</file>
-	<size>93539</size>
-	<date>1457431444</date>
+	<size>93672</size>
+	<date>1457777942</date>
 	<source>_plugins_/selections_editoriales/trunk</source>
-	<last_commit>2016-03-08 10:55:28</last_commit>
+	<last_commit>2016-03-12 11:12:33</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-selections_editoriales" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/selections_editoriales/trunk/lang/" reference="fr">
@@ -54789,7 +54985,7 @@ Selects spip objects, store them and customize their display depending on the se
 <paquet
 	prefix="selections_editoriales"
 	categorie="navigation"
-	version="1.5.0"
+	version="1.6.1"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/selections_editoriales-64.png"
@@ -54802,7 +54998,8 @@ Selects spip objects, store them and customize their display depending on the se
 	<credit lien="http://www.beaumont63.fr">Mairie de Beaumont (Puy-de-Dôme)</credit>
 	<licence>GNU/GPL v3</licence>
 
-	<necessite nom="saisies"  compatibilite="[1.24.0;]" />
+	<necessite nom="saisies" compatibilite="[1.24.0;]" />
+	<utilise nom="selecteurgenerique" compatibilite="[1.1.0;]" />
 
 	<pipeline nom="autoriser" inclure="selections_editoriales_autorisations.php" />
 	<pipeline nom="formulaire_charger" inclure="selections_editoriales_pipelines.php" />
@@ -56362,10 +56559,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="sjcycle_v3.zip" dtd="paquet">
 <zip>
 	<file>sjcycle_v3.zip</file>
-	<size>96135</size>
-	<date>1451408642</date>
+	<size>96223</size>
+	<date>1458756242</date>
 	<source>_plugins_/sjcycle/trunk</source>
-	<last_commit>2015-12-29 18:01:36</last_commit>
+	<last_commit>2016-03-23 19:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="faq-sjcycle" reference="fr">
@@ -56381,31 +56578,34 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <paquet
 	prefix="sjcycle"
 	categorie="multimedia"
-	version="3.4.11"
+	version="3.4.12"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/sjcycle-32.png"
 	schema="1.0.0"
 	documentation="http://contrib.spip.net/Cycle2"
 >
-	
+
 	<nom>Cycle2</nom>
 	<!--  Un diaporama param&#233;trable pour Spip  -->
-	
+
 	<auteur>chankalan</auteur>
+	<credit>Minimalteck</credit><!-- pour les versions precedentes -->
+        <credit>Yffic</credit><!-- pour les versions precedentes -->
+	<credit lien="http://jquery.malsup.com/cycle2/">Cycle2</credit><!-- la librairie -->
 	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
-	
+
 	<pipeline nom="insert_head_css" inclure="sjcycle_pipelines.php" />
 	<pipeline nom="insert_head" inclure="sjcycle_pipelines.php" />
 	<pipeline nom="header_prive" action="insert_head" inclure="sjcycle_pipelines.php" />
 	<pipeline nom="affiche_gauche" inclure="sjcycle_prive_pipelines.php" />
 	<pipeline nom="ieconfig_metas" inclure="sjcycle_ieconfig_metas.php" />
 	<pipeline nom="autoriser" inclure="sjcycle_autoriser.php" />
-	
+
 	<utilise nom="palette" compatibilite="[3.0.5;[" />
-	
+
 	<menu nom="sjcycle" titre="sjcycle:titre_menu" parent="menu_squelette" icone="images/sjcycle-16.png" action="configurer_sjcycle" />
-	
+
 </paquet>
 <multis>
 <nom>
@@ -58207,10 +58407,10 @@ PMB est un Sigb (Syst&#232;me Int&#233;gr&#233; de Gestion de Biblioth&#232;que)
 <archive id="spip-pmb_2.zip" dtd="paquet">
 <zip>
 	<file>spip-pmb_2.zip</file>
-	<size>114552</size>
-	<date>1450876134</date>
+	<size>114873</size>
+	<date>1458577142</date>
 	<source>_plugins_/spip-pmb/trunk</source>
-	<last_commit>2014-09-14 23:33:31</last_commit>
+	<last_commit>2016-03-21 17:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="pmb" reference="fr">
@@ -58220,9 +58420,9 @@ PMB est un Sigb (Syst&#232;me Int&#233;gr&#233; de Gestion de Biblioth&#232;que)
 <paquet
 	prefix="pmb"
 	categorie="divers"
-	version="2.0.0"
+	version="2.0.2"
 	etat="test"
-	compatibilite="[3.0.0;3.0.*]"
+	compatibilite="[3.0.0;3.1.*]"
 	logo="img/logo-spip-pmb.png"
 	documentation="http://contrib.spip.net/Portail-Web-pour-PMB"
 	schema="1.0.0"
@@ -62033,10 +62233,10 @@ _ Ce plugin  fournit la librairie SWFupload et une fonction de vérification de 
 <archive id="table_matieres.zip" dtd="paquet">
 <zip>
 	<file>table_matieres.zip</file>
-	<size>31363</size>
-	<date>1456059844</date>
+	<size>31394</size>
+	<date>1457715842</date>
 	<source>_plugins_/table_matieres/trunk</source>
-	<last_commit>2016-02-21 13:26:40</last_commit>
+	<last_commit>2016-03-11 17:31:28</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tablematieres" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/table_matieres/trunk/lang/" reference="fr">
@@ -62075,7 +62275,7 @@ _ Ce plugin  fournit la librairie SWFupload et une fonction de vérification de 
 <paquet
 	prefix="tablematieres"
 	categorie="edition"
-	version="2.3.1"
+	version="2.3.3"
 	etat="stable"
 	logo="images/table_matieres-64.png"
 	compatibilite="[2.0.0;3.1.*]"
@@ -68198,10 +68398,10 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 <archive id="zotspip_v2.zip" dtd="paquet">
 <zip>
 	<file>zotspip_v2.zip</file>
-	<size>323954</size>
-	<date>1456203856</date>
+	<size>324066</size>
+	<date>1457931842</date>
 	<source>_plugins_/zotspip/trunk</source>
-	<last_commit>2016-02-23 05:42:08</last_commit>
+	<last_commit>2016-03-14 05:33:06</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-zotspip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/zotspip/trunk/lang/" reference="fr">
@@ -68219,7 +68419,7 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 		<traducteur nom="Benitron" lien="http://trad.spip.net/auteur/benitron" />
 		<traducteur nom="Joseph" lien="http://trad.spip.net/auteur/joseph-larmarange" />
 	</langue>
-	<langue code="es" url="http://trad.spip.net/tradlang_module/zotspip?lang_cible=es" total="137" traduits="137" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="es" url="http://trad.spip.net/tradlang_module/zotspip?lang_cible=es" total="137" traduits="136" relire="0" modifs="1" nouveaux="0" pourcent="99.27">
 		<traducteur nom="agnesg63" lien="http://trad.spip.net/auteur/agnesg63" />
 		<traducteur nom="dani" lien="http://trad.spip.net/auteur/dani" />
 		<traducteur nom="Joseph" lien="http://trad.spip.net/auteur/joseph-larmarange" />
@@ -68237,7 +68437,7 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 <paquet
 	prefix="zotspip"
 	categorie="edition"
-	version="3.4.3"
+	version="3.4.4"
 	etat="stable"
 	compatibilite="[3.0.0;3.0.*]"
 	logo="prive/themes/spip/images/zotspip-48.png"
@@ -69318,10 +69518,10 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <archive id="escal_V3.zip" dtd="paquet">
 <zip>
 	<file>escal_V3.zip</file>
-	<size>1282362</size>
-	<date>1456776244</date>
+	<size>1284732</size>
+	<date>1458850742</date>
 	<source>_squelettes_/escal/branche_V3</source>
-	<last_commit>2016-02-29 20:27:51</last_commit>
+	<last_commit>2016-03-24 21:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="escal" reference="fr">
@@ -69341,7 +69541,7 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <paquet
     prefix="escal"
     categorie="squelette"
-    version="3.84.19"
+    version="3.84.21"
     schema="1.0.7"
     etat="stable"
     compatibilite="[3.0.0;3.1.*]"
@@ -69408,10 +69608,10 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <archive id="Essential_clair.zip" dtd="paquet">
 <zip>
 	<file>Essential_clair.zip</file>
-	<size>41874</size>
-	<date>1450876274</date>
+	<size>41867</size>
+	<date>1457971442</date>
 	<source>_squelettes_/Essential_clair</source>
-	<last_commit>2015-01-18 13:24:08</last_commit>
+	<last_commit>2016-03-14 17:04:02</last_commit>
 </zip>
 
 <paquet
@@ -69422,19 +69622,17 @@ Maak vooraf de cache leeg om het resultaat te zien.
 	compatibilite="[2.0.0;3.1.*]"
 	logo="vignette.png"
 	documentation="http://contrib.spip.net/article4463"
->	
+>
 
 	<nom>Essential Clair</nom>
 
 	<auteur lien="http://contrib.spip.net/ydikoi">ydikoi</auteur>
 
 	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
-	
 
 	<necessite nom="Z" compatibilite="[1.7.0;1.*.*]" />
 
-	<utilise nom="menus" />
-
+	<utilise nom="menus" compatibilite="[0.8.20;]" />
 
 </paquet>
 
@@ -69476,26 +69674,26 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <archive id="eva_agenda_pour_spip_3_0.zip" dtd="paquet">
 <zip>
 	<file>eva_agenda_pour_spip_3_0.zip</file>
-	<size>6610</size>
-	<date>1450876262</date>
+	<size>6631</size>
+	<date>1458429570</date>
 	<source>_squelettes_/eva-web/4_2/eva_agenda</source>
-	<last_commit>2015-03-11 21:03:58</last_commit>
+	<last_commit>2016-03-20 00:19:30</last_commit>
 </zip>
 
 <paquet
-  prefix="eva_agenda"
-  categorie="squelette"
-  version="4.2.2"
-  etat="stable"
-  compatibilite="[3.0.0;3.1.*]"
-  logo="prive/themes/spip/images/logo_eva3_fb.png"
-  documentation="http://spip.ac-rouen.fr/?Agenda-calendrier-et-mini"
+	prefix="eva_agenda"
+	categorie="squelette"
+	version="4.2.3"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/logo_eva3_fb.png"
+	documentation="http://spip.ac-rouen.fr/?Agenda-calendrier-et-mini"
 >
 
-  <nom>EVA-web - Rubrique Agenda</nom>
-  <auteur>Olivier Gautier, &#233;quipe de d&#233;veloppement EVA-web</auteur>
-  <licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
-  <necessite nom="evasquelettes" compatibilite="[4.2;[" />
+	<nom>EVA-web - Rubrique Agenda</nom>
+	<auteur>Olivier Gautier, &#233;quipe de d&#233;veloppement EVA-web</auteur>
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
+	<necessite nom="evasquelettes" compatibilite="[4.2.1;[" />
 </paquet>
 <multis>
 <slogan>
@@ -69615,10 +69813,10 @@ B-) Des lunettes
 <archive id="eva_bonus_pour_spip_3_0.zip" dtd="paquet">
 <zip>
 	<file>eva_bonus_pour_spip_3_0.zip</file>
-	<size>135131</size>
-	<date>1450876262</date>
+	<size>135573</size>
+	<date>1458429572</date>
 	<source>_squelettes_/eva-web/4_2/eva_bonus</source>
-	<last_commit>2015-09-21 12:06:38</last_commit>
+	<last_commit>2016-03-20 00:19:31</last_commit>
 </zip>
 <traductions>
 <traduction module="evabonus_config" reference="fr">
@@ -69628,22 +69826,22 @@ B-) Des lunettes
 </traductions>
 
 <paquet
-  prefix="evabonus"
-  categorie="squelette"
-  version="4.2.11"
-  etat="stable"
-  compatibilite="[3.0.0;3.1.*]"
-  logo="prive/themes/spip/images/logo_eva_bonus.png"
-  documentation="http://www.evaweb.fr"
+	prefix="evabonus"
+	categorie="squelette"
+	version="4.2.12"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/logo_eva_bonus.png"
+	documentation="http://www.evaweb.fr"
 >
 
-  <nom>EVA-web - Bonus</nom>
-  <auteur>Olivier Gautier, d&#233;veloppeur EVA-web.</auteur>
-  <licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
-  <necessite nom="evasquelettes" compatibilite="[4.2;[" />
-  <necessite nom="eva_habillage" compatibilite="[4.2;[" />
-  
-  <menu nom="eva_bonus" titre="evabonus_config:bouton_evabonus" parent="menu_squelette" icone="images/eva3_favicon.png" />
+	<nom>EVA-web - Bonus</nom>
+	<auteur>Olivier Gautier, d&#233;veloppeur EVA-web.</auteur>
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
+	<necessite nom="evasquelettes" compatibilite="[4.2.1;]" />
+	<necessite nom="eva_habillage" compatibilite="[4.2.1;]" />
+
+	<menu nom="eva_bonus" titre="evabonus_config:bouton_evabonus" parent="menu_squelette" icone="images/eva3_favicon.png" />
 
 </paquet>
 <multis>
@@ -69698,26 +69896,26 @@ B-) Des lunettes
 <archive id="eva_calendrier_pour_spip_3_0.zip" dtd="paquet">
 <zip>
 	<file>eva_calendrier_pour_spip_3_0.zip</file>
-	<size>7148</size>
-	<date>1450876262</date>
+	<size>7221</size>
+	<date>1458429572</date>
 	<source>_squelettes_/eva-web/4_2/eva_calendrier</source>
-	<last_commit>2015-03-11 21:03:58</last_commit>
+	<last_commit>2016-03-20 00:19:32</last_commit>
 </zip>
 
 <paquet
-  prefix="eva_calendrier"
-  categorie="squelette"
-  version="4.2.2"
-  etat="stable"
-  compatibilite="[3.0.0;3.1.*]"
-  logo="prive/themes/spip/images/logo_eva3_fb.png"
-  documentation="http://spip.ac-rouen.fr/?Agenda-calendrier-et-mini"
+	prefix="eva_calendrier"
+	categorie="squelette"
+	version="4.2.3"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/logo_eva3_fb.png"
+	documentation="http://spip.ac-rouen.fr/?Agenda-calendrier-et-mini"
 >
 
-  <nom>EVA-web - Rubrique Calendrier</nom>
-  <auteur>Olivier Gautier, &#233;quipe de d&#233;veloppement EVA-web</auteur>
-  <licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
-  <necessite nom="evasquelettes" compatibilite="[4.2;[" />
+	<nom>EVA-web - Rubrique Calendrier</nom>
+	<auteur>Olivier Gautier, &#233;quipe de d&#233;veloppement EVA-web</auteur>
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
+	<necessite nom="evasquelettes" compatibilite="[4.2.1;]" />
 </paquet>
 <multis>
 <slogan>
@@ -69728,8 +69926,8 @@ B-) Des lunettes
 <description>
 <multi>
 [fr]Affichage d&#8217;une rubrique sous forme de calendrier mensuel avec syst&#232;me de navigation vers les mois pr&#233;c&#233;dents et suivants.
-La rubrique s&#8217;affiche sous forme de calendrier d&#233;s lors qu&#8217;on lui joint le mot cl&#233; {{calendrier}}.
-Les articles sont inscrits dans le calendrier en leurs attribuant une date de r&#233;daction ant&#233;rieure correspondant &#224; la date de l&#8217;&#233;v&#232;nement concern&#233;.
+	La rubrique s&#8217;affiche sous forme de calendrier d&#233;s lors qu&#8217;on lui joint le mot cl&#233; {{calendrier}}.
+	Les articles sont inscrits dans le calendrier en leurs attribuant une date de r&#233;daction ant&#233;rieure correspondant &#224; la date de l&#8217;&#233;v&#232;nement concern&#233;.
 </multi>
 </description>
 </multis>
@@ -69820,10 +70018,10 @@ Thomas Delhomenie pour l&#8217;am&#233;lioration de la page des r&#232;gles CSS.
 <archive id="eva_habillage_pour_spip_3_0.zip" dtd="paquet">
 <zip>
 	<file>eva_habillage_pour_spip_3_0.zip</file>
-	<size>4514030</size>
-	<date>1450876262</date>
+	<size>4513958</size>
+	<date>1458651842</date>
 	<source>_squelettes_/eva-web/4_2/eva_habillage</source>
-	<last_commit>2015-03-11 21:03:58</last_commit>
+	<last_commit>2016-03-22 14:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="evahabillage_config" reference="fr">
@@ -69833,25 +70031,28 @@ Thomas Delhomenie pour l&#8217;am&#233;lioration de la page des r&#232;gles CSS.
 </traductions>
 
 <paquet
-  prefix="eva_habillage"
-  categorie="squelette"
-  version="4.2.8"
-  etat="stable"
-  compatibilite="[3.0.0;3.1.*]"
-  logo="prive/themes/spip/images/logo_eva3_fb.png"
-  documentation="http://spip.ac-rouen.fr/?-Gestion-des-habillages-sous-EVA-"
-  schema="2012.1.1"
+	prefix="eva_habillage"
+	categorie="squelette"
+	version="4.2.9"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/logo_eva3_fb.png"
+	documentation="http://spip.ac-rouen.fr/?-Gestion-des-habillages-sous-EVA-"
+	schema="2012.1.1"
 >
 
-  <nom>EVA-web - Habillages</nom>
-  <auteur>Olivier Gautier, Samuel Bocharel, &#233;quipe de d&#233;veloppement EVA-web.
-Thomas Delhomenie pour l&#8217;am&#233;lioration de la page des r&#232;gles CSS.
- Mise &#224; jour pour SPIP 3 : Olivier Gautier.
-</auteur>
-  <licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
-  <necessite nom="evasquelettes" compatibilite="[4.2;[" />
-  <menu nom="eva_habillage_configurer" titre="evahabillage_config:bouton_evahabillage_new" parent="menu_squelette" icone="images/eva3_favicon.png" />
-  <pipeline nom="declarer_tables_interfaces" inclure="eva_habillage_pipeline.php" />
+	<nom>EVA-web - Habillages</nom>
+	<auteur>Olivier Gautier, Samuel Bocharel, &#233;quipe de d&#233;veloppement EVA-web.
+	Thomas Delhomenie pour l&#8217;am&#233;lioration de la page des r&#232;gles CSS.
+	Mise &#224; jour pour SPIP 3 : Olivier Gautier.
+	</auteur>
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
+	
+	<necessite nom="evasquelettes" compatibilite="[4.2.1;]" />
+	
+	<menu nom="eva_habillage_configurer" titre="evahabillage_config:bouton_evahabillage_new" parent="menu_squelette" icone="images/eva3_favicon.png" />
+	
+	<pipeline nom="declarer_tables_interfaces" inclure="eva_habillage_pipeline.php" />
 </paquet>
 <multis>
 <slogan>
@@ -70779,10 +70980,10 @@ Ce squelette dispose de fichiers de langue fran&#231;ais, anglais, roumain et es
 <archive id="moodboard.zip" dtd="paquet">
 <zip>
 	<file>moodboard.zip</file>
-	<size>57896</size>
-	<date>1450876274</date>
+	<size>57652</size>
+	<date>1458396242</date>
 	<source>_squelettes_/moodboard</source>
-	<last_commit>2013-08-19 17:47:42</last_commit>
+	<last_commit>2016-03-19 15:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="moodboard" reference="fr">
@@ -70791,34 +70992,48 @@ Ce squelette dispose de fichiers de langue fran&#231;ais, anglais, roumain et es
 </traductions>
 
 ﻿<paquet
- prefix="moodboard"
- categorie="squelette"
- version="1.0.1"
- etat="test"
- logo="prive/themes/spip/images/moodboard-32.png"
- documentation="http://contrib.spip.net/Moodboard"
- demonstration="http://haplooswebdesign.free.fr/moodboard-demo"
- developpement="http://haplooswebdesign.free.fr/moodboard-dev"
- compatibilite="[3.0.0 ;3.0.*]"
- >
- <nom>Moodboard</nom>
- <!-- Spip façon moodboard -->
-     
- <auteur lien="http://haplooswebdesign.free.fr/moodboard-dev">haploos</auteur>
+	prefix="moodboard"
+	categorie="squelette"
+	version="1.0.2"
+	etat="test"
+	logo="prive/themes/spip/images/moodboard-32.png"
+	documentation="http://contrib.spip.net/Moodboard"
+	demonstration="http://haplooswebdesign.free.fr/moodboard-demo"
+	developpement="http://haplooswebdesign.free.fr/moodboard-dev"
+	compatibilite="[3.0.0;3.0.*]"
+>
+	<nom>Moodboard</nom>
+	<!-- Spip façon moodboard -->
 
- <copyright>2013</copyright>
+	<auteur lien="http://haplooswebdesign.free.fr/moodboard-dev">haploos</auteur>
 
- <credit lien="http://www.wookmark.com/jquery-plugin">Christoph Ono (Wookmark plugin)</credit>
-     
- <licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
+	<copyright>2013</copyright>
 
- <pipeline nom="insert_head" inclure="moodboard_fonctions.php" />
-     
- <pipeline nom="insert_head_css" inclure="moodboard_fonctions.php" />
+	<credit lien="http://www.wookmark.com/jquery-plugin">Christoph Ono (Wookmark plugin)</credit>
 
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
 
- </paquet>
+	<pipeline nom="insert_head" inclure="moodboard_fonctions.php" />
+	<pipeline nom="insert_head_css" inclure="moodboard_fonctions.php" />
 
+</paquet>
+<multis>
+<slogan>
+<multi>
+[en]Pin your articles!
+[fr]&Eacute;pinglez vos articles !
+</multi>
+</slogan>
+<description>
+<multi>
+[en]Moodboard is a set of skeletons for SPIP 3.
+                                It allows you to create a moodboard design for your spip website.
+[fr]Moodboard est un jeu de squelettes compatibles avec SPIP 3.
+                                Il permet de mettre en place un site spip sous forme
+                                de &laquo; tableau &raquo; pour &laquo; &eacute;pingler &raquo; vos articles.
+</multi>
+</description>
+</multis>
 
 
 </archive>
@@ -71717,10 +71932,10 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <archive id="sarkaspip-4.zip" dtd="paquet">
 <zip>
 	<file>sarkaspip-4.zip</file>
-	<size>525755</size>
-	<date>1457287442</date>
+	<size>526423</size>
+	<date>1458835442</date>
 	<source>_squelettes_/sarkaspip/trunk</source>
-	<last_commit>2016-03-06 18:48:26</last_commit>
+	<last_commit>2016-03-24 17:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="breadcrumb" reference="fr">
@@ -71737,7 +71952,7 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <paquet
 	prefix="SarkaSpipr"
 	categorie="squelette"
-	version="4.5.5"
+	version="4.5.7"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/sarka-spip.png"
@@ -71886,10 +72101,10 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <archive id="scolaspip_4_0.zip" dtd="paquet">
 <zip>
 	<file>scolaspip_4_0.zip</file>
-	<size>171817</size>
-	<date>1457517842</date>
+	<size>171931</size>
+	<date>1458896642</date>
 	<source>_squelettes_/scolaspip/trunk</source>
-	<last_commit>2016-03-09 10:50:37</last_commit>
+	<last_commit>2016-03-25 10:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="scolaspip" reference="fr">
@@ -71900,7 +72115,7 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <paquet
 	prefix="scolaspip"
 	categorie="squelette"
-	version="4.1.2"
+	version="4.1.4"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/scolaspip.png"
@@ -72180,10 +72395,10 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <archive id="soyezcreateurs_rebirth.zip" dtd="plugin">
 <zip>
 	<file>soyezcreateurs_rebirth.zip</file>
-	<size>2323097</size>
-	<date>1452287942</date>
+	<size>2323093</size>
+	<date>1457623144</date>
 	<source>_squelettes_/soyezcreateurs_net/branches/plugin_2.1_rebirth/plugins/soyezcreateurs</source>
-	<last_commit>2016-01-08 22:19:00</last_commit>
+	<last_commit>2016-03-10 15:54:16</last_commit>
 </zip>
 <traductions>
 <traduction module="soyezcreateurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs/lang/" reference="fr">
@@ -72238,7 +72453,7 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 	<licence>&#169; 2003-2013 - GPL</licence>
 	<lien>http://contrib.spip.net/SoyezCreateurs,1237?tri_articles=titre</lien>
 	
-	<version>3.50.18</version>
+	<version>3.50.19</version>
 	<version_base>3.0.35</version_base>
 	
 	<etat>stable</etat>
@@ -72440,10 +72655,10 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <archive id="soyezcreateurs_rebirth_4.zip" dtd="paquet">
 <zip>
 	<file>soyezcreateurs_rebirth_4.zip</file>
-	<size>2333551</size>
-	<date>1457154242</date>
+	<size>2334074</size>
+	<date>1458857042</date>
 	<source>_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs</source>
-	<last_commit>2016-03-05 05:32:58</last_commit>
+	<last_commit>2016-03-24 23:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="soyezcreateurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs/lang/" reference="fr">
@@ -72504,7 +72719,7 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <paquet
 	prefix="soyezcreateurs"
 	categorie="squelette"
-	version="4.0.60"
+	version="4.0.61"
 	etat="stable"
 	compatibilite="[3.0.20;3.1.*]"
 	logo="img_pack/soyezcreateurs_48.png"
@@ -73277,10 +73492,10 @@ De nombreux commentaires sont (ou seront) pr&&#233;sents dans le code source des
 <archive id="zoundation.zip" dtd="paquet">
 <zip>
 	<file>zoundation.zip</file>
-	<size>171879</size>
-	<date>1456604342</date>
+	<size>172766</size>
+	<date>1458482642</date>
 	<source>_squelettes_/zoundation/trunk</source>
-	<last_commit>2016-02-27 21:04:56</last_commit>
+	<last_commit>2016-03-20 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="zoundation" reference="fr">
@@ -73290,7 +73505,7 @@ De nombreux commentaires sont (ou seront) pr&&#233;sents dans le code source des
 <paquet
 	prefix="zoundation"
 	categorie="squelette"
-	version="1.0.8"
+	version="1.0.10"
 	etat="dev"
 	compatibilite="[3.0.13;3.1.*]"
 	logo="prive/themes/spip/images/zoundation-64.png"
@@ -73309,11 +73524,13 @@ De nombreux commentaires sont (ou seront) pr&&#233;sents dans le code source des
 
   <!-- Bien que ce soit implicite, on dépend aussi de saisie -->
   <necessite nom="saisies" compatibilite="[2.0.3;[" />
+  <necessite nom="spip_bonux" compatibilite="[3.2.0;[" />
 
   <!-- Plugin utilisable -->
   <utilise nom="compositions" compatibilite="[3.3.13;[" />
   <utilise nom="gis" compatibilite="[4.31.2;[" />
   <utilise nom="albums" compatibilite="[3.3.14;[" />
+  <utilise nom="mailsubscribers" compatibilite="[1.7.11;[" />
 
   <menu nom="zoundation_titre" titre="zoundation:zoundation_titre" parent="menu_squelette" icone="images/zoundation-16.png" action="configurer_zoundation" />
 

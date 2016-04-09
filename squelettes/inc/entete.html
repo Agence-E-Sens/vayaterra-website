@@ -41,10 +41,10 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
                             <BOUCLE_menu_tout(RUBRIQUES){lang} {racine} >
-                                    <li class="drop"><a href="index.html">#TITRE</a>
+                                    <li class="drop"><a href="spip.php?page=[(#DESCRIPTIF|textebrut)]">#TITRE</a>
                                         <ul class="dropdown">
                                             <BOUCLE_condition_sous_rubrique (RUBRIQUES) {id_parent}  {tout}>
-                                             <li><a href="ser-opt6.html">#TITRE</a></li>
+                                             <li><a href="#">#TITRE</a></li>
                                              </BOUCLE_condition_sous_rubrique>
                                          </ul>
                                     </li>
