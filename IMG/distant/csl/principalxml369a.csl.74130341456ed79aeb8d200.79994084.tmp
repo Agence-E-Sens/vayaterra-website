@@ -1,0 +1,797 @@
+<depot>
+<titre>SPIP-Zone - Plugins</titre>
+<descriptif>Outil communautaire sous SVN pour développer des squelettes, des scripts, des plugins, des outils... autour de SPIP. Ce dépôt ne contient que les plugins !</descriptif>
+<type>svn</type>
+<url_serveur>svn://zone.spip.org/spip-zone</url_serveur>
+<url_brouteur>http://zone.spip.org/trac/spip-zone/browser</url_brouteur>
+<url_archives>http://files.spip.org/spip-zone</url_archives>
+<url_commits>http://zone.spip.org/trac/spip-zone/log/@src_archive@?format=rss&limit=10&mode=stop_on_copy</url_commits>
+</depot>
+
+<archives>
+<archive id="a2a_v0.zip" dtd="plugin">
+<zip>
+	<file>a2a_v0.zip</file>
+	<size>20234</size>
+	<date>1450876160</date>
+	<source>_plugins_/a2a/branches/v0</source>
+	<last_commit>2014-08-09 10:50:51</last_commit>
+</zip>
+<traductions>
+<traduction module="a2a" reference="fr">
+	<langue code="en" />
+	<langue code="es" />
+	<langue code="it" />
+</traduction>
+</traductions>
+
+<plugin>
+	<nom>A2A</nom>
+	<slogan>Pour lier des articles</slogan>
+	<auteur>Collectif SPIP</auteur>
+	<version>0.4.6</version>
+	<version_base>0.4</version_base>
+	<etat>stable</etat>
+	<icon>images/a2a-64.png</icon>
+	<description>
+		<multi>
+		[fr]Ce plugin permet de lier des articles de fa&#231;on ponctuelle sans avoir à utiliser les mots-cl&#233;s de SPIP. Il peut &#234;tre utilis&#233; pour mettre en place des liens de type « Lire aussi ».
+		[en]This plugin allows you to link items in a timely manner without having to use keywords of SPIP. It can be used to set up links such as "See also".
+		</multi>
+	</description>
+	<lien>http://contrib.spip.net/Le-plugin-a2a-pour-lier-des-articles</lien>
+	<prefix>a2a</prefix>
+	<fonctions>a2a_fonctions.php</fonctions>
+	<options>a2a_options.php</options>
+	<install>base/a2a_upgrade.php</install>
+	<necessite id="SPIP" version="[2.0.9;2.1.99]" />
+	<necessite id="cfg" version="[1.14.1;]" />
+	<necessite id="spip_bonux" version="[1.8.7;]" />
+	<pipeline>
+		<nom>affiche_milieu</nom>
+		<action>affiche_milieu</action>
+		<inclure>a2a_pipelines.php</inclure>
+	</pipeline>
+	<categorie>navigation</categorie>
+</plugin>
+
+
+
+</archive>
+
+<archive id="a2a_v2.zip" dtd="paquet">
+<zip>
+	<file>a2a_v2.zip</file>
+	<size>47695</size>
+	<date>1451229570</date>
+	<source>_plugins_/a2a/trunk</source>
+	<last_commit>2015-12-27 16:17:08</last_commit>
+</zip>
+<traductions>
+<traduction module="a2a" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/a2a/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/a2a?lang_cible=en" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/a2a?lang_cible=es" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/a2a?lang_cible=fr" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="dlatr" lien="http://trad.spip.net/auteur/dlatr" />
+	</langue>
+	<langue code="it" url="http://trad.spip.net/tradlang_module/a2a?lang_cible=it" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="dlatr" lien="http://trad.spip.net/auteur/dlatr" />
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/a2a?lang_cible=nl" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="ru" url="http://trad.spip.net/tradlang_module/a2a?lang_cible=ru" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="olly" lien="http://trad.spip.net/auteur/olly" />
+	</langue>
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/a2a?lang_cible=sk" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
+	</langue>
+</traduction>
+<traduction module="paquet-a2a" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/a2a/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-a2a?lang_cible=en" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/paquet-a2a?lang_cible=es" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-a2a?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="it" url="http://trad.spip.net/tradlang_module/paquet-a2a?lang_cible=it" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="dlatr" lien="http://trad.spip.net/auteur/dlatr" />
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-a2a?lang_cible=nl" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/paquet-a2a?lang_cible=sk" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
+	</langue>
+</traduction>
+</traductions>
+
+<paquet
+	prefix="a2a"
+	categorie="navigation"
+	version="2.1.11"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="images/a2a-64.png"
+	schema="0.11.0"
+	documentation="http://contrib.spip.net/Le-plugin-a2a-pour-lier-des-articles"
+>	
+
+	<nom>A2A</nom>
+	<!-- Pour lier des articles -->
+
+	<auteur>Collectif SPIP</auteur>
+	<licence>GPL v3</licence>
+	
+	<traduire module="a2a" reference="fr" gestionnaire="salvatore" />
+	<traduire module="paquet-a2a" reference="fr" gestionnaire="salvatore" />
+	
+	<pipeline nom="affiche_milieu" inclure="a2a_pipelines.php" />
+	<pipeline nom="declarer_tables_auxiliaires" inclure="base/a2a.php" />
+	<pipeline nom="declarer_tables_interfaces" inclure="base/a2a.php" />
+</paquet>
+<multis>
+<slogan>
+<multi>
+[en]Link articles together
+[es]Para enlazar artículos
+[fr]Pour lier des articles
+[it]Per collegare gli articoli
+[nl]Koppel artikelen
+[sk]Na prepájanie článkov
+</multi>
+</slogan>
+<description>
+<multi>
+[en]This plugin allows you to link items in a timely manner without having to use keywords of SPIP. It can be used to set up links such as "See also".
+
+This new version allows the typing of relations between items. This typing is not active by default to keep the original function of the plugin (see the documentation).
+[es]Este plugin permite enlazar artículos de forma puntual sin tener que utilizar palabras claves de SPIP. Puede usarse para meter enlaces del tipo «Leer también».
+	
+Esta nueva versión permite además caracterizar las relaciones entre artículos. Esta función de tipificación no está activa por defecto para conservar el funcionamiento clásico del plugin (se refiere a la documentación).
+[fr]Ce plugin permet de lier des articles de façon ponctuelle sans avoir à utiliser les mots-clés de SPIP. Il peut être utilisé pour mettre en place des liens de type « Lire aussi ».
+	
+	Cette nouvelle version permet en outre de typer les relations entre articles. Cette fonction de typage n’est pas active par défaut pour conserver le fonctionnement classique du plugin (se référer à la documentation).
+[it]Questo plugin permette di collegare gli articoli in modo puntuale senza dover utilizzare le parole chiave di SPIP. Può essere utilizzato per evidenziare dei collegamenti del tipo « leggere anche »
+
+Questa nuova versione permette inoltre di  definire le relazioni tra gli articoli. Questa funzione non è attiva per predefinizione per conservare il funzionamento classico del plugin (riferimenti alla documentazione).
+[nl]Deze plugin koppelt artikelen zonder het gebruik van trefwoorden. Je kunt er koppelingen mee maken in de vorm van "Zie ook".
+
+Deze nieuwe versie maakt optionele relaties tussen items mogelijk.
+[sk]Tento zásuvný modul vám umožní vytvoriť odkazy na články v chronologickom poradí bez toho, aby ste museli použiť kľúčové slová SPIPu. Môžete ho využívať na vytváranie odkazov typu "Pozri aj".
+
+Táto nová verzia vám umožňuje dopísať vzťahy medzi článkami. Táto funkcia nie je aktivovaná v predvolených nastaveniach, aby sa zachoval spôsob, ako zásuvný modul tradične funguje (prečítajte si dokumentáciu).
+</multi>
+</description>
+</multis>
+
+
+</archive>
+
+<archive id="aa.zip" dtd="plugin">
+<zip>
+	<file>aa.zip</file>
+	<size>14164</size>
+	<date>1450876130</date>
+	<source>_plugins_/aa</source>
+	<last_commit>2014-08-17 19:14:49</last_commit>
+</zip>
+
+<plugin>
+	<nom>
+		<multi>
+		[fr]Tutoriel CFG (Article accueil)
+		[en]CFG Tutorial (Article summary)
+		</multi>
+	</nom>
+	<slogan>Coder un plugin simple avec cfg</slogan>
+	<prefix>aa</prefix>
+	<version>1.0.2</version>
+	<etat>experimental</etat>
+	<icon>aa.png</icon>
+	<categorie>navigation</categorie>
+
+	<auteur>cy_altern</auteur>
+	<licence>GNU/LGPL - (c) 2010</licence>
+
+	<description>Ce plugin extra-simple (aa) est le résultat d'un [tutoriel de spip-contrib->http://contrib.spip.net/Coder-un-plugin-simple-avec-cfg] ayant pour sujet l'apprentissage du plugin CFG, qui permet de gérer les paramètres de configuration d'un plugin de façon simple</description>
+
+	<pipeline>
+		<nom>ajouter_boutons</nom>
+		<inclure>aa_pipelines.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>affichage_final</nom>
+		<inclure>aa_pipelines.php</inclure>
+	</pipeline>
+
+	<necessite id="SPIP" version="[1.9.2;2.1.99]" />
+	<necessite id="cfg" version="[1.0.0;]" />
+</plugin>
+
+
+
+</archive>
+
+<archive id="abomailmans.zip" dtd="paquet">
+<zip>
+	<file>abomailmans.zip</file>
+	<size>68465</size>
+	<date>1456203842</date>
+	<source>_plugins_/abomailmans/trunk</source>
+	<last_commit>2016-02-23 05:33:18</last_commit>
+</zip>
+<traductions>
+<traduction module="abomailmans" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abomailmans/trunk/lang/" reference="fr">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/abomailmans?lang_cible=de" total="100" traduits="66" relire="0" modifs="6" nouveaux="28" pourcent="66.00">
+	</langue>
+	<langue code="en" url="http://trad.spip.net/tradlang_module/abomailmans?lang_cible=en" total="100" traduits="100" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="jack31" lien="http://trad.spip.net/auteur/jack31" />
+		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/abomailmans?lang_cible=es" total="100" traduits="100" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="dani" lien="http://trad.spip.net/auteur/dani" />
+		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/abomailmans?lang_cible=fr" total="100" traduits="100" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="fr_tu" url="http://trad.spip.net/tradlang_module/abomailmans?lang_cible=fr_tu" total="100" traduits="99" relire="0" modifs="0" nouveaux="1" pourcent="99.00">
+		<traducteur nom="Cerf" lien="http://trad.spip.net/auteur/cerf" />
+	</langue>
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/abomailmans?lang_cible=sk" total="100" traduits="99" relire="0" modifs="0" nouveaux="1" pourcent="99.00">
+		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
+	</langue>
+</traduction>
+<traduction module="paquet-abomailmans" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abomailmans/trunk/lang/" reference="fr">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/paquet-abomailmans?lang_cible=de" total="3" traduits="2" relire="0" modifs="0" nouveaux="1" pourcent="66.67">
+	</langue>
+	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-abomailmans?lang_cible=en" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/paquet-abomailmans?lang_cible=es" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-abomailmans?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="fr_tu" url="http://trad.spip.net/tradlang_module/paquet-abomailmans?lang_cible=fr_tu" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Cerf" lien="http://trad.spip.net/auteur/cerf" />
+	</langue>
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/paquet-abomailmans?lang_cible=sk" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
+	</langue>
+</traduction>
+</traductions>
+
+<paquet
+	prefix="abomailmans"
+	categorie="communication"
+	version="1.1.9"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/abomailmans-32.png"
+	schema="0.34.0"
+	documentation="http://contrib.spip.net/Abomailmans-pour-s-abonner-a-des-listes-de-diffusion"
+>
+
+	<nom>Abonnement à des listes de diffusion</nom>
+	<!-- Interfacer vos listes de diffusions mailman, ezmlm ou sympa avec votre SPIP -->
+
+	<auteur lien="http://www.netaktiv.com">NetAktiv</auteur>
+	<auteur lien="http://www.elastick.net">Anne-lise Martenot</auteur>
+	<auteur>Yffic</auteur>
+	<auteur lien="http://www.kent1.info">kent1</auteur>
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
+
+	<traduire module="abomailmans" reference="fr" gestionnaire="salvatore" />
+	<traduire module="paquet-abomailmans" reference="fr" gestionnaire="salvatore" />
+
+	<pipeline nom="declarer_tables_interfaces" inclure="base/abomailmans_install.php" />
+	<pipeline nom="declarer_tables_objets_sql" inclure="base/abomailmans_install.php" />
+	<pipeline nom="taches_generales_cron" inclure="abomailmans_pipelines.php" />
+	<pipeline nom="abomailmans" action="go" inclure="abomailmans_pipelines.php" />
+	<pipeline nom="autoriser" inclure="abomailmans_autoriser.php" />
+
+	<necessite nom="facteur" compatibilite="[2.0.0;[" />
+
+	<menu nom="abomailmans" titre="abomailmans:bouton_listes_diffusion" parent="bando_edition" icone="images/abomailmans-16.png" />
+	<menu nom="abomailman_edit" parametres="new=oui" titre="abomailmans:icone_ajouter_liste" parent="outils_rapides" icone="images/abomailmans-new-16.png" />
+</paquet>
+<multis>
+<nom>
+<multi>
+[de]Abonnieren Sie Mailing-Listen
+[en]Mailing lists and newsletters subscription
+[es]Suscripción a las listas de difusión
+[fr]Abonnement à des listes de diffusion
+[fr_tu]Abonnement à des listes de diffusion
+[sk]Odoberanie príspevkov e-mailových konferencií (skupín)
+</multi>
+</nom>
+<slogan>
+<multi>
+[en]Interface your Mailman, Ezmlm or Sympa mailing lists and newsletters with SPIP
+[es]Vincular sus listas de difusiones mailman, ezmlm o sympa con su SPIP
+[fr]Interfacer vos listes de diffusions mailman, ezmlm ou sympa avec votre SPIP
+[fr_tu]Interfacer tes listes de diffusions mailman, ezmlm ou sympa avec ton SPIP
+[sk]Ovládajte svoje e-mailové skupiny, (e-mailové konferencie), diskusné skupiny či mailing listy typu mailman, ezmlm alebo sympa so svojím SPIPom
+</multi>
+</slogan>
+<description>
+<multi>
+[de]Dieses Plugin ermöglich mit dem TAG #FORMULAIRE_ABOMAILMAN das Abnonnieren von Mailinglisten.
+			Dem Adminstrator steht ein Interface zur Verwaltung dieser Listen zur Verfügung.
+[en]This plugin adds a registration form to mailing lists and newsletters services as [Mailman->http://www.gnu.org/software/mailman/], [Ezmlm->http://www.ezmlm.org/] or [Sympa->http://www.sympa.org].
+
+The administrator can manage the lists from the private space via a dedicated interface.
+[es]Este plugin permite a través de una etiqueta #FORMULAIRE_ABOMAILMAN mostrar un formulario de suscripción al conjunto de las listas [Mailman->http://www.gnu.org/software/mailman/], [Ezmlm->http://www.ezmlm.org/] o [Sympa->http://www.sympa.org] renseignées.
+_ Esta inscripción se hace a través de la interfaz privada de SPIP por el menú "Edición Abomailmans listas de difusiones mailman".
+_ A continuación puede seleccionar artículos de su SPIP, por criterios de fecha, de sección y/o de palabra clave y enviar su contenido a estas listas, usando esqueletos de formateo de contenido.
+_ El enlace con las listas Mailman, Ezmlm y Sympa se hace por envíos de correo electrónico. 
+[fr]Ce plugin permet via une balise #FORMULAIRE_ABOMAILMAN d’afficher un formulaire d’abonnement à l’ensemble des listes [Mailman->http://www.gnu.org/software/mailman/], [Ezmlm->http://www.ezmlm.org/] ou [Sympa->http://www.sympa.org] renseignées.
+_ Cette inscription se fait via l’interface privée de SPIP par le menu "Edition Abomailmans les listes de diffusions mailman".
+_ Ensuite il vous est possible de sélectionner des articles de votre SPIP, par des critères de date, de rubrique et/ou de mot-clé et envoyer leurs contenus à ces listes, en utilisant des squelettes de mise en page du contenu.
+_ Le lien avec les listes Mailman, Ezmlm et Sympa se fait par des envois d’e-mail.
+[fr_tu]Ce plugin permet via une balise #FORMULAIRE_ABOMAILMAN d’afficher un formulaire d’abonnement à l’ensemble des listes [Mailman->http://www.gnu.org/software/mailman/], [Ezmlm->http://www.ezmlm.org/] ou [Sympa->http://www.sympa.org] renseignées.
+_ Cette inscription se fait via l’interface privée de SPIP par le menu "Edition Abomailmans les listes de diffusions mailman".
+_ Ensuite il t’est possible de sélectionner des articles de ton SPIP, par des critères de date, de rubrique et/ou de mot-clé et envoyer leurs contenus à ces listes, en utilisant des squelettes de mise en page du contenu.
+_ Le lien avec les listes Mailman, Ezmlm et Sympa se fait par des envois d’e-mail.
+[sk]Tento zásuvný modul umožňuje pomocou tagu #FORMULAIRE_ABOMAILMAN zobraziť formulár na prihlásenie sa na odoberanie príspevkov celého radu typov skupín (resp. konferencií)  [Mailman,->http://www.gnu.org/software/mailman/] [Ezmlm->http://www.ezmlm.org/] alebo [Sympa.->http://www.sympa.org] 
+_ Registrácia sa vykonáva cez súkromnú zónu SPIPu pomocou menu "Úprava skupín typu mailman".
+_ Potom si zo svojej stránky v SPIPe môžete vybrať články  podľa dátumu, rubriky a/lebo kľúčového slova a poslať ich do týchto skupín (resp. konferencií, mailing listov) pomocou šablón na úpravu vzhľadu textu.
+_ Odkaz na skupiny Mailman, Ezmlm a Sympa získate odoslaním e-mailu.
+</multi>
+</description>
+</multis>
+<autorisations>
+	<autorisation nom="abomailman_bouton" dist="oui" />
+	<autorisation nom="abomailman_creer" dist="oui" />
+	<autorisation nom="abomailman_modifier" dist="oui" />
+</autorisations>
+
+</archive>
+
+<archive id="abomailmans_2_0.zip" dtd="plugin">
+<zip>
+	<file>abomailmans_2_0.zip</file>
+	<size>82478</size>
+	<date>1450876156</date>
+	<source>_plugins_/abomailmans/branches/v1</source>
+	<last_commit>2015-05-01 13:28:41</last_commit>
+</zip>
+<traductions>
+<traduction module="abomailmans" reference="fr">
+	<langue code="de" />
+	<langue code="en" />
+</traduction>
+</traductions>
+
+<plugin>
+	<nom>
+		<multi>
+			[fr]Abonnement &#224; des listes de diffusion
+			[de]Abonnieren Sie Mailing-Listen
+			[en]Mailing lists subscription
+		</multi>
+	</nom>
+	<slogan>Interfacer vos listes de diffusions mailman, ezmlm ou sympa avec votre SPIP</slogan>
+	<icon>img_pack/mailman.gif</icon>
+	<auteur>MaZiaR [NetAktiv->http://www.netaktiv.com]</auteur>
+	<version>0.7.7</version>
+	<version_base>0.34</version_base>
+	<prefix>abomailmans</prefix>
+	<etat>stable</etat>
+	<description>
+		<multi>
+			[fr]Ce plugin permet via une balise <code>#FORMULAIRE_ABOMAILMAN</code> d'afficher un formulaire d'abonnement &#224; l'ensemble des listes [Mailman->http://www.gnu.org/software/mailman/], [Ezmlm->http://www.ezmlm.org/] ou [Sympa->http://www.sympa.org] renseign&#233;es.
+			Cette inscription se fait via l'interface priv&#233;e de SPIP par le menu "Edition Abomailmans les listes de diffusions mailman".
+			Ensuite il vous est possible de s&#233;lectionner des articles de votre SPIP, par des crit&#232;res de date, de rubrique et/ou de mot-cl&#233; et envoyer leurs contenus &#224; ces listes, en utilisant des squelettes de mise en page du contenu.
+			Le lien avec les listes Mailman, Ezmlm et Sympa se fait par des envois d'e-mail.
+			[de]Dieses Plugin erm&#246;glich mit dem TAG <code>#FORMULAIRE_ABOMAILMAN</code> das Abnonnieren von Mailinglisten.
+			Dem Adminstrator steht ein Interface zur Verwaltung dieser Listen zur Verf&#252;gung.
+			[en]This plugin adds a form of registration to mailing lists services as [Mailman->http://www.gnu.org/software/mailman/], [Ezmlm->http://www.ezmlm.org/] or [Sympa->http://www.sympa.org] the administrator can manage from the private space via a dedicated interface.
+		</multi>
+	</description>
+	<lien>http://contrib.spip.net/Abomailmans-pour-s-abonner-a-des-listes-de-diffusion</lien>
+	<fonctions>abomailmans_fonctions.php</fonctions>
+	<install>base/abomailmans.php</install>
+	<pipeline>
+		<nom>declarer_tables_interfaces</nom>
+		<inclure>base/abomailmans.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>declarer_tables_principales</nom>
+		<inclure>base/abomailmans.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>taches_generales_cron</nom>
+		<inclure>abomailmans_pipelines.php</inclure>
+	</pipeline>
+
+	<pipeline>
+		<nom>abomailmans</nom>
+		<!-- action vide pour provoquer l'inclusion de abomailmans.php -->
+		<action>go</action>
+		<inclure>abomailmans_pipelines.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>header_prive</nom>
+		<inclure>abomailmans_pipelines.php</inclure>
+	</pipeline> 
+	<pipeline>  
+		<nom>autoriser</nom>
+		<inclure>abomailmans_pipelines.php</inclure>
+	</pipeline>
+	<bouton id='abomailmans_tous' parent="naviguer">
+		<icone>img_pack/mailman.gif</icone>
+		<titre>abomailmans:bouton_listes_diffusion</titre>
+		<url>abomailmans_tous</url> <!-- nom de l'exec, facultatif, par defaut prend l'id -->
+		<args></args>
+	</bouton>
+	<bouton id='abomailmans_bando' parent="bando_edition">
+		<icone>images/abomailmans-16.png</icone>
+		<titre>abomailmans:bouton_listes_diffusion</titre>
+		<url>abomailmans_tous</url> <!-- nom de l'exec, facultatif, par defaut prend l'id -->
+	</bouton>
+	
+	<necessite id="SPIP" version="[2.0.3;2.1.99]" />
+	<necessite id="facteur" version="[1.7.3;]" />
+	<necessite id='spip_bonux' version='[1.9.0;]' />
+	<categorie>communication</categorie>
+</plugin>
+
+<autorisations>
+	<autorisation nom="abomailmans" dist="oui" />
+	<autorisation nom="abomailmans_bouton" dist="oui" />
+	<autorisation nom="abomailmans_creer" dist="oui" />
+	<autorisation nom="abomailmans_modifier" dist="oui" />
+</autorisations>
+
+</archive>
+
+<archive id="abonnements_v2.zip" dtd="paquet">
+<zip>
+	<file>abonnements_v2.zip</file>
+	<size>108175</size>
+	<date>1450876136</date>
+	<source>_plugins_/abonnements/branches/v2</source>
+	<last_commit>2015-07-01 22:54:45</last_commit>
+</zip>
+<traductions>
+<traduction module="abonnement" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/abonnement?lang_cible=en" total="39" traduits="39" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/abonnement?lang_cible=es" total="39" traduits="39" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="alf" lien="http://trad.spip.net/auteur/alf" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/abonnement?lang_cible=fr" total="39" traduits="39" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="abonnementsoffre" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/abonnementsoffre?lang_cible=en" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/abonnementsoffre?lang_cible=fr" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="paquet-abonnements" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-abonnements?lang_cible=en" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/paquet-abonnements?lang_cible=es" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="alf" lien="http://trad.spip.net/auteur/alf" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-abonnements?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+</traductions>
+
+<paquet
+	prefix="abonnements"
+	categorie="auteur"
+	version="2.3.5"
+	schema="2.1.0"
+	etat="stable"
+	compatibilite="[3.0.5;3.0.*]"
+	logo="prive/themes/spip/images/abonnements-64.png"
+	documentation="http://contrib.spip.net/4607"
+>
+	<nom>Abonnements</nom>
+	
+	<credit lien="http://contrib.spip.net/BoOz,502">BoOz</credit>
+	<credit lien="http://www.elastick.net">Anne-lise Martenot</credit>
+	<credit lien="http://www.magraine.net/">Matthieu Marcillaud</credit>
+	<credit lien="http://www.cym.net">Ateliers Cym</credit>
+	<credit lien="http://www.latribunedelart.com">La tribune de l'art</credit>
+	<auteur lien="http://www.ldd.fr">Les Développements Durables</auteur>
+
+	<licence>GNU/GPL v3</licence>
+	<necessite nom="saisies" compatibilite="[1.28.1;]" /> 
+	<necessite nom="verifier" compatibilite="[1.0.0;]" /> 
+	<necessite nom="yaml" compatibilite="[1.5.0;]" />
+	<necessite nom="facteur" compatibilite="[3.0.1;]" />
+	<utilise nom="commandes" compatibilite="[1.5.0;]" />
+	
+	<!-- Autorisations générales -->
+	<pipeline nom="autoriser" inclure="abonnements_autorisations.php" />
+	<!-- Modifications de la base -->
+	<pipeline nom="declarer_tables_objets_sql" inclure="base/abonnements.php" />
+	<pipeline nom="declarer_tables_interfaces" inclure="base/abonnements.php" />
+	<pipeline nom="declarer_tables_principales" inclure="base/abonnements.php" />
+	<pipeline nom="declarer_tables_auxiliaires" inclure="base/abonnements.php" />
+	<pipeline nom="optimiser_base_disparus" inclure="abonnements_pipelines.php" />
+	<!-- Automatismes liés -->
+	<pipeline nom="post_edition" inclure="abonnements_pipelines.php" />
+	<pipeline nom="taches_generales_cron" inclure="abonnements_pipelines.php" />
+	<!-- Affichages ajoutés -->
+	<pipeline nom="affiche_gauche" inclure="abonnements_pipelines.php" />
+	<pipeline nom="affiche_milieu" inclure="abonnements_pipelines.php" />
+	<!-- Pipelines ajoutés par ce plugin -->
+	<pipeline nom="abonnement_initialisation_dates" action="" />
+
+	<menu nom="abonnements_offres" titre="abonnementsoffre:titre_abonnementsoffres" parent="menu_publication" icone="images/abonnement-16.png" action="abonnements_offres" /> 
+	<menu nom="abonnements" titre="abonnement:titre_abonnements_suivre" parent="menu_activite" icone="images/abonnement-16.png" action="abonnements" /> 
+</paquet>
+<multis>
+<nom>
+<multi>
+[en]Subscriptions
+[es]Inscripciones 
+[fr]Abonnements
+</multi>
+</nom>
+<slogan>
+<multi>
+[en]Give rights for a certain time
+[es]Dar derechos durante un cierto tiempo
+[fr]Donner des droits pendant un certain temps
+</multi>
+</slogan>
+<description>
+<multi>
+[en]This plugin aims to group all that is common to the different possible types of subscriptions (restricted areas, specific content, and why not paper version) .
+
+It defines subscriptions offered by the site, and manages people with these services, disabling the subscription after a given time.
+
+As there can be any kind of case, it’s not this plugin that decides what rights are given after subscribing. It is to other plugins to implement this, for example to automatically bind a user to a restricted area.
+[es]Este plugin tiene el objetivo de regrupar todo lo que es común a los diferentes tipos de inscripciones posibles (zonas restringidas, contenidos precisos, o porque no ...  a una versión papel...).
+
+Permite de definir las inscripciones propuestas por el sitio, y gestiona las personas que se han inscrito , desactivando la inscripción al cabo de un cierto tiempo.
+
+Como pueden haber varios casos diferentes, no es este plugin el que define los derechos que son dados cuando se hace una inscripción. Son otros plugins los que van a implementar esto, por ejemplo para vincular un utilizador a una zona restringida.
+
+[fr]Ce plugin a pour but de regrouper tout ce qui est commun aux différents types d’abonnements possibles (à des zones restreintes, à des contenus précis, à une version papier pourquoi pas aussi...).
+
+Il permet de définir les abonnements proposés par le site, et gère les personnes qui y sont abonnés, désactivant l’abonnement au bout d’un temps donné.
+
+Comme il peut y avoir toute sorte de cas, ce n’est pas ce plugin qui décide quels droits sont donnés lors d’un abonnement. C’est à d’autres plugins d’implémenter cela, par exemple pour lier alors automatiquement un utilisateur à une zone restreinte.
+</multi>
+</description>
+</multis>
+<autorisations>
+	<autorisation nom="abonnementsoffres_menu" dist="oui" />
+	<autorisation nom="abonnementsoffre_creer" dist="oui" />
+	<autorisation nom="abonnementsoffre_voir" dist="oui" />
+	<autorisation nom="abonnementsoffre_modifier" dist="oui" />
+	<autorisation nom="abonnementsoffre_supprimer" dist="oui" />
+	<autorisation nom="associerabonnementsoffres" dist="oui" />
+	<autorisation nom="abonnement_creer" dist="oui" />
+	<autorisation nom="abonnement_voir" dist="oui" />
+	<autorisation nom="abonnement_modifier" dist="oui" />
+	<autorisation nom="abonnement_supprimer" dist="oui" />
+</autorisations>
+
+</archive>
+
+<archive id="abonnements_v3.zip" dtd="paquet">
+<zip>
+	<file>abonnements_v3.zip</file>
+	<size>111225</size>
+	<date>1456203842</date>
+	<source>_plugins_/abonnements/trunk</source>
+	<last_commit>2016-02-23 05:33:57</last_commit>
+</zip>
+<traductions>
+<traduction module="abonnement" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/abonnement?lang_cible=en" total="40" traduits="40" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Benitron" lien="http://trad.spip.net/auteur/benitron" />
+		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/abonnement?lang_cible=es" total="40" traduits="40" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="alf" lien="http://trad.spip.net/auteur/alf" />
+		<traducteur nom="dani" lien="http://trad.spip.net/auteur/dani" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/abonnement?lang_cible=fr" total="40" traduits="40" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="abonnementsoffre" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/abonnementsoffre?lang_cible=en" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/abonnementsoffre?lang_cible=es" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="dani" lien="http://trad.spip.net/auteur/dani" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/abonnementsoffre?lang_cible=fr" total="32" traduits="32" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="paquet-abonnements" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-abonnements?lang_cible=en" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/paquet-abonnements?lang_cible=es" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="alf" lien="http://trad.spip.net/auteur/alf" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-abonnements?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+</traductions>
+
+<paquet
+	prefix="abonnements"
+	categorie="auteur"
+	version="3.0.12"
+	schema="2.2.1"
+	etat="test"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/abonnements-64.png"
+	documentation="http://contrib.spip.net/4607"
+>
+	<nom>Abonnements</nom>
+	
+	<credit lien="http://contrib.spip.net/BoOz,502">BoOz</credit>
+	<credit lien="http://www.elastick.net">Anne-lise Martenot</credit>
+	<credit lien="http://www.magraine.net/">Matthieu Marcillaud</credit>
+	<credit lien="http://www.cym.net">Ateliers Cym</credit>
+	<credit lien="http://www.latribunedelart.com">La tribune de l'art</credit>
+	<auteur lien="http://www.ldd.fr">Les Développements Durables</auteur>
+
+	<licence>GNU/GPL v3</licence>
+	<necessite nom="saisies" compatibilite="[1.28.1;]" /> 
+	<necessite nom="verifier" compatibilite="[1.0.0;]" /> 
+	<necessite nom="yaml" compatibilite="[1.5.0;]" />
+	<necessite nom="facteur" compatibilite="[3.0.1;]" />
+	<utilise nom="commandes" compatibilite="[1.6.8;]" />
+	
+	<!-- Autorisations générales -->
+	<pipeline nom="autoriser" inclure="abonnements_autorisations.php" />
+	<!-- Modifications de la base -->
+	<pipeline nom="declarer_tables_objets_sql" inclure="base/abonnements.php" />
+	<pipeline nom="declarer_tables_interfaces" inclure="base/abonnements.php" />
+	<pipeline nom="declarer_tables_principales" inclure="base/abonnements.php" />
+	<pipeline nom="declarer_tables_auxiliaires" inclure="base/abonnements.php" />
+	<pipeline nom="optimiser_base_disparus" inclure="abonnements_pipelines.php" />
+	<!-- Automatismes liés -->
+	<pipeline nom="post_edition" inclure="abonnements_pipelines.php" />
+	<pipeline nom="taches_generales_cron" inclure="abonnements_pipelines.php" />
+	<!-- Affichages ajoutés -->
+	<pipeline nom="affiche_gauche" inclure="abonnements_pipelines.php" />
+	<pipeline nom="affiche_milieu" inclure="abonnements_pipelines.php" />
+	<!-- Pipelines ajoutés par ce plugin -->
+	<pipeline nom="abonnement_initialisation_dates" action="" />
+
+	<menu nom="abonnements_offres" titre="abonnementsoffre:titre_abonnementsoffres" parent="menu_publication" icone="images/abonnement-16.png" action="abonnements_offres" /> 
+	<menu nom="abonnements" titre="abonnement:titre_abonnements_suivre" parent="menu_activite" icone="images/abonnement-16.png" action="abonnements" /> 
+</paquet>
+<multis>
+<nom>
+<multi>
+[en]Subscriptions
+[es]Inscripciones 
+[fr]Abonnements
+</multi>
+</nom>
+<slogan>
+<multi>
+[en]Give rights for a certain time
+[es]Dar derechos durante un cierto tiempo
+[fr]Donner des droits pendant un certain temps
+</multi>
+</slogan>
+<description>
+<multi>
+[en]This plugin aims to group all that is common to the different possible types of subscriptions (restricted areas, specific content, and why not paper version) .
+
+It defines subscriptions offered by the site, and manages people with these services, disabling the subscription after a given time.
+
+As there can be any kind of case, it’s not this plugin that decides what rights are given after subscribing. It is to other plugins to implement this, for example to automatically bind a user to a restricted area.
+[es]Este plugin tiene el objetivo de regrupar todo lo que es común a los diferentes tipos de inscripciones posibles (zonas restringidas, contenidos precisos, o porque no ...  a una versión papel...).
+
+Permite de definir las inscripciones propuestas por el sitio, y gestiona las personas que se han inscrito , desactivando la inscripción al cabo de un cierto tiempo.
+
+Como pueden haber varios casos diferentes, no es este plugin el que define los derechos que son dados cuando se hace una inscripción. Son otros plugins los que van a implementar esto, por ejemplo para vincular un utilizador a una zona restringida.
+
+[fr]Ce plugin a pour but de regrouper tout ce qui est commun aux différents types d’abonnements possibles (à des zones restreintes, à des contenus précis, à une version papier pourquoi pas aussi...).
+
+Il permet de définir les abonnements proposés par le site, et gère les personnes qui y sont abonnés, désactivant l’abonnement au bout d’un temps donné.
+
+Comme il peut y avoir toute sorte de cas, ce n’est pas ce plugin qui décide quels droits sont donnés lors d’un abonnement. C’est à d’autres plugins d’implémenter cela, par exemple pour lier alors automatiquement un utilisateur à une zone restreinte.
+</multi>
+</description>
+</multis>
+<autorisations>
+	<autorisation nom="abonnementsoffres_menu" dist="oui" />
+	<autorisation nom="abonnementsoffre_creer" dist="oui" />
+	<autorisation nom="abonnementsoffre_voir" dist="oui" />
+	<autorisation nom="abonnementsoffre_modifier" dist="oui" />
+	<autorisation nom="abonnementsoffre_supprimer" dist="oui" />
+	<autorisation nom="associerabonnementsoffres" dist="oui" />
+	<autorisation nom="abonnement_creer" dist="oui" />
+	<autorisation nom="abonnement_voir" dist="oui" />
+	<autorisation nom="abonnement_modifier" dist="oui" />
+	<autorisation nom="abonnement_supprimer" dist="oui" />
+</autorisations>
+
+</archive>
+
+<archive id="abonnements_zones_v1.zip" dtd="paquet">
+<zip>
+	<file>abonnements_zones_v1.zip</file>
+	<size>8647</size>
+	<date>1451229572</date>
+	<source>_plugins_/abonnements_zones/trunk</source>
+	<last_commit>2015-12-27 16:18:47</last_commit>
+</zip>
+<traductions>
+<traduction module="paquet-abozones" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements_zones/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-abozones?lang_cible=en" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/paquet-abozones?lang_cible=es" total="3" traduits="2" relire="0" modifs="1" nouveaux="0" pourcent="66.67">
+		<traducteur nom="alf" lien="http://trad.spip.net/auteur/alf" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-abozones?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+</traductions>
+
+<paquet
+	prefix="abozones"
+	categorie="auteur"
+	version="1.0.3"
+	etat="stable"
+	compatibilite="[3.0.5;3.0.*]"
+	logo="abozones.png"
+	documentation="http://contrib.spip.net/4608"
+>
+	<nom>Abonnements à des zones restreintes</nom>
+	
+	<credit lien="http://contrib.spip.net/BoOz,502">BoOz</credit>
+	<credit lien="http://www.elastick.net">Anne-lise Martenot</credit>
+	<credit lien="http://www.magraine.net/">Matthieu Marcillaud</credit>
+	<credit lien="http://www.cym.net">Ateliers Cym</credit>
+	<credit lien="http://www.latribunedelart.com">La tribune de l'art</credit>
+	<auteur lien="http://www.ldd.fr">Les Développements Durables</auteur>
+
+	<licence>GNU/GPL v3</licence>
+	<necessite nom="abonnements" compatibilite="[2.0.0;]" /> 
+	<necessite nom="accesrestreint" compatibilite="[3.6.1;]" /> 
+
+	<pipeline nom="afficher_complement_objet" inclure="abozones_pipelines.php" />
+	<pipeline nom="post_edition" inclure="abozones_pipelines.php" />
+	<pipeline nom="post_edition_lien" inclure="abozones_pipelines.php" />
+</paquet>
+<multis>
+<nom>
+<multi>
+[en]Subscriptions to restricted areas
+[es]Inscripciones a zonas restringidas
+[fr]Abonnements à des zones restreintes
+</multi>
+</nom>
+<slogan>
+<multi>
+[en]Link subscription offers to restricted areas
+[es]Vincular zonas de ofertas de inscripción a zonas restringidas.
+[fr]Lier des offres d’abonnement à des zones restreintes
+</multi>
+</slogan>
+<description>
+<multi>
+[en]This plugin allows you to link restricted areas of the plugin "Acces Restreint" to subscription offers. All new subscribers to these offers will be automatically added to zones, and vice versa when disabling the subscription.
+[es]Este plugin permite de vincular zonas restringidas  del plugin Acceso Restringido (Accès Restreint ) a ofertas de inscripción. Todos los nuevos inscritos  a estas ofertas serán entonces automaticamente añadid

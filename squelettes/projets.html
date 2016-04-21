@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<INCLURE{fond=inc/header}>
+
+</head>
+
+<body>
+<INCLURE{fond=inc/entete}>
+<div class="separateur40"></div>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Derniers Projet</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+         	<BOUCLE_article(ARTICLES){id_rubrique == 16}{par date}>
+                <div class="col-md-4 img-portfolio">
+                    <a href="spip.php?page=detail&id_article=#ID_ARTICLE">
+                     [(#LOGO_ARTICLE_RUBRIQUE|image_reduire{350,200})]
+                    </a>
+                    <h3>
+                        <a href="spip.php?page=detail&id_article=#ID_ARTICLE">#TITRE</a>
+                    </h3>
+                    <p>#DESCRIPTIF</p>
+                </div>
+            </BOUCLE_article>
+            <div class="col-md-4 img-portfolio">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="portfolio-item.html">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+<INCLURE{fond=inc/footer}>
+
+</body>
+
+</html>
