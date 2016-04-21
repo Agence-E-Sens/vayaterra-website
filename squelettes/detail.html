@@ -11,70 +11,16 @@
 <div class="separateur40"></div>
     <!-- Page Content -->
     <div class="container">
-        <BOUCLE_article(ARTICLES){id_rubrique == 16}{id_article}>
-        <div class="flexslider">
-            <ul class="slides">
-                <BOUCLE_img_lien0(SPIP_DOCUMENTS_LIENS){id_article}>
-                        
-                    <BOUCLE_img0(DOCUMENTS){id_document}{extension==jpg|png|gif}>
-                        <li>
-                            <img alt="" src="#URL_DOCUMENT" width="800" height="500" />
-                        </li>
-                     </BOUCLE_img0>
-
-                 </BOUCLE_img_lien0>
-            </ul>
-        </div>
-            <div class="project-content">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="project-content-box project-tags">
-                            <h2>Project Details</h2> 
-                            <ul>
-                                <li><i class="fa fa-calendar"></i> <span>Date:</span>[(#DATE|jour)] [(#DATE|nom_mois)] [(#DATE|annee)]</li>
-                                <li><i class="fa fa-map-marker"></i> <span>Location:</span> UAE, Abu Dhabi</li>
-                                <li><i class="fa fa-usd"></i> <span>Value:</span> $1,156,000.00</li>
-                                <li><i class="fa fa-tag"></i> <span>Category:</span> Building, House, Projects</li>
-                                <li><i class="fa fa-user"></i> <span>Investor:</span>Vayaterra</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-5" style="background:#FFFFFF; padding:20px 0 0 20px">
-                        <div class="project-content-box">
-                            <h2>#TITRE</h2>
-                            <p>#TEXTE</p>
-                            <BR>
-                           <strong>VIDEO</strong>
-                        </div>
-                            <BOUCLE_video_lien(SPIP_DOCUMENTS_LIENS){id_article}>
-                                    
-                                <BOUCLE_video(DOCUMENTS){id_document}{extension==bin}>
-                                    #DESCRIPTIF
-                                   
-                                 </BOUCLE_video>
-        
-                             </BOUCLE_video_lien>                                
-                    </div>
-                    <div class="col-md-3" style="background:#FFFFFF; padding:0">
-                        <div class="project-content-box project-architect">
-                            [(#LOGO_ARTICLE_RUBRIQUE|image_reduire{200})]
-                            <h2>#LESAUTEURS</h2>
-                            <p>#TITRE</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
+		<BOUCLE_article(ARTICLES){id_rubrique == 16}{id_article}>
             <!-- Page Heading/Breadcrumbs -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Portfolio Item
-                        <small>Subheading</small>
+                    <h1 class="page-header">#TITRE
                     </h1>
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a>
                         </li>
-                        <li class="active">Portfolio Item</li>
+                        <li class="active">#TITRE</li>
                     </ol>
                 </div>
             </div>
@@ -87,23 +33,23 @@
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
+							<?php  $i=0;  ?>
                               <BOUCLE_img_lien(SPIP_DOCUMENTS_LIENS){id_article}>
-                        
                                 <BOUCLE_img(DOCUMENTS){id_document}{extension==jpg|png|gif}>
-                           			 <li data-target="#carousel-example-generic" <?php $i=0; echo( ' class="active"'); ?> ></li>
+                           			 <li data-target="#carousel-example-generic" <?php if ($i==0){ echo( ' class="active"'); $i=$i+1; }?> ></li>
                                  </BOUCLE_img>
-            
                              </BOUCLE_img_lien>
 
                         </ol>
     
                         <!-- Wrapper for slides -->
 						<div class="carousel-inner">
+							<?php  $i=0;  ?>
 							<BOUCLE_img_lien1(SPIP_DOCUMENTS_LIENS){id_article}>
 										
 									<BOUCLE_img1(DOCUMENTS){id_document}{extension==jpg|png|gif}>
-										<div class="item active">
-											<img class="img-responsive" src="#URL_DOCUMENT" alt="">
+										<div class="item <?php if ($i==0){ echo( ' active'); $i=$i+1; }?>">
+											<img class="img-responsive" src="#URL_DOCUMENT" alt="" width="800px" height="600px">
 										</div>
 									 </BOUCLE_img1>
 
@@ -122,13 +68,12 @@
     
                 <div class="col-md-4">
                     <h3>Project Description</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <p>#TEXTE</p>
 					<div class="project-content-box project-tags">
 						<h2>Project Details</h2> 
 						<ul>
-							<li><i class="fa fa-calendar"></i> <span>Date:</span>[(#DATE|jour)] [(#DATE|nom_mois)] [(#DATE|annee)]</li>
+							<li><i class="fa fa-calendar"></i> <span>Date:</span>[(#MAJ|jour)] [(#MAJ|nom_mois)] [(#MAJ|annee)]</li>
 							<li><i class="fa fa-map-marker"></i> <span>Location:</span> UAE, Abu Dhabi</li>
-							<li><i class="fa fa-usd"></i> <span>Value:</span> $1,156,000.00</li>
 							<li><i class="fa fa-tag"></i> <span>Category:</span> Building, House, Projects</li>
 							<li><i class="fa fa-user"></i> <span>Investor:</span>Vayaterra</li>
 						</ul>
@@ -137,43 +82,20 @@
     
             </div>
             <!-- /.row -->
-    
-            <!-- Related Projects Row -->
-            <div class="row">
-    
-                <div class="col-lg-12">
-                    <h3 class="page-header">Related Projects</h3>
-                </div>
-    
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                    </a>
-                </div>
-    
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                    </a>
-                </div>
-    
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                    </a>
-                </div>
-    
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                    </a>
-                </div>
-    
-            </div>
-            <!-- /.row -->
+			 <strong>VIDEO</strong>
+				<BOUCLE_video_lien(SPIP_DOCUMENTS_LIENS){id_article}>
+						
+					<BOUCLE_video(DOCUMENTS){id_document}{extension==bin}>
+						#DESCRIPTIF
+					   
+					 </BOUCLE_video>
+
+				 </BOUCLE_video_lien>                                
+
        </BOUCLE_article>
 
     </div>
+	<div class="separateur40"></div>
     <!-- /.container -->
 <INCLURE{fond=inc/footer}>
 
