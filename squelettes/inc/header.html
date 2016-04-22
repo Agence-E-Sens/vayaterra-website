@@ -15,8 +15,17 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    
-                        <li class="dropdown">
+                        <BOUCLE1(RUBRIQUES){racine}{lang}>
+                            <li class="dropdown">
+                                <a href="#" >#TITRE</a>
+                                <ul class="dropdown-menu">
+                                <BOUCLE2(RUBRIQUES){id_parent}{tout}>
+                                    <li><a href="#">#TITRE</a></li>
+                                </BOUCLE2>
+                                </ul>
+                            </li>
+                        </BOUCLE1>
+                       <!-- <li class="dropdown">
                         	<a href="#">Accueil</a></li>
 
                     
@@ -63,7 +72,7 @@
 
                     
                         <li class="dropdown">
-                        	<a href="spip.php?page=compte">Inscription /Connexion</a></li>
+                        	<a href="spip.php?page=compte">Inscription /Connexion</a></li>-->
 
                     
                 </ul>
