@@ -16,14 +16,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                         <BOUCLE1(RUBRIQUES){racine}{lang}>
-						<?PHP $i=0 ; ?> 
                             <li class="dropdown">
                                 <a href="spip.php?page=[(#DESCRIPTIF|textebrut)]" <?PHP $DESCRIPTIF = '[(#DESCRIPTIF|textebrut)]'; if($DESCRIPTIF == 'menu'){echo ' aria-expanded="false" data-toggle="dropdown" data-hover="dropdown" data-close-others="false" class="dropdown-toggle"';}  ?>>#TITRE   <?PHP if($DESCRIPTIF == 'menu'){echo ' <b class="caret"></b>';}  ?></a>
-								<?PHP if($i==0){echo '<ul class="dropdown-menu">';}  ?> 
+								<?PHP if($DESCRIPTIF == 'menu'){echo '<ul class="dropdown-menu">';}  ?> 
                                 <BOUCLE2(RUBRIQUES){id_parent}{tout}>
 								<li><a href="spip.php?page=[(#DESCRIPTIF|textebrut)]">#TITRE</a></li>
                                 </BOUCLE2>
-								<?PHP if($i==0){  echo '</ul>';} $i=$i+1; ?> 
+								<?PHP if($DESCRIPTIF == 'menu'){  echo '</ul>';} $i=$i+1; ?> 
 								
                             </li>
                         </BOUCLE1>
