@@ -22253,49 +22253,49 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facteur-3.0.zip" dtd="paquet">
 <zip>
 	<file>facteur-3.0.zip</file>
-	<size>226104</size>
-	<date>1461154742</date>
+	<size>226883</size>
+	<date>1461470642</date>
 	<source>_plugins_/facteur/trunk</source>
-	<last_commit>2016-04-20 14:19:01</last_commit>
+	<last_commit>2016-04-24 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="facteur" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/facteur/trunk/lang/" reference="fr">
-	<langue code="de" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=de" total="51" traduits="49" relire="0" modifs="1" nouveaux="1" pourcent="96.08">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=de" total="52" traduits="43" relire="0" modifs="7" nouveaux="2" pourcent="82.69">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 		<traducteur nom="klaus++" lien="http://trad.spip.net/auteur/klaus" />
 		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
 	</langue>
-	<langue code="en" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=en" total="51" traduits="49" relire="0" modifs="1" nouveaux="1" pourcent="96.08">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=en" total="52" traduits="43" relire="0" modifs="7" nouveaux="2" pourcent="82.69">
 		<traducteur nom="Benitron" lien="http://trad.spip.net/auteur/benitron" />
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 	</langue>
-	<langue code="es" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=es" total="51" traduits="49" relire="0" modifs="1" nouveaux="1" pourcent="96.08">
+	<langue code="es" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=es" total="52" traduits="43" relire="0" modifs="7" nouveaux="2" pourcent="82.69">
 		<traducteur nom="dani" lien="http://trad.spip.net/auteur/dani" />
 		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
 	</langue>
-	<langue code="fa" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=fa" total="51" traduits="47" relire="0" modifs="3" nouveaux="1" pourcent="92.16">
+	<langue code="fa" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=fa" total="52" traduits="41" relire="0" modifs="9" nouveaux="2" pourcent="78.85">
 		<traducteur nom="Davood Hossein" lien="http://trad.spip.net/auteur/davood-hossein" />
 	</langue>
-	<langue code="fr" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=fr" total="51" traduits="51" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=fr" total="52" traduits="52" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="fr_tu" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=fr_tu" total="51" traduits="47" relire="0" modifs="3" nouveaux="1" pourcent="92.16">
+	<langue code="fr_tu" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=fr_tu" total="52" traduits="41" relire="0" modifs="9" nouveaux="2" pourcent="78.85">
 		<traducteur nom="Cerf" lien="http://trad.spip.net/auteur/cerf" />
 	</langue>
-	<langue code="it" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=it" total="51" traduits="46" relire="0" modifs="3" nouveaux="2" pourcent="90.20">
+	<langue code="it" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=it" total="52" traduits="40" relire="0" modifs="9" nouveaux="3" pourcent="76.92">
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=nl" total="51" traduits="51" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=nl" total="52" traduits="45" relire="0" modifs="6" nouveaux="1" pourcent="86.54">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="oc_ni_mis" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=oc_ni_mis" total="51" traduits="49" relire="0" modifs="1" nouveaux="1" pourcent="96.08">
+	<langue code="oc_ni_mis" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=oc_ni_mis" total="52" traduits="43" relire="0" modifs="7" nouveaux="2" pourcent="82.69">
 		<traducteur nom="sylvain" lien="http://trad.spip.net/auteur/sylvain" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=pt_br" total="51" traduits="51" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=pt_br" total="52" traduits="45" relire="0" modifs="6" nouveaux="1" pourcent="86.54">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=sk" total="51" traduits="51" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=sk" total="52" traduits="45" relire="0" modifs="6" nouveaux="1" pourcent="86.54">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
@@ -22330,7 +22330,7 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <paquet
 	prefix="facteur"
 	categorie="communication"
-	version="3.3.6"
+	version="3.4.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/facteur-32.png"
@@ -27170,10 +27170,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis4.zip" dtd="paquet">
 <zip>
 	<file>gis4.zip</file>
-	<size>268153</size>
-	<date>1461175442</date>
+	<size>268074</size>
+	<date>1461276242</date>
 	<source>_plugins_/gis/trunk</source>
-	<last_commit>2016-04-20 20:04:01</last_commit>
+	<last_commit>2016-04-22 00:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="gis" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis/trunk/lang/" reference="fr">
@@ -27230,7 +27230,7 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <paquet
 	prefix="gis"
 	categorie="divers"
-	version="4.36.2"
+	version="4.36.3"
 	schema="2.1.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
@@ -35929,24 +35929,24 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailshot-v1.zip" dtd="paquet">
 <zip>
 	<file>mailshot-v1.zip</file>
-	<size>110305</size>
-	<date>1461211442</date>
+	<size>112675</size>
+	<date>1461431942</date>
 	<source>_plugins_/mailshot/trunk</source>
-	<last_commit>2016-04-21 06:04:01</last_commit>
+	<last_commit>2016-04-23 19:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="mailshot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailshot/trunk/lang/" reference="fr">
-	<langue code="de" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=de" total="80" traduits="69" relire="0" modifs="2" nouveaux="9" pourcent="86.25">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=de" total="81" traduits="69" relire="0" modifs="2" nouveaux="10" pourcent="85.19">
 		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
 	</langue>
-	<langue code="en" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=en" total="80" traduits="64" relire="0" modifs="1" nouveaux="15" pourcent="80.00">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=en" total="81" traduits="64" relire="0" modifs="1" nouveaux="16" pourcent="79.01">
 	</langue>
-	<langue code="fr" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=fr" total="80" traduits="80" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=fr" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=nl" total="80" traduits="76" relire="0" modifs="2" nouveaux="2" pourcent="95.00">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=nl" total="81" traduits="76" relire="0" modifs="2" nouveaux="3" pourcent="93.83">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=pt_br" total="80" traduits="76" relire="0" modifs="2" nouveaux="2" pourcent="95.00">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=pt_br" total="81" traduits="76" relire="0" modifs="2" nouveaux="3" pourcent="93.83">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
@@ -35970,7 +35970,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="mailshot"
 	categorie="communication"
-	version="1.15.3"
+	version="1.16.1"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/mailshot-32.png"
@@ -36019,6 +36019,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 </multis>
 <autorisations>
 	<autorisation nom="mailshot_iconifier" dist="oui" />
+	<autorisation nom="mailshot_archiver" dist="oui" />
 </autorisations>
 
 </archive>
@@ -36823,10 +36824,10 @@ Le logo n'est pas lié au document : en cas de modification de ce dernier, le lo
 <archive id="medias_dereferencer.zip" dtd="paquet">
 <zip>
 	<file>medias_dereferencer.zip</file>
-	<size>27813</size>
-	<date>1459206244</date>
+	<size>27868</size>
+	<date>1461315842</date>
 	<source>_plugins_/medias_dereferencer/branches/v1</source>
-	<last_commit>2016-03-29 01:04:04</last_commit>
+	<last_commit>2016-04-22 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="medias_dereferencer" reference="fr">
@@ -36836,7 +36837,7 @@ Le logo n'est pas lié au document : en cas de modification de ce dernier, le lo
 <paquet
 	prefix="medias_dereferencer"
 	categorie="statistique"
-	version="1.2.3"
+	version="1.2.4"
 	etat="test"
 	compatibilite="[3.0.9;3.1.*]"
 	logo="prive/themes/spip/images/medias_dereferencer-64.png"
@@ -40619,6 +40620,55 @@ _ On peut choisir quels types de commentateurs auront droit à la modération mo
 <description>
 <multi>
 [fr]Ce plugin propose de trier les documents associ&eacute;s aux articles (via la page d'&eacute;dition de l'article) par simple glisser-d&eacute;poser des vignettes d'une mosaique.
+</multi>
+</description>
+</multis>
+
+
+</archive>
+
+<archive id="motpassecomplexe.zip" dtd="paquet">
+<zip>
+	<file>motpassecomplexe.zip</file>
+	<size>19336</size>
+	<date>1461485042</date>
+	<source>_plugins_/motpassecomplexe/trunk</source>
+	<last_commit>2016-04-24 10:04:01</last_commit>
+</zip>
+<traductions>
+<traduction module="motpassecomplexe" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="motpassecomplexe"
+	categorie="auteur"
+	version="1.1.0"
+	etat="dev"
+	compatibilite="[3.1.1;3.1.*]"
+	logo="prive/themes/spip/images/motpassecomplexe-64.png"
+	documentation="http://contrib.spip.net/4754"
+> 
+
+	<nom>Mot de passe complexe</nom> 
+	<auteur lien='http://www.erational.org'>erational</auteur> 
+	<licence>GNU/GPL</licence>
+
+</paquet>
+<multis>
+<nom>
+<multi>
+[fr]Mot de passe complexe
+</multi>
+</nom>
+<slogan>
+<multi>
+[fr]Exige des mots de passe plus compliqués
+</multi>
+</slogan>
+<description>
+<multi>
+[fr]Renforce la complexité des mots de passe
 </multi>
 </description>
 </multis>
@@ -48459,10 +48509,10 @@ Tag vypíše tag odkazu (<code>a</code>) s týmito parametrami:
 <archive id="porte_plume_codes_informatiques_v2.zip" dtd="paquet">
 <zip>
 	<file>porte_plume_codes_informatiques_v2.zip</file>
-	<size>32406</size>
-	<date>1456031048</date>
+	<size>32446</size>
+	<date>1461384242</date>
 	<source>_plugins_/porte_plume_codes/trunk</source>
-	<last_commit>2016-02-21 05:36:03</last_commit>
+	<last_commit>2016-04-23 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-pp_codes" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/porte_plume_codes/trunk/lang/" reference="fr">
@@ -48495,7 +48545,7 @@ Tag vypíše tag odkazu (<code>a</code>) s týmito parametrami:
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/pp_codes?lang_cible=fr" total="19" traduits="19" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/pp_codes?lang_cible=nl" total="19" traduits="16" relire="0" modifs="0" nouveaux="3" pourcent="84.21">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/pp_codes?lang_cible=nl" total="19" traduits="19" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/pp_codes?lang_cible=ru" total="19" traduits="16" relire="0" modifs="0" nouveaux="3" pourcent="84.21">
@@ -51841,10 +51891,10 @@ Pour raison de sécurité, seul le webmestre a la possibilité de créer et modi
 <archive id="reservation_evenement.zip" dtd="paquet">
 <zip>
 	<file>reservation_evenement.zip</file>
-	<size>188800</size>
-	<date>1460823542</date>
+	<size>188781</size>
+	<date>1461261842</date>
 	<source>_plugins_/reservation_evenement/branches/v1</source>
-	<last_commit>2016-04-16 18:19:02</last_commit>
+	<last_commit>2016-04-21 20:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-reservation_evenement" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/reservation_evenement/trunk/lang/" reference="fr">
@@ -51852,16 +51902,16 @@ Pour raison de sécurité, seul le webmestre a la possibilité de créer et modi
 	</langue>
 </traduction>
 <traduction module="reservation" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/reservation_evenement/trunk/lang/" reference="fr">
-	<langue code="de" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=de" total="155" traduits="94" relire="0" modifs="2" nouveaux="59" pourcent="60.65">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=de" total="156" traduits="94" relire="0" modifs="2" nouveaux="60" pourcent="60.26">
 		<traducteur nom="Rainer Müller" lien="http://trad.spip.net/auteur/rainer-muller" />
 	</langue>
-	<langue code="en" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=en" total="155" traduits="102" relire="0" modifs="2" nouveaux="51" pourcent="65.81">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=en" total="156" traduits="102" relire="0" modifs="2" nouveaux="52" pourcent="65.38">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 		<traducteur nom="Rainer Müller" lien="http://trad.spip.net/auteur/rainer-muller" />
 	</langue>
-	<langue code="fr" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=fr" total="155" traduits="155" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=fr" total="156" traduits="156" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=pt_br" total="155" traduits="93" relire="6" modifs="2" nouveaux="54" pourcent="60.00">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/reservation?lang_cible=pt_br" total="156" traduits="93" relire="6" modifs="2" nouveaux="55" pourcent="59.62">
 		<traducteur nom="telopa" lien="http://trad.spip.net/auteur/telopa" />
 	</langue>
 </traduction>
@@ -51895,7 +51945,7 @@ Pour raison de sécurité, seul le webmestre a la possibilité de créer et modi
 <paquet
 	prefix="reservation_evenement"
 	categorie="date"
-	version="1.21.22"
+	version="1.21.23"
 	etat="test"
 	compatibilite="[3.0.16;3.1.*]"
 	logo="prive/themes/spip/images/reservation_evenement-64.png"
@@ -53564,10 +53614,10 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <archive id="saisies_v2.zip" dtd="paquet">
 <zip>
 	<file>saisies_v2.zip</file>
-	<size>191908</size>
-	<date>1460469842</date>
+	<size>191963</size>
+	<date>1461384242</date>
 	<source>_plugins_/saisies/trunk</source>
-	<last_commit>2016-04-12 16:04:02</last_commit>
+	<last_commit>2016-04-23 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-saisies" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/saisies/trunk/lang/" reference="fr">
@@ -53630,7 +53680,7 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 	</langue>
 	<langue code="it" url="http://trad.spip.net/tradlang_module/saisies?lang_cible=it" total="170" traduits="139" relire="0" modifs="3" nouveaux="28" pourcent="81.76">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/saisies?lang_cible=nl" total="170" traduits="165" relire="0" modifs="0" nouveaux="5" pourcent="97.06">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/saisies?lang_cible=nl" total="170" traduits="170" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 		<traducteur nom="mpossoz" lien="http://trad.spip.net/auteur/mpossoz" />
 	</langue>
@@ -56826,10 +56876,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="sjcycle_v2.zip" dtd="paquet">
 <zip>
 	<file>sjcycle_v2.zip</file>
-	<size>88611</size>
-	<date>1450876158</date>
+	<size>88540</size>
+	<date>1461330242</date>
 	<source>_plugins_/sjcycle/branches/v2</source>
-	<last_commit>2015-01-18 13:24:51</last_commit>
+	<last_commit>2016-04-22 15:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="faq-sjcycle" reference="fr">
@@ -56843,7 +56893,7 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <paquet
 	prefix="sjcycle"
 	categorie="multimedia"
-	version="2.3.1"
+	version="2.3.2"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/sjcycle-32.png"
@@ -61549,10 +61599,10 @@ Currently exist for the following plugins
 <archive id="squirrels_love_chimps_campaigns.zip" dtd="paquet">
 <zip>
 	<file>squirrels_love_chimps_campaigns.zip</file>
-	<size>192603</size>
-	<date>1450876122</date>
+	<size>192641</size>
+	<date>1461266342</date>
 	<source>_plugins_/squirrels_love_chimps_campaigns/branches/2</source>
-	<last_commit>2015-01-04 14:20:14</last_commit>
+	<last_commit>2016-04-21 21:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-squirrel_chimp_campaigns" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/squirrels_love_chimps_campaigns/trunk/lang/" reference="fr">
@@ -61578,7 +61628,7 @@ Currently exist for the following plugins
 <paquet
 	prefix="squirrel_chimp_campaigns"
 	categorie="communication"
-	version="2.0.2"
+	version="2.0.3"
 	etat="test"
 	compatibilite="[2.0.14;3.1.*]"
 	logo="prive/themes/spip/images/logo_slc_campaigns.png"
@@ -62280,10 +62330,10 @@ _ <code>svn://zone.spip.org/spip-zone/_plugins_/_stable_/cfg plugins/cfg</code>
 <archive id="svp_stats.zip" dtd="paquet">
 <zip>
 	<file>svp_stats.zip</file>
-	<size>26911</size>
-	<date>1461085442</date>
+	<size>28245</size>
+	<date>1461384242</date>
 	<source>_plugins_/svp_stats/trunk</source>
-	<last_commit>2016-04-19 19:04:02</last_commit>
+	<last_commit>2016-04-23 06:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-svpstats" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/svp_stats/trunk/lang/" reference="fr">
@@ -62294,6 +62344,9 @@ _ <code>svn://zone.spip.org/spip-zone/_plugins_/_stable_/cfg plugins/cfg</code>
 		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-svpstats?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-svpstats?lang_cible=nl" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/paquet-svpstats?lang_cible=sk" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
@@ -62307,6 +62360,9 @@ _ <code>svn://zone.spip.org/spip-zone/_plugins_/_stable_/cfg plugins/cfg</code>
 		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/svpstats?lang_cible=fr" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/svpstats?lang_cible=nl" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/svpstats?lang_cible=sk" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
@@ -62345,6 +62401,7 @@ _ <code>svn://zone.spip.org/spip-zone/_plugins_/_stable_/cfg plugins/cfg</code>
 [en]SVP module to manage the usage statistics of the plugins
 [es]Módulo SVP de gestión de estadísticas de uso de los plugins
 [fr]Module SVP de gestion des statistiques d’utilisation des plugins
+[nl]SVP module voor het beheer van statistieken over het gebruik van plugins
 [sk]Modul SVP na správu štatistík využívania zásuvných modulov
 </multi>
 </slogan>
@@ -62359,6 +62416,9 @@ Estas estadísticas son resultado del sitio <a href="http://stats.spip.org">stat
 [fr]Ce plugin est un module optionnel de SVP. 
 _ Il permet d’acquérir, de mettre à jour et de restituer les statistiques d’utilisation des plugins SPIP sur le net. 
 Ces statistiques sont issues du site <a href="http://stats.spip.org">stats.spip.org</a>.
+[nl]Deze plugin is een optionele module van SVP. 
+_ Je kunt ermee de gebruiksgegevens van SPIP plugins verzamelen, updaten en terugzetten. 
+Deze statistieken komen van de site <a href="http://stats.spip.org">stats.spip.org</a>.
 [sk]Tento zásuvný modul je nepovinným modulom SVP.
  _ Umožňuje vám zistiť, aktualizovať a vypísať štatistiky využívania zásuvných modulov SPIPu na internete.
  Tieto štatistiky pochádzajú zo stránky <a href="http://stats.spip.org">stats.spip.org.</a>
@@ -63716,10 +63776,10 @@ Thumbsites fournit un syst&#232;me de capture d'&#233;cran de site g&#233;n&#233
 <archive id="tickets_v3.zip" dtd="paquet">
 <zip>
 	<file>tickets_v3.zip</file>
-	<size>161658</size>
-	<date>1451235910</date>
+	<size>161440</size>
+	<date>1461333842</date>
 	<source>_plugins_/tickets/trunk</source>
-	<last_commit>2015-12-27 18:02:23</last_commit>
+	<last_commit>2016-04-22 16:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tickets" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tickets/trunk/lang/" reference="fr">
@@ -63770,7 +63830,7 @@ Thumbsites fournit un syst&#232;me de capture d'&#233;cran de site g&#233;n&#233
 <paquet
 	prefix="tickets"
 	categorie="divers"
-	version="4.0.9"
+	version="4.0.11"
 	etat="stable"
 	compatibilite="[3.0.15;3.1.*]"
 	logo="imgs/logo-bugs.png"
@@ -66371,10 +66431,10 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 <archive id="verifier.zip" dtd="paquet">
 <zip>
 	<file>verifier.zip</file>
-	<size>81976</size>
-	<date>1456031048</date>
+	<size>85336</size>
+	<date>1461384244</date>
 	<source>_plugins_/verifier</source>
-	<last_commit>2016-02-21 05:36:47</last_commit>
+	<last_commit>2016-04-23 06:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-verifier" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/verifier/lang/" reference="fr">
@@ -66391,6 +66451,9 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 	</langue>
 	<langue code="fr_tu" url="http://trad.spip.net/tradlang_module/paquet-verifier?lang_cible=fr_tu" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Cerf" lien="http://trad.spip.net/auteur/cerf" />
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-verifier?lang_cible=nl" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/paquet-verifier?lang_cible=ru" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
@@ -66429,6 +66492,9 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 	</langue>
 	<langue code="it" url="http://trad.spip.net/tradlang_module/verifier?lang_cible=it" total="117" traduits="66" relire="0" modifs="4" nouveaux="47" pourcent="56.41">
 		<traducteur nom="Cap" lien="http://trad.spip.net/auteur/cap" />
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/verifier?lang_cible=nl" total="117" traduits="117" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/verifier?lang_cible=pt_br" total="117" traduits="66" relire="0" modifs="4" nouveaux="47" pourcent="56.41">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
@@ -66473,6 +66539,7 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 [es]API de verificación
 [fr]API de vérification
 [fr_tu]API de vérification
+[nl]Verificatie API
 [ru]API для валидации данных (verifier)
 [sk]Aplikácia na overenie
 </multi>
@@ -66484,6 +66551,7 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 [es]Una API genérica para verificar un valor
 [fr]Une API générique pour vérifier une valeur
 [fr_tu]Une API générique pour vérifier une valeur
+[nl]Een generieke API om een waarde te controleren
 [ru]Плагин обеспечивает API для валидации данных. Необходим для работы многих плагинов.
 [sk]Spoločná aplikácia na overenie hodnoty
 </multi>
@@ -66495,6 +66563,7 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 [es]Proporciona una función única <code>verifier($valeur, $type, $options, &$valeur_normalisee)</code> para probar la validez de un valor
 [fr]Fournit une fonction unique <code>verifier($valeur, $type, $options, &$valeur_normalisee)</code> permettant de tester la validité d’une valeur.
 [fr_tu]Fournit une fonction unique <code>verifier($valeur, $type, $options, &$valeur_normalisee)</code> permettant de tester la validité d’une valeur.
+[nl]Levert de functie <code>verifier($waarde, $type, $opties, &$valeur_normalisee)</code> om de geldigheid van een waarde te controleren.
 [ru]Позволяет использовать функцию <code>verifier($valeur, $type, $options, &$valeur_normalisee)</code> для проверки данных на соответствие заданному формату.
 [sk]Poskytuje jedinečnú funkciu <code>verifier($hodnota, $typ, $podmienky),</code> ktorá umožňuje otestovať platnosť hodnoty.
 </multi>
@@ -66784,10 +66853,10 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 <archive id="videos_31.zip" dtd="paquet">
 <zip>
 	<file>videos_31.zip</file>
-	<size>338234</size>
-	<date>1460127842</date>
+	<size>338226</size>
+	<date>1461258244</date>
 	<source>_plugins_/videos/trunk</source>
-	<last_commit>2016-04-08 17:04:02</last_commit>
+	<last_commit>2016-04-21 19:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-videos" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/videos/trunk/lang/" reference="fr">
@@ -68872,10 +68941,10 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 <archive id="zotspip_v2.zip" dtd="paquet">
 <zip>
 	<file>zotspip_v2.zip</file>
-	<size>324066</size>
-	<date>1457931842</date>
+	<size>324174</size>
+	<date>1461510242</date>
 	<source>_plugins_/zotspip/trunk</source>
-	<last_commit>2016-03-14 05:33:06</last_commit>
+	<last_commit>2016-04-24 17:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-zotspip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/zotspip/trunk/lang/" reference="fr">
@@ -68911,7 +68980,7 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 <paquet
 	prefix="zotspip"
 	categorie="edition"
-	version="3.4.4"
+	version="3.4.5"
 	etat="stable"
 	compatibilite="[3.0.0;3.0.*]"
 	logo="prive/themes/spip/images/zotspip-48.png"
@@ -69992,10 +70061,10 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <archive id="escal_V3.zip" dtd="paquet">
 <zip>
 	<file>escal_V3.zip</file>
-	<size>1285291</size>
-	<date>1460837042</date>
+	<size>1289217</size>
+	<date>1461344642</date>
 	<source>_squelettes_/escal/branche_V3</source>
-	<last_commit>2016-04-16 22:04:01</last_commit>
+	<last_commit>2016-04-22 19:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="escal" reference="fr">
@@ -70015,8 +70084,8 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <paquet
     prefix="escal"
     categorie="squelette"
-    version="3.84.33"
-    schema="1.0.7"
+    version="3.84.34"
+    schema="1.0.8"
     etat="stable"
     compatibilite="[3.0.0;3.1.*]"
     logo="images/escal32.png"
@@ -73306,10 +73375,10 @@ Pour disposer d'un site SPIP incluant des fonctions génériques, largement conf
 <archive id="spipr_blog.zip" dtd="paquet">
 <zip>
 	<file>spipr_blog.zip</file>
-	<size>39949</size>
-	<date>1460718242</date>
+	<size>39967</size>
+	<date>1461316742</date>
 	<source>_squelettes_/spipr-blog/trunk</source>
-	<last_commit>2016-04-15 13:04:01</last_commit>
+	<last_commit>2016-04-22 11:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="public" reference="fr">
@@ -73321,7 +73390,7 @@ Pour disposer d'un site SPIP incluant des fonctions génériques, largement conf
 <paquet
 	prefix="spipr_blog"
 	categorie="squelette"
-	version="0.4.15"
+	version="0.4.16"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="spipr_blog-32.png"
