@@ -5053,13 +5053,13 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 
 </archive>
 
-<archive id="article_pdf_2_0.zip" dtd="plugin">
+<archive id="article_pdf_2_0.zip" dtd="paquet">
 <zip>
 	<file>article_pdf_2_0.zip</file>
-	<size>153875</size>
-	<date>1451232252</date>
+	<size>155736</size>
+	<date>1461848642</date>
 	<source>_plugins_/article_pdf</source>
-	<last_commit>2015-12-27 16:24:41</last_commit>
+	<last_commit>2016-04-28 15:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="articlepdf" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/article_pdf/lang/" reference="fr">
@@ -5085,37 +5085,49 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 </traduction>
 </traductions>
 
-<plugin>
-	<nom>
-		<multi>
-		[fr]Article PDF
-		[de]PDF Artikel
-		</multi>
-	</nom>
-	<slogan>Convertir l'article affich&#233; au format pdf</slogan>
-	<auteur>[chag->http://contrib.spip.net/_chag_], [Paul Sanches->http://contrib.spip.net/_Paul-Sanches_], [Aquinatus->http://contrib.spip.net/_Aquinatus_], [C&#233;dric Morin->http://www.notre-ville.net]</auteur>
-	<version>0.4.7</version>
-	<etat>stable</etat>
-	<description>
-		<multi>
-		[fr]Conversion d'un article au format pdf pour t&#233;l&#233;chargement. N&#233;cessite GD2 sur votre serveur et le t&#233;l&#233;chargement et installation de la librairie FPDF dans le r&#233;pertoire lib
+<paquet
+	prefix="article_pdf"
+	categorie="edition"
+	version="0.4.8"
+	etat="stable"
+	compatibilite="[2.0.0;3.1.*]"
+	logo="prive/themes/spip/images/article_pdf-64.png"
+	documentation="http://contrib.spip.net/Article-PDF,2226"
+>	
 
-Ins&#233;rez la balise <code>#ARTICLE_PDF</code> dans votre squelette pour avoir un lien de t&#233;l&#233;chargement de l'article au format PDF
-		[de]Konvertierung eines Artikels in das PDF Format zum herunterladen. Ben&#246;tigt GD2 auf Ihrem Server
+	<nom>Article PDF</nom>
+	<!-- Convertir l'article affiché au format pdf -->
 
-F&#252;gen Sie den Tag <code>#ARTICLE_PDF</code> in Ihr Skelett ein um &#252;ber einen Link zum Herunterladen des Artikels im PDF Format zu verf&#252;gen
-		</multi>
-	</description>
-	<lien>http://contrib.spip.net/Article-PDF,2226</lien>
-	<icon>prive/themes/spip/images/article_pdf-64.png</icon>
-	<options>article_pdf_mes_options.php</options>
-	<fonctions>article_pdf_mes_fonctions.php</fonctions>
-	<prefix>article_pdf</prefix>
-	<categorie>edition</categorie>
-	<necessite id="SPIP" version='[2.0.0;3.1.99]' />
-	<necessite id="lib:h5c1accba-fpdf17" src="http://www.fpdf.org/fr/download/fpdf17.zip" />
-</plugin>
+	<auteur lien="http://contrib.spip.net/_chag_">chag</auteur>
+	<auteur lien="http://contrib.spip.net/_Paul-Sanches_">Paul Sanches</auteur>
+	<auteur lien="http://contrib.spip.net/_Aquinatus_">Aquinatus</auteur>
+	<auteur lien="http://www.notre-ville.net">Cédric Morin</auteur>
 
+	<lib nom="h5c1accba-fpdf17" lien="http://www.fpdf.org/fr/download/fpdf17.zip" />
+</paquet>
+<multis>
+<nom>
+<multi>
+[de]PDF Artikel
+[fr]Article PDF
+</multi>
+</nom>
+<slogan>
+<multi>
+[fr]Convertir l'article affiché au format pdf
+</multi>
+</slogan>
+<description>
+<multi>
+[de]Konvertierung eines Artikels in das PDF Format zum herunterladen. Benötigt GD2 auf Ihrem Server
+
+Fügen Sie den Tag <code>#ARTICLE_PDF</code> in Ihr Skelett ein um über einen Link zum Herunterladen des Artikels im PDF Format zu verfügen
+[fr]Conversion d'un article au format pdf pour téléchargement. Nécessite GD2 sur votre serveur et le téléchargement et installation de la librairie FPDF dans le répertoire lib
+
+Insérez la balise <code>#ARTICLE_PDF</code> dans votre squelette pour avoir un lien de téléchargement de l'article au format PDF
+</multi>
+</description>
+</multis>
 
 
 </archive>
@@ -5523,10 +5535,10 @@ F&#252;gen Sie den Tag <code>#ARTICLE_PDF</code> in Ihr Skelett ein um &#252;ber
 <archive id="auteurs_partout.zip" dtd="paquet">
 <zip>
 	<file>auteurs_partout.zip</file>
-	<size>33284</size>
-	<date>1453885442</date>
+	<size>33295</size>
+	<date>1461777542</date>
 	<source>_plugins_/auteurs_partout/trunk</source>
-	<last_commit>2016-01-27 10:00:48</last_commit>
+	<last_commit>2016-04-27 19:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="auteurspartout" reference="fr">
@@ -5536,7 +5548,7 @@ F&#252;gen Sie den Tag <code>#ARTICLE_PDF</code> in Ihr Skelett ein um &#252;ber
 <paquet
 	prefix="auteurspartout"
 	categorie="edition"
-	version="0.1.1"
+	version="0.1.2"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/auteurspartout-64.png"
@@ -6715,16 +6727,16 @@ Enfin, la campagne s'affiche pendant la p&#233;riode que vous d&#233;finissez da
 <archive id="bigfoot.zip" dtd="paquet">
 <zip>
 	<file>bigfoot.zip</file>
-	<size>18959</size>
-	<date>1450876164</date>
+	<size>18951</size>
+	<date>1461939542</date>
 	<source>_plugins_/bigfoot</source>
-	<last_commit>2015-07-03 14:22:10</last_commit>
+	<last_commit>2016-04-29 16:19:01</last_commit>
 </zip>
 
 <paquet
 	prefix="bigfoot"
 	categorie="divers"
-	version="1.0.1"
+	version="1.0.2"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="bigfoot-128.png"
@@ -7272,6 +7284,54 @@ Inclue hashgrid.
 </multi>
 </description>
 </multis>
+
+
+</archive>
+
+<archive id="bootstrap3.zip" dtd="paquet">
+<zip>
+	<file>bootstrap3.zip</file>
+	<size>405093</size>
+	<date>1456149842</date>
+	<source>_plugins_/bootstrap/trunk</source>
+	<last_commit>2016-02-22 14:47:52</last_commit>
+</zip>
+<traductions>
+<traduction module="charter" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="bootstrap3"
+	categorie="outil"
+	version="3.0.6"
+	etat="test"
+	compatibilite="[3.0.2;3.1.*]"
+	logo="img/bootstrap-32.png"
+	documentation="http://spipr.nursit.com/bootstrap"
+>
+
+	<nom>Bootstrap 3</nom>
+
+	<auteur lien='http://www.nursit.com'>Cedric Morin</auteur>
+	<auteur lien='http://www.studiomaiis.net'>Pierre Basson</auteur>
+	<credit lien='http://getbootstrap.com'>twbs/bootstrap v3.3.5</credit>
+	<credit lien='http://hashgrid.com/'>dotjay/hashgrid</credit>
+
+	<licence>GNU/GPL</licence>
+
+	<pipeline nom="affichage_final" inclure="bootstrap3_fonctions.php" />
+
+	<necessite nom="lesscss" compatibilite="[1.0.0;1.*.*]" />
+	<necessite nom="jquery" compatibilite="[1.9.1;]" />
+	<procure nom="bootstrap" version="3.3.6" />
+
+	<chemin path="bootstrap" type="public" />
+	<chemin path="bootstrap2spip" type="public" />
+	<chemin path="" />
+
+</paquet>
+
 
 
 </archive>
@@ -13606,10 +13666,10 @@ Plugin développé dans le cadre du gestionnaire de projets [SPIPMINE->http://co
 <archive id="cookiechoices_3_0.zip" dtd="paquet">
 <zip>
 	<file>cookiechoices_3_0.zip</file>
-	<size>17838</size>
-	<date>1450876156</date>
+	<size>17773</size>
+	<date>1461740642</date>
 	<source>_plugins_/cookiechoices/trunk</source>
-	<last_commit>2015-09-08 14:29:35</last_commit>
+	<last_commit>2016-04-27 09:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="cookiechoices" reference="fr">
@@ -15863,10 +15923,10 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <archive id="curator.zip" dtd="paquet">
 <zip>
 	<file>curator.zip</file>
-	<size>18859</size>
-	<date>1450876172</date>
+	<size>18303</size>
+	<date>1461834242</date>
 	<source>_plugins_/curator</source>
-	<last_commit>2015-11-02 14:12:38</last_commit>
+	<last_commit>2016-04-28 11:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="curator" reference="fr">
@@ -15876,8 +15936,8 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <paquet
 	prefix="curator"
 	categorie="edition"
-	version="1.0.5"
-	etat="dev"
+	version="1.1.0"
+	etat="test"
 	compatibilite="[3.0.0;3.*.*]"
 	logo="prive/themes/spip/images/curator-64.png"
 	documentation="http://ydikoi.net/706"
@@ -15896,6 +15956,7 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 	<pipeline nom="autoriser" inclure="curator_autorisations.php" />
 	
 	<necessite nom="etiquettes" compatibilite="[2.2.0;]" />
+	<necessite nom="spip_bonux" compatibilite="[3.0.0;[" />
 
 </paquet>
 <multis>
@@ -15911,8 +15972,7 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 </slogan>
 <description>
 <multi>
-[fr]Utilise un bookmarklet pour référencer automatiquement une page web comme article.<br/>
-	Appeler <a href='?exec=curator' target='_blank'>cette page</a> et glisser le lien dans votre barre d'outil
+[fr]Utilise un bookmarklet pour référencer automatiquement une page web comme article.
 </multi>
 </description>
 </multis>
@@ -21848,10 +21908,10 @@ On peut aussi configurer pour que que si l'id principal du nom de boucle est pas
 <archive id="exclure_secteur_2.zip" dtd="paquet">
 <zip>
 	<file>exclure_secteur_2.zip</file>
-	<size>14327</size>
-	<date>1456315444</date>
+	<size>14333</size>
+	<date>1461949442</date>
 	<source>_plugins_/exclure_secteur/trunk</source>
-	<last_commit>2016-02-24 12:42:16</last_commit>
+	<last_commit>2016-04-29 19:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="exclure_sect" reference="fr">
@@ -21861,7 +21921,7 @@ On peut aussi configurer pour que que si l'id principal du nom de boucle est pas
 <paquet
 	prefix="exclure_sect"
 	categorie="outil"
-	version="2.0.8"
+	version="2.0.9"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/exclure_secteur.jpg"
@@ -22253,10 +22313,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facteur-3.0.zip" dtd="paquet">
 <zip>
 	<file>facteur-3.0.zip</file>
-	<size>226883</size>
-	<date>1461470642</date>
+	<size>226912</size>
+	<date>1461751442</date>
 	<source>_plugins_/facteur/trunk</source>
-	<last_commit>2016-04-24 06:04:01</last_commit>
+	<last_commit>2016-04-27 12:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="facteur" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/facteur/trunk/lang/" reference="fr">
@@ -22292,7 +22352,8 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 	<langue code="oc_ni_mis" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=oc_ni_mis" total="52" traduits="43" relire="0" modifs="7" nouveaux="2" pourcent="82.69">
 		<traducteur nom="sylvain" lien="http://trad.spip.net/auteur/sylvain" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=pt_br" total="52" traduits="45" relire="0" modifs="6" nouveaux="1" pourcent="86.54">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=pt_br" total="52" traduits="52" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="placido" lien="http://trad.spip.net/auteur/placido" />
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=sk" total="52" traduits="45" relire="0" modifs="6" nouveaux="1" pourcent="86.54">
@@ -22330,7 +22391,7 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <paquet
 	prefix="facteur"
 	categorie="communication"
-	version="3.4.0"
+	version="3.4.1"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/facteur-32.png"
@@ -27170,10 +27231,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis4.zip" dtd="paquet">
 <zip>
 	<file>gis4.zip</file>
-	<size>268074</size>
-	<date>1461276242</date>
+	<size>268209</size>
+	<date>1461776642</date>
 	<source>_plugins_/gis/trunk</source>
-	<last_commit>2016-04-22 00:04:01</last_commit>
+	<last_commit>2016-04-27 19:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="gis" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis/trunk/lang/" reference="fr">
@@ -27230,7 +27291,7 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <paquet
 	prefix="gis"
 	categorie="divers"
-	version="4.36.3"
+	version="4.36.4"
 	schema="2.1.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
@@ -30832,10 +30893,10 @@ Ce plugin est toutefois autonome.
 <archive id="inscription3.zip" dtd="paquet">
 <zip>
 	<file>inscription3.zip</file>
-	<size>168294</size>
-	<date>1459361942</date>
+	<size>168312</size>
+	<date>1461614642</date>
 	<source>_plugins_/inscription/trunk</source>
-	<last_commit>2016-03-30 20:19:02</last_commit>
+	<last_commit>2016-04-25 22:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="inscription3" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/inscription/trunk/lang/" reference="fr">
@@ -30913,17 +30974,17 @@ Ce plugin est toutefois autonome.
 	<pipeline nom="openid_inscrire_redirect" inclure="inscription3_pipelines.php" />
 	<pipeline nom="post_edition" inclure="inscription3_pipelines.php" />
 
-	<necessite nom="saisies" compatibilite="[1.36.0;[" />
-	<necessite nom="cextras" compatibilite="[1.4.3;[" />
-	<necessite nom="verifier" compatibilite="[0.1.18;[" />
+	<necessite nom="saisies" compatibilite="[2.0.0;]" />
+	<necessite nom="cextras" compatibilite="[3.4.1;]" />
+	<necessite nom="verifier" compatibilite="[1.0.5;]" />
 
 	<lib nom="jquery-validation-1.10.0" lien="https://github.com/downloads/jzaefferer/jquery-validation/jquery-validation-1.10.0.zip" />
 
-	<utilise nom="Z" />
-	<utilise nom="mediabox" />
-	<utilise nom="pages" />
-	<utilise nom="notifications" />
-	<utilise nom="openid" compatibilite="[1.1.11;[" />
+	<utilise nom="Z" compatibilite="[1.7.28;]" />
+	<utilise nom="mediabox" compatibilite="[1.0.1;]" />
+	<utilise nom="pages" compatibilite="[1.2.2;]" />
+	<utilise nom="notifications" compatibilite="[3.2.0;]" />
+	<utilise nom="openid" compatibilite="[2.0.0;[" />
 
 	<menu nom="inscription3_adherents" titre="inscription3:icone_afficher_utilisateurs" parent="menu_activite" icone="images/inscription3-16.png" action="inscription3_adherents" />
 	<menu nom="configurer_inscription3" titre="inscription3:icone_configurer_inscription3" parent="menu_configuration" icone="images/inscription3-16.png" action="configurer_inscription3" />
@@ -31387,10 +31448,10 @@ lors de leur inscription et de la modification de leur profil.
 <archive id="introduction_distinguante.zip" dtd="plugin">
 <zip>
 	<file>introduction_distinguante.zip</file>
-	<size>3131</size>
-	<date>1450876154</date>
+	<size>3105</size>
+	<date>1461614642</date>
 	<source>_plugins_/introduction_distinguante</source>
-	<last_commit>2015-01-18 13:24:51</last_commit>
+	<last_commit>2016-04-25 22:04:02</last_commit>
 </zip>
 
 <plugin>
@@ -31399,15 +31460,15 @@ lors de leur inscription et de la modification de leur profil.
 	<version>0.1.2</version>
 	<auteur>[Maïeul Rouquette->http://www.maieul.net]</auteur>
 	<licence>GNU/GPL</licence>
-    <prefix>introduction_distinguante</prefix>
+	<prefix>introduction_distinguante</prefix>
 	<slogan>Ne mélangez pas le chapeau et le texte.</slogan>
 	<description>
-     Fournit une balise <code>#INTRODUCTION_DISTINGUANTE</code> qui fonctionne comme <code>#INTRODUCTION</code> mais entoure la partie provenante du chapo par un <code>span.introduction-chapo</code> et celle provenant du texte par un <code>span.introduction-texte</code>.
-    </description>
-    <necessite id="SPIP" version="[2.0.0;3.1.99]" />
-    <fonctions>introduction_distinguante_fonctions.php</fonctions>
-    <lien>http://contrib.spip.net/4449</lien>
-    <categorie>outil</categorie>
+	Fournit une balise <code>#INTRODUCTION_DISTINGUANTE</code> qui fonctionne comme <code>#INTRODUCTION</code> mais entoure la partie provenante du chapo par un <code>span.introduction-chapo</code> et celle provenant du texte par un <code>span.introduction-texte</code>.
+	</description>
+	<necessite id="SPIP" version="[2.0.0;3.1.99]" />
+	<fonctions>introduction_distinguante_fonctions.php</fonctions>
+	<lien>http://contrib.spip.net/4449</lien>
+	<categorie>outil</categorie>
 </plugin>
 
 
@@ -33521,10 +33582,10 @@ It's possible to let the visitor choose it's own preferred language, that may be
 <archive id="lecteur_multimedia-2.zip" dtd="paquet">
 <zip>
 	<file>lecteur_multimedia-2.zip</file>
-	<size>509971</size>
-	<date>1456507142</date>
+	<size>510051</size>
+	<date>1461675842</date>
 	<source>_plugins_/player/trunk</source>
-	<last_commit>2016-02-26 18:08:24</last_commit>
+	<last_commit>2016-04-26 15:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-player" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/player/trunk/lang/" reference="fr">
@@ -33582,7 +33643,7 @@ It's possible to let the visitor choose it's own preferred language, that may be
 <paquet
 	prefix="player"
 	categorie="multimedia"
-	version="2.7.8"
+	version="2.7.9"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/player-32.png"
@@ -33868,6 +33929,58 @@ Ce plugin compile &#224; la vol&#233;e tous les fichiers .less.css ou .less du s
 	<necessite id="SPIP" version="[2.1.0;3.1.99]" />
 </plugin>
 
+
+
+</archive>
+
+<archive id="levenshtein.zip" dtd="paquet">
+<zip>
+	<file>levenshtein.zip</file>
+	<size>17181</size>
+	<date>1461607442</date>
+	<source>_plugins_/levenshtein/trunk</source>
+	<last_commit>2016-04-25 20:04:01</last_commit>
+</zip>
+<traductions>
+<traduction module="levenshtein" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="levenshtein"
+	categorie="navigation"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.1.0;3.1.*]"
+	logo="prive/themes/spip/images/levenshtein-64.png"
+	documentation=""
+	schema="1.0.0"
+>
+	<nom>Levenshtein</nom>
+
+	<auteur lien='http://p.henix.be'>Phenix</auteur>
+
+	<licence>GNU/GPL</licence>
+
+	<necessite nom="vocabulaire" compatibilite="[1.0.0;]" />
+</paquet>
+<multis>
+<nom>
+<multi>
+[fr]Levenshtein
+</multi>
+</nom>
+<slogan>
+<multi>
+[fr]
+</multi>
+</slogan>
+<description>
+<multi>
+[fr]
+</multi>
+</description>
+</multis>
 
 
 </archive>
@@ -34238,10 +34351,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="lim.zip" dtd="paquet">
 <zip>
 	<file>lim.zip</file>
-	<size>62045</size>
-	<date>1460534642</date>
+	<size>62049</size>
+	<date>1461744242</date>
 	<source>_plugins_/lim/trunk</source>
-	<last_commit>2016-04-13 10:04:01</last_commit>
+	<last_commit>2016-04-27 10:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="lim" reference="fr">
@@ -34251,7 +34364,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="lim"
 	categorie="maintenance"
-	version="1.1.13"
+	version="1.1.14"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/lim-64.png"
@@ -34409,10 +34522,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="links.zip" dtd="plugin">
 <zip>
 	<file>links.zip</file>
-	<size>19940</size>
-	<date>1450876162</date>
+	<size>19852</size>
+	<date>1461711842</date>
 	<source>_plugins_/links</source>
-	<last_commit>2015-09-14 17:17:31</last_commit>
+	<last_commit>2016-04-27 01:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="links" reference="fr">
@@ -34422,73 +34535,42 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 </traductions>
 
 <plugin>
-<nom>Liens explicites</nom>
-<slogan>Styles et pictos explicitant les liens du site</slogan>
-<icon>prive/themes/spip/images/links.png</icon>
-<description>
-	<multi>
-		[fr]Styles et pictos explicitant les liens du site : documents &#224; t&#233;l&#233;charger, liens externes, mailto, etc. (avec ouverture possible en nouvelle fen&#234;tre).
-	</multi>
-</description>
-<lien>http://contrib.spip.net/?article3706</lien>
-<auteur>[Tetue->http://spip.tetue.net], C&#233;dric Morin et Gael Chareyre</auteur>
-<licence>GPL 2011</licence>
-<version>2.3.12</version>
-<etat>stable</etat>
-<prefix>links</prefix>
-<fonctions>links_fonctions.php</fonctions>
-<necessite id='SPIP' version='[2.0.0;2.1.99]' />
-<necessite id="spip_bonux" version="[2.2.18;]" />
-<pipeline>
-	<nom>insert_head_css</nom>
-	<inclure>links_pipelines.php</inclure>
-</pipeline>
-<pipeline>
-	<nom>insert_head</nom>
-	<inclure>links_pipelines.php</inclure>
-</pipeline>
-<bouton id='links' parent='bando_squelette'>
-	<icone>images/links-16.png</icone>
-	<titre>links:titre_menu_liens</titre>
-	<url>configurer_links</url>
-</bouton>
-<onglet id="links" parent="configuration">
-	<icone>prive/themes/spip/images/links-16.png</icone>
-	<titre>links:titre_menu_liens</titre>
-	<url>configurer_links</url>
-</onglet>
-<categorie>navigation</categorie>
-</plugin>
-<plugin spip="[3.0.0;3.1.99]">
-<nom>Liens explicites</nom>
-<slogan>Styles et pictos explicitant les liens du site</slogan>
-<icon>prive/themes/spip/images/links.png</icon>
-<description>
-	<multi>
-		[fr]Styles et pictos explicitant les liens du site : documents &#224; t&#233;l&#233;charger, liens externes, mailto, etc. (avec ouverture possible en nouvelle fen&#234;tre).
-	</multi>
-</description>
-<lien>http://contrib.spip.net/?article3706</lien>
-<auteur>[Tetue->http://spip.tetue.net], C&#233;dric Morin et Gael Chareyre</auteur>
-<licence>GPL 2011</licence>
-<version>2.3.12</version>
-<etat>stable</etat>
-<prefix>links</prefix>
-<fonctions>links_fonctions.php</fonctions>
-<bouton id='links' parent='bando_squelette'>
-	<icone>images/links-16.png</icone>
-	<titre>links:titre_menu_liens</titre>
-	<url>configurer_links</url>
-</bouton>
-<pipeline>
-	<nom>insert_head_css</nom>
-	<inclure>links_pipelines.php</inclure>
-</pipeline>
-<pipeline>
-	<nom>insert_head</nom>
-	<inclure>links_pipelines.php</inclure>
-</pipeline>
-<categorie>navigation</categorie>
+	<nom>Liens explicites</nom>
+	<slogan>Styles et pictos explicitant les liens du site</slogan>
+	<icon>prive/themes/spip/images/links.png</icon>
+	<description>
+		<multi>
+			[fr]Styles et pictos explicitant les liens du site : documents &#224; t&#233;l&#233;charger, liens externes, mailto, etc. (avec ouverture possible en nouvelle fen&#234;tre).
+		</multi>
+	</description>
+	<lien>http://contrib.spip.net/?article3706</lien>
+	<auteur>[Tetue->http://spip.tetue.net], C&#233;dric Morin et Gael Chareyre</auteur>
+	<licence>GPL 2011-2016</licence>
+	<version>2.3.13</version>
+	<etat>stable</etat>
+	<prefix>links</prefix>
+	<fonctions>links_fonctions.php</fonctions>
+	<necessite id='SPIP' version='[2.0.0;3.1.99]' />
+	<necessite id="spip_bonux" version="[2.2.18;]" />
+	<pipeline>
+		<nom>insert_head_css</nom>
+		<inclure>links_pipelines.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>insert_head</nom>
+		<inclure>links_pipelines.php</inclure>
+	</pipeline>
+	<bouton id='links' parent='bando_squelette'>
+		<icone>images/links-16.png</icone>
+		<titre>links:titre_menu_liens</titre>
+		<url>configurer_links</url>
+	</bouton>
+	<onglet id="links" parent="configuration">
+		<icone>prive/themes/spip/images/links-16.png</icone>
+		<titre>links:titre_menu_liens</titre>
+		<url>configurer_links</url>
+	</onglet>
+	<categorie>navigation</categorie>
 </plugin>
 
 
@@ -35929,10 +36011,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailshot-v1.zip" dtd="paquet">
 <zip>
 	<file>mailshot-v1.zip</file>
-	<size>112675</size>
-	<date>1461431942</date>
+	<size>113696</size>
+	<date>1461852242</date>
 	<source>_plugins_/mailshot/trunk</source>
-	<last_commit>2016-04-23 19:19:01</last_commit>
+	<last_commit>2016-04-28 16:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="mailshot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailshot/trunk/lang/" reference="fr">
@@ -35970,7 +36052,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="mailshot"
 	categorie="communication"
-	version="1.16.1"
+	version="1.17.0"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/mailshot-32.png"
@@ -36027,24 +36109,24 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailsubscribers-v1.zip" dtd="paquet">
 <zip>
 	<file>mailsubscribers-v1.zip</file>
-	<size>122114</size>
-	<date>1458795844</date>
+	<size>122158</size>
+	<date>1461989042</date>
 	<source>_plugins_/mailsubscribers/trunk</source>
-	<last_commit>2016-03-24 06:04:03</last_commit>
+	<last_commit>2016-04-30 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="mailsubscriber" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailsubscribers/trunk/lang/" reference="fr">
-	<langue code="de" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=de" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=de" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
 		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
 	</langue>
-	<langue code="en" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=en" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=en" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=fr" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=nl" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=nl" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=pt_br" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=pt_br" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
 		<traducteur nom="placido" lien="http://trad.spip.net/auteur/placido" />
 	</langue>
 </traduction>
@@ -36086,7 +36168,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="mailsubscribers"
 	categorie="communication"
-	version="1.7.11"
+	version="1.7.12"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/mailsubscriber-32.png"
@@ -36389,10 +36471,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="massicot.zip" dtd="paquet">
 <zip>
 	<file>massicot.zip</file>
-	<size>362544</size>
-	<date>1457301842</date>
+	<size>362661</size>
+	<date>1461956642</date>
 	<source>_plugins_/massicot/trunk</source>
-	<last_commit>2016-03-06 22:45:38</last_commit>
+	<last_commit>2016-04-29 21:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="massicot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/massicot/trunk/lang/" reference="fr">
@@ -36408,7 +36490,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
     prefix="massicot"
     categorie="multimedia"
-    version="0.4.5"
+    version="0.4.8"
     etat="test"
     compatibilite="[3.0.17;3.1.*]"
     logo="prive/themes/spip/images/massicot-48.png"
@@ -42057,10 +42139,10 @@ Once the necessary plugins are activated, simply determine the language of the s
 <archive id="newsletters-v1.zip" dtd="paquet">
 <zip>
 	<file>newsletters-v1.zip</file>
-	<size>149765</size>
-	<date>1460693042</date>
+	<size>150051</size>
+	<date>1461596642</date>
 	<source>_plugins_/newsletters/trunk</source>
-	<last_commit>2016-04-15 06:04:02</last_commit>
+	<last_commit>2016-04-25 17:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="newsletter" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk/lang/" reference="fr">
@@ -42132,7 +42214,7 @@ Once the necessary plugins are activated, simply determine the language of the s
 <paquet
 	prefix="newsletters"
 	categorie="communication"
-	version="1.3.20"
+	version="1.3.24"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/newsletters-64.png"
@@ -48764,10 +48846,10 @@ Pridáva aj skratku <code>[->ecrire/inc_versions.php#trac].</code>
 <archive id="icones_semantiques.zip" dtd="plugin">
 <zip>
 	<file>icones_semantiques.zip</file>
-	<size>55248</size>
-	<date>1455818642</date>
+	<size>55249</size>
+	<date>1461611042</date>
 	<source>_plugins_/porte_plume_icones_semantiques/trunk</source>
-	<last_commit>2016-02-18 18:40:24</last_commit>
+	<last_commit>2016-04-25 21:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="barre_outils" reference="fr">
@@ -48804,7 +48886,7 @@ Pridáva aj skratku <code>[->ecrire/inc_versions.php#trac].</code>
 	<options>icones_semantiques_options.php</options>
 	<categorie>edition</categorie>
 	<necessite id="SPIP" version="[2.0.2;3.1.99]" />
-	<necessite id="porte_plume" version="[0.0.0;]" />
+	<necessite id="porte_plume" version="[0.5.4;]" />
 </plugin>
 
 
@@ -50041,10 +50123,10 @@ Ce plugin est un élément autonome de SPIPMINE.
 <archive id="projets_sites.zip" dtd="paquet">
 <zip>
 	<file>projets_sites.zip</file>
-	<size>77047</size>
-	<date>1460318642</date>
-	<source>_plugins_/projets_sites/serveur/trunk</source>
-	<last_commit>2016-04-10 22:04:02</last_commit>
+	<size>77043</size>
+	<date>1461618242</date>
+	<source>_plugins_/projets_sites/trunk</source>
+	<last_commit>2016-04-25 23:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="projets_site" reference="fr">
@@ -55837,6 +55919,71 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 
 </archive>
 
+<archive id="shortcut_url.zip" dtd="paquet">
+<zip>
+	<file>shortcut_url.zip</file>
+	<size>644304</size>
+	<date>1461949442</date>
+	<source>_plugins_/shortcut_url/trunk</source>
+	<last_commit>2016-04-29 19:04:01</last_commit>
+</zip>
+<traductions>
+<traduction module="shortcut_url" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="shortcut_url"
+	categorie="edition"
+	version="1.1.2"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/shortcut_url-24.png"
+	documentation="https://contrib.spip.net/Raccourcisseur-d-URL"
+	schema="0.0.3"
+>
+
+	<nom>Shortcut URL</nom>
+
+	<auteur mail="cyp@rouquin.me">cyp</auteur>
+	<auteur lien="http://www.kent1.info">kent1</auteur>
+
+	<licence>GPL &#169;</licence>
+	<copyright>2015</copyright>
+
+	<pipeline nom="declarer_tables_interfaces" inclure="base/shortcut_url.php" />
+	<pipeline nom="declarer_tables_objets_sql" inclure="base/shortcut_url.php" />
+	<pipeline nom="header_prive_css" inclure="shortcut_url_pipelines.php" />
+	<pipeline nom="affiche_milieu" inclure="shortcut_url_pipelines.php" />
+	<pipeline nom="ajouter_menus" inclure="shortcut_url_pipelines.php" />
+	<pipeline nom="autoriser" inclure="shortcut_url_pipelines.php" />
+	<pipeline nom="d3js_plugins" inclure="shortcut_url_pipelines.php" />
+
+	<utilise nom="d3js" compatibilite="[1.2.0;]" />
+
+	<menu nom="menu_shortcut_url" position="10" action="navigation" parametres="menu=menu_shortcut_url" titre="shortcut_url:icone_stats_shortcut" icone="images/shortcut_url-menu.png" />
+</paquet>
+
+<autorisations>
+	<autorisation nom="menugrandeentree" dist="non" />
+	<autorisation nom="revisions_menu" dist="non" />
+	<autorisation nom="mediabox_menu" dist="non" />
+	<autorisation nom="visiteurs_menu" dist="non" />
+	<autorisation nom="suiviedito_menu" dist="non" />
+	<autorisation nom="synchro_menu" dist="non" />
+	<autorisation nom="articles_menu" dist="non" />
+	<autorisation nom="rubriques_menu" dist="non" />
+	<autorisation nom="rubrique_creer" dist="non" />
+	<autorisation nom="documents_menu" dist="non" />
+	<autorisation nom="sites_menu" dist="non" />
+	<autorisation nom="mots_menu" dist="non" />
+	<autorisation nom="breves_menu" dist="non" />
+	<autorisation nom="voirrevisions" dist="non" />
+	<autorisation nom="menushortcuturl_menu" dist="non" />
+</autorisations>
+
+</archive>
+
 <archive id="shoutbox.zip" dtd="plugin">
 <zip>
 	<file>shoutbox.zip</file>
@@ -59036,10 +59183,10 @@ Une page de configuration est propos&#233;e en option si vous utilisez le plugin
 <archive id="spip_400_s3.zip" dtd="paquet">
 <zip>
 	<file>spip_400_s3.zip</file>
-	<size>32576</size>
-	<date>1451235902</date>
+	<size>34641</size>
+	<date>1461816242</date>
 	<source>_plugins_/spip_400/spip_3</source>
-	<last_commit>2015-12-27 17:56:23</last_commit>
+	<last_commit>2016-04-28 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spip_400" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spip_400/spip_3/lang/" reference="fr">
@@ -59056,6 +59203,9 @@ Une page de configuration est propos&#233;e en option si vous utilisez le plugin
 	</langue>
 </traduction>
 <traduction module="spip400" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spip_400/spip_3/lang/" reference="fr">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/spip400?lang_cible=de" total="29" traduits="29" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
+	</langue>
 	<langue code="en" url="http://trad.spip.net/tradlang_module/spip400?lang_cible=en" total="29" traduits="29" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Benitron" lien="http://trad.spip.net/auteur/benitron" />
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
@@ -67342,6 +67492,46 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 
 </archive>
 
+<archive id="vocabulaire.zip" dtd="paquet">
+<zip>
+	<file>vocabulaire.zip</file>
+	<size>825451</size>
+	<date>1461532744</date>
+	<source>_plugins_/vocabulaire/trunk</source>
+	<last_commit>2016-04-24 23:19:03</last_commit>
+</zip>
+<traductions>
+<traduction module="vocabulaire" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="vocabulaire"
+	categorie="divers"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.1.0;3.1.*]"
+	logo=""
+	documentation=""
+	schema="1.0.0"
+>
+
+	<nom>Vocabulaire</nom>
+	<!-- Liste des mots français -->
+
+	<auteur lien='http://p.henix.be'>Phenix</auteur>
+
+	<licence>GNU/GPL</licence>
+
+	<pipeline nom="declarer_tables_objets_sql" inclure="base/vocabulaire.php" />
+	<pipeline nom="declarer_tables_interfaces" inclure="base/vocabulaire.php" />
+
+</paquet>
+
+
+
+</archive>
+
 <archive id="webfonts.zip" dtd="plugin">
 <zip>
 	<file>webfonts.zip</file>
@@ -70061,10 +70251,10 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <archive id="escal_V3.zip" dtd="paquet">
 <zip>
 	<file>escal_V3.zip</file>
-	<size>1289217</size>
-	<date>1461344642</date>
+	<size>1289242</size>
+	<date>1461708242</date>
 	<source>_squelettes_/escal/branche_V3</source>
-	<last_commit>2016-04-22 19:04:01</last_commit>
+	<last_commit>2016-04-27 00:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="escal" reference="fr">
@@ -70084,7 +70274,7 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <paquet
     prefix="escal"
     categorie="squelette"
-    version="3.84.34"
+    version="3.84.35"
     schema="1.0.8"
     etat="stable"
     compatibilite="[3.0.0;3.1.*]"
@@ -71343,10 +71533,10 @@ Consulter la documentation pour conna&#238;tre les nouveaut&#233;s et correction
 <archive id="japibas.zip" dtd="paquet">
 <zip>
 	<file>japibas.zip</file>
-	<size>118285</size>
-	<date>1452611042</date>
+	<size>118281</size>
+	<date>1461693842</date>
 	<source>_squelettes_/japibas</source>
-	<last_commit>2016-01-12 16:03:42</last_commit>
+	<last_commit>2016-04-26 20:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="local" reference="fr">
@@ -71356,26 +71546,26 @@ Consulter la documentation pour conna&#238;tre les nouveaut&#233;s et correction
 </traductions>
 
 <paquet
-        prefix="japibas"
-        categorie="squelette"
-        version="1.0.1"
-        etat="stable"
-        compatibilite="[3.0.0;3.1.*]"
-        logo="japibas-logo.png"
-        documentation="http://contrib.spip.net/spip.php?article4440"
-        demonstration="http://wpthemes.jayj.dk/japibas/"
+	prefix="japibas"
+	categorie="squelette"
+	version="1.0.1"
+	etat="stable"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="japibas-logo.png"
+	documentation="http://contrib.spip.net/spip.php?article4440"
+	demonstration="http://wpthemes.jayj.dk/japibas/"
 >
 
-    <nom>Japibas</nom>
-    <!-- Squelette multilingue responsive de type blog ou webzine -->
+	<nom>Japibas</nom>
+	<!-- Squelette multilingue responsive de type blog ou webzine -->
 
-    <auteur mail="amdgaye@gmail.com">AMBG</auteur>
+	<auteur mail="amdgaye@gmail.com">AMBG</auteur>
 
-    <licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GLP</licence>
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GLP</licence>
 
-    <utilise nom="menuder" compatibilite="[2.2.0;["/>
-    <utilise nom="forum" compatibilite="[1.8.21;["/>
-    <utilise nom="medias" compatibilite="[2.7.45;["/>
+	<utilise nom="menuder" compatibilite="[2.3.0;]"/>
+	<utilise nom="forum" compatibilite="[1.8.21;["/>
+	<utilise nom="medias" compatibilite="[2.7.45;["/>
 </paquet>
 <multis>
 <slogan>
@@ -72648,10 +72838,10 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <archive id="scolaspip_4_0.zip" dtd="paquet">
 <zip>
 	<file>scolaspip_4_0.zip</file>
-	<size>171931</size>
-	<date>1458896642</date>
+	<size>172835</size>
+	<date>1461823442</date>
 	<source>_squelettes_/scolaspip/trunk</source>
-	<last_commit>2016-03-25 10:04:02</last_commit>
+	<last_commit>2016-04-28 08:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="scolaspip" reference="fr">
@@ -72662,7 +72852,7 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <paquet
 	prefix="scolaspip"
 	categorie="squelette"
-	version="4.1.4"
+	version="4.1.7"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/scolaspip.png"
@@ -73202,10 +73392,10 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <archive id="soyezcreateurs_rebirth_4.zip" dtd="paquet">
 <zip>
 	<file>soyezcreateurs_rebirth_4.zip</file>
-	<size>2335665</size>
-	<date>1461074644</date>
+	<size>2335946</size>
+	<date>1461878342</date>
 	<source>_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs</source>
-	<last_commit>2016-04-19 16:04:03</last_commit>
+	<last_commit>2016-04-28 23:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="soyezcreateurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs/lang/" reference="fr">
