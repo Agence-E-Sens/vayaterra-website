@@ -62,10 +62,10 @@
 <archive id="a2a_v2.zip" dtd="paquet">
 <zip>
 	<file>a2a_v2.zip</file>
-	<size>47695</size>
-	<date>1451229570</date>
+	<size>47647</size>
+	<date>1462557886</date>
 	<source>_plugins_/a2a/trunk</source>
-	<last_commit>2015-12-27 16:17:08</last_commit>
+	<last_commit>2016-05-06 20:04:45</last_commit>
 </zip>
 <traductions>
 <traduction module="a2a" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/a2a/trunk/lang/" reference="fr">
@@ -222,10 +222,10 @@ Táto nová verzia vám umožňuje dopísať vzťahy medzi článkami. Táto fun
 <archive id="abomailmans.zip" dtd="paquet">
 <zip>
 	<file>abomailmans.zip</file>
-	<size>68465</size>
-	<date>1456203842</date>
+	<size>68419</size>
+	<date>1462557888</date>
 	<source>_plugins_/abomailmans/trunk</source>
-	<last_commit>2016-02-23 05:33:18</last_commit>
+	<last_commit>2016-05-06 20:04:47</last_commit>
 </zip>
 <traductions>
 <traduction module="abomailmans" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abomailmans/trunk/lang/" reference="fr">
@@ -592,10 +592,10 @@ Comme il peut y avoir toute sorte de cas, ce n’est pas ce plugin qui décide q
 <archive id="abonnements_v3.zip" dtd="paquet">
 <zip>
 	<file>abonnements_v3.zip</file>
-	<size>111225</size>
-	<date>1456203842</date>
+	<size>111195</size>
+	<date>1462557888</date>
 	<source>_plugins_/abonnements/trunk</source>
-	<last_commit>2016-02-23 05:33:57</last_commit>
+	<last_commit>2016-05-06 20:04:48</last_commit>
 </zip>
 <traductions>
 <traduction module="abonnement" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements/trunk/lang/" reference="fr">
@@ -732,10 +732,10 @@ Comme il peut y avoir toute sorte de cas, ce n’est pas ce plugin qui décide q
 <archive id="abonnements_zones_v1.zip" dtd="paquet">
 <zip>
 	<file>abonnements_zones_v1.zip</file>
-	<size>8647</size>
-	<date>1451229572</date>
+	<size>8636</size>
+	<date>1462557890</date>
 	<source>_plugins_/abonnements_zones/trunk</source>
-	<last_commit>2015-12-27 16:18:47</last_commit>
+	<last_commit>2016-05-06 20:04:49</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-abozones" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements_zones/trunk/lang/" reference="fr">
@@ -1440,10 +1440,10 @@ _ Zavedené cyly SPIPu sa upravia  podľa zistených prístupových práv návš
 <archive id="acces_restreint.zip" dtd="paquet">
 <zip>
 	<file>acces_restreint.zip</file>
-	<size>96497</size>
-	<date>1459339442</date>
+	<size>96400</size>
+	<date>1462557890</date>
 	<source>_plugins_/acces_restreint/trunk</source>
-	<last_commit>2016-03-30 14:04:01</last_commit>
+	<last_commit>2016-05-06 20:04:50</last_commit>
 </zip>
 <traductions>
 <traduction module="accesrestreint" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/acces_restreint/trunk/lang/" reference="fr">
@@ -2683,10 +2683,10 @@ Une documentation interne est disponible lorsque le plugin est actif sur la page
 <archive id="afficher_objets.zip" dtd="plugin">
 <zip>
 	<file>afficher_objets.zip</file>
-	<size>30870</size>
-	<date>1451232244</date>
+	<size>30844</size>
+	<date>1462557890</date>
 	<source>_plugins_/afficher_objets</source>
-	<last_commit>2015-12-27 16:19:38</last_commit>
+	<last_commit>2016-05-06 20:04:50</last_commit>
 </zip>
 <traductions>
 <traduction module="afficher_objets" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/afficher_objets/lang/" reference="fr">
@@ -2946,10 +2946,10 @@ Une documentation interne est disponible lorsque le plugin est actif sur la page
 <archive id="agenda_3_5.zip" dtd="paquet">
 <zip>
 	<file>agenda_3_5.zip</file>
-	<size>168676</size>
-	<date>1458577142</date>
+	<size>168615</size>
+	<date>1462557892</date>
 	<source>_plugins_/agenda/trunk</source>
-	<last_commit>2016-03-21 17:19:02</last_commit>
+	<last_commit>2016-05-06 20:04:52</last_commit>
 </zip>
 <traductions>
 <traduction module="agenda" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/agenda/trunk/lang/" reference="fr">
@@ -3242,10 +3242,10 @@ Une documentation interne est disponible lorsque le plugin est actif sur la page
 <archive id="ajaxforms_dev.zip" dtd="plugin">
 <zip>
 	<file>ajaxforms_dev.zip</file>
-	<size>22560</size>
-	<date>1451232246</date>
+	<size>22530</size>
+	<date>1462557894</date>
 	<source>_plugins_/ajaxforms</source>
-	<last_commit>2015-12-27 16:21:02</last_commit>
+	<last_commit>2016-05-06 20:04:53</last_commit>
 </zip>
 <traductions>
 <traduction module="ajaxform" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/ajaxforms/lang/" reference="fr">
@@ -3479,10 +3479,10 @@ La inserción de series de documentos al hilo del texto se encuentra simplificad
 <archive id="albums_3.zip" dtd="paquet">
 <zip>
 	<file>albums_3.zip</file>
-	<size>193372</size>
-	<date>1457460242</date>
+	<size>193328</size>
+	<date>1462557894</date>
 	<source>_plugins_/albums/trunk</source>
-	<last_commit>2016-03-08 18:59:41</last_commit>
+	<last_commit>2016-05-06 20:04:54</last_commit>
 </zip>
 <traductions>
 <traduction module="album" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/albums/trunk/lang/" reference="fr">
@@ -3654,10 +3654,10 @@ La inserción de series de documentos al hilo del texto se encuentra simplificad
 <archive id="alerte_urgence_v2.zip" dtd="paquet">
 <zip>
 	<file>alerte_urgence_v2.zip</file>
-	<size>25386</size>
-	<date>1451232248</date>
+	<size>25375</size>
+	<date>1462557896</date>
 	<source>_plugins_/alerte_urgence/trunk</source>
-	<last_commit>2015-12-27 16:22:27</last_commit>
+	<last_commit>2016-05-06 20:04:55</last_commit>
 </zip>
 <traductions>
 <traduction module="alerte" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/alerte_urgence/trunk/lang/" reference="fr">
@@ -3947,10 +3947,10 @@ La inserción de series de documentos al hilo del texto se encuentra simplificad
 <archive id="amap_3.zip" dtd="paquet">
 <zip>
 	<file>amap_3.zip</file>
-	<size>103318</size>
-	<date>1451232250</date>
+	<size>103297</size>
+	<date>1462557896</date>
 	<source>_plugins_/amap/trunk</source>
-	<last_commit>2015-12-27 16:23:00</last_commit>
+	<last_commit>2016-05-06 20:04:56</last_commit>
 </zip>
 <traductions>
 <traduction module="amap" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/amap/trunk/lang/" reference="fr">
@@ -4161,10 +4161,10 @@ Les paniers sont créés et attribués à un amapien, ce dernier pourra mettre �
 <archive id="ancres_douces.zip" dtd="paquet">
 <zip>
 	<file>ancres_douces.zip</file>
-	<size>18863</size>
-	<date>1451232250</date>
+	<size>18834</size>
+	<date>1462557898</date>
 	<source>_plugins_/ancres_douces</source>
-	<last_commit>2015-12-27 16:23:17</last_commit>
+	<last_commit>2016-05-06 20:04:57</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-ancresdouces" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/ancres_douces/lang/" reference="fr">
@@ -4822,10 +4822,10 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 <archive id="article_accueil_v1.zip" dtd="plugin">
 <zip>
 	<file>article_accueil_v1.zip</file>
-	<size>9945</size>
-	<date>1450876128</date>
+	<size>9995</size>
+	<date>1462543444</date>
 	<source>_plugins_/article_accueil/branches/v1</source>
-	<last_commit>2014-09-14 23:33:31</last_commit>
+	<last_commit>2016-05-06 16:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="article_accueil" reference="fr">
@@ -4890,10 +4890,10 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 <archive id="article_accueil.zip" dtd="paquet">
 <zip>
 	<file>article_accueil.zip</file>
-	<size>19088</size>
-	<date>1455080642</date>
+	<size>19702</size>
+	<date>1462557900</date>
 	<source>_plugins_/article_accueil/trunk</source>
-	<last_commit>2016-02-10 05:32:49</last_commit>
+	<last_commit>2016-05-06 20:04:59</last_commit>
 </zip>
 <traductions>
 <traduction module="article_accueil" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/article_accueil/trunk/lang/" reference="fr">
@@ -4926,6 +4926,9 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-article_accueil?lang_cible=nl" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-article_accueil?lang_cible=pt_br" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/paquet-article_accueil?lang_cible=ru" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="nazar" lien="http://trad.spip.net/auteur/nazar" />
@@ -4965,6 +4968,7 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 [es]Artículos de portada
 [fr]Articles d’accueil
 [nl]Introductie-artikel
+[pt_br]Matérias principais
 [ru]Главная статья
 [sk]Titulné články
 </multi>
@@ -4975,6 +4979,7 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 [es]Atribuir un artículo de inicio a las secciones
 [fr]Attribuer un article d’accueil aux rubriques
 [nl]Een introductie-artikel aan rubrieken toewijzen
+[pt_br]Atribuir uma matéria principal às seções
 [ru]Применить главную статью к разделу
 [sk]Určte titulné články rubrík
 </multi>
@@ -4985,6 +4990,7 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 [es]Este plugin te permite atribuir un artículo de inicio a las secciones. De ahí, se puede usar el campo id_article_accueil en los esqueletos.
 [fr]Ce plugin vous permet de d’attribuer un article d’accueil aux rubriques. Le champ id_article_accueil peut ensuite être utilisé par les squelettes.
 [nl]Met deze plugin kun je een introductie-artikel aan een rubriek toewijzen. Het veld id_article_accueil kan daarna in een skelet worden gebruikt.
+[pt_br]Este plugin permite atribuir um a matéria principal às seções. O campo id_article_accueil pode, em seguida, ser usado pelos templates.
 [ru]Плагин позволяет сделать статью главной в разделе. Критерий "id_article_accueil" можно использовать в squelettes.
 [sk]Tento zásuvný modul vám umožňuje určiť, ktorý článok bude titulný článok rubriky. Pole id_article_accueil potom môžete použiť v šablónach.
 </multi>
@@ -5056,10 +5062,10 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 <archive id="article_pdf_2_0.zip" dtd="paquet">
 <zip>
 	<file>article_pdf_2_0.zip</file>
-	<size>155736</size>
-	<date>1461848642</date>
+	<size>155714</size>
+	<date>1462557900</date>
 	<source>_plugins_/article_pdf</source>
-	<last_commit>2016-04-28 15:04:01</last_commit>
+	<last_commit>2016-05-06 20:04:59</last_commit>
 </zip>
 <traductions>
 <traduction module="articlepdf" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/article_pdf/lang/" reference="fr">
@@ -5635,10 +5641,10 @@ Si SPIP-Listes est pr&#233;sent, {{AuSu}} supprime &#233;galement	les abonnement
 <archive id="auteurs_syndic.zip" dtd="paquet">
 <zip>
 	<file>auteurs_syndic.zip</file>
-	<size>17657</size>
-	<date>1451232254</date>
+	<size>17638</size>
+	<date>1462557902</date>
 	<source>_plugins_/auteurs_syndic/trunk</source>
-	<last_commit>2015-12-27 16:25:31</last_commit>
+	<last_commit>2016-05-06 20:05:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-auteurs_syndic" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/auteurs_syndic/trunk/lang/" reference="fr">
@@ -5724,10 +5730,10 @@ Si SPIP-Listes est pr&#233;sent, {{AuSu}} supprime &#233;galement	les abonnement
 <archive id="autorite.zip" dtd="paquet">
 <zip>
 	<file>autorite.zip</file>
-	<size>84007</size>
-	<date>1456203842</date>
+	<size>83949</size>
+	<date>1462557902</date>
 	<source>_plugins_/autorite/trunk</source>
-	<last_commit>2016-02-23 05:34:14</last_commit>
+	<last_commit>2016-05-06 20:05:02</last_commit>
 </zip>
 <traductions>
 <traduction module="autorite" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/autorite/trunk/lang/" reference="fr">
@@ -5962,10 +5968,10 @@ _ Image du badge par d&#233;faut : CC-BY Les petits d&#233;brouillards Bretagne.
 <archive id="bandeau.zip" dtd="plugin">
 <zip>
 	<file>bandeau.zip</file>
-	<size>777638</size>
-	<date>1451232256</date>
+	<size>777593</size>
+	<date>1462557902</date>
 	<source>_plugins_/bandeau</source>
-	<last_commit>2015-12-27 16:26:22</last_commit>
+	<last_commit>2016-05-06 20:05:02</last_commit>
 </zip>
 <traductions>
 <traduction module="bando" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/bandeau/lang/" reference="fr">
@@ -6915,13 +6921,13 @@ Enfin, la campagne s'affiche pendant la p&#233;riode que vous d&#233;finissez da
 <archive id="trunk.zip" dtd="paquet">
 <zip>
 	<file>trunk.zip</file>
-	<size>38716</size>
-	<date>1450876116</date>
+	<size>38730</size>
+	<date>1462557904</date>
 	<source>_plugins_/bolo/trunk</source>
-	<last_commit>2015-12-09 20:07:44</last_commit>
+	<last_commit>2016-05-06 20:05:03</last_commit>
 </zip>
 <traductions>
-<traduction module="paquet-bolo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/bolo/lang/" reference="fr">
+<traduction module="paquet-bolo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/bolo/trunk/lang/" reference="fr">
 	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-bolo?lang_cible=en" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-bolo?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
@@ -6981,10 +6987,10 @@ La version actuelle permet seulement d’insérer du texte latin ; une future v
 <archive id="blocsdepliables.zip" dtd="paquet">
 <zip>
 	<file>blocsdepliables.zip</file>
-	<size>37036</size>
-	<date>1456290242</date>
+	<size>37010</size>
+	<date>1462557904</date>
 	<source>_plugins_/blocsdepliables</source>
-	<last_commit>2016-02-24 05:33:30</last_commit>
+	<last_commit>2016-05-06 20:05:03</last_commit>
 </zip>
 <traductions>
 <traduction module="blocsdepliables" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/blocsdepliables/lang/" reference="fr">
@@ -7076,10 +7082,10 @@ La version actuelle permet seulement d’insérer du texte latin ; une future v
 <archive id="bonne_annee.zip" dtd="paquet">
 <zip>
 	<file>bonne_annee.zip</file>
-	<size>32679</size>
-	<date>1451232258</date>
+	<size>32656</size>
+	<date>1462557904</date>
 	<source>_plugins_/bonne_annee</source>
-	<last_commit>2015-12-27 16:27:33</last_commit>
+	<last_commit>2016-05-06 20:05:04</last_commit>
 </zip>
 <traductions>
 <traduction module="bonne_annee" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/bonne_annee/lang/" reference="fr">
@@ -7443,10 +7449,10 @@ _ For DIYers, you can also use this plugin to display your own list of sites and
 <archive id="boussole.zip" dtd="paquet">
 <zip>
 	<file>boussole.zip</file>
-	<size>128978</size>
-	<date>1451232258</date>
+	<size>128935</size>
+	<date>1462557906</date>
 	<source>_plugins_/boussole/trunk</source>
-	<last_commit>2015-12-27 16:28:07</last_commit>
+	<last_commit>2016-05-06 20:05:05</last_commit>
 </zip>
 <traductions>
 <traduction module="boussole" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/boussole/trunk/lang/" reference="fr">
@@ -7567,10 +7573,10 @@ _ Sami môžete tento zásuvný modul používať na zobrazenie svojho vlastnéh
 <archive id="boussole_spip.zip" dtd="paquet">
 <zip>
 	<file>boussole_spip.zip</file>
-	<size>578961</size>
-	<date>1457845444</date>
+	<size>578915</size>
+	<date>1462557906</date>
 	<source>_plugins_/boussole_spip/trunk</source>
-	<last_commit>2016-03-13 05:34:51</last_commit>
+	<last_commit>2016-05-06 20:05:06</last_commit>
 </zip>
 <traductions>
 <traduction module="boussole-spip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/boussole_spip/trunk/lang/" reference="fr">
@@ -7863,10 +7869,10 @@ Optional configuration could be achieved by installing the cfg plugin. Some elem
 <archive id="boutonstexte-v2.zip" dtd="paquet">
 <zip>
 	<file>boutonstexte-v2.zip</file>
-	<size>32217</size>
-	<date>1455771844</date>
+	<size>32152</size>
+	<date>1462557908</date>
 	<source>_plugins_/boutonstexte/trunk</source>
-	<last_commit>2016-02-18 05:35:36</last_commit>
+	<last_commit>2016-05-06 20:05:07</last_commit>
 </zip>
 <traductions>
 <traduction module="boutonstexte" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/boutonstexte/trunk/lang/" reference="fr">
@@ -8055,16 +8061,16 @@ Voliteľné nastavenia môžete pridať, ak nainštalujete zásuvný modul cfg. 
 <archive id="cache_cool.zip" dtd="plugin">
 <zip>
 	<file>cache_cool.zip</file>
-	<size>62421</size>
-	<date>1450876146</date>
+	<size>62520</size>
+	<date>1462305842</date>
 	<source>_plugins_/cache_cool</source>
-	<last_commit>2015-06-02 18:35:26</last_commit>
+	<last_commit>2016-05-03 22:04:01</last_commit>
 </zip>
 
 <plugin>
 	<nom>Cache Cool</nom>
 	<auteur>[Cedric->http://www.yterium.net]</auteur>
-	<version>0.4.2</version>
+	<version>0.5.0</version>
 	<etat>stable</etat>
 	<icon>images/cache_cool-128.png</icon>
 	<slogan>Servir les pages au plus vite !</slogan>
@@ -8239,10 +8245,10 @@ _ Ikona [Tempest->http://tempest.deviantart.com/] pod licenciou CC BY-NC-ND.
 <archive id="calendrier_mini-2.0.zip" dtd="paquet">
 <zip>
 	<file>calendrier_mini-2.0.zip</file>
-	<size>40118</size>
-	<date>1454303044</date>
+	<size>40048</size>
+	<date>1462557908</date>
 	<source>_plugins_/calendrier_mini/trunk</source>
-	<last_commit>2016-02-01 05:33:47</last_commit>
+	<last_commit>2016-05-06 20:05:08</last_commit>
 </zip>
 <traductions>
 <traduction module="minical" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/calendrier_mini/trunk/lang/" reference="fr">
@@ -8572,10 +8578,10 @@ _ This plugin requires [Contacts &amp; Organisations->http://files.spip.org/spip
 <archive id="cfg.zip" dtd="plugin">
 <zip>
 	<file>cfg.zip</file>
-	<size>104839</size>
-	<date>1451232264</date>
+	<size>104772</size>
+	<date>1462557910</date>
 	<source>_plugins_/cfg/branches/v1</source>
-	<last_commit>2015-12-27 16:30:44</last_commit>
+	<last_commit>2016-05-06 20:05:09</last_commit>
 </zip>
 <traductions>
 <traduction module="cfg" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/cfg/branches/v1/lang/" reference="fr">
@@ -9101,10 +9107,10 @@ _ This plugin requires [Contacts &amp; Organisations->http://files.spip.org/spip
 <archive id="crud.zip" dtd="paquet">
 <zip>
 	<file>crud.zip</file>
-	<size>17899</size>
-	<date>1451232282</date>
+	<size>17865</size>
+	<date>1462648744</date>
 	<source>_plugins_/crud</source>
-	<last_commit>2015-12-27 16:42:20</last_commit>
+	<last_commit>2016-05-07 21:19:03</last_commit>
 </zip>
 <traductions>
 <traduction module="crud" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/crud/lang/" reference="fr">
@@ -9308,10 +9314,10 @@ _ This plugin requires [Contacts &amp; Organisations->http://files.spip.org/spip
 <archive id="champs_extras3.zip" dtd="paquet">
 <zip>
 	<file>champs_extras3.zip</file>
-	<size>33812</size>
-	<date>1456376642</date>
+	<size>33758</size>
+	<date>1462557910</date>
 	<source>_plugins_/champs_extras_core/trunk</source>
-	<last_commit>2016-02-25 05:34:09</last_commit>
+	<last_commit>2016-05-06 20:05:10</last_commit>
 </zip>
 <traductions>
 <traduction module="cextras" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/champs_extras_core/trunk/lang/" reference="fr">
@@ -9600,24 +9606,24 @@ Es pues la base para otros plugins, especialmente para «Campos Extras Interfaz�
 <archive id="champs_extras3_interface.zip" dtd="paquet">
 <zip>
 	<file>champs_extras3_interface.zip</file>
-	<size>58923</size>
-	<date>1456323542</date>
+	<size>61503</size>
+	<date>1462647842</date>
 	<source>_plugins_/champs_extras_interface/trunk</source>
-	<last_commit>2016-02-24 15:12:20</last_commit>
+	<last_commit>2016-05-07 21:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="iextras" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/champs_extras_interface/trunk/lang/" reference="fr">
-	<langue code="en" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=en" total="104" traduits="81" relire="0" modifs="2" nouveaux="21" pourcent="77.88">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=en" total="106" traduits="81" relire="0" modifs="2" nouveaux="23" pourcent="76.42">
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 	</langue>
-	<langue code="es" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=es" total="104" traduits="81" relire="0" modifs="2" nouveaux="21" pourcent="77.88">
+	<langue code="es" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=es" total="106" traduits="81" relire="0" modifs="2" nouveaux="23" pourcent="76.42">
 		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
 	</langue>
-	<langue code="fr" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=fr" total="104" traduits="104" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=fr" total="106" traduits="106" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="it" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=it" total="104" traduits="53" relire="0" modifs="2" nouveaux="49" pourcent="50.96">
+	<langue code="it" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=it" total="106" traduits="53" relire="0" modifs="2" nouveaux="51" pourcent="50.00">
 	</langue>
-	<langue code="sk" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=sk" total="104" traduits="81" relire="0" modifs="2" nouveaux="21" pourcent="77.88">
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/iextras?lang_cible=sk" total="106" traduits="81" relire="0" modifs="2" nouveaux="23" pourcent="76.42">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
@@ -9646,7 +9652,7 @@ Es pues la base para otros plugins, especialmente para «Campos Extras Interfaz�
 <paquet
 	prefix="iextras"
 	categorie="outil"
-	version="3.3.5"
+	version="3.5.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/iextras-64.png"
@@ -9664,10 +9670,10 @@ Es pues la base para otros plugins, especialmente para «Campos Extras Interfaz�
 	<pipeline nom="declarer_champs_extras" inclure="base/iextras.php" />
 
 	<pipeline nom="autoriser" inclure="inc/iextras_autoriser.php" />
-	<pipeline nom="formulaire_verifier" inclure="inc/iextras.php" />
+	<pipeline nom="saisies_construire_formulaire_config" inclure="inc/iextras.php" />
 
 	<necessite nom="cextras" compatibilite="[3.5.2;]" />
-	<necessite nom="saisies" compatibilite="[2.0.3;]" />
+	<necessite nom="saisies" compatibilite="[2.7.0;]" />
 	<necessite nom="verifier" compatibilite="[1.0.5;]" />
 	<necessite nom="yaml" compatibilite="[1.5.2;]" />
 
@@ -10237,10 +10243,10 @@ Trieda CSS <code>chosen</code> v prvku code><select></code> automaticky spustí
 <archive id="chosen.zip" dtd="paquet">
 <zip>
 	<file>chosen.zip</file>
-	<size>46701</size>
-	<date>1456183158</date>
+	<size>46649</size>
+	<date>1462557912</date>
 	<source>_plugins_/chosen/trunk</source>
-	<last_commit>2016-02-23 00:05:48</last_commit>
+	<last_commit>2016-05-06 20:05:12</last_commit>
 </zip>
 <traductions>
 <traduction module="chosen" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/chosen/trunk/lang/" reference="fr">
@@ -10715,10 +10721,10 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <archive id="clevermail.zip" dtd="paquet">
 <zip>
 	<file>clevermail.zip</file>
-	<size>136469</size>
-	<date>1456041842</date>
+	<size>136452</size>
+	<date>1462557912</date>
 	<source>_plugins_/clevermail/trunk</source>
-	<last_commit>2016-02-21 08:39:26</last_commit>
+	<last_commit>2016-05-06 20:05:12</last_commit>
 </zip>
 <traductions>
 <traduction module="clevermail" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/clevermail/trunk/lang/" reference="fr">
@@ -11138,10 +11144,10 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <archive id="collection_json.zip" dtd="paquet">
 <zip>
 	<file>collection_json.zip</file>
-	<size>11540</size>
-	<date>1460592242</date>
+	<size>11534</size>
+	<date>1462557914</date>
 	<source>_plugins_/collection_json/trunk</source>
-	<last_commit>2016-04-14 02:04:01</last_commit>
+	<last_commit>2016-05-06 20:05:13</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-collectionjson" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/collection_json/trunk/lang/" reference="fr">
@@ -11312,10 +11318,10 @@ _ <code>#TEXTE**|coloration_code_color{spip,code}</code>:  colore #TEXTE s jazyk
 <archive id="coloration_code.zip" dtd="paquet">
 <zip>
 	<file>coloration_code.zip</file>
-	<size>1117881</size>
-	<date>1455051842</date>
+	<size>1117848</size>
+	<date>1462557914</date>
 	<source>_plugins_/coloration_code/trunk</source>
-	<last_commit>2016-02-09 21:58:46</last_commit>
+	<last_commit>2016-05-06 20:05:13</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-coloration_code" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/coloration_code/trunk/lang/" reference="fr">
@@ -11845,10 +11851,10 @@ Ce plugin n&#233;ecessite la pr&#233;sence de libxslt sur votre serveur, utilisa
 <archive id="commandes_v1.zip" dtd="paquet">
 <zip>
 	<file>commandes_v1.zip</file>
-	<size>101499</size>
-	<date>1460459044</date>
+	<size>101484</size>
+	<date>1462557914</date>
 	<source>_plugins_/commandes/trunk</source>
-	<last_commit>2016-04-12 13:04:03</last_commit>
+	<last_commit>2016-05-06 20:05:14</last_commit>
 </zip>
 <traductions>
 <traduction module="commandes" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/commandes/trunk/lang/" reference="fr">
@@ -12242,10 +12248,10 @@ Ce plugin n&#233;ecessite la pr&#233;sence de libxslt sur votre serveur, utilisa
 <archive id="comments-300.zip" dtd="paquet">
 <zip>
 	<file>comments-300.zip</file>
-	<size>60990</size>
-	<date>1456603442</date>
+	<size>60918</size>
+	<date>1462557916</date>
 	<source>_plugins_/comments/trunk</source>
-	<last_commit>2016-02-27 20:23:10</last_commit>
+	<last_commit>2016-05-06 20:05:15</last_commit>
 </zip>
 <traductions>
 <traduction module="comments" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/comments/trunk/lang/" reference="fr">
@@ -12509,10 +12515,10 @@ Articles may also be assigned a as home of a section. Fields "id_article_accueil
 <archive id="connecteur.zip" dtd="paquet">
 <zip>
 	<file>connecteur.zip</file>
-	<size>14754</size>
-	<date>1459170256</date>
+	<size>14790</size>
+	<date>1462226642</date>
 	<source>_plugins_/connecteur/trunk</source>
-	<last_commit>2016-03-28 15:04:15</last_commit>
+	<last_commit>2016-05-03 00:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="connecteur" reference="fr">
@@ -12635,10 +12641,10 @@ Articles may also be assigned a as home of a section. Fields "id_article_accueil
 <archive id="compositions_v3.zip" dtd="paquet">
 <zip>
 	<file>compositions_v3.zip</file>
-	<size>53201</size>
-	<date>1456657442</date>
+	<size>53156</size>
+	<date>1462557916</date>
 	<source>_plugins_/compositions/trunk</source>
-	<last_commit>2016-02-28 12:02:58</last_commit>
+	<last_commit>2016-05-06 20:05:16</last_commit>
 </zip>
 <traductions>
 <traduction module="compositions" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/compositions/trunk/lang/" reference="fr">
@@ -12984,10 +12990,10 @@ Il peut s'int&#233;grer &#224; n'importe quel site fonctionnant sous SPIP.
 <archive id="contact.zip" dtd="paquet">
 <zip>
 	<file>contact.zip</file>
-	<size>79465</size>
-	<date>1456923842</date>
+	<size>79386</size>
+	<date>1462557918</date>
 	<source>_plugins_/contact/trunk</source>
-	<last_commit>2016-03-02 13:35:50</last_commit>
+	<last_commit>2016-05-06 20:05:17</last_commit>
 </zip>
 <traductions>
 <traduction module="contact" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/contact/trunk/lang/" reference="fr">
@@ -13409,10 +13415,10 @@ This plugin has been developped inside the [SPIPMINE->http://contrib.spip.net/Pl
 <archive id="C_et_O_SPIP_3.zip" dtd="paquet">
 <zip>
 	<file>C_et_O_SPIP_3.zip</file>
-	<size>211391</size>
-	<date>1460779442</date>
+	<size>211372</size>
+	<date>1462557918</date>
 	<source>_plugins_/contacts_et_organisations/trunk</source>
-	<last_commit>2016-04-16 06:04:02</last_commit>
+	<last_commit>2016-05-06 20:05:17</last_commit>
 </zip>
 <traductions>
 <traduction module="contacts" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/contacts_et_organisations/trunk/lang/" reference="fr">
@@ -13764,10 +13770,10 @@ Plugin développé dans le cadre du gestionnaire de projets [SPIPMINE->http://co
 <archive id="cookiebar_3_0.zip" dtd="paquet">
 <zip>
 	<file>cookiebar_3_0.zip</file>
-	<size>23012</size>
-	<date>1456031046</date>
+	<size>22987</size>
+	<date>1462557920</date>
 	<source>_plugins_/cookiebar/trunk</source>
-	<last_commit>2016-02-21 05:35:00</last_commit>
+	<last_commit>2016-05-06 20:05:20</last_commit>
 </zip>
 <traductions>
 <traduction module="cookiebar" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/cookiebar/trunk/lang/" reference="fr">
@@ -13920,10 +13926,10 @@ Plugin développé dans le cadre du gestionnaire de projets [SPIPMINE->http://co
 <archive id="coordonnees_3_0.zip" dtd="paquet">
 <zip>
 	<file>coordonnees_3_0.zip</file>
-	<size>151332</size>
-	<date>1456668242</date>
+	<size>151309</size>
+	<date>1462557920</date>
 	<source>_plugins_/coordonnees/branches/v2</source>
-	<last_commit>2016-02-28 14:49:03</last_commit>
+	<last_commit>2016-05-06 20:05:20</last_commit>
 </zip>
 <traductions>
 <traduction module="coordonnees" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/coordonnees/branches/v2/lang/" reference="fr">
@@ -14130,10 +14136,10 @@ Plugin développé dans le cadre du gestionnaire de projets [SPIPMINE->http://co
 <archive id="corbeille_3_0.zip" dtd="paquet">
 <zip>
 	<file>corbeille_3_0.zip</file>
-	<size>38174</size>
-	<date>1451232276</date>
+	<size>38126</size>
+	<date>1462557922</date>
 	<source>_plugins_/corbeille/trunk</source>
-	<last_commit>2015-12-27 16:38:43</last_commit>
+	<last_commit>2016-05-06 20:05:21</last_commit>
 </zip>
 <traductions>
 <traduction module="corbeille" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/corbeille/trunk/lang/" reference="fr">
@@ -14641,10 +14647,10 @@ documentation="http://contrib.spip.net/Couleur-de-Rubrique"
 <archive id="court-circuit2.zip" dtd="paquet">
 <zip>
 	<file>court-circuit2.zip</file>
-	<size>51353</size>
-	<date>1455080642</date>
+	<size>51314</size>
+	<date>1462558742</date>
 	<source>_plugins_/court-circuit/trunk</source>
-	<last_commit>2016-02-10 05:33:12</last_commit>
+	<last_commit>2016-05-06 20:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="courtcircuit" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/court-circuit/trunk/lang/" reference="fr">
@@ -14833,10 +14839,10 @@ Clone du plugin \"Court-circuit\" qui fonctionne avec tout les types d'objet.
 <archive id="couteau-kiss.zip" dtd="paquet">
 <zip>
 	<file>couteau-kiss.zip</file>
-	<size>112773</size>
-	<date>1451232278</date>
+	<size>112707</size>
+	<date>1462558744</date>
 	<source>_plugins_/couteau-kiss</source>
-	<last_commit>2015-12-27 16:39:58</last_commit>
+	<last_commit>2016-05-06 20:19:03</last_commit>
 </zip>
 <traductions>
 <traduction module="ck" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/couteau-kiss/lang/" reference="fr">
@@ -15232,10 +15238,10 @@ Kompatibilita: SPIP v1.92x, v2.x.x a v3.0
 <archive id="crayons.zip" dtd="paquet">
 <zip>
 	<file>crayons.zip</file>
-	<size>238153</size>
-	<date>1457845444</date>
+	<size>238012</size>
+	<date>1462647842</date>
 	<source>_plugins_/crayons</source>
-	<last_commit>2016-03-13 05:35:21</last_commit>
+	<last_commit>2016-05-07 21:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="crayons" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/crayons/lang/" reference="fr">
@@ -15460,10 +15466,10 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <archive id="critere_mots2.zip" dtd="paquet">
 <zip>
 	<file>critere_mots2.zip</file>
-	<size>12026</size>
-	<date>1451232280</date>
+	<size>12008</size>
+	<date>1462647842</date>
 	<source>_plugins_/critere_mots/trunk</source>
-	<last_commit>2015-12-27 16:40:57</last_commit>
+	<last_commit>2016-05-07 21:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-critere_mots" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/critere_mots/trunk/lang/" reference="fr">
@@ -15527,10 +15533,10 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <archive id="criteres_suivant_precedent.zip" dtd="paquet">
 <zip>
 	<file>criteres_suivant_precedent.zip</file>
-	<size>77627</size>
-	<date>1456376644</date>
+	<size>77594</size>
+	<date>1462648742</date>
 	<source>_plugins_/criteres_suivant_precedent</source>
-	<last_commit>2016-02-25 05:34:25</last_commit>
+	<last_commit>2016-05-07 21:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-suivant_precedent" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/criteres_suivant_precedent/lang/" reference="fr">
@@ -15790,10 +15796,10 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <archive id="csv_import_2_0.zip" dtd="plugin">
 <zip>
 	<file>csv_import_2_0.zip</file>
-	<size>46785</size>
-	<date>1451232282</date>
+	<size>46743</size>
+	<date>1462648744</date>
 	<source>_plugins_/csv_import</source>
-	<last_commit>2015-12-27 16:42:39</last_commit>
+	<last_commit>2016-05-07 21:19:03</last_commit>
 </zip>
 <traductions>
 <traduction module="csvimport" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/csv_import/lang/" reference="fr">
@@ -16601,15 +16607,16 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <archive id="depublie.zip" dtd="paquet">
 <zip>
 	<file>depublie.zip</file>
-	<size>48326</size>
-	<date>1457114644</date>
+	<size>48412</size>
+	<date>1462648746</date>
 	<source>_plugins_/depublie/trunk</source>
-	<last_commit>2016-03-04 18:39:14</last_commit>
+	<last_commit>2016-05-07 21:19:05</last_commit>
 </zip>
 <traductions>
-<traduction module="depublie" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/depublie/lang/" reference="fr">
-	<langue code="en" url="http://trad.spip.net/tradlang_module/depublie?lang_cible=en" total="23" traduits="17" relire="0" modifs="0" nouveaux="6" pourcent="73.91">
+<traduction module="depublie" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/depublie/trunk/lang/" reference="fr">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/depublie?lang_cible=en" total="23" traduits="23" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+		<traducteur nom="jack31" lien="http://trad.spip.net/auteur/jack31" />
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/depublie?lang_cible=fr" total="23" traduits="23" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
@@ -16617,7 +16624,7 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 </traduction>
-<traduction module="paquet-depublie" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/depublie/lang/" reference="fr">
+<traduction module="paquet-depublie" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/depublie/trunk/lang/" reference="fr">
 	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-depublie?lang_cible=en" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
 	</langue>
@@ -17107,10 +17114,10 @@ Los nombres de divisas est&#225;n en Ingl&#233;s, Franc&#233;s y Espa&#241;ol.
 <archive id="dictionnaires_3.zip" dtd="paquet">
 <zip>
 	<file>dictionnaires_3.zip</file>
-	<size>72243</size>
-	<date>1451232286</date>
+	<size>72220</size>
+	<date>1462648748</date>
 	<source>_plugins_/dictionnaires/trunk</source>
-	<last_commit>2015-12-27 16:44:53</last_commit>
+	<last_commit>2016-05-07 21:19:07</last_commit>
 </zip>
 <traductions>
 <traduction module="definition" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/dictionnaires/trunk/lang/" reference="fr">
@@ -17533,10 +17540,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene.zip" dtd="paquet">
 <zip>
 	<file>diogene.zip</file>
-	<size>84878</size>
-	<date>1459361942</date>
+	<size>84855</size>
+	<date>1462648748</date>
 	<source>_plugins_/diogene/diogene/trunk</source>
-	<last_commit>2016-03-30 20:19:02</last_commit>
+	<last_commit>2016-05-07 21:19:08</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene/trunk/lang/" reference="fr">
@@ -17765,10 +17772,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_geo.zip" dtd="paquet">
 <zip>
 	<file>diogene_geo.zip</file>
-	<size>17003</size>
-	<date>1459335842</date>
+	<size>16978</size>
+	<date>1462648750</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_geo/trunk</source>
-	<last_commit>2016-03-30 13:04:02</last_commit>
+	<last_commit>2016-05-07 21:19:09</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_geo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_geo/trunk/lang/" reference="fr">
@@ -18011,10 +18018,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_gerer_auteurs.zip" dtd="paquet">
 <zip>
 	<file>diogene_gerer_auteurs.zip</file>
-	<size>10997</size>
-	<date>1451232290</date>
+	<size>10973</size>
+	<date>1462648750</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_gerer_auteurs/trunk</source>
-	<last_commit>2015-12-27 16:46:35</last_commit>
+	<last_commit>2016-05-07 21:19:10</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_gerer_auteurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_gerer_auteurs/trunk/lang/" reference="fr">
@@ -18166,10 +18173,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_licence.zip" dtd="paquet">
 <zip>
 	<file>diogene_licence.zip</file>
-	<size>10400</size>
-	<date>1451232290</date>
+	<size>10381</size>
+	<date>1462648752</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_licence/trunk</source>
-	<last_commit>2015-12-27 16:47:11</last_commit>
+	<last_commit>2016-05-07 21:19:12</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_licence" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_licence/trunk/lang/" reference="fr">
@@ -18314,10 +18321,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_mots.zip" dtd="paquet">
 <zip>
 	<file>diogene_mots.zip</file>
-	<size>15261</size>
-	<date>1459335842</date>
+	<size>15240</size>
+	<date>1462648754</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_mots/trunk</source>
-	<last_commit>2016-03-30 13:04:01</last_commit>
+	<last_commit>2016-05-07 21:19:13</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_mots" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_mots/trunk/lang/" reference="fr">
@@ -18471,10 +18478,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_notation.zip" dtd="paquet">
 <zip>
 	<file>diogene_notation.zip</file>
-	<size>6723</size>
-	<date>1451232292</date>
+	<size>6710</size>
+	<date>1462648754</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_notation/trunk</source>
-	<last_commit>2015-12-27 16:48:01</last_commit>
+	<last_commit>2016-05-07 21:19:13</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-diogene_notation" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_notation/trunk/lang/" reference="fr">
@@ -18547,10 +18554,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_spipicious.zip" dtd="paquet">
 <zip>
 	<file>diogene_spipicious.zip</file>
-	<size>9879</size>
-	<date>1451232294</date>
+	<size>9853</size>
+	<date>1462648756</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_spipicious/trunk</source>
-	<last_commit>2015-12-27 16:48:36</last_commit>
+	<last_commit>2016-05-07 21:19:15</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_spipicious" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_spipicious/trunk/lang/" reference="fr">
@@ -18756,10 +18763,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="documentation.zip" dtd="paquet">
 <zip>
 	<file>documentation.zip</file>
-	<size>467117</size>
-	<date>1457723942</date>
+	<size>467088</size>
+	<date>1462655062</date>
 	<source>_galaxie_/programmer.spip.net/plugin_documentation/trunk</source>
-	<last_commit>2016-03-11 20:05:10</last_commit>
+	<last_commit>2016-05-07 23:04:21</last_commit>
 </zip>
 <traductions>
 <traduction module="documentation" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_galaxie_/programmer.spip.net/plugin_documentation/trunk/lang/" reference="fr">
@@ -18987,10 +18994,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="doc2img.zip" dtd="paquet">
 <zip>
 	<file>doc2img.zip</file>
-	<size>46204</size>
-	<date>1451232296</date>
+	<size>46172</size>
+	<date>1462648758</date>
 	<source>_plugins_/doc2img/trunk</source>
-	<last_commit>2015-12-27 16:50:03</last_commit>
+	<last_commit>2016-05-07 21:19:17</last_commit>
 </zip>
 <traductions>
 <traduction module="doc2img" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/doc2img/trunk/lang/" reference="fr">
@@ -20264,10 +20271,10 @@ _ En plus d'avoir ses cours en ligne, on peut donc faire des tests not&#233;s, v
 <archive id="emballe_medias.zip" dtd="paquet">
 <zip>
 	<file>emballe_medias.zip</file>
-	<size>168222</size>
-	<date>1457352242</date>
+	<size>168198</size>
+	<date>1462648760</date>
 	<source>_plugins_/emballe_medias/emballe_medias/trunk</source>
-	<last_commit>2016-03-07 12:35:54</last_commit>
+	<last_commit>2016-05-07 21:19:19</last_commit>
 </zip>
 <traductions>
 <traduction module="emballe_medias" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/emballe_medias/emballe_medias/trunk/lang/" reference="fr">
@@ -20386,10 +20393,10 @@ _ En plus d'avoir ses cours en ligne, on peut donc faire des tests not&#233;s, v
 <archive id="embed_code.zip" dtd="paquet">
 <zip>
 	<file>embed_code.zip</file>
-	<size>17702</size>
-	<date>1451232302</date>
+	<size>17677</size>
+	<date>1462648764</date>
 	<source>_plugins_/embed_code/trunk</source>
-	<last_commit>2015-12-27 16:53:25</last_commit>
+	<last_commit>2016-05-07 21:19:23</last_commit>
 </zip>
 <traductions>
 <traduction module="embed_code" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/embed_code/trunk/lang/" reference="fr">
@@ -20838,10 +20845,10 @@ _ Translated from French by Etienne B. [->http://www.loiseau2nuit.net]
 <archive id="en_travaux_v3.zip" dtd="paquet">
 <zip>
 	<file>en_travaux_v3.zip</file>
-	<size>60539</size>
-	<date>1460779444</date>
+	<size>60458</size>
+	<date>1462648766</date>
 	<source>_plugins_/en_travaux/trunk</source>
-	<last_commit>2016-04-16 06:04:03</last_commit>
+	<last_commit>2016-05-07 21:19:25</last_commit>
 </zip>
 <traductions>
 <traduction module="entravaux" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/en_travaux/trunk/lang/" reference="fr">
@@ -21217,10 +21224,10 @@ _ Translated from French by Etienne B. [->http://www.loiseau2nuit.net]
 <archive id="epub_reader.zip" dtd="paquet">
 <zip>
 	<file>epub_reader.zip</file>
-	<size>71018</size>
-	<date>1451232304</date>
+	<size>70994</size>
+	<date>1462648766</date>
 	<source>_plugins_/epub_reader/trunk</source>
-	<last_commit>2015-12-27 16:54:35</last_commit>
+	<last_commit>2016-05-07 21:19:25</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-epubreader" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/epub_reader/trunk/lang/" reference="fr">
@@ -22165,10 +22172,10 @@ Pour personnaliser l'export, recopiez et adaptez le squelette {{lister_auteurs.h
 <archive id="fabrique.zip" dtd="paquet">
 <zip>
 	<file>fabrique.zip</file>
-	<size>170237</size>
-	<date>1459591442</date>
+	<size>170222</size>
+	<date>1462648766</date>
 	<source>_plugins_/fabrique/trunk</source>
-	<last_commit>2016-04-02 12:04:01</last_commit>
+	<last_commit>2016-05-07 21:19:26</last_commit>
 </zip>
 <traductions>
 <traduction module="fabrique" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fabrique/trunk/lang/" reference="fr">
@@ -22313,10 +22320,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facteur-3.0.zip" dtd="paquet">
 <zip>
 	<file>facteur-3.0.zip</file>
-	<size>226912</size>
-	<date>1461751442</date>
+	<size>226841</size>
+	<date>1462648768</date>
 	<source>_plugins_/facteur/trunk</source>
-	<last_commit>2016-04-27 12:04:02</last_commit>
+	<last_commit>2016-05-07 21:19:28</last_commit>
 </zip>
 <traductions>
 <traduction module="facteur" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/facteur/trunk/lang/" reference="fr">
@@ -22673,10 +22680,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facd.zip" dtd="paquet">
 <zip>
 	<file>facd.zip</file>
-	<size>33016</size>
-	<date>1451232306</date>
+	<size>32981</size>
+	<date>1462648768</date>
 	<source>_plugins_/facd</source>
-	<last_commit>2015-12-27 16:55:30</last_commit>
+	<last_commit>2016-05-07 21:19:27</last_commit>
 </zip>
 <traductions>
 <traduction module="facd" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/facd/lang/" reference="fr">
@@ -23991,10 +23998,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="formidable.zip" dtd="paquet">
 <zip>
 	<file>formidable.zip</file>
-	<size>190971</size>
-	<date>1457892242</date>
+	<size>190928</size>
+	<date>1462648772</date>
 	<source>_plugins_/formidable/trunk</source>
-	<last_commit>2016-03-13 18:48:06</last_commit>
+	<last_commit>2016-05-07 21:19:32</last_commit>
 </zip>
 <traductions>
 <traduction module="formidable" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/formidable/trunk/lang/" reference="fr">
@@ -24049,7 +24056,7 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <paquet
 	prefix="formidable"
 	categorie="communication"
-	version="2.9.13"
+	version="2.9.14"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/formidable-64.png"
@@ -25625,10 +25632,10 @@ Pour un fonctionnement optimal, il faut installer des programmes compl&#233;ment
 <archive id="fulltext_v1.zip" dtd="paquet">
 <zip>
 	<file>fulltext_v1.zip</file>
-	<size>136066</size>
-	<date>1460642642</date>
+	<size>135937</size>
+	<date>1462651442</date>
 	<source>_plugins_/fulltext/trunk</source>
-	<last_commit>2016-04-14 16:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="fulltext" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fulltext/trunk/lang/" reference="fr">
@@ -25953,10 +25960,10 @@ _ Na optimálne fungovanie potrebujete na serveri niektoré ďalšie programy a�
 <archive id="fusion_spip.zip" dtd="paquet">
 <zip>
 	<file>fusion_spip.zip</file>
-	<size>21057</size>
-	<date>1457586242</date>
+	<size>21042</size>
+	<date>1462651444</date>
 	<source>_plugins_/fusion_spip/trunk</source>
-	<last_commit>2016-03-10 05:33:00</last_commit>
+	<last_commit>2016-05-07 22:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="fusion_spip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fusion_spip/trunk/lang/" reference="fr">
@@ -26790,10 +26797,10 @@ _ [->http://getid3.sourceforge.net/]
 <archive id="getID3_3.zip" dtd="paquet">
 <zip>
 	<file>getID3_3.zip</file>
-	<size>424067</size>
-	<date>1460279042</date>
+	<size>424037</size>
+	<date>1462651444</date>
 	<source>_plugins_/getID3/trunk</source>
-	<last_commit>2016-04-10 11:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="getid3" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/getID3/trunk/lang/" reference="fr">
@@ -27231,10 +27238,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis4.zip" dtd="paquet">
 <zip>
 	<file>gis4.zip</file>
-	<size>268209</size>
-	<date>1461776642</date>
+	<size>268164</size>
+	<date>1462651446</date>
 	<source>_plugins_/gis/trunk</source>
-	<last_commit>2016-04-27 19:04:02</last_commit>
+	<last_commit>2016-05-07 22:04:05</last_commit>
 </zip>
 <traductions>
 <traduction module="gis" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis/trunk/lang/" reference="fr">
@@ -27477,10 +27484,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis_geometries.zip" dtd="paquet">
 <zip>
 	<file>gis_geometries.zip</file>
-	<size>44953</size>
-	<date>1461161972</date>
+	<size>44949</size>
+	<date>1462651446</date>
 	<source>_plugins_/gis_geometries</source>
-	<last_commit>2016-04-20 16:19:32</last_commit>
+	<last_commit>2016-05-07 22:04:06</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-gisgeom" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis_geometries/lang/" reference="fr">
@@ -27836,16 +27843,16 @@ _ Il permet donc d&apos;utiliser des cartes de diff&#233;rents fournisseurs (not
 <archive id="google-viewer.zip" dtd="paquet">
 <zip>
 	<file>google-viewer.zip</file>
-	<size>20476</size>
-	<date>1460282642</date>
+	<size>20451</size>
+	<date>1462208642</date>
 	<source>_plugins_/google-viewer</source>
-	<last_commit>2016-04-10 12:04:02</last_commit>
+	<last_commit>2016-05-02 19:04:01</last_commit>
 </zip>
 
 <paquet
 	prefix="gviewer"
 	categorie="edition"
-	version="0.3.4"
+	version="0.3.5"
 	etat="stable"
 	compatibilite="[2.1.0;3.1.*]"
 	logo="images/gviewer.png"
@@ -28165,10 +28172,10 @@ _ Help to use the API in several plugins (Gis, Geoforms...).
 <archive id="grappes.zip" dtd="paquet">
 <zip>
 	<file>grappes.zip</file>
-	<size>48009</size>
-	<date>1460811842</date>
+	<size>47927</size>
+	<date>1462651448</date>
 	<source>_plugins_/grappes/trunk</source>
-	<last_commit>2016-04-16 15:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:07</last_commit>
 </zip>
 <traductions>
 <traduction module="grappes" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/grappes/trunk/lang/" reference="fr">
@@ -28275,10 +28282,10 @@ _ Help to use the API in several plugins (Gis, Geoforms...).
 <archive id="gravatar.zip" dtd="paquet">
 <zip>
 	<file>gravatar.zip</file>
-	<size>57544</size>
-	<date>1457845444</date>
+	<size>57491</size>
+	<date>1462651448</date>
 	<source>_plugins_/gravatar</source>
-	<last_commit>2016-03-13 05:36:08</last_commit>
+	<last_commit>2016-05-07 22:04:08</last_commit>
 </zip>
 <traductions>
 <traduction module="gravatar" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gravatar/lang/" reference="fr">
@@ -29368,10 +29375,10 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 <archive id="http.zip" dtd="paquet">
 <zip>
 	<file>http.zip</file>
-	<size>202368</size>
-	<date>1458047042</date>
+	<size>202417</size>
+	<date>1462651450</date>
 	<source>_plugins_/http/trunk</source>
-	<last_commit>2016-03-15 14:04:02</last_commit>
+	<last_commit>2016-05-07 22:04:09</last_commit>
 </zip>
 <traductions>
 <traduction module="http" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/http/trunk/lang/" reference="fr">
@@ -29402,7 +29409,7 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 <paquet
 	prefix="http"
 	categorie="outil"
-	version="1.2.3"
+	version="1.2.5"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="http.png"
@@ -29416,6 +29423,7 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 	<licence>GPL v3</licence>
 
 	<pipeline nom="autoriser" inclure="http_autorisations.php" />
+	<pipeline nom="http_final" action="" />
 </paquet>
 <multis>
 <nom>
@@ -29441,6 +29449,7 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 </description>
 </multis>
 <autorisations>
+	<autorisation nom="get_index" dist="oui" />
 	<autorisation nom="get_collection" dist="oui" />
 	<autorisation nom="get_ressource" dist="oui" />
 	<autorisation nom="post_collection" dist="oui" />
@@ -29940,10 +29949,10 @@ Intégration et requêtes possibles avec Sphinx. Nécessite Sphinx 2.2 ou versio
 <archive id="ieconfig_v1.zip" dtd="paquet">
 <zip>
 	<file>ieconfig_v1.zip</file>
-	<size>39316</size>
-	<date>1451232318</date>
+	<size>39298</size>
+	<date>1462651450</date>
 	<source>_plugins_/ieconfig/trunk</source>
-	<last_commit>2015-12-27 17:02:57</last_commit>
+	<last_commit>2016-05-07 22:04:10</last_commit>
 </zip>
 <traductions>
 <traduction module="ieconfig" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/ieconfig/trunk/lang/" reference="fr">
@@ -30501,10 +30510,10 @@ Cr&#233;dits:
 <archive id="importateur_contacts.zip" dtd="paquet">
 <zip>
 	<file>importateur_contacts.zip</file>
-	<size>21381</size>
-	<date>1451233142</date>
+	<size>21355</size>
+	<date>1462651454</date>
 	<source>_plugins_/importateur_contacts</source>
-	<last_commit>2015-12-27 17:04:26</last_commit>
+	<last_commit>2016-05-07 22:04:13</last_commit>
 </zip>
 <traductions>
 <traduction module="importateurcontacts" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/importateur_contacts/lang/" reference="fr">
@@ -30828,10 +30837,10 @@ Ce plugin est toutefois autonome.
 <archive id="informer_premiere_connexion_v1.zip" dtd="paquet">
 <zip>
 	<file>informer_premiere_connexion_v1.zip</file>
-	<size>10037</size>
-	<date>1451233144</date>
+	<size>10025</size>
+	<date>1462651454</date>
 	<source>_plugins_/informer_premiere_connexion/trunk</source>
-	<last_commit>2015-12-27 17:05:00</last_commit>
+	<last_commit>2016-05-07 22:04:14</last_commit>
 </zip>
 <traductions>
 <traduction module="informerpremiereconnexion" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/informer_premiere_connexion/trunk/lang/" reference="fr">
@@ -30893,10 +30902,10 @@ Ce plugin est toutefois autonome.
 <archive id="inscription3.zip" dtd="paquet">
 <zip>
 	<file>inscription3.zip</file>
-	<size>168312</size>
-	<date>1461614642</date>
+	<size>168289</size>
+	<date>1462651456</date>
 	<source>_plugins_/inscription/trunk</source>
-	<last_commit>2016-04-25 22:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:15</last_commit>
 </zip>
 <traductions>
 <traduction module="inscription3" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/inscription/trunk/lang/" reference="fr">
@@ -31083,10 +31092,10 @@ lors de leur inscription et de la modification de leur profil.
 <archive id="inserer_modeles_v1.zip" dtd="paquet">
 <zip>
 	<file>inserer_modeles_v1.zip</file>
-	<size>23771</size>
-	<date>1454915042</date>
+	<size>23762</size>
+	<date>1462651456</date>
 	<source>_plugins_/inserer_modeles/trunk</source>
-	<last_commit>2016-02-08 07:34:57</last_commit>
+	<last_commit>2016-05-07 22:04:16</last_commit>
 </zip>
 <traductions>
 <traduction module="inserer_modeles" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/inserer_modeles/trunk/lang/" reference="fr">
@@ -31367,10 +31376,10 @@ lors de leur inscription et de la modification de leur profil.
 <archive id="intranet.zip" dtd="paquet">
 <zip>
 	<file>intranet.zip</file>
-	<size>18289</size>
-	<date>1451233146</date>
+	<size>18272</size>
+	<date>1462651458</date>
 	<source>_plugins_/intranet/trunk</source>
-	<last_commit>2015-12-27 17:06:42</last_commit>
+	<last_commit>2016-05-07 22:04:17</last_commit>
 </zip>
 <traductions>
 <traduction module="intranet" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/intranet/trunk/lang/" reference="fr">
@@ -31927,10 +31936,10 @@ Crédits :
 <archive id="jeux3.zip" dtd="paquet">
 <zip>
 	<file>jeux3.zip</file>
-	<size>660042</size>
-	<date>1451233148</date>
+	<size>660020</size>
+	<date>1462651458</date>
 	<source>_plugins_/jeux/trunk</source>
-	<last_commit>2015-12-27 17:07:18</last_commit>
+	<last_commit>2016-05-07 22:04:18</last_commit>
 </zip>
 <traductions>
 <traduction module="jeu" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/jeux/trunk/lang/" reference="fr">
@@ -32505,10 +32514,10 @@ Crédits :
 <archive id="jquery_file_upload.zip" dtd="paquet">
 <zip>
 	<file>jquery_file_upload.zip</file>
-	<size>89852</size>
-	<date>1451233148</date>
+	<size>89823</size>
+	<date>1462651460</date>
 	<source>_plugins_/jquery_file_upload/trunk</source>
-	<last_commit>2015-12-27 17:07:50</last_commit>
+	<last_commit>2016-05-07 22:04:19</last_commit>
 </zip>
 <traductions>
 <traduction module="jfu" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/jquery_file_upload/trunk/lang/" reference="fr">
@@ -32817,10 +32826,10 @@ _ Ic&ocirc;ne de www.iconshock.com
 <archive id="jquery_ui_spip2.zip" dtd="plugin">
 <zip>
 	<file>jquery_ui_spip2.zip</file>
-	<size>359203</size>
-	<date>1451233150</date>
+	<size>359173</size>
+	<date>1462651460</date>
 	<source>_plugins_/jquery_ui</source>
-	<last_commit>2015-12-27 17:08:10</last_commit>
+	<last_commit>2016-05-07 22:04:19</last_commit>
 </zip>
 <traductions>
 <traduction module="jqueryui" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/jquery_ui/lang/" reference="fr">
@@ -33243,10 +33252,10 @@ This meta plugin takes care to properly manage the inclusion of the jQuery UI li
 <archive id="langonet_v0.zip" dtd="plugin">
 <zip>
 	<file>langonet_v0.zip</file>
-	<size>75713</size>
-	<date>1461092642</date>
+	<size>75694</size>
+	<date>1462651460</date>
 	<source>_plugins_/langonet/branches/v0</source>
-	<last_commit>2016-04-19 21:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:20</last_commit>
 </zip>
 <traductions>
 <traduction module="langonet" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/langonet/branches/v0/lang/" reference="fr">
@@ -33582,10 +33591,10 @@ It's possible to let the visitor choose it's own preferred language, that may be
 <archive id="lecteur_multimedia-2.zip" dtd="paquet">
 <zip>
 	<file>lecteur_multimedia-2.zip</file>
-	<size>510051</size>
-	<date>1461675842</date>
+	<size>509996</size>
+	<date>1462651462</date>
 	<source>_plugins_/player/trunk</source>
-	<last_commit>2016-04-26 15:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:21</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-player" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/player/trunk/lang/" reference="fr">
@@ -33743,10 +33752,10 @@ Funguje na všetkých <code><docXX|player></code> vložených v texte, ako aj v
 <archive id="legendes.zip" dtd="paquet">
 <zip>
 	<file>legendes.zip</file>
-	<size>32256</size>
-	<date>1456088646</date>
+	<size>32242</size>
+	<date>1462651462</date>
 	<source>_plugins_/legendes</source>
-	<last_commit>2016-02-21 22:03:52</last_commit>
+	<last_commit>2016-05-07 22:04:22</last_commit>
 </zip>
 <traductions>
 <traduction module="legendes" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/legendes/lang/" reference="fr">
@@ -33936,10 +33945,10 @@ Ce plugin compile &#224; la vol&#233;e tous les fichiers .less.css ou .less du s
 <archive id="levenshtein.zip" dtd="paquet">
 <zip>
 	<file>levenshtein.zip</file>
-	<size>17181</size>
-	<date>1461607442</date>
+	<size>17185</size>
+	<date>1462039444</date>
 	<source>_plugins_/levenshtein/trunk</source>
-	<last_commit>2016-04-25 20:04:01</last_commit>
+	<last_commit>2016-04-30 20:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="levenshtein" reference="fr">
@@ -33949,7 +33958,7 @@ Ce plugin compile &#224; la vol&#233;e tous les fichiers .less.css ou .less du s
 <paquet
 	prefix="levenshtein"
 	categorie="navigation"
-	version="1.0.0"
+	version="1.0.1"
 	etat="dev"
 	compatibilite="[3.1.0;3.1.*]"
 	logo="prive/themes/spip/images/levenshtein-64.png"
@@ -33962,7 +33971,9 @@ Ce plugin compile &#224; la vol&#233;e tous les fichiers .less.css ou .less du s
 
 	<licence>GNU/GPL</licence>
 
-	<necessite nom="vocabulaire" compatibilite="[1.0.0;]" />
+  <pipeline nom="levenshtein_calculer" />
+
+  <utilise nom="vocabulaire" compatibilite="[1.0.1;]" />
 </paquet>
 <multis>
 <nom>
@@ -33988,10 +33999,10 @@ Ce plugin compile &#224; la vol&#233;e tous les fichiers .less.css ou .less du s
 <archive id="licence.zip" dtd="paquet">
 <zip>
 	<file>licence.zip</file>
-	<size>163121</size>
-	<date>1455912242</date>
+	<size>163069</size>
+	<date>1462651464</date>
 	<source>_plugins_/licence</source>
-	<last_commit>2016-02-19 20:54:26</last_commit>
+	<last_commit>2016-05-07 22:04:23</last_commit>
 </zip>
 <traductions>
 <traduction module="licence" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/licence/lang/" reference="fr">
@@ -34218,10 +34229,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="liens_contenus-dev.zip" dtd="paquet">
 <zip>
 	<file>liens_contenus-dev.zip</file>
-	<size>41286</size>
-	<date>1451233152</date>
+	<size>41237</size>
+	<date>1462651464</date>
 	<source>_plugins_/liens_contenus/trunk</source>
-	<last_commit>2015-12-27 17:10:29</last_commit>
+	<last_commit>2016-05-07 22:04:24</last_commit>
 </zip>
 <traductions>
 <traduction module="lienscontenus" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/liens_contenus/trunk/lang/" reference="fr">
@@ -34435,10 +34446,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="linkcheck.zip" dtd="paquet">
 <zip>
 	<file>linkcheck.zip</file>
-	<size>45578</size>
-	<date>1456981446</date>
+	<size>45570</size>
+	<date>1462651466</date>
 	<source>_plugins_/linkcheck/trunk</source>
-	<last_commit>2016-03-03 05:36:51</last_commit>
+	<last_commit>2016-05-07 22:04:25</last_commit>
 </zip>
 <traductions>
 <traduction module="linkcheck" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/linkcheck/trunk/lang/" reference="fr">
@@ -36011,10 +36022,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailshot-v1.zip" dtd="paquet">
 <zip>
 	<file>mailshot-v1.zip</file>
-	<size>113696</size>
-	<date>1461852242</date>
+	<size>114228</size>
+	<date>1462651468</date>
 	<source>_plugins_/mailshot/trunk</source>
-	<last_commit>2016-04-28 16:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:27</last_commit>
 </zip>
 <traductions>
 <traduction module="mailshot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailshot/trunk/lang/" reference="fr">
@@ -36028,7 +36039,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=nl" total="81" traduits="76" relire="0" modifs="2" nouveaux="3" pourcent="93.83">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=pt_br" total="81" traduits="76" relire="0" modifs="2" nouveaux="3" pourcent="93.83">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=pt_br" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
@@ -36040,6 +36051,9 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-mailshot?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-mailshot?lang_cible=nl" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-mailshot?lang_cible=pt_br" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
 <traduction module="newsletter" reference="fr">
@@ -36088,6 +36102,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 [en]Send a large number of emails
 [fr]Envoyer des courriels en nombre
 [nl]Stuur een groot aantal e-mails
+[pt_br]Enviar e-mails em massa
 </multi>
 </slogan>
 <description>
@@ -36096,6 +36111,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 [en]Send a large number of email
 [fr]Envoyer des courriels en nombre
 [nl]Stuur een groot aantal e-mail
+[pt_br]Enviar e-mails em massa
 </multi>
 </description>
 </multis>
@@ -36109,10 +36125,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailsubscribers-v1.zip" dtd="paquet">
 <zip>
 	<file>mailsubscribers-v1.zip</file>
-	<size>122158</size>
-	<date>1461989042</date>
+	<size>122493</size>
+	<date>1462651470</date>
 	<source>_plugins_/mailsubscribers/trunk</source>
-	<last_commit>2016-04-30 06:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:29</last_commit>
 </zip>
 <traductions>
 <traduction module="mailsubscriber" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailsubscribers/trunk/lang/" reference="fr">
@@ -36126,8 +36142,9 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=nl" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=pt_br" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=pt_br" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="placido" lien="http://trad.spip.net/auteur/placido" />
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
 <traduction module="mailsubscriberscfg" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailsubscribers/trunk/lang/" reference="fr">
@@ -36168,7 +36185,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="mailsubscribers"
 	categorie="communication"
-	version="1.7.12"
+	version="1.7.14"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/mailsubscriber-32.png"
@@ -36230,10 +36247,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="manuel_site.zip" dtd="paquet">
 <zip>
 	<file>manuel_site.zip</file>
-	<size>60618</size>
-	<date>1451233160</date>
+	<size>60562</size>
+	<date>1462651470</date>
 	<source>_plugins_/manuel_site</source>
-	<last_commit>2015-12-27 17:14:15</last_commit>
+	<last_commit>2016-05-07 22:04:30</last_commit>
 </zip>
 <traductions>
 <traduction module="faq-manuelsite" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/manuel_site/lang/" reference="fr">
@@ -36471,10 +36488,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="massicot.zip" dtd="paquet">
 <zip>
 	<file>massicot.zip</file>
-	<size>362661</size>
-	<date>1461956642</date>
+	<size>363255</size>
+	<date>1462651472</date>
 	<source>_plugins_/massicot/trunk</source>
-	<last_commit>2016-04-29 21:04:02</last_commit>
+	<last_commit>2016-05-07 22:04:31</last_commit>
 </zip>
 <traductions>
 <traduction module="massicot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/massicot/trunk/lang/" reference="fr">
@@ -36490,12 +36507,12 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
     prefix="massicot"
     categorie="multimedia"
-    version="0.4.8"
+    version="0.5.1"
     etat="test"
     compatibilite="[3.0.17;3.1.*]"
     logo="prive/themes/spip/images/massicot-48.png"
     documentation="http://contrib.spip.net/Massicot"
-    schema="1.0.0" 
+    schema="1.1.0" 
     >
 	<!-- crédit icône : http://ic8.link/1047 -->
 	
@@ -36610,10 +36627,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="media_collections.zip" dtd="paquet">
 <zip>
 	<file>media_collections.zip</file>
-	<size>161791</size>
-	<date>1451232300</date>
+	<size>161760</size>
+	<date>1462648760</date>
 	<source>_plugins_/emballe_medias/media_collections/trunk</source>
-	<last_commit>2015-12-27 16:51:44</last_commit>
+	<last_commit>2016-05-07 21:19:20</last_commit>
 </zip>
 <traductions>
 <traduction module="collection" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/emballe_medias/media_collections/trunk/lang/" reference="fr">
@@ -37458,10 +37475,10 @@ This plugin works on skeletons which have the <code>#INSERT_HEAD</code> tag.
 <archive id="mediaspip_player.zip" dtd="paquet">
 <zip>
 	<file>mediaspip_player.zip</file>
-	<size>479212</size>
-	<date>1453917842</date>
+	<size>479190</size>
+	<date>1462651466</date>
 	<source>_plugins_/mediaspip_player/trunk</source>
-	<last_commit>2016-01-27 18:29:50</last_commit>
+	<last_commit>2016-05-07 22:04:26</last_commit>
 </zip>
 <traductions>
 <traduction module="mediaspip_player" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mediaspip_player/trunk/lang/" reference="fr">
@@ -37782,10 +37799,10 @@ This plugin works on skeletons which have the <code>#INSERT_HEAD</code> tag.
 <archive id="memoization.zip" dtd="paquet">
 <zip>
 	<file>memoization.zip</file>
-	<size>88623</size>
-	<date>1457845446</date>
+	<size>88596</size>
+	<date>1462651474</date>
 	<source>_plugins_/memoization/trunk</source>
-	<last_commit>2016-03-13 05:36:34</last_commit>
+	<last_commit>2016-05-07 22:04:33</last_commit>
 </zip>
 <traductions>
 <traduction module="memoization" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/memoization/trunk/lang/" reference="fr">
@@ -38151,10 +38168,10 @@ Complément du plugin {{Menus}} par exemple.
 <archive id="Menu_langue_lien.zip" dtd="paquet">
 <zip>
 	<file>Menu_langue_lien.zip</file>
-	<size>31863</size>
-	<date>1451233162</date>
+	<size>31822</size>
+	<date>1462651474</date>
 	<source>_plugins_/menu_langues_liens</source>
-	<last_commit>2015-12-27 17:15:57</last_commit>
+	<last_commit>2016-05-07 22:04:34</last_commit>
 </zip>
 <traductions>
 <traduction module="mll" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/menu_langues_liens/lang/" reference="fr">
@@ -38425,10 +38442,10 @@ Complément du plugin {{Menus}} par exemple.
 <archive id="menus_1.zip" dtd="paquet">
 <zip>
 	<file>menus_1.zip</file>
-	<size>158290</size>
-	<date>1460261044</date>
+	<size>158211</size>
+	<date>1462651476</date>
 	<source>_plugins_/menus/trunk</source>
-	<last_commit>2016-04-10 06:04:03</last_commit>
+	<last_commit>2016-05-07 22:04:35</last_commit>
 </zip>
 <traductions>
 <traduction module="menus" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/menus/trunk/lang/" reference="fr">
@@ -38845,10 +38862,10 @@ It is also possible to initiate an automatic daily backup of all customization f
 <archive id="mes_fichiers.zip" dtd="paquet">
 <zip>
 	<file>mes_fichiers.zip</file>
-	<size>44406</size>
-	<date>1451233164</date>
+	<size>44384</size>
+	<date>1462651476</date>
 	<source>_plugins_/mes_fichiers/trunk</source>
-	<last_commit>2015-12-27 17:17:07</last_commit>
+	<last_commit>2016-05-07 22:04:36</last_commit>
 </zip>
 <traductions>
 <traduction module="mes_fichiers" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mes_fichiers/trunk/lang/" reference="fr">
@@ -38992,10 +39009,10 @@ Tevens is het mogelijk automatisch een regelmatige backup van de personalisatie 
 <archive id="mesfavoris_2_0.zip" dtd="paquet">
 <zip>
 	<file>mesfavoris_2_0.zip</file>
-	<size>83004</size>
-	<date>1456376644</date>
+	<size>82946</size>
+	<date>1462651478</date>
 	<source>_plugins_/mesfavoris/trunk</source>
-	<last_commit>2016-02-25 05:34:52</last_commit>
+	<last_commit>2016-05-07 22:04:37</last_commit>
 </zip>
 <traductions>
 <traduction module="mesfavoris" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mesfavoris/trunk/lang/" reference="fr">
@@ -39111,10 +39128,10 @@ Tevens is het mogelijk automatisch een regelmatige backup van de personalisatie 
 <archive id="messagerie_2_0.zip" dtd="plugin">
 <zip>
 	<file>messagerie_2_0.zip</file>
-	<size>66563</size>
-	<date>1451233166</date>
+	<size>66507</size>
+	<date>1462651478</date>
 	<source>_plugins_/messagerie/branches/messagerie_2_0</source>
-	<last_commit>2015-12-27 17:18:30</last_commit>
+	<last_commit>2016-05-07 22:04:38</last_commit>
 </zip>
 <traductions>
 <traduction module="ecrire_message" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/messagerie/branches/messagerie_2_0/lang/" reference="fr">
@@ -39388,10 +39405,10 @@ IPTC informations requires the "iptcparse" PHP function and use the class "class
 <archive id="metadonnees_photo-2.zip" dtd="paquet">
 <zip>
 	<file>metadonnees_photo-2.zip</file>
-	<size>16147999</size>
-	<date>1456089542</date>
+	<size>16147985</size>
+	<date>1462651480</date>
 	<source>_plugins_/metadonnees_photo/trunk</source>
-	<last_commit>2016-02-21 22:04:27</last_commit>
+	<last_commit>2016-05-07 22:04:39</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-photo_infos" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/metadonnees_photo/trunk/lang/" reference="fr">
@@ -39846,10 +39863,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="minibando-dev.zip" dtd="paquet">
 <zip>
 	<file>minibando-dev.zip</file>
-	<size>47493</size>
-	<date>1460499576</date>
+	<size>47447</size>
+	<date>1462651480</date>
 	<source>_plugins_/minibando/trunk</source>
-	<last_commit>2016-04-13 00:19:36</last_commit>
+	<last_commit>2016-05-07 22:04:40</last_commit>
 </zip>
 <traductions>
 <traduction module="minibando" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/minibando/trunk/lang/" reference="fr">
@@ -39951,10 +39968,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="minus.zip" dtd="plugin">
 <zip>
 	<file>minus.zip</file>
-	<size>18266</size>
-	<date>1451235842</date>
+	<size>18259</size>
+	<date>1462651482</date>
 	<source>_plugins_/minus/trunk</source>
-	<last_commit>2015-12-27 18:04:02</last_commit>
+	<last_commit>2016-05-07 22:04:41</last_commit>
 </zip>
 <traductions>
 <traduction module="minus" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/minus/trunk/lang/" reference="fr">
@@ -40109,10 +40126,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="facebook.zip" dtd="paquet">
 <zip>
 	<file>facebook.zip</file>
-	<size>155668</size>
-	<date>1459587842</date>
+	<size>155754</size>
+	<date>1462396742</date>
 	<source>_plugins_/facebook/trunk</source>
-	<last_commit>2016-04-02 11:04:01</last_commit>
+	<last_commit>2016-05-04 23:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="facebook" reference="fr">
@@ -40122,7 +40139,7 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <paquet
 	prefix="facebook"
 	categorie="communication"
-	version="1.0.0"
+	version="1.0.1"
 	etat="dev"
 	compatibilite="[3.1.0;3.1.*]"
 	logo="prive/themes/spip/images/facebook-64.png"
@@ -40226,10 +40243,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="modeles_facebook_s3.zip" dtd="paquet">
 <zip>
 	<file>modeles_facebook_s3.zip</file>
-	<size>65240</size>
-	<date>1455858242</date>
+	<size>65210</size>
+	<date>1462651482</date>
 	<source>_plugins_/modeles_facebook/trunk</source>
-	<last_commit>2016-02-19 05:33:44</last_commit>
+	<last_commit>2016-05-07 22:04:42</last_commit>
 </zip>
 <traductions>
 <traduction module="fbmodeles" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/modeles_facebook/trunk/lang/" reference="fr">
@@ -40409,10 +40426,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="modeles_media_spip_3.zip" dtd="paquet">
 <zip>
 	<file>modeles_media_spip_3.zip</file>
-	<size>38819</size>
-	<date>1452683042</date>
+	<size>38801</size>
+	<date>1462651484</date>
 	<source>_plugins_/modeles_media/trunk</source>
-	<last_commit>2016-01-13 11:42:17</last_commit>
+	<last_commit>2016-05-07 22:04:44</last_commit>
 </zip>
 <traductions>
 <traduction module="media" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/modeles_media/trunk/lang/" reference="fr">
@@ -41189,10 +41206,10 @@ permet de s&#233;lectionner par type technique
 <archive id="mots_techniques-spip3.zip" dtd="paquet">
 <zip>
 	<file>mots_techniques-spip3.zip</file>
-	<size>28919</size>
-	<date>1451235844</date>
+	<size>28887</size>
+	<date>1462651486</date>
 	<source>_plugins_/mots_techniques/trunk</source>
-	<last_commit>2015-12-27 17:21:11</last_commit>
+	<last_commit>2016-05-07 22:04:45</last_commit>
 </zip>
 <traductions>
 <traduction module="motstechniques" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mots_techniques/trunk/lang/" reference="fr">
@@ -41830,10 +41847,10 @@ Once the necessary plugins are activated, simply determine the language of the s
 <archive id="multilang.zip" dtd="paquet">
 <zip>
 	<file>multilang.zip</file>
-	<size>56785</size>
-	<date>1456931044</date>
+	<size>56731</size>
+	<date>1462651486</date>
 	<source>_plugins_/multilang/trunk</source>
-	<last_commit>2016-03-02 15:44:40</last_commit>
+	<last_commit>2016-05-07 22:04:46</last_commit>
 </zip>
 <traductions>
 <traduction module="multilang" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/multilang/trunk/lang/" reference="fr">
@@ -42008,10 +42025,10 @@ Once the necessary plugins are activated, simply determine the language of the s
 <archive id="mutualisation_v1.zip" dtd="paquet">
 <zip>
 	<file>mutualisation_v1.zip</file>
-	<size>65934</size>
-	<date>1454411042</date>
+	<size>65915</size>
+	<date>1462651488</date>
 	<source>_plugins_/mutualisation/trunk</source>
-	<last_commit>2016-02-02 11:44:09</last_commit>
+	<last_commit>2016-05-07 22:04:48</last_commit>
 </zip>
 <traductions>
 <traduction module="mutu" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mutualisation/trunk/lang/" reference="fr">
@@ -42139,24 +42156,24 @@ Once the necessary plugins are activated, simply determine the language of the s
 <archive id="newsletters-v1.zip" dtd="paquet">
 <zip>
 	<file>newsletters-v1.zip</file>
-	<size>150051</size>
-	<date>1461596642</date>
+	<size>150255</size>
+	<date>1462651490</date>
 	<source>_plugins_/newsletters/trunk</source>
-	<last_commit>2016-04-25 17:04:01</last_commit>
+	<last_commit>2016-05-07 22:04:50</last_commit>
 </zip>
 <traductions>
 <traduction module="newsletter" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk/lang/" reference="fr">
-	<langue code="de" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=de" total="53" traduits="52" relire="0" modifs="0" nouveaux="1" pourcent="98.11">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=de" total="53" traduits="0" relire="0" modifs="53" nouveaux="0" pourcent="0.00">
 		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
 	</langue>
-	<langue code="en" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=en" total="53" traduits="47" relire="0" modifs="0" nouveaux="6" pourcent="88.68">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=en" total="53" traduits="0" relire="0" modifs="53" nouveaux="0" pourcent="0.00">
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=fr" total="53" traduits="53" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=nl" total="53" traduits="52" relire="0" modifs="0" nouveaux="1" pourcent="98.11">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=nl" total="53" traduits="0" relire="0" modifs="53" nouveaux="0" pourcent="0.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=pt_br" total="53" traduits="52" relire="0" modifs="0" nouveaux="1" pourcent="98.11">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/newsletter?lang_cible=pt_br" total="53" traduits="0" relire="0" modifs="53" nouveaux="0" pourcent="0.00">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 </traduction>
@@ -42562,10 +42579,10 @@ _ D'apr&egrave;s le script non obstrusif &laquo;&nbsp;Nice&nbsp;titles&nbsp;&raq
 <archive id="noie.zip" dtd="plugin">
 <zip>
 	<file>noie.zip</file>
-	<size>27934</size>
-	<date>1451235850</date>
+	<size>27883</size>
+	<date>1462651492</date>
 	<source>_plugins_/noie</source>
-	<last_commit>2015-12-27 18:04:10</last_commit>
+	<last_commit>2016-05-07 22:04:51</last_commit>
 </zip>
 <traductions>
 <traduction module="noie" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/noie/lang/" reference="fr">
@@ -42754,10 +42771,10 @@ _ D'apr&egrave;s le script non obstrusif &laquo;&nbsp;Nice&nbsp;titles&nbsp;&raq
 <archive id="noizetier_v2.zip" dtd="paquet">
 <zip>
 	<file>noizetier_v2.zip</file>
-	<size>426190</size>
-	<date>1456549444</date>
+	<size>426143</size>
+	<date>1462651492</date>
 	<source>_plugins_/noizetier/trunk</source>
-	<last_commit>2016-02-27 05:34:03</last_commit>
+	<last_commit>2016-05-07 22:04:52</last_commit>
 </zip>
 <traductions>
 <traduction module="noizetier" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/noizetier/trunk/lang/" reference="fr">
@@ -42908,10 +42925,10 @@ _ D'apr&egrave;s le script non obstrusif &laquo;&nbsp;Nice&nbsp;titles&nbsp;&raq
 <archive id="nospam.zip" dtd="paquet">
 <zip>
 	<file>nospam.zip</file>
-	<size>110022</size>
-	<date>1456203850</date>
+	<size>109965</size>
+	<date>1462651494</date>
 	<source>_plugins_/nospam</source>
-	<last_commit>2016-02-23 05:39:05</last_commit>
+	<last_commit>2016-05-07 22:04:53</last_commit>
 </zip>
 <traductions>
 <traduction module="nospam" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/nospam/lang/" reference="fr">
@@ -43140,10 +43157,10 @@ and <code>&#60;notation|topten&#62;</code> which gives the 10 best articles.
 <archive id="notation-2.zip" dtd="paquet">
 <zip>
 	<file>notation-2.zip</file>
-	<size>84036</size>
-	<date>1452539042</date>
+	<size>83983</size>
+	<date>1462651494</date>
 	<source>_plugins_/notation/trunk</source>
-	<last_commit>2016-01-11 19:50:01</last_commit>
+	<last_commit>2016-05-07 22:04:54</last_commit>
 </zip>
 <traductions>
 <traduction module="notation" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/notation/trunk/lang/" reference="fr">
@@ -43484,10 +43501,10 @@ a <code> <notation|topten> </ code> ktorá vypíše najlepších 10 článkov.
 <archive id="notifications2.zip" dtd="paquet">
 <zip>
 	<file>notifications2.zip</file>
-	<size>77027</size>
-	<date>1454821444</date>
+	<size>76975</size>
+	<date>1462651496</date>
 	<source>_plugins_/notifications/trunk</source>
-	<last_commit>2016-02-07 05:34:24</last_commit>
+	<last_commit>2016-05-07 22:04:55</last_commit>
 </zip>
 <traductions>
 <traduction module="notifications" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/notifications/trunk/lang/" reference="fr">
@@ -43744,10 +43761,10 @@ a <code> <notation|topten> </ code> ktorá vypíše najlepších 10 článkov.
 <archive id="nuage.zip" dtd="paquet">
 <zip>
 	<file>nuage.zip</file>
-	<size>28036</size>
-	<date>1456203852</date>
+	<size>27980</size>
+	<date>1462651498</date>
 	<source>_plugins_/nuage/trunk</source>
-	<last_commit>2016-02-23 05:39:40</last_commit>
+	<last_commit>2016-05-07 22:04:57</last_commit>
 </zip>
 <traductions>
 <traduction module="nuage" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/nuage/trunk/lang/" reference="fr">
@@ -44020,10 +44037,10 @@ Varios modelos disponibles:
 <archive id="ocr.zip" dtd="paquet">
 <zip>
 	<file>ocr.zip</file>
-	<size>46782</size>
-	<date>1451235856</date>
+	<size>46768</size>
+	<date>1462651498</date>
 	<source>_plugins_/ocr/trunk</source>
-	<last_commit>2015-12-27 17:27:52</last_commit>
+	<last_commit>2016-05-07 22:04:58</last_commit>
 </zip>
 <traductions>
 <traduction module="ocr" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/ocr/trunk/lang/" reference="fr">
@@ -44106,10 +44123,10 @@ Varios modelos disponibles:
 <archive id="oembed.zip" dtd="paquet">
 <zip>
 	<file>oembed.zip</file>
-	<size>51412</size>
-	<date>1461161974</date>
+	<size>51380</size>
+	<date>1462651500</date>
 	<source>_plugins_/oembed</source>
-	<last_commit>2016-04-20 16:19:33</last_commit>
+	<last_commit>2016-05-07 22:04:59</last_commit>
 </zip>
 <traductions>
 <traduction module="oembed" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/oembed/lang/" reference="fr">
@@ -44475,13 +44492,16 @@ _ La conversion des formules mathématiques repose sur la librairie XSLT {{MathM
 <archive id="openid_v2.zip" dtd="paquet">
 <zip>
 	<file>openid_v2.zip</file>
-	<size>38508</size>
-	<date>1452709142</date>
+	<size>39473</size>
+	<date>1462651500</date>
 	<source>_plugins_/openid/trunk</source>
-	<last_commit>2016-01-13 19:04:45</last_commit>
+	<last_commit>2016-05-07 22:05:00</last_commit>
 </zip>
 <traductions>
-<traduction module="openid" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/openid/lang/" reference="fr">
+<traduction module="openid" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/openid/trunk/lang/" reference="fr">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/openid?lang_cible=de" total="14" traduits="14" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="klaus++" lien="http://trad.spip.net/auteur/klaus" />
+	</langue>
 	<langue code="en" url="http://trad.spip.net/tradlang_module/openid?lang_cible=en" total="14" traduits="14" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 	</langue>
@@ -44500,7 +44520,7 @@ _ La conversion des formules mathématiques repose sur la librairie XSLT {{MathM
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
-<traduction module="paquet-openid" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/openid/lang/" reference="fr">
+<traduction module="paquet-openid" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/openid/trunk/lang/" reference="fr">
 	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-openid?lang_cible=en" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
 	<langue code="es" url="http://trad.spip.net/tradlang_module/paquet-openid?lang_cible=es" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
@@ -44568,10 +44588,10 @@ _ La conversion des formules mathématiques repose sur la librairie XSLT {{MathM
 <archive id="openinviter.zip" dtd="paquet">
 <zip>
 	<file>openinviter.zip</file>
-	<size>1970000</size>
-	<date>1451235858</date>
+	<size>1969975</size>
+	<date>1462651502</date>
 	<source>_plugins_/openinviter</source>
-	<last_commit>2015-12-27 17:29:41</last_commit>
+	<last_commit>2016-05-07 22:05:01</last_commit>
 </zip>
 <traductions>
 <traduction module="openinviter" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/openinviter/lang/" reference="fr">
@@ -44683,10 +44703,10 @@ _ La conversion des formules mathématiques repose sur la librairie XSLT {{MathM
 <archive id="opensearch.zip" dtd="paquet">
 <zip>
 	<file>opensearch.zip</file>
-	<size>24190</size>
-	<date>1456376644</date>
+	<size>24149</size>
+	<date>1462651502</date>
 	<source>_plugins_/opensearch</source>
-	<last_commit>2016-02-25 05:35:30</last_commit>
+	<last_commit>2016-05-07 22:05:02</last_commit>
 </zip>
 <traductions>
 <traduction module="opensearch" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/opensearch/lang/" reference="fr">
@@ -44894,10 +44914,10 @@ _ La conversion des formules mathématiques repose sur la librairie XSLT {{MathM
 <archive id="ortho.zip" dtd="plugin">
 <zip>
 	<file>ortho.zip</file>
-	<size>79729</size>
-	<date>1451235860</date>
+	<size>79557</size>
+	<date>1462651502</date>
 	<source>_grenier_/ortho</source>
-	<last_commit>2015-12-27 17:30:37</last_commit>
+	<last_commit>2016-05-07 22:05:02</last_commit>
 </zip>
 <traductions>
 <traduction module="ortho" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_grenier_/ortho/lang/" reference="fr">
@@ -45424,10 +45444,10 @@ This allows the creation of pages of legal information, about, contact, etc..
 <archive id="pages.zip" dtd="paquet">
 <zip>
 	<file>pages.zip</file>
-	<size>47123</size>
-	<date>1457413442</date>
+	<size>47062</size>
+	<date>1462651504</date>
 	<source>_plugins_/pages/trunk</source>
-	<last_commit>2016-03-08 05:33:50</last_commit>
+	<last_commit>2016-05-07 22:05:04</last_commit>
 </zip>
 <traductions>
 <traduction module="pages" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/pages/trunk/lang/" reference="fr">
@@ -45645,10 +45665,10 @@ To vám umožňuje vytvárať stránky s informáciami právneho charakteru, č
 <archive id="palette_3.zip" dtd="paquet">
 <zip>
 	<file>palette_3.zip</file>
-	<size>42694</size>
-	<date>1460203442</date>
+	<size>42644</size>
+	<date>1462651504</date>
 	<source>_plugins_/palette/trunk</source>
-	<last_commit>2016-04-09 14:04:01</last_commit>
+	<last_commit>2016-05-07 22:05:03</last_commit>
 </zip>
 <traductions>
 <traduction module="palette" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/palette/trunk/lang/" reference="fr">
@@ -45961,10 +45981,10 @@ To vám umožňuje vytvárať stránky s informáciami právneho charakteru, č
 <archive id="paniers_v1.zip" dtd="paquet">
 <zip>
 	<file>paniers_v1.zip</file>
-	<size>34779</size>
-	<date>1454821444</date>
+	<size>34755</size>
+	<date>1462651506</date>
 	<source>_plugins_/paniers/trunk</source>
-	<last_commit>2016-02-07 05:34:42</last_commit>
+	<last_commit>2016-05-07 22:05:05</last_commit>
 </zip>
 <traductions>
 <traduction module="paniers" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/paniers/trunk/lang/" reference="fr">
@@ -46209,10 +46229,10 @@ To vám umožňuje vytvárať stránky s informáciami právneho charakteru, č
 <archive id="parrainage.zip" dtd="paquet">
 <zip>
 	<file>parrainage.zip</file>
-	<size>94108</size>
-	<date>1454432642</date>
+	<size>94082</size>
+	<date>1462651506</date>
 	<source>_plugins_/parrainage/trunk</source>
-	<last_commit>2016-02-02 17:57:24</last_commit>
+	<last_commit>2016-05-07 22:05:06</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-parrainage" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/parrainage/trunk/lang/" reference="fr">
@@ -46616,10 +46636,10 @@ Voir aussi :
 <archive id="paypal.zip" dtd="paquet">
 <zip>
 	<file>paypal.zip</file>
-	<size>33024</size>
-	<date>1451235864</date>
+	<size>33001</size>
+	<date>1462651506</date>
 	<source>_plugins_/paypal</source>
-	<last_commit>2015-12-27 17:33:03</last_commit>
+	<last_commit>2016-05-07 22:05:06</last_commit>
 </zip>
 <traductions>
 <traduction module="paypal" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/paypal/lang/" reference="fr">
@@ -46950,10 +46970,10 @@ Voir aussi :
 <archive id="persona.zip" dtd="paquet">
 <zip>
 	<file>persona.zip</file>
-	<size>20638</size>
-	<date>1451235866</date>
+	<size>20624</size>
+	<date>1462651508</date>
 	<source>_plugins_/persona/trunk</source>
-	<last_commit>2015-12-27 17:33:40</last_commit>
+	<last_commit>2016-05-07 22:05:07</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-persona" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/persona/trunk/lang/" reference="fr">
@@ -47333,10 +47353,10 @@ _ © 2008-2012 - Distribué sous licence GNU/GPL
 <archive id="photospip3.zip" dtd="paquet">
 <zip>
 	<file>photospip3.zip</file>
-	<size>86090</size>
-	<date>1460577844</date>
+	<size>86063</size>
+	<date>1462651508</date>
 	<source>_plugins_/photospip/trunk</source>
-	<last_commit>2016-04-13 22:04:02</last_commit>
+	<last_commit>2016-05-07 22:05:08</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-photospip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/photospip/trunk/lang/" reference="fr">
@@ -47432,10 +47452,10 @@ _ © 2008-2012 - Distribué sous licence GNU/GPL
 <archive id="piecon.zip" dtd="paquet">
 <zip>
 	<file>piecon.zip</file>
-	<size>23102</size>
-	<date>1451235868</date>
+	<size>23084</size>
+	<date>1462651510</date>
 	<source>_plugins_/piecon/trunk</source>
-	<last_commit>2015-12-27 17:34:52</last_commit>
+	<last_commit>2016-05-07 22:05:09</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-piecon" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/piecon/trunk/lang/" reference="fr">
@@ -47792,10 +47812,10 @@ une aide sur chaque balise de la nouvelle DTD.
 <archive id="plugonet.zip" dtd="paquet">
 <zip>
 	<file>plugonet.zip</file>
-	<size>57529</size>
-	<date>1456203852</date>
+	<size>57503</size>
+	<date>1462651516</date>
 	<source>_plugins_/plugonet/trunk</source>
-	<last_commit>2016-02-23 05:39:59</last_commit>
+	<last_commit>2016-05-07 22:05:16</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-plugonet" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/plugonet/trunk/lang/" reference="fr">
@@ -47894,10 +47914,10 @@ Okrem toho PlugOnet umožňuje overiť manuálne napísané súbory paquet.xml a
 <archive id="podcast.zip" dtd="paquet">
 <zip>
 	<file>podcast.zip</file>
-	<size>37506</size>
-	<date>1455883442</date>
+	<size>37484</size>
+	<date>1462651512</date>
 	<source>_plugins_/podcast/trunk</source>
-	<last_commit>2016-02-19 12:44:49</last_commit>
+	<last_commit>2016-05-07 22:05:12</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-podcast" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/podcast/trunk/lang/" reference="fr">
@@ -48031,7 +48051,7 @@ Okrem toho PlugOnet umožňuje overiť manuálne napísané súbory paquet.xml a
 <archive id="polyhierarchie_v1.zip" dtd="plugin">
 <zip>
 	<file>polyhierarchie_v1.zip</file>
-	<size>77001</size>
+	<size>76809</size>
 	<date>1450876118</date>
 	<source>_plugins_/polyhierarchie/branches/v1.0</source>
 	<last_commit>2014-09-14 23:33:31</last_commit>
@@ -48122,7 +48142,7 @@ Okrem toho PlugOnet umožňuje overiť manuálne napísané súbory paquet.xml a
 <archive id="polyhierarchie_v2.zip" dtd="paquet">
 <zip>
 	<file>polyhierarchie_v2.zip</file>
-	<size>24989</size>
+	<size>24797</size>
 	<date>1458817442</date>
 	<source>_plugins_/polyhierarchie/branches/v2.0</source>
 	<last_commit>2016-03-24 12:04:02</last_commit>
@@ -48200,6 +48220,110 @@ Okrem toho PlugOnet umožňuje overiť manuálne napísané súbory paquet.xml a
 
 </archive>
 
+<archive id="polyhierarchie_v3.zip" dtd="paquet">
+<zip>
+	<file>polyhierarchie_v3.zip</file>
+	<size>31899</size>
+	<date>1462651514</date>
+	<source>_plugins_/polyhierarchie/trunk</source>
+	<last_commit>2016-05-07 22:05:13</last_commit>
+</zip>
+<traductions>
+<traduction module="paquet-polyhier" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/polyhierarchie/trunk/lang/" reference="fr">
+	<langue code="ar" url="http://trad.spip.net/tradlang_module/paquet-polyhier?lang_cible=ar" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="George" lien="http://trad.spip.net/auteur/جورج-قندلفت" />
+	</langue>
+	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-polyhier?lang_cible=en" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/paquet-polyhier?lang_cible=es" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-polyhier?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-polyhier?lang_cible=nl" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/paquet-polyhier?lang_cible=sk" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
+	</langue>
+</traduction>
+<traduction module="polyhier" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/polyhierarchie/trunk/lang/" reference="fr">
+	<langue code="ar" url="http://trad.spip.net/tradlang_module/polyhier?lang_cible=ar" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="George" lien="http://trad.spip.net/auteur/جورج-قندلفت" />
+	</langue>
+	<langue code="en" url="http://trad.spip.net/tradlang_module/polyhier?lang_cible=en" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
+	</langue>
+	<langue code="es" url="http://trad.spip.net/tradlang_module/polyhier?lang_cible=es" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
+	</langue>
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/polyhier?lang_cible=fr" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/polyhier?lang_cible=nl" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="sk" url="http://trad.spip.net/tradlang_module/polyhier?lang_cible=sk" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
+	</langue>
+</traduction>
+</traductions>
+
+<paquet
+	prefix="polyhier"
+	categorie="navigation"
+	version="3.5.1"
+	etat="test"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="images/polyhier-32.png"
+	schema="0.2.0"
+	documentation="http://contrib.spip.net/Polyhierarchie"
+>
+	<nom>PolyHierarchy</nom>
+	<auteur lien="http://www.yterium.com">C&#233;dric Morin</auteur>
+	<licence>GPL</licence>
+
+	<pipeline nom="declarer_tables_auxiliaires" inclure="polyhier_administrations.php" />
+
+	<pipeline nom="affiche_hierarchie" inclure="polyhier_pipeline.php" />
+	<pipeline nom="affiche_enfants" inclure="polyhier_pipeline.php" />
+	<pipeline nom="objet_compte_enfants" inclure="polyhier_pipeline.php" />
+	<pipeline nom="calculer_rubriques" inclure="polyhier_pipeline.php" />
+	<pipeline nom="autoriser" inclure="polyhier_pipeline.php" />
+	<pipeline nom="formulaire_charger" inclure="polyhier_pipeline.php" />
+	<pipeline nom="formulaire_verifier" inclure="polyhier_pipeline.php" />
+	<pipeline nom="editer_contenu_objet" inclure="polyhier_pipeline.php" />
+	<pipeline nom="pre_edition" inclure="polyhier_pipeline.php" />
+	<pipeline nom="post_edition" inclure="polyhier_pipeline.php" />
+</paquet>
+<multis>
+<slogan>
+<multi>
+[ar]ربط مقال او قسم بقسم او أقسام أم أخرى
+[en]Attach an article or a section on several parent sections.
+[es]Vincular un artículo o una sección a varias secciones de la misma familia
+[fr]Rattacher un article ou une rubrique à plusieurs rubriques parentes
+[nl]Koppel een artikel of een subrubriek aan meerdere rubrieken
+[sk]Vytvorte odkaz na článok alebo rubriku vo viacerých nadradených rubrikách
+</multi>
+</slogan>
+<description>
+<multi>
+[ar]يسمح هذا الملحق بإنشاء روابط عرضية بربط أقسام ومقالات بأقسام غير أقسامها الأم.
+[en]Plugin for creating cross-links by referencing sections
+	and articles to other sections that their direct parent.
+[es]Plugin que permite crear enlaces vinculando las secciones y artículos a más secciones que las de su origen directo.
+[fr]Plugin permettant de créer des liens transversaux en rattachant des rubriques
+	et articles à d’autres rubriques que leur parent direct.
+[nl]Met deze plugin kunnen rubrieken en artikelen transversaal worden gekoppeld met andere rubrieken dan hun directe rubriek.
+[sk]Zásuvný modul umožňujúci vytvárať krížové odkazy na rubriky a články v nadväzujúcich rubrikách
+	aj v iných rubrikách ako v priamej nadradenej rubrike.
+</multi>
+</description>
+</multis>
+
+
+</archive>
+
 <archive id="spipopup.zip" dtd="plugin">
 <zip>
 	<file>spipopup.zip</file>
@@ -48269,10 +48393,10 @@ Ce plugin permet de g&#233;rer d'une fen&#234;tre popup ({fen&#234;tre externe})
 <archive id="spipopup_s3.zip" dtd="paquet">
 <zip>
 	<file>spipopup_s3.zip</file>
-	<size>47622</size>
-	<date>1451235880</date>
+	<size>47598</size>
+	<date>1462651520</date>
 	<source>_plugins_/popup/spipopup_spip3</source>
-	<last_commit>2015-12-27 17:41:10</last_commit>
+	<last_commit>2016-05-07 22:05:19</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spipopup" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/popup/spipopup_spip3/lang/" reference="fr">
@@ -48591,10 +48715,10 @@ Tag vypíše tag odkazu (<code>a</code>) s týmito parametrami:
 <archive id="porte_plume_codes_informatiques_v2.zip" dtd="paquet">
 <zip>
 	<file>porte_plume_codes_informatiques_v2.zip</file>
-	<size>32446</size>
-	<date>1461384242</date>
+	<size>32409</size>
+	<date>1462651514</date>
 	<source>_plugins_/porte_plume_codes/trunk</source>
-	<last_commit>2016-04-23 06:04:01</last_commit>
+	<last_commit>2016-05-07 22:05:14</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-pp_codes" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/porte_plume_codes/trunk/lang/" reference="fr">
@@ -48750,10 +48874,10 @@ Pridáva aj skratku <code>[->ecrire/inc_versions.php#trac].</code>
 <archive id="enluminures_typographiques_v3.zip" dtd="paquet">
 <zip>
 	<file>enluminures_typographiques_v3.zip</file>
-	<size>56696</size>
-	<date>1452920642</date>
+	<size>56675</size>
+	<date>1462648764</date>
 	<source>_plugins_/porte_plume_enluminures_typographiques/trunk</source>
-	<last_commit>2016-01-16 05:33:03</last_commit>
+	<last_commit>2016-05-07 21:19:24</last_commit>
 </zip>
 <traductions>
 <traduction module="enlumtypo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/porte_plume_enluminures_typographiques/trunk/lang/" reference="fr">
@@ -49039,10 +49163,10 @@ Un simple clic sur une ic&#244;ne propos&#233;e permet d'ajouter dans le texte d
 <archive id="porte_plume_partout.zip" dtd="paquet">
 <zip>
 	<file>porte_plume_partout.zip</file>
-	<size>19443</size>
-	<date>1451235874</date>
+	<size>19401</size>
+	<date>1462651516</date>
 	<source>_plugins_/porte_plume_partout/trunk</source>
-	<last_commit>2015-12-27 17:38:51</last_commit>
+	<last_commit>2016-05-07 22:05:15</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-ppp" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/porte_plume_partout/trunk/lang/" reference="fr">
@@ -49516,10 +49640,10 @@ demonstration="http://portfolio.h2v.fr/"
 <archive id="prix.zip" dtd="plugin">
 <zip>
 	<file>prix.zip</file>
-	<size>10435</size>
-	<date>1451235876</date>
+	<size>10420</size>
+	<date>1462651516</date>
 	<source>_plugins_/prix</source>
-	<last_commit>2015-12-27 17:39:39</last_commit>
+	<last_commit>2016-05-07 22:05:16</last_commit>
 </zip>
 <traductions>
 <traduction module="prix" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/prix/lang/" reference="fr">
@@ -49774,10 +49898,10 @@ demonstration="http://portfolio.h2v.fr/"
 <archive id="produits_v1.zip" dtd="paquet">
 <zip>
 	<file>produits_v1.zip</file>
-	<size>63483</size>
-	<date>1451235878</date>
+	<size>63470</size>
+	<date>1462651518</date>
 	<source>_plugins_/produits/trunk</source>
-	<last_commit>2015-12-27 17:40:33</last_commit>
+	<last_commit>2016-05-07 22:05:18</last_commit>
 </zip>
 <traductions>
 <traduction module="produits" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/produits/trunk/lang/" reference="fr">
@@ -50123,10 +50247,10 @@ Ce plugin est un élément autonome de SPIPMINE.
 <archive id="projets_sites.zip" dtd="paquet">
 <zip>
 	<file>projets_sites.zip</file>
-	<size>77043</size>
-	<date>1461618242</date>
+	<size>77099</size>
+	<date>1462183442</date>
 	<source>_plugins_/projets_sites/trunk</source>
-	<last_commit>2016-04-25 23:04:01</last_commit>
+	<last_commit>2016-05-02 12:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="projets_site" reference="fr">
@@ -50138,7 +50262,7 @@ Ce plugin est un élément autonome de SPIPMINE.
 <paquet
 	prefix="projets_sites"
 	categorie="divers"
-	version="1.8.5"
+	version="1.8.6"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/projets_sites-64.png"
@@ -50366,10 +50490,10 @@ Cette documentation est disponible, si le plugin est actif sur votre site, sur l
 <archive id="pub_banner_s3.zip" dtd="paquet">
 <zip>
 	<file>pub_banner_s3.zip</file>
-	<size>695834</size>
-	<date>1451235880</date>
+	<size>695811</size>
+	<date>1462651520</date>
 	<source>_plugins_/pub_banner/trunk</source>
-	<last_commit>2015-12-27 17:41:42</last_commit>
+	<last_commit>2016-05-07 22:05:20</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-pubban" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/pub_banner/trunk/lang/" reference="fr">
@@ -50915,10 +51039,10 @@ La pr&#233;sente version a &#233;t&#233; d&#233;velopp&#233;e dans le but de fac
 <archive id="rainette_v1.zip" dtd="plugin">
 <zip>
 	<file>rainette_v1.zip</file>
-	<size>2039184</size>
-	<date>1451235880</date>
+	<size>2039151</size>
+	<date>1462651522</date>
 	<source>_plugins_/rainette/branches/v1</source>
-	<last_commit>2015-12-27 17:41:58</last_commit>
+	<last_commit>2016-05-07 22:05:21</last_commit>
 </zip>
 <traductions>
 <traduction module="rainette" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/rainette/branches/v1/lang/" reference="fr">
@@ -51322,10 +51446,10 @@ recherche.html et formulaires/recherche.html de Spip.
 <archive id="recommander.zip" dtd="paquet">
 <zip>
 	<file>recommander.zip</file>
-	<size>18487</size>
-	<date>1451235882</date>
+	<size>19163</size>
+	<date>1462651522</date>
 	<source>_plugins_/recommander</source>
-	<last_commit>2015-12-27 17:42:33</last_commit>
+	<last_commit>2016-05-07 22:05:22</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-recommander" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/recommander/lang/" reference="fr">
@@ -51338,6 +51462,9 @@ recherche.html et formulaires/recherche.html de Spip.
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-recommander?lang_cible=nl" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-recommander?lang_cible=pt_br" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/paquet-recommander?lang_cible=sk" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
@@ -51358,7 +51485,8 @@ recherche.html et formulaires/recherche.html de Spip.
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/recommander?lang_cible=nl" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/recommander?lang_cible=pt_br" total="5" traduits="2" relire="0" modifs="3" nouveaux="0" pourcent="40.00">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/recommander?lang_cible=pt_br" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/recommander?lang_cible=sk" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
@@ -51388,6 +51516,7 @@ recherche.html et formulaires/recherche.html de Spip.
 [es]Recomendar a un amigo
 [fr]Recommander à un ami
 [nl]Aan een vriend(in) aanbevelen
+[pt_br]Recomendar a um amigo
 [sk]Odporučiť priateľovi
 </multi>
 </nom>
@@ -51397,6 +51526,7 @@ recherche.html et formulaires/recherche.html de Spip.
 [es]Función recomendar una página a un amigo
 [fr]Fonction recommander une page à un ami
 [nl]Functie om een bladzijde aan een vriend(in) aan te bevelen
+[pt_br]Função recomendar uma página a um amigo
 [sk]Funkcia Odporučiť stránku priateľovi
 </multi>
 </slogan>
@@ -51430,6 +51560,13 @@ Aan ieder willekeurig skelet kan een tag worden toegevoegd onder de vorm:
 _ bijvoorbeeld:
 <code>#RECOMMANDER{#TITRE,#URL_ARTICLE,#INTRODUCTION}</code>
 _ de url, de introductie en het onderwerp zijn facultatief
+[pt_br]Função recomendar uma página a um amigo.
+
+Pode ser incluída em qualquer template, no formato:
+<code>#RECOMMANDER{título da página,url da página,intro da página,assunto}</code>
+_ por eexemplo:
+<code>#RECOMMANDER{#TITRE,#URL_ARTICLE,#INTRODUCTION}</code>
+_ o url, a intro e o assunto são opcionais
 [sk]Funkcia Odporučiť stránku priateľovi
 
 Môžete pridať do hocijakej šablóny vo formulári:
@@ -51495,10 +51632,10 @@ _ adresa, úvod a hlavný text sú nepovinné
 <archive id="redirhttps.zip" dtd="paquet">
 <zip>
 	<file>redirhttps.zip</file>
-	<size>16939</size>
-	<date>1453122244</date>
+	<size>16925</size>
+	<date>1462651522</date>
 	<source>_plugins_/redirhttps</source>
-	<last_commit>2016-01-18 13:44:37</last_commit>
+	<last_commit>2016-05-07 22:05:22</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-redirhttps" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/redirhttps/lang/" reference="fr">
@@ -53696,10 +53833,10 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <archive id="saisies_v2.zip" dtd="paquet">
 <zip>
 	<file>saisies_v2.zip</file>
-	<size>191963</size>
-	<date>1461384242</date>
+	<size>192114</size>
+	<date>1462651528</date>
 	<source>_plugins_/saisies/trunk</source>
-	<last_commit>2016-04-23 06:04:01</last_commit>
+	<last_commit>2016-05-07 22:05:26</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-saisies" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/saisies/trunk/lang/" reference="fr">
@@ -53784,7 +53921,7 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <paquet
 	prefix="saisies"
 	categorie="outil"
-	version="2.6.2"
+	version="2.7.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/logo_saisie_48.png"
@@ -53802,6 +53939,7 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 	<pipeline nom="header_prive" inclure="saisies_pipelines.php" />
 	<pipeline nom="affichage_final" inclure="saisies_pipelines.php" />
 	<pipeline nom="saisies_autonomes" action="" />
+	<pipeline nom="saisies_construire_formulaire_config" action="" />
 	<pipeline nom="formulaire_saisies" action="" />
 	<pipeline nom="formulaire_charger" inclure="saisies_pipelines.php" />
 	<pipeline nom="formulaire_verifier" inclure="saisies_pipelines.php" />
@@ -54102,10 +54240,10 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <archive id="saveauto_3_0.zip" dtd="paquet">
 <zip>
 	<file>saveauto_3_0.zip</file>
-	<size>52278</size>
-	<date>1455253444</date>
+	<size>52225</size>
+	<date>1462651528</date>
 	<source>_plugins_/saveauto/trunk</source>
-	<last_commit>2016-02-12 05:35:09</last_commit>
+	<last_commit>2016-05-07 22:05:28</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-saveauto" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/saveauto/trunk/lang/" reference="fr">
@@ -54736,10 +54874,10 @@ Rozhranie umožňuje manuálne spúšťanie zálohovania a rozhodovať o vytvo
 <archive id="sedna.zip" dtd="paquet">
 <zip>
 	<file>sedna.zip</file>
-	<size>88364</size>
-	<date>1451236766</date>
+	<size>88239</size>
+	<date>1462655068</date>
 	<source>_plugins_/sedna/trunk</source>
-	<last_commit>2015-12-27 18:18:53</last_commit>
+	<last_commit>2016-05-07 23:04:28</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-sedna" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/sedna/trunk/lang/" reference="fr">
@@ -55085,10 +55223,10 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 <archive id="selecteur_generique_v1.zip" dtd="paquet">
 <zip>
 	<file>selecteur_generique_v1.zip</file>
-	<size>35217</size>
-	<date>1457864342</date>
+	<size>35870</size>
+	<date>1462652342</date>
 	<source>_plugins_/selecteur_generique/trunk</source>
-	<last_commit>2016-03-13 11:08:43</last_commit>
+	<last_commit>2016-05-07 22:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-selecteurgenerique" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/selecteur_generique/trunk/lang/" reference="fr">
@@ -55098,6 +55236,9 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-selecteurgenerique?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-selecteurgenerique?lang_cible=pt_br" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/paquet-selecteurgenerique?lang_cible=sk" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
@@ -55131,7 +55272,7 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 <paquet
 	prefix="selecteurgenerique"
 	categorie="outil"
-	version="1.1.3"
+	version="1.1.4"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/selecteur_generique-64.png"
@@ -55158,6 +55299,7 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 [en]Generic selector
 [es]Selector genérico
 [fr]Sélecteur générique
+[pt_br]Seletor genérico
 [sk]Tradičný výber
 </multi>
 </nom>
@@ -55166,6 +55308,7 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 [en]Improving the selectors of private space
 [es]Mejora de los selectores del espacio privado
 [fr]Amélioration des sélecteurs de l’espace privé
+[pt_br]Melhoramento dos seletores da área restrita
 [sk]Vylepšenie možností na výber v súkromnej zóne
 </multi>
 </slogan>
@@ -55174,6 +55317,7 @@ Son objectif est d&#8217;&#234;tre et de rester simple dans son code, et rapide 
 [en]Replaces selectors (authors, words, sections) to something lighter and faster, can handle as much data as possible.
 [es]Reemplaza los selectores (autores, palabras, secciones) por algo más ligero y rápido, capaz de tratar tantos datos como sea posible. 
 [fr]Remplace les sélecteurs (auteurs, mots, rubriques) par quelque chose de plus léger & rapide, capable de traiter autant de données que possible.
+[pt_br]Substitui os seletores (autores, pa;avras, seções) por algo mais leve e rápido, capaz de tratar o máximo de dados possível.
 [sk]Nahrádza tradičné možnosti na výber (autori, kľúčové slová, rubriky) za niečo jednoduchšie a rýchlejšie, čo umožňuje spracovať toľko dát, koľko sa dá.
 </multi>
 </description>
@@ -55427,10 +55571,10 @@ Selects spip objects, store them and customize their display depending on the se
 <archive id="selections_editoriales_v1.zip" dtd="paquet">
 <zip>
 	<file>selections_editoriales_v1.zip</file>
-	<size>93672</size>
-	<date>1457777942</date>
+	<size>93660</size>
+	<date>1462652344</date>
 	<source>_plugins_/selections_editoriales/trunk</source>
-	<last_commit>2016-03-12 11:12:33</last_commit>
+	<last_commit>2016-05-07 22:19:03</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-selections_editoriales" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/selections_editoriales/trunk/lang/" reference="fr">
@@ -55744,10 +55888,10 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 <archive id="seo-dev.zip" dtd="paquet">
 <zip>
 	<file>seo-dev.zip</file>
-	<size>57696</size>
-	<date>1451235892</date>
+	<size>59637</size>
+	<date>1462652346</date>
 	<source>_plugins_/seo/trunk</source>
-	<last_commit>2015-12-27 17:48:46</last_commit>
+	<last_commit>2016-05-07 22:19:05</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-seo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/seo/trunk/lang/" reference="fr">
@@ -55760,6 +55904,9 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-seo?lang_cible=nl" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-seo?lang_cible=pt_br" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/paquet-seo?lang_cible=ru" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="nazar" lien="http://trad.spip.net/auteur/nazar" />
@@ -55783,6 +55930,9 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/seo?lang_cible=nl" total="41" traduits="41" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 		<traducteur nom="mpossoz" lien="http://trad.spip.net/auteur/mpossoz" />
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/seo?lang_cible=pt_br" total="41" traduits="41" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/seo?lang_cible=ru" total="41" traduits="39" relire="0" modifs="2" nouveaux="0" pourcent="95.12">
 		<traducteur nom="nazar" lien="http://trad.spip.net/auteur/nazar" />
@@ -55836,6 +55986,7 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 [es]SEO
 [fr]SEO
 [nl]SEO
+[pt_br]SEO
 [ru]SEO
 [sk]SEO
 </multi>
@@ -55846,6 +55997,7 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 [es]Search Engine Optimisation
 [fr]Search Engine Optimisation
 [nl]Optimalisatie voor zoekmachines
+[pt_br]Search Engine Optimisation
 [ru]Поисковая оптимизация (SEO)
 [sk]Optimalizácia pre vyhľadávače
 </multi>
@@ -55856,6 +56008,7 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 [es]SEO es un plugin que añade la posibilidad de insertar en la parte superior de su sitio web: meta tags, URL canónica, Google webmaster tools Meta Code y Google Analytics javascript. Puede configurarse desde la página de configuración de SPIP así como desde cada sección y artículo para las les meta tags.
 [fr]SEO est un plugin qui ajoute la possibilité d’insérer dans la partie head de votre site web : meta tags, URL canonique, Google webmaster tools Meta Code et Google Analytics javascript. Il est configurable dans la page de configuration de SPIP ainsi que dans chaque rubrique et article pour les meta tags.
 [nl]SEO is een plugin die de head van je site kan aanpassen met: meta tags, canonieke URL, Google webmaster tools Meta Code en Google Analytics javascript. Je kunt hem configureren met een configuratie-bladzijde in SPIP. Meta tags kun je ook in iedere rubriek en ieder artikel instellen.
+[pt_br]SEO é um plugin que inclui a possibilidade de se inserir, na área <head> do seu website, meta tags, URL canônica, Google webmaster tools Meta Code e Google Analytics javascript. É parametrizável na página de configuração do SPIP, bem como em todas as seções e matérias, pelas meta tags.
 [ru]Этот плагин предоставляет возможность вставлять в шапку вашего сайта мета теги, канонический вид URL, Google webmaster tools, Meta Code, и Google Analytics javascript code. Каждой статье и каждому разделу вы можете придавать уникальные мета теги.
 [sk]SEO je zásuvný modul, ktorý ponúka možnosť vložiť do hlavičky stránky meta tagy, kanonickú podobu internetových adries, meta kód nástrojov pre webmasterov od spoločnosti Google a javaskript z Google Analytics. Meta tagy sa dajú nastaviť na stránke s nastaveniami SPIPu, ako aj v každej rubrike a v každom článku.
 </multi>
@@ -55922,25 +56075,26 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 <archive id="shortcut_url.zip" dtd="paquet">
 <zip>
 	<file>shortcut_url.zip</file>
-	<size>644304</size>
-	<date>1461949442</date>
+	<size>646324</size>
+	<date>1462280642</date>
 	<source>_plugins_/shortcut_url/trunk</source>
-	<last_commit>2016-04-29 19:04:01</last_commit>
+	<last_commit>2016-05-03 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="shortcut_url" reference="fr">
+	<langue code="en" />
 </traduction>
 </traductions>
 
 <paquet
 	prefix="shortcut_url"
 	categorie="edition"
-	version="1.1.2"
+	version="1.1.5"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/shortcut_url-24.png"
 	documentation="https://contrib.spip.net/Raccourcisseur-d-URL"
-	schema="0.0.3"
+	schema="0.0.4"
 >
 
 	<nom>Shortcut URL</nom>
@@ -56075,10 +56229,10 @@ Menu de côté responsive basé sur le plugin jQuery [Sidr->http://www.berriart.
 <archive id="signalement.zip" dtd="paquet">
 <zip>
 	<file>signalement.zip</file>
-	<size>82941</size>
-	<date>1459354742</date>
+	<size>82921</size>
+	<date>1462652348</date>
 	<source>_plugins_/signalement/trunk</source>
-	<last_commit>2016-03-30 18:19:01</last_commit>
+	<last_commit>2016-05-07 22:19:08</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-signalement" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/signalement/trunk/lang/" reference="fr">
@@ -56453,10 +56607,10 @@ _   (Th&#232;mes pour le mini-calendrier bas&#233;s sur [jquery-ui themeroller->
 <archive id="simple_calendrier_v2.zip" dtd="paquet">
 <zip>
 	<file>simple_calendrier_v2.zip</file>
-	<size>70348</size>
-	<date>1456351442</date>
+	<size>70338</size>
+	<date>1462652350</date>
 	<source>_plugins_/simple_calendrier/trunk</source>
-	<last_commit>2016-02-24 22:32:57</last_commit>
+	<last_commit>2016-05-07 22:19:09</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-simplecal" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/simple_calendrier/trunk/lang/" reference="fr">
@@ -56477,7 +56631,7 @@ _   (Th&#232;mes pour le mini-calendrier bas&#233;s sur [jquery-ui themeroller->
 <paquet
 	prefix="simplecal"
 	categorie="date"
-	version="2.0.13"
+	version="2.0.14"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/evenement-32.png"
@@ -56610,10 +56764,10 @@ _   (Th&#232;mes pour le mini-calendrier bas&#233;s sur [jquery-ui themeroller->
 <archive id="simplog.zip" dtd="paquet">
 <zip>
 	<file>simplog.zip</file>
-	<size>19991</size>
-	<date>1451235896</date>
+	<size>19953</size>
+	<date>1462652352</date>
 	<source>_plugins_/simplog/trunk</source>
-	<last_commit>2015-12-27 17:51:39</last_commit>
+	<last_commit>2016-05-07 22:19:11</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-simplog" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/simplog/trunk/lang/" reference="fr">
@@ -57272,10 +57426,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="skeleditor-dev.zip" dtd="paquet">
 <zip>
 	<file>skeleditor-dev.zip</file>
-	<size>258059</size>
-	<date>1456203852</date>
+	<size>258025</size>
+	<date>1462652352</date>
 	<source>_plugins_/skeleditor/trunk</source>
-	<last_commit>2016-02-23 05:40:18</last_commit>
+	<last_commit>2016-05-07 22:19:12</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-skeleditor" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/skeleditor/trunk/lang/" reference="fr">
@@ -57485,10 +57639,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="slogan_2_0.zip" dtd="plugin">
 <zip>
 	<file>slogan_2_0.zip</file>
-	<size>20915</size>
-	<date>1455080644</date>
+	<size>20890</size>
+	<date>1462652354</date>
 	<source>_plugins_/slogan</source>
-	<last_commit>2016-02-10 05:35:10</last_commit>
+	<last_commit>2016-05-07 22:19:13</last_commit>
 </zip>
 <traductions>
 <traduction module="slogan" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/slogan/lang/" reference="fr">
@@ -57549,10 +57703,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="smush.zip" dtd="paquet">
 <zip>
 	<file>smush.zip</file>
-	<size>67850</size>
-	<date>1452511142</date>
+	<size>67911</size>
+	<date>1462652354</date>
 	<source>_plugins_/smush_images/trunk</source>
-	<last_commit>2016-01-11 12:09:59</last_commit>
+	<last_commit>2016-05-07 22:19:14</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-smush" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/smush_images/trunk/lang/" reference="fr">
@@ -57586,7 +57740,7 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <paquet
 	prefix="smush"
 	categorie="performance"
-	version="0.4.3"
+	version="0.5.0"
 	etat="test"
 	compatibilite="[3.0.3;3.1.*]"
 	schema="0.1.0"
@@ -57631,10 +57785,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="sms_v1.zip" dtd="paquet">
 <zip>
 	<file>sms_v1.zip</file>
-	<size>11305</size>
-	<date>1457370242</date>
+	<size>11299</size>
+	<date>1462652356</date>
 	<source>_plugins_/sms/trunk</source>
-	<last_commit>2016-03-07 17:31:17</last_commit>
+	<last_commit>2016-05-07 22:19:15</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-sms" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/sms/trunk/lang/" reference="fr">
@@ -57822,10 +57976,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="socialtags.zip" dtd="paquet">
 <zip>
 	<file>socialtags.zip</file>
-	<size>93023</size>
-	<date>1456510742</date>
+	<size>92858</size>
+	<date>1462652356</date>
 	<source>_plugins_/socialtags</source>
-	<last_commit>2016-02-26 19:08:51</last_commit>
+	<last_commit>2016-05-07 22:19:16</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-socialtags" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/socialtags/lang/" reference="fr">
@@ -57862,7 +58016,7 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <paquet
 	prefix="socialtags"
 	categorie="communication"
-	version="1.0.12"
+	version="1.0.13"
 	etat="stable"
 	compatibilite="[2.0.10;3.1.*]"
 	logo="prive/themes/spip/images/socialtags-32.png"
@@ -58028,9 +58182,9 @@ Bovendien kun je met deze plugin Facebook badges en een "Like" box opnemen.
 <zip>
 	<file>soundmanager.zip</file>
 	<size>200236</size>
-	<date>1456150742</date>
+	<date>1462471442</date>
 	<source>_plugins_/soundmanager</source>
-	<last_commit>2016-02-22 15:16:28</last_commit>
+	<last_commit>2016-05-05 20:04:01</last_commit>
 </zip>
 
 <paquet
@@ -58365,10 +58519,10 @@ La liste des traductions disponibles est sur [Spip-Contrib->http://contrib.spip.
 <archive id="spip-bonux-3.zip" dtd="paquet">
 <zip>
 	<file>spip-bonux-3.zip</file>
-	<size>110166</size>
-	<date>1451235902</date>
+	<size>112619</size>
+	<date>1462652360</date>
 	<source>_plugins_/spip-bonux-3</source>
-	<last_commit>2015-12-27 17:55:46</last_commit>
+	<last_commit>2016-05-07 22:19:19</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spip_bonux" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spip-bonux-3/lang/" reference="fr">
@@ -58391,6 +58545,9 @@ La liste des traductions disponibles est sur [Spip-Contrib->http://contrib.spip.
 	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-spip_bonux?lang_cible=nl" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-spip_bonux?lang_cible=pt_br" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/paquet-spip_bonux?lang_cible=ru" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
@@ -58420,6 +58577,9 @@ La liste des traductions disponibles est sur [Spip-Contrib->http://contrib.spip.
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/spip_bonux?lang_cible=nl" total="13" traduits="13" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/spip_bonux?lang_cible=pt_br" total="13" traduits="13" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
+	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/spip_bonux?lang_cible=ru" total="13" traduits="12" relire="0" modifs="1" nouveaux="0" pourcent="92.31">
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
 	</langue>
@@ -58432,7 +58592,7 @@ La liste des traductions disponibles est sur [Spip-Contrib->http://contrib.spip.
 <paquet
 	prefix="spip_bonux"
 	categorie="outil"
-	version="3.2.1"
+	version="3.3.1"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="img_pack/spip-bonux.png"
@@ -58461,6 +58621,7 @@ La liste des traductions disponibles est sur [Spip-Contrib->http://contrib.spip.
 [fa]پلاگيني كه اسپيپ را از اسپيپ بهتر مي‌سازد 
 [fr]Le plugin qui lave plus SPIP que SPIP.
 [nl]De plugin die SPIP nog SPIPper maakt.
+[pt_br]O plugin que lava mais SPIP que SPIP.
 [ru]SPIP Bonux существенно расширяет возможности SPIP, делая его лучше чем SPIP :)))
 [sk]Zásuvný modul, ktorý prečistí SPIP ako SPIP.
 </multi>
@@ -58480,6 +58641,9 @@ La liste des traductions disponibles est sur [Spip-Contrib->http://contrib.spip.
 	Tableaux, compteur, etc.
 [nl]De plugin die SPIP nog SPIPper maakt met leuke extraatjes!
 	Tabellen, teller, enz.
+[pt_br]O plugin que lava mais SPIP que SPIP, com 
+Le plugin qui lave plus SPIP que SPIP, com brindes no pacote!
+	Tabela, contador etc.
 [ru]SPIP Bonux необходим для работы многих других плагинов. Он существенно расширяет возможности SPIP, делая его лучше чем SPIP :)))
 [sk]Zásuvný modul, ktorý prečistí SPIP ako SPIP s peknými darčekmi vnútri!
 	Tabuľky, počítadlo, a i.
@@ -59183,10 +59347,10 @@ Une page de configuration est propos&#233;e en option si vous utilisez le plugin
 <archive id="spip_400_s3.zip" dtd="paquet">
 <zip>
 	<file>spip_400_s3.zip</file>
-	<size>34641</size>
-	<date>1461816242</date>
+	<size>34609</size>
+	<date>1462652360</date>
 	<source>_plugins_/spip_400/spip_3</source>
-	<last_commit>2016-04-28 06:04:01</last_commit>
+	<last_commit>2016-05-07 22:19:20</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spip_400" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spip_400/spip_3/lang/" reference="fr">
@@ -59673,10 +59837,10 @@ Les articles, rubriques et documents sont localis&#233;s g&#233;ographiquement e
 <archive id="spip_piwik_2_0.zip" dtd="paquet">
 <zip>
 	<file>spip_piwik_2_0.zip</file>
-	<size>48576</size>
-	<date>1456089542</date>
+	<size>48515</size>
+	<date>1462651510</date>
 	<source>_plugins_/spip_piwik/branches/spip_piwik_2_0</source>
-	<last_commit>2016-02-21 22:04:53</last_commit>
+	<last_commit>2016-05-07 22:05:10</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-piwik" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spip_piwik/branches/spip_piwik_2_0/lang/" reference="fr">
@@ -59873,10 +60037,10 @@ Les ic&#244;nes de l'espace priv&#233; proviennent du projet {{[GNOME->http://ww
 <archive id="spip_proprietaire_s3.zip" dtd="paquet">
 <zip>
 	<file>spip_proprietaire_s3.zip</file>
-	<size>454393</size>
-	<date>1451235904</date>
+	<size>454358</size>
+	<date>1462652362</date>
 	<source>_plugins_/spip_proprietaire/spip_3</source>
-	<last_commit>2015-12-27 17:57:14</last_commit>
+	<last_commit>2016-05-07 22:19:21</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spip_proprio" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spip_proprietaire/spip_3/lang/" reference="fr">
@@ -60175,10 +60339,10 @@ Ce plugin est une mise &#224; niveau pour la version SPIP 2.1.8 du Plugin [GoPay
 <archive id="spipBB-2.1-dev.zip" dtd="plugin">
 <zip>
 	<file>spipBB-2.1-dev.zip</file>
-	<size>1059354</size>
-	<date>1451239442</date>
+	<size>1059241</size>
+	<date>1462655070</date>
 	<source>_plugins_/spipBB/dev/2_1_0</source>
-	<last_commit>2015-12-27 18:20:02</last_commit>
+	<last_commit>2016-05-07 23:04:30</last_commit>
 </zip>
 <traductions>
 <traduction module="spipbb" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spipBB/dev/2_1_0/lang/" reference="fr">
@@ -60803,10 +60967,10 @@ _ Icon from [Pawel Kadysz->http://oneseventyseven.com/]
 <archive id="spipicious_jquery.zip" dtd="paquet">
 <zip>
 	<file>spipicious_jquery.zip</file>
-	<size>55064</size>
-	<date>1456409976</date>
+	<size>55017</size>
+	<date>1462652358</date>
 	<source>_plugins_/spipicious_jquery/trunk</source>
-	<last_commit>2016-02-25 15:15:39</last_commit>
+	<last_commit>2016-05-07 22:19:17</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spipicious" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spipicious_jquery/trunk/lang/" reference="fr">
@@ -61117,10 +61281,10 @@ _ Ikonu vytvoril [Pawel Kadysz->http://oneseventyseven.com/]
 <archive id="spipmotion.zip" dtd="paquet">
 <zip>
 	<file>spipmotion.zip</file>
-	<size>114905</size>
-	<date>1453917842</date>
+	<size>114878</size>
+	<date>1462652358</date>
 	<source>_plugins_/spipmotion/trunk</source>
-	<last_commit>2016-01-27 18:28:35</last_commit>
+	<last_commit>2016-05-07 22:19:18</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spipmotion" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spipmotion/trunk/lang/" reference="fr">
@@ -61358,17 +61522,17 @@ _ Ikonu vytvoril [Pawel Kadysz->http://oneseventyseven.com/]
 <archive id="splickrbox.zip" dtd="plugin">
 <zip>
 	<file>splickrbox.zip</file>
-	<size>23516</size>
-	<date>1450876156</date>
+	<size>23564</size>
+	<date>1462118642</date>
 	<source>_plugins_/splickrbox</source>
-	<last_commit>2015-06-07 20:40:37</last_commit>
+	<last_commit>2016-05-01 18:04:01</last_commit>
 </zip>
 
 <plugin>
 	<nom>Splickrbox</nom>
 	<slogan>Afficher des photos &#224; la Flickr</slogan>
 	<auteur>[BoOz->booz@rezo.net], Pierre Andrews (mortimer)</auteur>
-	<version>0.4.6</version>
+	<version>0.4.8</version>
 	<etat>stable</etat>
 	<icon>images/splickrbox-64.png</icon>
 	<description>
@@ -62480,10 +62644,10 @@ _ <code>svn://zone.spip.org/spip-zone/_plugins_/_stable_/cfg plugins/cfg</code>
 <archive id="svp_stats.zip" dtd="paquet">
 <zip>
 	<file>svp_stats.zip</file>
-	<size>28245</size>
-	<date>1461384242</date>
+	<size>28214</size>
+	<date>1462652366</date>
 	<source>_plugins_/svp_stats/trunk</source>
-	<last_commit>2016-04-23 06:04:02</last_commit>
+	<last_commit>2016-05-07 22:19:26</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-svpstats" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/svp_stats/trunk/lang/" reference="fr">
@@ -62780,10 +62944,10 @@ _ Ce plugin  fournit la librairie SWFupload et une fonction de vérification de 
 <archive id="table_matieres.zip" dtd="paquet">
 <zip>
 	<file>table_matieres.zip</file>
-	<size>31394</size>
-	<date>1457715842</date>
+	<size>31356</size>
+	<date>1462652368</date>
 	<source>_plugins_/table_matieres/trunk</source>
-	<last_commit>2016-03-11 17:31:28</last_commit>
+	<last_commit>2016-05-07 22:19:27</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tablematieres" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/table_matieres/trunk/lang/" reference="fr">
@@ -62879,10 +63043,10 @@ _ Ce plugin  fournit la librairie SWFupload et une fonction de vérification de 
 <archive id="tablesorter.zip" dtd="paquet">
 <zip>
 	<file>tablesorter.zip</file>
-	<size>26877</size>
-	<date>1456059842</date>
+	<size>26862</size>
+	<date>1462652368</date>
 	<source>_plugins_/tablesorter</source>
-	<last_commit>2016-02-21 13:19:42</last_commit>
+	<last_commit>2016-05-07 22:19:27</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tablesorter" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tablesorter/lang/" reference="fr">
@@ -63409,10 +63573,10 @@ Thumbsites fournit un syst&#232;me de capture d'&#233;cran de site g&#233;n&#233
 <archive id="thumbsites.zip" dtd="paquet">
 <zip>
 	<file>thumbsites.zip</file>
-	<size>39515</size>
-	<date>1451235910</date>
+	<size>39454</size>
+	<date>1462652370</date>
 	<source>_plugins_/thumbsites/trunk</source>
-	<last_commit>2015-12-27 18:01:46</last_commit>
+	<last_commit>2016-05-07 22:19:29</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-thumbsites" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/thumbsites/trunk/lang/" reference="fr">
@@ -63926,10 +64090,10 @@ Thumbsites fournit un syst&#232;me de capture d'&#233;cran de site g&#233;n&#233
 <archive id="tickets_v3.zip" dtd="paquet">
 <zip>
 	<file>tickets_v3.zip</file>
-	<size>161440</size>
-	<date>1461333842</date>
+	<size>161399</size>
+	<date>1462652370</date>
 	<source>_plugins_/tickets/trunk</source>
-	<last_commit>2016-04-22 16:04:02</last_commit>
+	<last_commit>2016-05-07 22:19:30</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tickets" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tickets/trunk/lang/" reference="fr">
@@ -64164,10 +64328,10 @@ La version {Kiss} ({Keep it simple, stupid!}) est moins param&#233;trable que la
 <archive id="timezone.zip" dtd="paquet">
 <zip>
 	<file>timezone.zip</file>
-	<size>13064</size>
-	<date>1451235912</date>
+	<size>13125</size>
+	<date>1462655042</date>
 	<source>_plugins_/timezone</source>
-	<last_commit>2015-12-27 18:03:38</last_commit>
+	<last_commit>2016-05-07 23:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-timezone" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/timezone/lang/" reference="fr">
@@ -64183,7 +64347,7 @@ La version {Kiss} ({Keep it simple, stupid!}) est moins param&#233;trable que la
 <paquet
 	prefix="timezone"
 	categorie="date"
-	version="0.1.0"
+	version="0.1.1"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/timezone-64.png"
@@ -64329,10 +64493,10 @@ Logo et certaines images du plugin : [->http://pixel-mixer.com/]
 <archive id="tipafriend_s3.zip" dtd="paquet">
 <zip>
 	<file>tipafriend_s3.zip</file>
-	<size>97348</size>
-	<date>1451235912</date>
+	<size>97326</size>
+	<date>1462652372</date>
 	<source>_plugins_/tipafriend/spip_3</source>
-	<last_commit>2015-12-27 18:03:00</last_commit>
+	<last_commit>2016-05-07 22:19:31</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tipafriend" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tipafriend/spip_3/lang/" reference="fr">
@@ -64650,10 +64814,10 @@ Logo a niekoľko obrázkov zásuvného modulu: [->http://pixel-mixer.com/]
 <archive id="todo.zip" dtd="paquet">
 <zip>
 	<file>todo.zip</file>
-	<size>31639</size>
-	<date>1451236742</date>
+	<size>31613</size>
+	<date>1462655044</date>
 	<source>_plugins_/todo/trunk</source>
-	<last_commit>2015-12-27 18:04:15</last_commit>
+	<last_commit>2016-05-07 23:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-todo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/todo/trunk/lang/" reference="fr">
@@ -64734,10 +64898,10 @@ Logo a niekoľko obrázkov zásuvného modulu: [->http://pixel-mixer.com/]
 <archive id="tooltip.zip" dtd="paquet">
 <zip>
 	<file>tooltip.zip</file>
-	<size>98969</size>
-	<date>1451236742</date>
+	<size>98938</size>
+	<date>1462655044</date>
 	<source>_plugins_/tooltip</source>
-	<last_commit>2015-12-27 18:04:50</last_commit>
+	<last_commit>2016-05-07 23:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tooltip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tooltip/lang/" reference="fr">
@@ -64975,10 +65139,10 @@ _ D’après le script jQuery « Tooltip ».
 <archive id="tradrub_dev.zip" dtd="paquet">
 <zip>
 	<file>tradrub_dev.zip</file>
-	<size>11432</size>
-	<date>1451236744</date>
+	<size>11411</size>
+	<date>1462655046</date>
 	<source>_plugins_/tradrub/trunk</source>
-	<last_commit>2015-12-27 18:05:59</last_commit>
+	<last_commit>2016-05-07 23:04:06</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tradrub" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tradrub/trunk/lang/" reference="fr">
@@ -65677,10 +65841,10 @@ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_HEA
 <archive id="twidget.zip" dtd="paquet">
 <zip>
 	<file>twidget.zip</file>
-	<size>50363</size>
-	<date>1451236748</date>
+	<size>50347</size>
+	<date>1462655050</date>
 	<source>_plugins_/twidget</source>
-	<last_commit>2015-12-27 18:07:44</last_commit>
+	<last_commit>2016-05-07 23:04:09</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-twidget" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/twidget/lang/" reference="fr">
@@ -66106,10 +66270,10 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 <archive id="uploadhtml5.zip" dtd="paquet">
 <zip>
 	<file>uploadhtml5.zip</file>
-	<size>51245</size>
-	<date>1457219044</date>
+	<size>51205</size>
+	<date>1462655052</date>
 	<source>_plugins_/uploadhtml5/trunk</source>
-	<last_commit>2016-03-05 23:48:27</last_commit>
+	<last_commit>2016-05-07 23:04:10</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-uploadhtml5" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/uploadhtml5/trunk/lang/" reference="fr">
@@ -66326,10 +66490,10 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 <archive id="urls_numero.zip" dtd="paquet">
 <zip>
 	<file>urls_numero.zip</file>
-	<size>5155</size>
-	<date>1451236750</date>
+	<size>5153</size>
+	<date>1462655052</date>
 	<source>_plugins_/urls_par_numero/trunk</source>
-	<last_commit>2015-12-27 18:08:37</last_commit>
+	<last_commit>2016-05-07 23:04:11</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-urls_par_numero" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/urls_par_numero/trunk/lang/" reference="fr">
@@ -66581,10 +66745,10 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 <archive id="verifier.zip" dtd="paquet">
 <zip>
 	<file>verifier.zip</file>
-	<size>85336</size>
-	<date>1461384244</date>
+	<size>85266</size>
+	<date>1462655052</date>
 	<source>_plugins_/verifier</source>
-	<last_commit>2016-04-23 06:04:03</last_commit>
+	<last_commit>2016-05-07 23:04:12</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-verifier" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/verifier/lang/" reference="fr">
@@ -67003,10 +67167,10 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 <archive id="videos_31.zip" dtd="paquet">
 <zip>
 	<file>videos_31.zip</file>
-	<size>338226</size>
-	<date>1461258244</date>
+	<size>338280</size>
+	<date>1462655054</date>
 	<source>_plugins_/videos/trunk</source>
-	<last_commit>2016-04-21 19:04:02</last_commit>
+	<last_commit>2016-05-07 23:04:13</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-videos" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/videos/trunk/lang/" reference="fr">
@@ -67044,7 +67208,7 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/videos?lang_cible=nl" total="39" traduits="15" relire="0" modifs="0" nouveaux="24" pourcent="38.46">
 		<traducteur nom="Suske" lien="http://trad.spip.net/auteur/suske" />
 	</langue>
-	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/videos?lang_cible=pt_br" total="39" traduits="35" relire="0" modifs="0" nouveaux="4" pourcent="89.74">
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/videos?lang_cible=pt_br" total="39" traduits="39" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/videos?lang_cible=sk" total="39" traduits="27" relire="0" modifs="0" nouveaux="12" pourcent="69.23">
@@ -67495,10 +67659,10 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 <archive id="vocabulaire.zip" dtd="paquet">
 <zip>
 	<file>vocabulaire.zip</file>
-	<size>825451</size>
-	<date>1461532744</date>
+	<size>860826</size>
+	<date>1462039444</date>
 	<source>_plugins_/vocabulaire/trunk</source>
-	<last_commit>2016-04-24 23:19:03</last_commit>
+	<last_commit>2016-04-30 20:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="vocabulaire" reference="fr">
@@ -67508,10 +67672,10 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 <paquet
 	prefix="vocabulaire"
 	categorie="divers"
-	version="1.0.0"
+	version="1.0.1"
 	etat="dev"
 	compatibilite="[3.1.0;3.1.*]"
-	logo=""
+	logo="prive/themes/spip/images/vocabulaire-64.png"
 	documentation=""
 	schema="1.0.0"
 >
@@ -67525,7 +67689,7 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 
 	<pipeline nom="declarer_tables_objets_sql" inclure="base/vocabulaire.php" />
 	<pipeline nom="declarer_tables_interfaces" inclure="base/vocabulaire.php" />
-
+	<pipeline nom="levenshtein_calculer" inclure="vocabulaire_pipelines.php" />
 </paquet>
 
 
@@ -67855,10 +68019,10 @@ _ Utilisation de [jquery.tooltips de Bassistance.de->http://bassistance.de/jquer
 <archive id="xmlrpc.zip" dtd="paquet">
 <zip>
 	<file>xmlrpc.zip</file>
-	<size>52297</size>
-	<date>1451236752</date>
+	<size>52278</size>
+	<date>1462655054</date>
 	<source>_plugins_/xmlrpc/trunk</source>
-	<last_commit>2015-12-27 18:10:20</last_commit>
+	<last_commit>2016-05-07 23:04:14</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-xmlrpc" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/xmlrpc/trunk/lang/" reference="fr">
@@ -67962,10 +68126,10 @@ _ Utilisation de [jquery.tooltips de Bassistance.de->http://bassistance.de/jquer
 <archive id="yaml.zip" dtd="paquet">
 <zip>
 	<file>yaml.zip</file>
-	<size>48465</size>
-	<date>1451236752</date>
+	<size>48443</size>
+	<date>1462655056</date>
 	<source>_plugins_/yaml</source>
-	<last_commit>2015-12-27 18:10:36</last_commit>
+	<last_commit>2016-05-07 23:04:15</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-yaml" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/yaml/lang/" reference="fr">
@@ -68110,10 +68274,10 @@ _ Utilisation de [jquery.tooltips de Bassistance.de->http://bassistance.de/jquer
 <archive id="z-core.zip" dtd="paquet">
 <zip>
 	<file>z-core.zip</file>
-	<size>166120</size>
-	<date>1453889042</date>
+	<size>166081</size>
+	<date>1462655072</date>
 	<source>_plugins_/z-core/trunk</source>
-	<last_commit>2016-01-27 10:52:19</last_commit>
+	<last_commit>2016-05-07 23:04:31</last_commit>
 </zip>
 <traductions>
 <traduction module="zcore" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/z-core/trunk/lang/" reference="fr">
@@ -68419,10 +68583,10 @@ _ Utilisation de [jquery.tooltips de Bassistance.de->http://bassistance.de/jquer
 <archive id="zen-garden-2.zip" dtd="paquet">
 <zip>
 	<file>zen-garden-2.zip</file>
-	<size>72513</size>
-	<date>1456376646</date>
+	<size>69949</size>
+	<date>1462655056</date>
 	<source>_plugins_/zen-garden/trunk</source>
-	<last_commit>2016-02-25 05:36:32</last_commit>
+	<last_commit>2016-05-07 23:04:16</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-zengarden" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/zen-garden/trunk/lang/" reference="fr">
@@ -68476,7 +68640,7 @@ _ Utilisation de [jquery.tooltips de Bassistance.de->http://bassistance.de/jquer
 <paquet
 	prefix="zengarden"
 	categorie="maintenance"
-	version="2.6.2"
+	version="2.6.3"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/themes-32.png"
@@ -68680,10 +68844,10 @@ _ Utilisation de [jquery.tooltips de Bassistance.de->http://bassistance.de/jquer
 <archive id="zeroclipboard.zip" dtd="paquet">
 <zip>
 	<file>zeroclipboard.zip</file>
-	<size>15747</size>
-	<date>1459693142</date>
+	<size>15726</size>
+	<date>1462655058</date>
 	<source>_plugins_/zeroclipboard/trunk</source>
-	<last_commit>2016-04-03 16:19:01</last_commit>
+	<last_commit>2016-05-07 23:04:17</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-zeroclipboard" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/zeroclipboard/trunk/lang/" reference="fr">
@@ -69131,10 +69295,10 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 <archive id="zotspip_v2.zip" dtd="paquet">
 <zip>
 	<file>zotspip_v2.zip</file>
-	<size>324174</size>
-	<date>1461510242</date>
+	<size>324153</size>
+	<date>1462655058</date>
 	<source>_plugins_/zotspip/trunk</source>
-	<last_commit>2016-04-24 17:04:01</last_commit>
+	<last_commit>2016-05-07 23:04:18</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-zotspip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/zotspip/trunk/lang/" reference="fr">
@@ -69386,10 +69550,10 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 <archive id="annuaire.zip" dtd="plugin">
 <zip>
 	<file>annuaire.zip</file>
-	<size>195644</size>
-	<date>1451236756</date>
+	<size>195622</size>
+	<date>1462655060</date>
 	<source>_squelettes_/annuaire</source>
-	<last_commit>2015-12-27 18:12:46</last_commit>
+	<last_commit>2016-05-07 23:04:18</last_commit>
 </zip>
 <traductions>
 <traduction module="annuaire" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/annuaire/lang/" reference="fr">
@@ -69530,10 +69694,10 @@ _ Ce plugin fonctionne sur les squelettes disposant de la balise <code>#INSERT_H
 <archive id="aveline_v2.zip" dtd="paquet">
 <zip>
 	<file>aveline_v2.zip</file>
-	<size>338967</size>
-	<date>1459350242</date>
+	<size>338928</size>
+	<date>1462655060</date>
 	<source>_squelettes_/aveline/trunk</source>
-	<last_commit>2016-03-30 17:04:01</last_commit>
+	<last_commit>2016-05-07 23:04:20</last_commit>
 </zip>
 <traductions>
 <traduction module="aveline" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/aveline/trunk/lang/" reference="fr">
@@ -69981,6 +70145,48 @@ L&#8217;id&#233;e est de pr&#233;senter une collection d&#8217;objets physiques,
 
 </archive>
 
+<archive id="curialicious.zip" dtd="paquet">
+<zip>
+	<file>curialicious.zip</file>
+	<size>32988</size>
+	<date>1462143842</date>
+	<source>_squelettes_/curalicious</source>
+	<last_commit>2016-05-02 01:04:01</last_commit>
+</zip>
+<traductions>
+<traduction module="local" reference="fr">
+</traduction>
+</traductions>
+
+<paquet
+	prefix="curalicious"
+	categorie="squelette"
+	version="0.1.3"
+	etat="dev"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/curalicious.png"
+	documentation="http://contrib.spip.net/article4795"
+>	
+
+	<nom>curalicious</nom>
+
+	<auteur lien="http://contrib.spip.net/ydikoi">ydikoi</auteur>
+
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
+	
+
+	<necessite nom="socialtags" compatibilite="[1.0.0;1.*.*]" />
+	<necessite nom="menuder" compatibilite="[2.3.0;2.3.*]" />
+
+	<pipeline nom="insert_head_css" inclure="curalicious_pipelines.php" />
+
+
+</paquet>
+
+
+
+</archive>
+
 <archive id="squelette_darmstadtiumoid.zip" dtd="plugin">
 <zip>
 	<file>squelette_darmstadtiumoid.zip</file>
@@ -70251,10 +70457,10 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <archive id="escal_V3.zip" dtd="paquet">
 <zip>
 	<file>escal_V3.zip</file>
-	<size>1289242</size>
-	<date>1461708242</date>
+	<size>1322818</size>
+	<date>1462565042</date>
 	<source>_squelettes_/escal/branche_V3</source>
-	<last_commit>2016-04-27 00:04:02</last_commit>
+	<last_commit>2016-05-06 22:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="escal" reference="fr">
@@ -70274,8 +70480,8 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <paquet
     prefix="escal"
     categorie="squelette"
-    version="3.84.35"
-    schema="1.0.8"
+    version="3.85.1"
+    schema="1.0.10"
     etat="stable"
     compatibilite="[3.0.0;3.1.*]"
     logo="images/escal32.png"
@@ -72525,10 +72731,10 @@ et la rubrique [Documentation->http://www.sarka-spip.net/spip.php?rubrique136] p
 <archive id="sarkaspip_3x.zip" dtd="paquet">
 <zip>
 	<file>sarkaspip_3x.zip</file>
-	<size>583729</size>
-	<date>1456290244</date>
+	<size>583685</size>
+	<date>1462655068</date>
 	<source>_squelettes_/sarkaspip/branches/v_33</source>
-	<last_commit>2016-02-24 05:34:02</last_commit>
+	<last_commit>2016-05-07 23:04:27</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-sarkaspip" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/sarkaspip/branches/v_33/lang/" reference="fr">
@@ -73392,10 +73598,10 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <archive id="soyezcreateurs_rebirth_4.zip" dtd="paquet">
 <zip>
 	<file>soyezcreateurs_rebirth_4.zip</file>
-	<size>2335946</size>
-	<date>1461878342</date>
+	<size>2336248</size>
+	<date>1462655070</date>
 	<source>_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs</source>
-	<last_commit>2016-04-28 23:19:01</last_commit>
+	<last_commit>2016-05-07 23:04:29</last_commit>
 </zip>
 <traductions>
 <traduction module="soyezcreateurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs/lang/" reference="fr">
@@ -73456,7 +73662,7 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <paquet
 	prefix="soyezcreateurs"
 	categorie="squelette"
-	version="4.0.62"
+	version="4.0.64"
 	etat="stable"
 	compatibilite="[3.0.20;3.1.*]"
 	logo="img_pack/soyezcreateurs_48.png"
@@ -73821,10 +74027,10 @@ Pour disposer d'un site SPIP incluant des fonctions génériques, largement conf
 <archive id="svp_skel.zip" dtd="paquet">
 <zip>
 	<file>svp_skel.zip</file>
-	<size>46175</size>
-	<date>1451239442</date>
+	<size>46154</size>
+	<date>1462655070</date>
 	<source>_squelettes_/svp_skel</source>
-	<last_commit>2015-12-27 18:19:45</last_commit>
+	<last_commit>2016-05-07 23:04:30</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-svpskel" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/svp_skel/lang/" reference="fr">
@@ -74231,10 +74437,10 @@ De nombreux commentaires sont (ou seront) pr&&#233;sents dans le code source des
 <archive id="zoundation.zip" dtd="paquet">
 <zip>
 	<file>zoundation.zip</file>
-	<size>172766</size>
-	<date>1458482642</date>
+	<size>172798</size>
+	<date>1462046642</date>
 	<source>_squelettes_/zoundation/trunk</source>
-	<last_commit>2016-03-20 15:04:02</last_commit>
+	<last_commit>2016-04-30 22:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="zoundation" reference="fr">
@@ -74244,7 +74450,7 @@ De nombreux commentaires sont (ou seront) pr&&#233;sents dans le code source des
 <paquet
 	prefix="zoundation"
 	categorie="squelette"
-	version="1.0.10"
+	version="1.0.11"
 	etat="dev"
 	compatibilite="[3.0.13;3.1.*]"
 	logo="prive/themes/spip/images/zoundation-64.png"
@@ -74453,10 +74659,10 @@ Toute l'organisation et le fonctionnement de Zpip peuvent &#234;tre r&#233;utili
 <archive id="zpip-vide_v2.zip" dtd="paquet">
 <zip>
 	<file>zpip-vide_v2.zip</file>
-	<size>68346</size>
-	<date>1451239444</date>
+	<size>68319</size>
+	<date>1462655072</date>
 	<source>_squelettes_/zpip-vide/trunk</source>
-	<last_commit>2015-12-27 18:21:12</last_commit>
+	<last_commit>2016-05-07 23:04:32</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-zvide" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/zpip-vide/trunk/lang/" reference="fr">
