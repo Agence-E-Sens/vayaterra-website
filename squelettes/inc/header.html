@@ -25,57 +25,10 @@
 								<?PHP if($DESCRIPTIF == 'menu'){  echo '</ul>';}?> 
 								
                             </li>
-                        </BOUCLE1>
-                       <!-- <li class="dropdown">
-                        	<a href="#">Accueil</a></li>
-
-                    
-                        <li class="dropdown">
-                        	<a href="spip.php?page=projets">Projets</a></li>
-
-                    
-                        <li class="dropdown">
-                        	<a href="spip.php?page=annonces">Annonces </a></li>
-
-                    
-                        <li class="dropdown">
-                        	<a href="#" aria-expanded="false" data-toggle="dropdown" data-hover="dropdown" data-close-others="false" class="dropdown-toggle">Productions <b class="caret"></b></a>
-                        	<ul class="dropdown-menu">
-                                
-                                    <li><a href="#">Documentaire</a></li>
-                                
-                                    <li><a href="#">Webdocumentaire</a></li>
-                                
-                            </ul>
-                        </li>
-
-                    
-                        <li class="dropdown">
-                        	<a href="#" aria-expanded="false" data-toggle="dropdown" data-hover="dropdown" data-close-others="false" class="dropdown-toggle">Rencontres <b class="caret"></b></a>
-                        	<ul class="dropdown-menu">
-                                
-                                    <li><a href="#">Conférences</a></li>
-                                
-                                    <li><a href="#">Expositions</a></li>
-                                
-                                    <li><a href="#">Conseil et Expertise</a></li>
-                                
-                            </ul>
-                        </li>
-
-                    
-                        <li class="dropdown">
-                        	<a href="spip.php?page=aprops">A propos</a></li>
-
-                    
-                        <li class="dropdown">
-                        	<a href="spip.php?page=contact">Contact</a></li>
-
-                    
-                        <li class="dropdown">
-                        	<a href="spip.php?page=compte">Inscription /Connexion</a></li>-->
-
-                    
+                        </BOUCLE1> 
+						<?php if (isset($_SESSION['login'])){ ?>
+						<a href="spip.php?page=deconnexion"><b><i style=" color: red; margin-top:15px ; font-size: 24px; " class="glyphicon glyphicon-off"></i></b></a>
+						<?php } ?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
