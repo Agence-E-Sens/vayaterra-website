@@ -10721,10 +10721,10 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <archive id="clevermail.zip" dtd="paquet">
 <zip>
 	<file>clevermail.zip</file>
-	<size>136452</size>
-	<date>1462557912</date>
+	<size>136451</size>
+	<date>1462881842</date>
 	<source>_plugins_/clevermail/trunk</source>
-	<last_commit>2016-05-06 20:05:12</last_commit>
+	<last_commit>2016-05-10 14:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="clevermail" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/clevermail/trunk/lang/" reference="fr">
@@ -10748,7 +10748,7 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <paquet
 	prefix="clevermail"
 	categorie="communication"
-	version="3.0.12"
+	version="3.0.13"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/fatcow/32/email_open.png"
@@ -12990,10 +12990,10 @@ Il peut s'int&#233;grer &#224; n'importe quel site fonctionnant sous SPIP.
 <archive id="contact.zip" dtd="paquet">
 <zip>
 	<file>contact.zip</file>
-	<size>79386</size>
-	<date>1462557918</date>
+	<size>79359</size>
+	<date>1462781042</date>
 	<source>_plugins_/contact/trunk</source>
-	<last_commit>2016-05-06 20:05:17</last_commit>
+	<last_commit>2016-05-09 10:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="contact" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/contact/trunk/lang/" reference="fr">
@@ -15238,10 +15238,10 @@ Kompatibilita: SPIP v1.92x, v2.x.x a v3.0
 <archive id="crayons.zip" dtd="paquet">
 <zip>
 	<file>crayons.zip</file>
-	<size>238012</size>
-	<date>1462647842</date>
+	<size>237636</size>
+	<date>1462781042</date>
 	<source>_plugins_/crayons</source>
-	<last_commit>2016-05-07 21:04:02</last_commit>
+	<last_commit>2016-05-09 10:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="crayons" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/crayons/lang/" reference="fr">
@@ -18763,10 +18763,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="documentation.zip" dtd="paquet">
 <zip>
 	<file>documentation.zip</file>
-	<size>467088</size>
-	<date>1462655062</date>
+	<size>467217</size>
+	<date>1462881844</date>
 	<source>_galaxie_/programmer.spip.net/plugin_documentation/trunk</source>
-	<last_commit>2016-05-07 23:04:21</last_commit>
+	<last_commit>2016-05-10 14:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="documentation" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_galaxie_/programmer.spip.net/plugin_documentation/trunk/lang/" reference="fr">
@@ -18800,7 +18800,7 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <paquet
 	prefix="documentation"
 	categorie="squelette"
-	version="3.0.7"
+	version="3.0.8"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/documentation-128.png"
@@ -20845,10 +20845,10 @@ _ Translated from French by Etienne B. [->http://www.loiseau2nuit.net]
 <archive id="en_travaux_v3.zip" dtd="paquet">
 <zip>
 	<file>en_travaux_v3.zip</file>
-	<size>60458</size>
-	<date>1462648766</date>
+	<size>60503</size>
+	<date>1462766642</date>
 	<source>_plugins_/en_travaux/trunk</source>
-	<last_commit>2016-05-07 21:19:25</last_commit>
+	<last_commit>2016-05-09 06:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="entravaux" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/en_travaux/trunk/lang/" reference="fr">
@@ -20879,6 +20879,7 @@ _ Translated from French by Etienne B. [->http://www.loiseau2nuit.net]
 	</langue>
 	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/entravaux-193?lang_cible=pt_br" total="11" traduits="11" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="placido" lien="http://trad.spip.net/auteur/placido" />
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/entravaux-193?lang_cible=ru" total="11" traduits="11" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
@@ -20912,6 +20913,7 @@ _ Translated from French by Etienne B. [->http://www.loiseau2nuit.net]
 	</langue>
 	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/paquet-entravaux?lang_cible=pt_br" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="placido" lien="http://trad.spip.net/auteur/placido" />
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/paquet-entravaux?lang_cible=ru" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
@@ -20970,7 +20972,7 @@ _ Translated from French by Etienne B. [->http://www.loiseau2nuit.net]
 [fr_tu]Indiquer une phase de maintenance
 [nl]Geef een onderhoudsfase aan
 [oc_ni_mis]Endicà una frasa de mantenança
-[pt_br]Torna o site em fase de manutenção.
+[pt_br]Coloca o site em fase de manutenção.
 [ru]Позволяет отключать доступ к сайту для посетителей
 [sk]Nastaviť stránku rekonštrukcie
 </multi>
@@ -20985,7 +20987,7 @@ _ Translated from French by Etienne B. [->http://www.loiseau2nuit.net]
 [it]Consente di visualizzare un messaggio personalizzabile durante una sessione di manutenzione su tutte le pagine del sito pubblico.
 [nl]Voordat je site in onderhoud gaat, activeer je met deze plugin een waarschuwingsbladzijde, {{in plaats}} van de publieke site. Let op: alleen de webmaster heeft nog toegang tot het privé-gedeelte en de publieke site.
 [oc_ni_mis]Da ativà denant una fasa de mantenança, aquestou plugin aficha sus lou còu una pàgina d’avertimen, {{en plaça}} dóu sit pùblicou. Mèfi : basta lou webmèstre achede encara a l’espaci privat e au sit pùblicou.
-[pt_br]Ative-lhe antes de uma fase de manutenção, este plugin imediatamente exibe uma página com um aviso, substituindo o site público. Cuidado: Somente o webmaster ainda pode acessar o espaço privado e o site público.
+[pt_br]Ativado antes de uma fase de manutenção, este plugin exibe imediatamente uma página com uma mensagem, {{em substituição}} ao site público. Atenção: Apenas o webmaster poderá acessar a área restrita e o site público.
 [ru]Позволяет отключить доступ к сайту для посетителей на время проведения обслуживания или доработок сайта.
 [sk]Ak ju aktivujete pred fázou údržby, tento zásuvný modul {{namiesto}} verejne prístupnej stránky okamžite zobrazí stránku s upozornením. Pozor: Iba webmaster sa môže dostať do súkromnej zóny a na verejne prístupnú stránku.
 </multi>
@@ -22680,10 +22682,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facd.zip" dtd="paquet">
 <zip>
 	<file>facd.zip</file>
-	<size>32981</size>
-	<date>1462648768</date>
+	<size>32955</size>
+	<date>1462781044</date>
 	<source>_plugins_/facd</source>
-	<last_commit>2016-05-07 21:19:27</last_commit>
+	<last_commit>2016-05-09 10:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="facd" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/facd/lang/" reference="fr">
@@ -25632,10 +25634,10 @@ Pour un fonctionnement optimal, il faut installer des programmes compl&#233;ment
 <archive id="fulltext_v1.zip" dtd="paquet">
 <zip>
 	<file>fulltext_v1.zip</file>
-	<size>135937</size>
-	<date>1462651442</date>
+	<size>135636</size>
+	<date>1462867442</date>
 	<source>_plugins_/fulltext/trunk</source>
-	<last_commit>2016-05-07 22:04:02</last_commit>
+	<last_commit>2016-05-10 10:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="fulltext" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fulltext/trunk/lang/" reference="fr">
@@ -27238,10 +27240,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis4.zip" dtd="paquet">
 <zip>
 	<file>gis4.zip</file>
-	<size>268164</size>
-	<date>1462651446</date>
+	<size>268048</size>
+	<date>1462874642</date>
 	<source>_plugins_/gis/trunk</source>
-	<last_commit>2016-05-07 22:04:05</last_commit>
+	<last_commit>2016-05-10 12:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="gis" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis/trunk/lang/" reference="fr">
@@ -33945,10 +33947,10 @@ Ce plugin compile &#224; la vol&#233;e tous les fichiers .less.css ou .less du s
 <archive id="levenshtein.zip" dtd="paquet">
 <zip>
 	<file>levenshtein.zip</file>
-	<size>17185</size>
-	<date>1462039444</date>
+	<size>17187</size>
+	<date>1462701844</date>
 	<source>_plugins_/levenshtein/trunk</source>
-	<last_commit>2016-04-30 20:04:03</last_commit>
+	<last_commit>2016-05-08 12:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="levenshtein" reference="fr">
@@ -40126,10 +40128,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="facebook.zip" dtd="paquet">
 <zip>
 	<file>facebook.zip</file>
-	<size>155754</size>
-	<date>1462396742</date>
+	<size>155801</size>
+	<date>1462745042</date>
 	<source>_plugins_/facebook/trunk</source>
-	<last_commit>2016-05-04 23:19:02</last_commit>
+	<last_commit>2016-05-09 00:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="facebook" reference="fr">
@@ -42399,10 +42401,10 @@ _ D'apr&egrave;s le script non obstrusif &laquo;&nbsp;Nice&nbsp;titles&nbsp;&raq
 <archive id="nivoslider-v2.zip" dtd="paquet">
 <zip>
 	<file>nivoslider-v2.zip</file>
-	<size>50191</size>
-	<date>1450876118</date>
+	<size>50157</size>
+	<date>1462871042</date>
 	<source>_plugins_/nivoslider/branches/v2</source>
-	<last_commit>2015-11-17 01:28:34</last_commit>
+	<last_commit>2016-05-10 11:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="nivoslider" reference="fr">
@@ -56607,10 +56609,10 @@ _   (Th&#232;mes pour le mini-calendrier bas&#233;s sur [jquery-ui themeroller->
 <archive id="simple_calendrier_v2.zip" dtd="paquet">
 <zip>
 	<file>simple_calendrier_v2.zip</file>
-	<size>70338</size>
-	<date>1462652350</date>
+	<size>70375</size>
+	<date>1462738742</date>
 	<source>_plugins_/simple_calendrier/trunk</source>
-	<last_commit>2016-05-07 22:19:09</last_commit>
+	<last_commit>2016-05-08 22:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-simplecal" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/simple_calendrier/trunk/lang/" reference="fr">
@@ -56631,7 +56633,7 @@ _   (Th&#232;mes pour le mini-calendrier bas&#233;s sur [jquery-ui themeroller->
 <paquet
 	prefix="simplecal"
 	categorie="date"
-	version="2.0.14"
+	version="2.0.15"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/evenement-32.png"
@@ -67659,10 +67661,10 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 <archive id="vocabulaire.zip" dtd="paquet">
 <zip>
 	<file>vocabulaire.zip</file>
-	<size>860826</size>
-	<date>1462039444</date>
+	<size>860827</size>
+	<date>1462701842</date>
 	<source>_plugins_/vocabulaire/trunk</source>
-	<last_commit>2016-04-30 20:04:03</last_commit>
+	<last_commit>2016-05-08 12:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="vocabulaire" reference="fr">
@@ -70457,10 +70459,10 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <archive id="escal_V3.zip" dtd="paquet">
 <zip>
 	<file>escal_V3.zip</file>
-	<size>1322818</size>
-	<date>1462565042</date>
+	<size>1322945</size>
+	<date>1462871044</date>
 	<source>_squelettes_/escal/branche_V3</source>
-	<last_commit>2016-05-06 22:04:01</last_commit>
+	<last_commit>2016-05-10 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="escal" reference="fr">
@@ -70480,7 +70482,7 @@ Maak vooraf de cache leeg om het resultaat te zien.
 <paquet
     prefix="escal"
     categorie="squelette"
-    version="3.85.1"
+    version="3.85.2"
     schema="1.0.10"
     etat="stable"
     compatibilite="[3.0.0;3.1.*]"
@@ -73044,10 +73046,10 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <archive id="scolaspip_4_0.zip" dtd="paquet">
 <zip>
 	<file>scolaspip_4_0.zip</file>
-	<size>172835</size>
-	<date>1461823442</date>
+	<size>172888</size>
+	<date>1462784642</date>
 	<source>_squelettes_/scolaspip/trunk</source>
-	<last_commit>2016-04-28 08:04:01</last_commit>
+	<last_commit>2016-05-09 11:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="scolaspip" reference="fr">
@@ -73058,7 +73060,7 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <paquet
 	prefix="scolaspip"
 	categorie="squelette"
-	version="4.1.7"
+	version="4.1.8"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/scolaspip.png"
@@ -73598,10 +73600,10 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <archive id="soyezcreateurs_rebirth_4.zip" dtd="paquet">
 <zip>
 	<file>soyezcreateurs_rebirth_4.zip</file>
-	<size>2336248</size>
-	<date>1462655070</date>
+	<size>2335850</size>
+	<date>1462881842</date>
 	<source>_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs</source>
-	<last_commit>2016-05-07 23:04:29</last_commit>
+	<last_commit>2016-05-10 14:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="soyezcreateurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs/lang/" reference="fr">
@@ -73662,7 +73664,7 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <paquet
 	prefix="soyezcreateurs"
 	categorie="squelette"
-	version="4.0.64"
+	version="4.0.65"
 	etat="stable"
 	compatibilite="[3.0.20;3.1.*]"
 	logo="img_pack/soyezcreateurs_48.png"
@@ -73710,7 +73712,7 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 	<utilise nom="article_pdf" compatibilite="[0.4.6;[" />
 	<utilise nom="Autorite" compatibilite="[0.10.8;[" />
 	<utilise nom="campagnes" compatibilite="[1.3.1;[" />
-	<utilise nom="clevermail" compatibilite="[3.0.11;[" />
+	<utilise nom="clevermail" compatibilite="[3.0.13;[" />
 	<!--<utilise nom="comments" compatibilite="[3.3.2;[" />-->
 	<utilise nom="centre_image" compatibilite="[0.8.2;[" />
 	<utilise nom="contact" compatibilite="[0.15.4;[" />
