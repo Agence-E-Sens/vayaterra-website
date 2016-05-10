@@ -54,7 +54,7 @@ if (isset($_POST['email']) AND isset($_POST['passwd']) ) //si on a saisie le log
                         <div class="contact_container">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12">
-                                    <p>Veuillez renseigner tous les champs muni d'une * </p>
+                                    <p>Veuillez renseigner tous les champs muni d'une (*) </p>
                                     <div class="nb_com" style="display:none">9</div>
                                 </div>
                             </div> 
@@ -70,10 +70,10 @@ if (isset($_POST['email']) AND isset($_POST['passwd']) ) //si on a saisie le log
                                             
 											<div class="col-lg-8">
 												<!--<form class="form-horizontal" role="form">-->
-												<div class="form-group">
-													<label for="civilite" class="col-sm-3 control-label">Sexe (*) :</label>
+												<div class="form-group" method="post">
+													<label for="sexe" class="col-sm-3 control-label">Sexe (*) :</label>
 													<div class="col-sm-8">
-														<select required class="form-control">
+														<select required class="form-control" name="sexe">
 														  <option selected></option>
 														  <option value="h">Homme</option>
 														  <option value="f">Femme</option>
@@ -153,7 +153,7 @@ var password = document.getElementById("password"),
 
 function validatePassword() {
   if (password.value != confirm_password.value) {
-    confirm_password.setCustomValidity("Passwords Don't Match");
+    confirm_password.setCustomValidity("Le mot de passe n'est pas identique");
   } else {
     confirm_password.setCustomValidity('');
   }
