@@ -10,6 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand topnav" href="#"  style="padding-top:0; margin:0;"><img src="#CHEMIN{img/logo.png}" width="100" /></a>
+				
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -27,8 +28,21 @@
                             </li>
                         </BOUCLE1> 
 						<?php if (isset($_SESSION['login'])){ ?>
-						<a href="spip.php?page=deconnexion"><b><i style=" color: red; margin-top:15px ; font-size: 24px; " class="glyphicon glyphicon-off"></i></b></a>
-						<?php } ?>
+						<li class="dropdown">
+						<a href="spip.php?page=compte"> Mon compte </a>
+						</li>
+						<li class="dropdown">
+						<a href="spip.php?page=deconnexion"><b><i style=" color: red; font-size: 24px; " class="glyphicon glyphicon-off"></i></b></a>
+						</li>
+						
+						<?php }
+						else { ?>
+						
+						<li class="dropdown">
+						<a href="spip.php?page=compte"> Connexion/Inscription </a>
+						</li>
+						
+						<?php }	?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

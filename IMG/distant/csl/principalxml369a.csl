@@ -6987,10 +6987,10 @@ La version actuelle permet seulement d’insérer du texte latin ; une future v
 <archive id="blocsdepliables.zip" dtd="paquet">
 <zip>
 	<file>blocsdepliables.zip</file>
-	<size>37010</size>
-	<date>1462557904</date>
+	<size>30618</size>
+	<date>1462957442</date>
 	<source>_plugins_/blocsdepliables</source>
-	<last_commit>2016-05-06 20:05:03</last_commit>
+	<last_commit>2016-05-11 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="blocsdepliables" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/blocsdepliables/lang/" reference="fr">
@@ -8245,10 +8245,10 @@ _ Ikona [Tempest->http://tempest.deviantart.com/] pod licenciou CC BY-NC-ND.
 <archive id="calendrier_mini-2.0.zip" dtd="paquet">
 <zip>
 	<file>calendrier_mini-2.0.zip</file>
-	<size>40048</size>
-	<date>1462557908</date>
+	<size>40009</size>
+	<date>1462957444</date>
 	<source>_plugins_/calendrier_mini/trunk</source>
-	<last_commit>2016-05-06 20:05:08</last_commit>
+	<last_commit>2016-05-11 11:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="minical" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/calendrier_mini/trunk/lang/" reference="fr">
@@ -10243,10 +10243,10 @@ Trieda CSS <code>chosen</code> v prvku code><select></code> automaticky spustí
 <archive id="chosen.zip" dtd="paquet">
 <zip>
 	<file>chosen.zip</file>
-	<size>46649</size>
-	<date>1462557912</date>
+	<size>46578</size>
+	<date>1462975444</date>
 	<source>_plugins_/chosen/trunk</source>
-	<last_commit>2016-05-06 20:05:12</last_commit>
+	<last_commit>2016-05-11 16:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="chosen" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/chosen/trunk/lang/" reference="fr">
@@ -15533,10 +15533,10 @@ _ <code><h1 class="#EDIT{titre} علامات اخرى">#TITRE</h1></code>.
 <archive id="criteres_suivant_precedent.zip" dtd="paquet">
 <zip>
 	<file>criteres_suivant_precedent.zip</file>
-	<size>77594</size>
-	<date>1462648742</date>
+	<size>68824</size>
+	<date>1462899844</date>
 	<source>_plugins_/criteres_suivant_precedent</source>
-	<last_commit>2016-05-07 21:19:02</last_commit>
+	<last_commit>2016-05-10 19:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-suivant_precedent" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/criteres_suivant_precedent/lang/" reference="fr">
@@ -25635,9 +25635,9 @@ Pour un fonctionnement optimal, il faut installer des programmes compl&#233;ment
 <zip>
 	<file>fulltext_v1.zip</file>
 	<size>135636</size>
-	<date>1462867442</date>
+	<date>1462896242</date>
 	<source>_plugins_/fulltext/trunk</source>
-	<last_commit>2016-05-10 10:04:02</last_commit>
+	<last_commit>2016-05-10 18:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="fulltext" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fulltext/trunk/lang/" reference="fr">
@@ -36024,14 +36024,14 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailshot-v1.zip" dtd="paquet">
 <zip>
 	<file>mailshot-v1.zip</file>
-	<size>114228</size>
-	<date>1462651468</date>
+	<size>114537</size>
+	<date>1463043842</date>
 	<source>_plugins_/mailshot/trunk</source>
-	<last_commit>2016-05-07 22:04:27</last_commit>
+	<last_commit>2016-05-12 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="mailshot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailshot/trunk/lang/" reference="fr">
-	<langue code="de" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=de" total="81" traduits="69" relire="0" modifs="2" nouveaux="10" pourcent="85.19">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=de" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
 	</langue>
 	<langue code="en" url="http://trad.spip.net/tradlang_module/mailshot?lang_cible=en" total="81" traduits="64" relire="0" modifs="1" nouveaux="16" pourcent="79.01">
@@ -36068,7 +36068,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="mailshot"
 	categorie="communication"
-	version="1.17.0"
+	version="1.17.2"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/mailshot-32.png"
@@ -36127,14 +36127,14 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailsubscribers-v1.zip" dtd="paquet">
 <zip>
 	<file>mailsubscribers-v1.zip</file>
-	<size>122493</size>
-	<date>1462651470</date>
+	<size>122479</size>
+	<date>1462939444</date>
 	<source>_plugins_/mailsubscribers/trunk</source>
-	<last_commit>2016-05-07 22:04:29</last_commit>
+	<last_commit>2016-05-11 06:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="mailsubscriber" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailsubscribers/trunk/lang/" reference="fr">
-	<langue code="de" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=de" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
+	<langue code="de" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=de" total="81" traduits="81" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Torsten Willmann" lien="http://trad.spip.net/auteur/torsten-willmann" />
 	</langue>
 	<langue code="en" url="http://trad.spip.net/tradlang_module/mailsubscriber?lang_cible=en" total="81" traduits="80" relire="0" modifs="1" nouveaux="0" pourcent="98.77">
@@ -47568,10 +47568,10 @@ _ © 2008-2012 - Distribué sous licence GNU/GPL
 <archive id="plan3.zip" dtd="paquet">
 <zip>
 	<file>plan3.zip</file>
-	<size>181066</size>
-	<date>1450876166</date>
+	<size>179260</size>
+	<date>1462961044</date>
 	<source>_plugins_/plan/branches/v1</source>
-	<last_commit>2015-09-13 16:28:33</last_commit>
+	<last_commit>2016-05-11 12:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="plan" reference="fr">
@@ -48876,10 +48876,10 @@ Pridáva aj skratku <code>[->ecrire/inc_versions.php#trac].</code>
 <archive id="enluminures_typographiques_v3.zip" dtd="paquet">
 <zip>
 	<file>enluminures_typographiques_v3.zip</file>
-	<size>56675</size>
-	<date>1462648764</date>
+	<size>57034</size>
+	<date>1462939442</date>
 	<source>_plugins_/porte_plume_enluminures_typographiques/trunk</source>
-	<last_commit>2016-05-07 21:19:24</last_commit>
+	<last_commit>2016-05-11 06:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="enlumtypo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/porte_plume_enluminures_typographiques/trunk/lang/" reference="fr">
@@ -48899,6 +48899,10 @@ Pridáva aj skratku <code>[->ecrire/inc_versions.php#trac].</code>
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/enlumtypo?lang_cible=ru" total="27" traduits="27" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="olly" lien="http://trad.spip.net/auteur/olly" />
+	</langue>
+</traduction>
+<traduction module="paquet-typoenluminee" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/porte_plume_enluminures_typographiques/trunk/lang/" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-typoenluminee?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
 </traduction>
 </traductions>
@@ -48943,18 +48947,18 @@ Pridáva aj skratku <code>[->ecrire/inc_versions.php#trac].</code>
 <multis>
 <slogan>
 <multi>
-[fr]Plein de raccourcis pour la mise en forme !
+[fr]Plein de raccourcis pour la mise en forme !
 </multi>
 </slogan>
 <description>
 <multi>
-[fr]Ce plugin ajoute des raccourcis typographiques et des boutons au porte plume. Par exemple :
--* Paragraphes :
--** {{Sous-titres}} <code>{{{**</code>Texte du titre<code>}}}</code>, le nombre d'étoiles (*) variant de 2 à 5, la barre de raccourcis ne proposant que 2 et 3
+[fr]Ce plugin ajoute des raccourcis typographiques et des boutons au porte plume. Par exemple :
+-* Paragraphes :
+-** {{Sous-titres}} <code>{{{**</code>Texte du titre<code>}}}</code>, le nombre d’étoiles (*) variant de 2 à 5, la barre de raccourcis ne proposant que 2 et 3
 -** {{Centrer}} <code>[|</code>Paragraphe centré<code>|]</code>
 -** {{Aligner à droite}} <code>[/</code>Paragraphe aligné à droite<code>/]</code>
 -** {{Encadrer}} <code>[(</code>Paragraphe à encadrer<code>)]</code>
--* Caractères :
+-* Caractères :
 -** {{Mise en évidence}} <code>[*</code>texte en évidence<code>*]</code>
 -** {{Mise en évidence variante}} <code>[**</code>texte en évidence (autre couleur)<code>*]</code>
 -** {{Mise en exposant}} {&lt;sup&gt;}texte en exposant{&lt;/sup&gt;}
@@ -50249,10 +50253,10 @@ Ce plugin est un élément autonome de SPIPMINE.
 <archive id="projets_sites.zip" dtd="paquet">
 <zip>
 	<file>projets_sites.zip</file>
-	<size>77099</size>
-	<date>1462183442</date>
+	<size>77286</size>
+	<date>1462989842</date>
 	<source>_plugins_/projets_sites/trunk</source>
-	<last_commit>2016-05-02 12:04:01</last_commit>
+	<last_commit>2016-05-11 20:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="projets_site" reference="fr">
@@ -50264,7 +50268,7 @@ Ce plugin est un élément autonome de SPIPMINE.
 <paquet
 	prefix="projets_sites"
 	categorie="divers"
-	version="1.8.6"
+	version="1.8.8"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/projets_sites-64.png"
@@ -52848,13 +52852,13 @@ La documentation [est ici->http://contrib.spip.net/Codeur-d-adresse-email-2-plug
 
 </archive>
 
-<archive id="rspip3_code_mail_110.zip" dtd="paquet">
+<archive id="rspip3_code_mail_111.zip" dtd="paquet">
 <zip>
-	<file>rspip3_code_mail_110.zip</file>
-	<size>21713</size>
-	<date>1450876132</date>
-	<source>_plugins_/rspip_code_mail/rspip3_code_mail/tag/1.1.0</source>
-	<last_commit>2013-11-13 18:08:53</last_commit>
+	<file>rspip3_code_mail_111.zip</file>
+	<size>21774</size>
+	<date>1462993444</date>
+	<source>_plugins_/rspip_code_mail/rspip3_code_mail/tag/1.1.1</source>
+	<last_commit>2016-05-11 21:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="rspipcm" reference="fr">
@@ -52866,7 +52870,7 @@ La documentation [est ici->http://contrib.spip.net/Codeur-d-adresse-email-2-plug
 <paquet
 	etat="stable"
 	prefix="rspipcm"
-	version="1.1.0"
+	version="1.1.1"
 	compatibilite="[3.0.0;3.0.*]"
 	categorie="communication"
 	logo="icons/rspipcm-icon.jpg"
@@ -52884,9 +52888,9 @@ La documentation [est ici->http://contrib.spip.net/Codeur-d-adresse-email-2-plug
 <multis>
 <slogan>
 <multi>
-[en]Ce plugin encode les raccourcis email spip contre les robots collecteurs d'adresses email.
-[fr]Ce plugin encode les raccourcis email spip contre les robots collecteurs d'adresses email.
-[nl]Ce plugin encode les raccourcis email spip contre les robots collecteurs d'adresses email.
+[en]Ce plugin encode les raccourcis email spip contre les robots collecteurs d’adresses email.
+[fr]Ce plugin encode les raccourcis email spip contre les robots collecteurs d’adresses email.
+[nl]Ce plugin encode les raccourcis email spip contre les robots collecteurs d’adresses email.
 </multi>
 </slogan>
 <description>
@@ -52895,7 +52899,7 @@ La documentation [est ici->http://contrib.spip.net/Codeur-d-adresse-email-2-plug
 
 	Ce plugin encode les raccourcis email spip pour éviter la récupération des adresses email par des robots collecteurs de ces adresses. Il remplace le lien mailto par un lien javascript crypté. Si le robot tente de suivre le lien javascript et de le décoder via le DOM, il sera bloqué par une captcha mathématique obligatoire pour le décodage.
  
-Le plugin supporte des paramètres à l'adresse email. Ces paramètres doivent être alphanumériques. Ils peuvent aussi contenir l'espace, _ et -. Si l'encodage UTF-8 est disponible, les caractères accentués sont autorisés. Les doubles et simples quotes (même échappés), # et les caractères html étendus sont à proscrire. Le : dans les paramètres retournera @.
+Le plugin supporte des paramètres à l’adresse email. Ces paramètres doivent être alphanumériques. Ils peuvent aussi contenir l’espace, _ et -. Si l’encodage UTF-8 est disponible, les caractères accentués sont autorisés. Les doubles et simples quotes (même échappés), # et les caractères html étendus sont à proscrire. Le : dans les paramètres retournera @.
 
 Langues actuelles disponibles (en, nl à compléter): fr, en, nl
 
@@ -52904,7 +52908,7 @@ La documentation [est ici->http://contrib.spip.net/Codeur-d-adresse-email-2-plug
 
 	Ce plugin encode les raccourcis email spip pour éviter la récupération des adresses email par des robots collecteurs de ces adresses. Il remplace le lien mailto par un lien javascript crypté. Si le robot tente de suivre le lien javascript et de le décoder via le DOM, il sera bloqué par une captcha mathématique obligatoire pour le décodage.
  
-Le plugin supporte des paramètres à l'adresse email. Ces paramètres doivent être alphanumériques. Ils peuvent aussi contenir l'espace, _ et -. Si l'encodage UTF-8 est disponible, les caractères accentués sont autorisés. Les doubles et simples quotes (même échappés), # et les caractères html étendus sont à proscrire. Le : dans les paramètres retournera @.
+Le plugin supporte des paramètres à l’adresse email. Ces paramètres doivent être alphanumériques. Ils peuvent aussi contenir l’espace, _ et -. Si l’encodage UTF-8 est disponible, les caractères accentués sont autorisés. Les doubles et simples quotes (même échappés), # et les caractères html étendus sont à proscrire. Le : dans les paramètres retournera @.
 
 Langues actuelles disponibles (en, nl à compléter): fr, en, nl
 
@@ -52913,7 +52917,7 @@ La documentation [est ici->http://contrib.spip.net/Codeur-d-adresse-email-2-plug
 	
 	Ce plugin encode les raccourcis email spip pour éviter la récupération des adresses email par des robots collecteurs de ces adresses. Il remplace le lien mailto par un lien javascript crypté. Si le robot tente de suivre le lien javascript et de le décoder via le DOM, il sera bloqué par une captcha mathématique obligatoire pour le décodage.
  
-Le plugin supporte des paramètres à l'adresse email. Ces paramètres doivent être alphanumériques. Ils peuvent aussi contenir l'espace, _ et -. Si l'encodage UTF-8 est disponible, les caractères accentués sont autorisés. Les doubles et simples quotes (même échappés), # et les caractères html étendus sont à proscrire. Le : dans les paramètres retournera @.
+Le plugin supporte des paramètres à l’adresse email. Ces paramètres doivent être alphanumériques. Ils peuvent aussi contenir l’espace, _ et -. Si l’encodage UTF-8 est disponible, les caractères accentués sont autorisés. Les doubles et simples quotes (même échappés), # et les caractères html étendus sont à proscrire. Le : dans les paramètres retournera @.
 
 Langues actuelles disponibles (en, nl à compléter): fr, en, nl
 
@@ -53835,10 +53839,10 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <archive id="saisies_v2.zip" dtd="paquet">
 <zip>
 	<file>saisies_v2.zip</file>
-	<size>192114</size>
-	<date>1462651528</date>
+	<size>186448</size>
+	<date>1462961042</date>
 	<source>_plugins_/saisies/trunk</source>
-	<last_commit>2016-05-07 22:05:26</last_commit>
+	<last_commit>2016-05-11 12:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-saisies" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/saisies/trunk/lang/" reference="fr">
@@ -53923,7 +53927,7 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <paquet
 	prefix="saisies"
 	categorie="outil"
-	version="2.7.0"
+	version="2.7.1"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/logo_saisie_48.png"
@@ -58073,10 +58077,10 @@ Bovendien kun je met deze plugin Facebook badges en een "Like" box opnemen.
 <archive id="sociaux.zip" dtd="paquet">
 <zip>
 	<file>sociaux.zip</file>
-	<size>144734</size>
-	<date>1459436642</date>
+	<size>146143</size>
+	<date>1462921442</date>
 	<source>_plugins_/sociaux/trunk</source>
-	<last_commit>2016-03-31 17:04:01</last_commit>
+	<last_commit>2016-05-11 01:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="sociaux" reference="fr">
@@ -58086,19 +58090,22 @@ Bovendien kun je met deze plugin Facebook badges en een "Like" box opnemen.
 <paquet
 	prefix="sociaux"
 	categorie="edition"
-	version="1.1.3"
-	etat="stable"
+	version="2.0.0"
+	etat="dev"
 	compatibilite="[3.0.20;3.1.*]"
 	logo="prive/themes/spip/images/sociaux-64.png"
 	documentation="http://contrib.spip.net/4720"
-
+	schema="1.0.0"
 >
-  <nom>sociaux</nom>
-  <auteur lien='http://www.erational.org'>erational</auteur>
-  <licence>GNU/GPL</licence>
+	<nom>sociaux</nom>
+	<auteur lien='http://www.erational.org'>erational</auteur>
+	<licence>GNU/GPL</licence>
 
-  <pipeline nom="insert_head_css" inclure="sociaux_pipelines.php" />
-  <menu nom="sociaux" titre="sociaux:sociaux_titre" parent="menu_squelette" icone="images/sociaux-16.png" action="configurer_sociaux" />
+	<pipeline nom="insert_head_css" inclure="sociaux_pipelines.php"/>
+	<pipeline nom="header_prive" inclure="sociaux_pipelines.php" />
+	<pipeline nom="sociaux_lister" inclure="sociaux_pipelines.php"/>
+
+	<menu nom="sociaux" titre="sociaux:sociaux_titre" parent="menu_squelette" icone="images/sociaux-16.png" action="configurer_sociaux"/>
 
 </paquet>
 <multis>
@@ -58125,13 +58132,19 @@ Bovendien kun je met deze plugin Facebook badges en een "Like" box opnemen.
 <archive id="sommaire-v1.zip" dtd="paquet">
 <zip>
 	<file>sommaire-v1.zip</file>
-	<size>22330</size>
-	<date>1459505942</date>
+	<size>23192</size>
+	<date>1462939444</date>
 	<source>_plugins_/sommaire/trunk</source>
-	<last_commit>2016-04-01 12:19:02</last_commit>
+	<last_commit>2016-05-11 06:04:04</last_commit>
 </zip>
 <traductions>
-<traduction module="sommaire" reference="fr">
+<traduction module="paquet-sommaire" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/sommaire/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-sommaire?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="sommaire" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/sommaire/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/sommaire?lang_cible=fr" total="25" traduits="25" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
 </traduction>
 </traductions>
 
@@ -58521,10 +58534,10 @@ La liste des traductions disponibles est sur [Spip-Contrib->http://contrib.spip.
 <archive id="spip-bonux-3.zip" dtd="paquet">
 <zip>
 	<file>spip-bonux-3.zip</file>
-	<size>112619</size>
-	<date>1462652360</date>
+	<size>106677</size>
+	<date>1462917844</date>
 	<source>_plugins_/spip-bonux-3</source>
-	<last_commit>2016-05-07 22:19:19</last_commit>
+	<last_commit>2016-05-11 00:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-spip_bonux" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/spip-bonux-3/lang/" reference="fr">
@@ -64330,10 +64343,10 @@ La version {Kiss} ({Keep it simple, stupid!}) est moins param&#233;trable que la
 <archive id="timezone.zip" dtd="paquet">
 <zip>
 	<file>timezone.zip</file>
-	<size>13125</size>
-	<date>1462655042</date>
+	<size>13117</size>
+	<date>1462917842</date>
 	<source>_plugins_/timezone</source>
-	<last_commit>2016-05-07 23:04:02</last_commit>
+	<last_commit>2016-05-11 00:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-timezone" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/timezone/lang/" reference="fr">
@@ -65141,10 +65154,10 @@ _ D’après le script jQuery « Tooltip ».
 <archive id="tradrub_dev.zip" dtd="paquet">
 <zip>
 	<file>tradrub_dev.zip</file>
-	<size>11411</size>
-	<date>1462655046</date>
+	<size>11759</size>
+	<date>1462939446</date>
 	<source>_plugins_/tradrub/trunk</source>
-	<last_commit>2016-05-07 23:04:06</last_commit>
+	<last_commit>2016-05-11 06:04:05</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-tradrub" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tradrub/trunk/lang/" reference="fr">
@@ -65166,7 +65179,9 @@ _ D’après le script jQuery « Tooltip ».
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
 </traduction>
-<traduction module="tradrub" reference="fr">
+<traduction module="tradrub" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/tradrub/trunk/lang/" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/tradrub?lang_cible=fr" total="1" traduits="1" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
 </traduction>
 </traductions>
 
@@ -66747,10 +66762,10 @@ Par exemple, <code>"1er mars"</code> devient <code>"1er&nbsp;mars"</code>.
 <archive id="verifier.zip" dtd="paquet">
 <zip>
 	<file>verifier.zip</file>
-	<size>85266</size>
-	<date>1462655052</date>
+	<size>83303</size>
+	<date>1462903442</date>
 	<source>_plugins_/verifier</source>
-	<last_commit>2016-05-07 23:04:12</last_commit>
+	<last_commit>2016-05-10 20:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-verifier" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/verifier/lang/" reference="fr">
@@ -68128,10 +68143,10 @@ _ Utilisation de [jquery.tooltips de Bassistance.de->http://bassistance.de/jquer
 <archive id="yaml.zip" dtd="paquet">
 <zip>
 	<file>yaml.zip</file>
-	<size>48443</size>
-	<date>1462655056</date>
+	<size>48398</size>
+	<date>1462900744</date>
 	<source>_plugins_/yaml</source>
-	<last_commit>2016-05-07 23:04:15</last_commit>
+	<last_commit>2016-05-10 19:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-yaml" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/yaml/lang/" reference="fr">
@@ -73046,10 +73061,10 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <archive id="scolaspip_4_0.zip" dtd="paquet">
 <zip>
 	<file>scolaspip_4_0.zip</file>
-	<size>172888</size>
-	<date>1462784642</date>
+	<size>172901</size>
+	<date>1462889042</date>
 	<source>_squelettes_/scolaspip/trunk</source>
-	<last_commit>2016-05-09 11:04:01</last_commit>
+	<last_commit>2016-05-10 16:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="scolaspip" reference="fr">
@@ -73060,7 +73075,7 @@ Evit ar  vistri-gwiad, hag e vefent o kregiñ gantañ, ez eo aes personelaat ane
 <paquet
 	prefix="scolaspip"
 	categorie="squelette"
-	version="4.1.8"
+	version="4.1.10"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/scolaspip.png"
@@ -73600,10 +73615,10 @@ Pour disposer d'un site SPIP incluant des fonctions g&#233;n&#233;riques, largem
 <archive id="soyezcreateurs_rebirth_4.zip" dtd="paquet">
 <zip>
 	<file>soyezcreateurs_rebirth_4.zip</file>
-	<size>2335850</size>
-	<date>1462881842</date>
+	<size>2335893</size>
+	<date>1462900742</date>
 	<source>_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs</source>
-	<last_commit>2016-05-10 14:04:02</last_commit>
+	<last_commit>2016-05-10 19:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="soyezcreateurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_squelettes_/soyezcreateurs_net/trunk/plugins/soyezcreateurs/lang/" reference="fr">

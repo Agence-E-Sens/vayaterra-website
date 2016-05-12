@@ -3,13 +3,12 @@ session_start(); // on démare toujour la session pour evité les pbm :)
 if (isset($_POST['email']) AND isset($_POST['passwd']) ) //si on a saisie le login et mot de passe
 {
 	// Autorisation ok : il reste à voir le mot de passe  	
-	$pseudo = $_POST['email'];//On protège les données
-	$password = $_POST['passwd'];
+	$pseudo = htmlspecialchars($_POST['email']);//On protège les données
+	$password = htmlspecialchars($_POST['passwd']);
 	$result = sql_select('*', "spip_membre", "email LIKE '".$pseudo."' AND mdp LIKE '".$password."'", '', '');
 	 if ( $res = sql_fetch($result))
 	{
 		$_SESSION['login'] = $res['Nom'] ." ". $res['Prenom'] ;
-		echo $_SESSION['login'] ;
 		$alert = '
 		<div class="alert alert-success" role="alert">
 		  <strong>Information :</strong> Connexion effectuée avec succée.
