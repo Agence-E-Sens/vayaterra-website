@@ -1,29 +1,3 @@
-<?php 
-session_start(); // on démare toujour la session pour evité les pbm :)
-if (isset($_POST['email']) AND isset($_POST['passwd']) ) //si on a saisie le login et mot de passe
-{
-	// Autorisation ok : il reste à voir le mot de passe  	
-	$pseudo = htmlspecialchars($_POST['email']);//On protège les données
-	$password = htmlspecialchars($_POST['passwd']);
-	$result = sql_select('*', "spip_membre", "email LIKE '".$pseudo."' AND mdp LIKE '".$password."'", '', '');
-	 if ( $res = sql_fetch($result))
-	{
-		$_SESSION['login'] = $res['Nom'] ." ". $res['Prenom'] ;
-		$alert = '
-		<div class="alert alert-success" role="alert">
-		  <strong>Information :</strong> Connexion effectuée avec succée.
-		</div> ' ;
-	}
-	else // Acces pas OK !  n'oublie de faire la variable de controle pour afiché si le mot passe ou ligin est incorecte
-	{ 
-		echo '<p class="erreur">login ou mot de passe incorrecte</p>';
-		$alert = '
-		<div class="alert alert-warning" role="alert">
-		  <strong>erreur :</strong> E-mail ou mot de passe incorrecte.
-		</div> ' ;
-	}
-}
- ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,122 +19,14 @@ if (isset($_POST['email']) AND isset($_POST['passwd']) ) //si on a saisie le log
             </div>
         </div>
 
-
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">     
-                    <div class="tableaudebord">
-                        <div class="contact_container">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12">
-                                    <p>Veuillez renseigner tous les champs muni d'une (*) </p>
-                                    <div class="nb_com" style="display:none">9</div>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class='container'>
-                            <div class='row'>
-
-
-                                
-                                    <form class="form-horizontal" role="form">
-                                        <div class='row'>
-                                            
-											<div class="col-lg-8">
-												<!--<form class="form-horizontal" role="form">-->
-												<div class="form-group" method="post">
-													<label for="sexe" class="col-sm-3 control-label">Sexe (*) :</label>
-													<div class="col-sm-8">
-														<select required class="form-control" name="sexe">
-														  <option selected></option>
-														  <option value="h">Homme</option>
-														  <option value="f">Femme</option>
-														</select>													
-													</div>
-												</div>
-												<div class="form-group">
-													<label for="nom" class="col-sm-3 control-label">Nom (*) :</label>
-													<div class="col-sm-8">
-														<input type="text" required class="form-control" name="name" id="name">
-													</div>
-												</div>
-												<div class="form-group" >
-													<label for="prenom" class="col-sm-3 control-label">Prenom (*) :</label>
-													<div class="col-sm-8">
-														<input type="text" required class="form-control" name="prenom" id="prenom">
-													</div>
-												</div>
-												<div class="form-group">
-													<label for="mail" class="col-sm-3 control-label">Email (*) :</label>
-													<div class="col-sm-8">
-														<input type="email" required class="form-control" name="email" id="email">
-													</div>
-												</div>
-												<div class="form-group">
-													<label for="mail" class="col-sm-3 control-label">Password (*) :</label>
-													<div class="col-sm-8">
-														<input type="password" required id="password" name="password" placeholder="" class="form-control">
-													</div>
-												</div>
-												<div class="form-group">
-													<label for="mail" class="col-sm-3 control-label">Password (Confirm) (*) :</label>
-													<div class="col-sm-8">
-														<input type="password" required id="confirm_password" name="confirm_password" placeholder="" class="form-control">
-													</div>
-												</div>
-												<div class="form-group">
-													<label for="tel" class="col-sm-3 control-label">T&eacute;l&eacute;phone :</label>
-													<div class="col-sm-8">
-														<input type="tel" class="form-control" name="tel" id="tel">
-													</div>
-												</div>
-                                                    <div class="form-group">
-
-                                                        <label for="adresse" class="col-sm-3 control-label">Adresse :</label>
-                                                        <div class="col-sm-8">
-                                                            <input type="text" class="form-control" name="adresse" id="adresse">
-                                                        </div>
-                                                    </div>
-												<div class="row">
-													<div class="col-lg-8">
-														<div class="boutton">
-															<div class="col-lg-6 col-md-6 hidden-md hidden-xs"></div>
-															<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-xs-12">
-																<button name="submit" id="submit" type="submit" value="submit" class="btn btn-default btn-lg btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Enregistrer <span class="glyphicon glyphicon-chevron-right"></span></button>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-                                            
-                                        </div>
-                                    </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         </div>
+		[(#FORMULAIRE_INSCRIPTION)]
+		 </div>
 
 
    
 </div>	
 <script>
-var password = document.getElementById("password"),
-  confirm_password = document.getElementById("confirm_password");
-
-function validatePassword() {
-  if (password.value != confirm_password.value) {
-    confirm_password.setCustomValidity("Le mot de passe n'est pas identique");
-  } else {
-    confirm_password.setCustomValidity('');
-  }
-}
-
-password.onchange = validatePassword;
-confirm_password.onkeyup = validatePassword;</script>
-   <!-- /.container -->
 <INCLURE{fond=inc/footer}>
 
 </body>
