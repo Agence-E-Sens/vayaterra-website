@@ -3,22 +3,22 @@
 if (isset($_POST['submitModif']) ) 
 {
 		
-		echo ("ok");
 	$pseudo = htmlspecialchars($_POST['pseudo']);//On protège les données
 	$prenom = htmlspecialchars($_POST['prenom']);
 	$nom = htmlspecialchars($_POST['nom']);
 	$email = htmlspecialchars($_POST['email']);
 	$bio = htmlspecialchars($_POST['bio']);
 	$adresse = htmlspecialchars($_POST['adresse']);
-	
+	$id = $_POST['id'];
 
-	sql_update('spip_auteurs', array(
-	"nom" => $pseudo, 
+	sql_updateq('spip_auteurs', array(
+	"nom" => $pseudo,
+	"bio" => $bio,
+	"email" => $email,
 	"prenom" => $prenom,
 	"nom_0" => $nom,
-	"email" => $email,
-	"bio" => $bio,
-	"adresse" => $adresse),"id_auteur=".$_POST['id']);
+	"adresse" => $adresse,
+	),"id_auteur=". intval($id));
 
 }
  ?>
@@ -32,6 +32,7 @@ if (isset($_POST['submitModif']) )
 </head>
 
 <body>
+
 <INCLURE{fond=inc/header}>
 
 

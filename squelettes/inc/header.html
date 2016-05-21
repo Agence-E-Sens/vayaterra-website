@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#"  style="padding-top:0; margin:10px 0 5px 0;"><img src="#CHEMIN{img/logo.png}" width="60" /></a>
+                <a class="navbar-brand topnav" href="spip.php?page="  style="padding-top:0; margin:10px 0 5px 0;"><img src="#CHEMIN{img/logo.png}" width="60" /></a>
 				
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,22 +27,7 @@
 								
                             </li>
                         </BOUCLE1> 
-						<?php if (isset($_SESSION['login'])){ ?>
-						<li class="dropdown">
-						<a href="spip.php?page=compte"> Mon compte </a>
-						</li>
-						<li class="dropdown">
-						<a href="spip.php?page=deconnexion"><b><i style=" color: red; font-size: 24px; " class="glyphicon glyphicon-off"></i></b></a>
-						</li>
 						
-						<?php }
-						else { ?>
-						
-						<li class="dropdown">
-						<a href="spip.php?page=compte"> Connexion/Inscription </a>
-						</li>
-						
-						<?php }	?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -50,7 +35,12 @@
         <!-- /.container -->
 		<div style="background:#419341; ">
 			<div class="container" align="right" style=" padding:7px;">
-			<a class="menu-compte" href="">Mon compte / Inscription</a>
+            [(#SESSION{id_auteur}|non)
+			<a class="menu-compte" href="spip.php?page=compte">Connexion / Inscription</a>
+            ]
+            [(#SESSION{id_auteur}|oui) 
+                <a class="menu-compte" href="spip.php?page=compte"> Mon compte </a>
+            ]
 			</div>
 
 		</div>
