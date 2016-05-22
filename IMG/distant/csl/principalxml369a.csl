@@ -51417,10 +51417,10 @@ Essayez la page de d&#233;mo {demo/rainette.html} pour des exemples d'utilisatio
 <archive id="rainette.zip" dtd="paquet">
 <zip>
 	<file>rainette.zip</file>
-	<size>2089446</size>
-	<date>1463835842</date>
+	<size>2086695</size>
+	<date>1463908742</date>
 	<source>_plugins_/rainette/branches/v2</source>
-	<last_commit>2016-05-21 15:04:02</last_commit>
+	<last_commit>2016-05-22 11:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="rainette" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/rainette/lang/" reference="fr">
@@ -51443,7 +51443,7 @@ Essayez la page de d&#233;mo {demo/rainette.html} pour des exemples d'utilisatio
 <paquet
 	prefix="rainette"
 	categorie="divers"
-	version="2.3.2"
+	version="2.4.6"
 	etat="stable"
 	compatibilite="[3.0.11;3.1.*]"
 	logo="rainette-64.png"
@@ -51474,7 +51474,7 @@ Essayez la page de d&#233;mo {demo/rainette.html} pour des exemples d'utilisatio
 </slogan>
 <description>
 <multi>
-[fr]Cette nouvelle version de Rainette permet de choisir son service météo parmi weather.com, Wunderground, World Weather Online, Open Weather Map ou Yahoo. Une configuration est disponible pour chaque service en particulier pour saisir une clé d'enregistrement. Les affichages proposées par cette version sont incompatibles avec ceux de la branche v1.
+[fr]Cette nouvelle version de Rainette permet de choisir son service météo parmi weather.com, Wunderground, World Weather Online ou Open Weather Map. Une configuration est disponible pour chaque service en particulier pour saisir une clé d'enregistrement. Les affichages proposées par cette version sont incompatibles avec ceux de la branche v1.
 
 Ce plugin permet d'afficher les conditions et les prévisions météorologiques d'une ville donnée à partir du flux xml fourni par un des services méteorologiques supportés.
 Il ne stocke aucune information en base de données ni ne gère le choix des villes.

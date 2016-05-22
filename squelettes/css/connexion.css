@@ -1,0 +1,66 @@
+.connexion{
+    position: relative;
+    height: 70%;
+}
+.formulaireCo{
+    position: absolute;
+    right: 240px;
+    top: 100px;
+}
+.formulaireCo .insc{
+    text-align: center;
+    padding-top: 20px;
+}
+.formulaire_login{
+    background-color: rgba(122, 213, 103, 0.9);
+	border-radius: 10px;
+    padding: 20px 20px 0px 0px;
+}
+#formulaire_login legend{
+    text-align: center;
+    width: 60%;
+    color: #38325F;
+    text-transform: uppercase;  
+    border-bottom: 2px solid #FDFF7F;
+}
+#formulaire_login ul{
+    list-style-type : none;
+    color:white;
+}
+#formulaire_login .boutons{
+    position: relative;
+    top: 13px;
+}
+#formulaire_login .submit{
+    margin: 0 auto;
+    padding: 10px 40px;
+    line-height: 100%;
+    border: 0;
+    background: #38325F;
+    border-radius: 7px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+}
+#formulaire_login .choix .checkbox{
+    float: left;
+}
+#formulaire_login .choix .nofx{
+    float: left;
+    margin-left: 10px;
+}
+#formulaire_login .details #spip_pass{
+    float: none;
+    margin-left: 370px;
+    color: white;
+}
+#formulaire_login #pass_securise{
+    display: none !important;
+}
+#formulaire_login li input{
+    float: right;
+}
+#formulaire_login li label{
+    float: left;
+    margin-right: 20px;
+}
