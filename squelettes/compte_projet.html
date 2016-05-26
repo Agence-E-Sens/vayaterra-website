@@ -1,0 +1,62 @@
+#CACHE{0}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<INCLURE{fond=inc/head}>
+
+</head>
+
+<body>
+
+<INCLURE{fond=inc/header}>
+
+
+<br><br><br><br><br><br>
+[(#SESSION{id_auteur}|non) 
+
+<div class="connexion">
+	<div class="formulaireCo">
+		#LOGIN_PUBLIC
+		 <p class="insc">
+			Vous n'avez pas de compte ? <a href="spip.php?page=inscription">Nouvelle inscription</a>
+		</p>
+	</div>
+</div>
+
+]
+
+
+[(#SESSION{id_auteur}|oui)
+<div class="blocCentral">
+<div class="menuUti">
+	<ul>
+		<li><a href="spip.php?page=compte">Profil</a></li>
+		<li><a href="spip.php?page=compte_projet"  class="overMenu">Projet</a></li>
+		<li><a href="#">Annonce</a></li>
+		<li><a href="#URL_LOGOUT{spip.php?page=compte}">Déconnexion</a></li>
+	</ul>
+</div>
+<div class="containerProjet">
+<div class="centerbloc">
+<h4>Mes Projets</h4>
+<ul>
+]
+
+<BOUCLE_article (ARTICLES){tout} {statut IN publie,prepa} {id_rubrique=16} {id_auteur=#SESSION{id_auteur}}>
+			<li><a href="spip.php?page=compte_projetDetail&id_article=#ID_ARTICLE">#TITRE</a></li>
+</BOUCLE_article>
+[(#SESSION{id_auteur}|oui) 
+</ul> 
+<a href="spip.php?page=compte_projetCrea" class="AjoutAtricl">Ajouter un Projet</a>
+</div>
+</div>
+]
+
+</div>
+
+<INCLURE{fond=inc/footer}>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<?php 
+
+    if (isset($_POST['submitCrea']) ) 
+    {
+            
+
+        $titre = htmlspecialchars($_POST['titre']);//On protège les données
+        $texte = htmlspecialchars($_POST['texte']);
+        $bloc = htmlspecialchars($_POST['bloc']);
+        $prepa ="prepa";
+        $pri ="pri";
+        $fr ="fr";
+        $oui ="oui";
+        $id = $_POST['id'];
+
+        $champs = array(
+             "titre" => $titre,
+            "texte" => $texte,
+            "id_rubrique" => 16,
+            "id_secteur" => 16,
+            "statut" => $prepa,
+            "accepter_forum" => $pri,
+            "langue_choisie" => $oui,
+            "lang" => $fr,
+            "blocNote_1" => $bloc
+        );
+        $id_article = sql_insertq("spip_articles", $champs);
+
+      
+        // controler si le serveur n'a pas renvoye une erreur
+        if ($id_article > 0 AND $GLOBALS['visiteur_session']['id_auteur']) {
+           sql_insertq('spip_auteurs_liens', array(
+            "id_auteur" => $GLOBALS['visiteur_session']['id_auteur'],
+            "objet" => article,
+            "id_objet" => $id_article
+            ));
+
+    
+         header('Location: spip.php?page=compte_projet');
+
+        };
+
+    };
+?>
+#CACHE{0}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<INCLURE{fond=inc/head}>
+
+</head>
+
+<body>
+<INCLURE{fond=inc/header}>
+<br><br><br><br><br><br><br><br><br>
+
+[(#SESSION{id_auteur}|non) 
+
+<div class="connexion">
+    <div class="formulaireCo">
+        #LOGIN_PUBLIC
+         <p class="insc">
+            Vous n'avez pas de compte ? <a href="spip.php?page=inscription">Nouvelle inscription</a>
+        </p>
+    </div>
+</div>
+
+]
+
+
+[(#SESSION{id_auteur}|oui)
+<div class="blocCentral">
+<div class="menuUti">
+    <ul>
+        <li><a href="spip.php?page=compte">Profil</a></li>
+        <li><a href="spip.php?page=compte_projet"  class="overMenu">Projet</a></li>
+        <li><a href="#">Annonce</a></li>
+        <li><a href="#URL_LOGOUT{spip.php?page=compte}">Déconnexion</a></li>
+    </ul>
+</div>
+<div class="containerProjet">
+
+
+<div class="containerProjetDetail">
+
+<h3>Ici créez votre projet</h3>
+
+    <form action="" method="post">
+
+        <p>
+        <input type="text" name="titre" id="titre" value="Titre" />
+        </p>
+        <p>
+        <input type="text" name="pays" id="pays" value="Pays ou contient" />
+        <input type="text" name="dateD" id="dateD" value="Date de départ" />
+        </p>
+        <p>
+        <input type="text" name="duree" id="duree" value="Durée" />
+        </p>
+        <p>
+            <TEXTAREA name="texte" id="texte" rows="4" cols="46.7">Description projet</TEXTAREA>
+        </p>
+         <p>
+            <h5>BLOC NOTE :</h5>
+            <TEXTAREA name="bloc" id="bloc" rows="4" cols="46.7">Ici mettre les notes pour votre projet</TEXTAREA>
+        </p>
+        <input type="hidden" name="id" value="#ID_AUTEUR">
+
+        <input type="submit" name="submitCrea" value="Modifier" class="submit"/>
+
+    </form>
+</div>
+</div>
+
+</div>
+]
+
+<INCLURE{fond=inc/footer}>
+
+</body>
+
+</html>
