@@ -4096,10 +4096,10 @@ Les paniers sont créés et attribués à un amapien, ce dernier pourra mettre �
 <archive id="analyclick.zip" dtd="plugin">
 <zip>
 	<file>analyclick.zip</file>
-	<size>34603</size>
-	<date>1452794644</date>
+	<size>35996</size>
+	<date>1464084242</date>
 	<source>_plugins_/analyclick/branches/V0.1</source>
-	<last_commit>2016-01-14 18:51:15</last_commit>
+	<last_commit>2016-05-24 12:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="anaclic" reference="fr">
@@ -4110,7 +4110,7 @@ Les paniers sont créés et attribués à un amapien, ce dernier pourra mettre �
 	<nom>Analyclick</nom>
 	<slogan>Compteur de t&#233;l&#233;chargements pour les documents SPIP</slogan>
 	<auteur>[Jean-Marc Viglino->http://contrib.spip.net/_Viglino-Jean-Marc_]</auteur>
-	<version>0.1.4</version>
+	<version>0.2.0</version>
 	<icon>anaclic.png</icon>
 	<etat>test</etat>
 	<description>
@@ -4146,6 +4146,10 @@ Les paniers sont créés et attribués à un amapien, ce dernier pourra mettre �
 		<nom>autoriser</nom>
 		<inclure>inc/anaclic_autorisations.php</inclure>
 	</pipeline>
+  <pipeline>
+    <nom>document_desc_actions</nom>
+    <inclure>anaclic_pipelines.php</inclure>
+  </pipeline>
 	<necessite id="SPIP" version="[2.1.0;3.1.99]" />
 	<categorie>statistique</categorie>
 	<!-- onglet SPIP v3 -->
@@ -13779,10 +13783,10 @@ Plugin développé dans le cadre du gestionnaire de projets [SPIPMINE->http://co
 <archive id="cookiebar_3_0.zip" dtd="paquet">
 <zip>
 	<file>cookiebar_3_0.zip</file>
-	<size>22987</size>
-	<date>1462557920</date>
+	<size>19619</size>
+	<date>1464095044</date>
 	<source>_plugins_/cookiebar/trunk</source>
-	<last_commit>2016-05-06 20:05:20</last_commit>
+	<last_commit>2016-05-24 15:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="cookiebar" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/cookiebar/trunk/lang/" reference="fr">
@@ -17549,10 +17553,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene.zip" dtd="paquet">
 <zip>
 	<file>diogene.zip</file>
-	<size>84855</size>
-	<date>1462648748</date>
+	<size>84552</size>
+	<date>1464095042</date>
 	<source>_plugins_/diogene/diogene/trunk</source>
-	<last_commit>2016-05-07 21:19:08</last_commit>
+	<last_commit>2016-05-24 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene/trunk/lang/" reference="fr">
@@ -17781,10 +17785,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_geo.zip" dtd="paquet">
 <zip>
 	<file>diogene_geo.zip</file>
-	<size>16978</size>
-	<date>1462648750</date>
+	<size>16729</size>
+	<date>1464095044</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_geo/trunk</source>
-	<last_commit>2016-05-07 21:19:09</last_commit>
+	<last_commit>2016-05-24 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_geo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_geo/trunk/lang/" reference="fr">
@@ -18027,10 +18031,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_gerer_auteurs.zip" dtd="paquet">
 <zip>
 	<file>diogene_gerer_auteurs.zip</file>
-	<size>10973</size>
-	<date>1462648750</date>
+	<size>10958</size>
+	<date>1464095044</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_gerer_auteurs/trunk</source>
-	<last_commit>2016-05-07 21:19:10</last_commit>
+	<last_commit>2016-05-24 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_gerer_auteurs" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_gerer_auteurs/trunk/lang/" reference="fr">
@@ -18182,10 +18186,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_licence.zip" dtd="paquet">
 <zip>
 	<file>diogene_licence.zip</file>
-	<size>10381</size>
-	<date>1462648752</date>
+	<size>10359</size>
+	<date>1464095044</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_licence/trunk</source>
-	<last_commit>2016-05-07 21:19:12</last_commit>
+	<last_commit>2016-05-24 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_licence" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_licence/trunk/lang/" reference="fr">
@@ -18330,10 +18334,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_mots.zip" dtd="paquet">
 <zip>
 	<file>diogene_mots.zip</file>
-	<size>15240</size>
-	<date>1462648754</date>
+	<size>14949</size>
+	<date>1464095044</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_mots/trunk</source>
-	<last_commit>2016-05-07 21:19:13</last_commit>
+	<last_commit>2016-05-24 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_mots" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_mots/trunk/lang/" reference="fr">
@@ -18487,10 +18491,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_notation.zip" dtd="paquet">
 <zip>
 	<file>diogene_notation.zip</file>
-	<size>6710</size>
-	<date>1462648754</date>
+	<size>6462</size>
+	<date>1464095044</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_notation/trunk</source>
-	<last_commit>2016-05-07 21:19:13</last_commit>
+	<last_commit>2016-05-24 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-diogene_notation" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_notation/trunk/lang/" reference="fr">
@@ -18563,10 +18567,10 @@ Il permet ainsi de définir en fonction d’un secteur particulier, un masque de
 <archive id="diogene_spipicious.zip" dtd="paquet">
 <zip>
 	<file>diogene_spipicious.zip</file>
-	<size>9853</size>
-	<date>1462648756</date>
+	<size>9592</size>
+	<date>1464095044</date>
 	<source>_plugins_/diogene/diogene_complements/diogene_spipicious/trunk</source>
-	<last_commit>2016-05-07 21:19:15</last_commit>
+	<last_commit>2016-05-24 15:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="diogene_spipicious" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_spipicious/trunk/lang/" reference="fr">
@@ -22331,10 +22335,10 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 <archive id="facteur-3.0.zip" dtd="paquet">
 <zip>
 	<file>facteur-3.0.zip</file>
-	<size>226841</size>
-	<date>1462648768</date>
+	<size>226895</size>
+	<date>1464235442</date>
 	<source>_plugins_/facteur/trunk</source>
-	<last_commit>2016-05-07 21:19:28</last_commit>
+	<last_commit>2016-05-26 06:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="facteur" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/facteur/trunk/lang/" reference="fr">
@@ -22364,7 +22368,7 @@ perfect plugin, but a solid, quick to set up, to then edit to your liking.
 	<langue code="it" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=it" total="52" traduits="40" relire="0" modifs="9" nouveaux="3" pourcent="76.92">
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=nl" total="52" traduits="45" relire="0" modifs="6" nouveaux="1" pourcent="86.54">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=nl" total="52" traduits="52" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 	<langue code="oc_ni_mis" url="http://trad.spip.net/tradlang_module/facteur?lang_cible=oc_ni_mis" total="52" traduits="43" relire="0" modifs="7" nouveaux="2" pourcent="82.69">
@@ -24009,10 +24013,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="formidable.zip" dtd="paquet">
 <zip>
 	<file>formidable.zip</file>
-	<size>190928</size>
-	<date>1462648772</date>
+	<size>191032</size>
+	<date>1464203044</date>
 	<source>_plugins_/formidable/trunk</source>
-	<last_commit>2016-05-07 21:19:32</last_commit>
+	<last_commit>2016-05-25 21:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="formidable" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/formidable/trunk/lang/" reference="fr">
@@ -24067,7 +24071,7 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <paquet
 	prefix="formidable"
 	categorie="communication"
-	version="2.9.14"
+	version="2.9.15"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/formidable-64.png"
@@ -26808,10 +26812,10 @@ _ [->http://getid3.sourceforge.net/]
 <archive id="getID3_3.zip" dtd="paquet">
 <zip>
 	<file>getID3_3.zip</file>
-	<size>424037</size>
-	<date>1462651444</date>
+	<size>423828</size>
+	<date>1464199442</date>
 	<source>_plugins_/getID3/trunk</source>
-	<last_commit>2016-05-07 22:04:04</last_commit>
+	<last_commit>2016-05-25 20:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="getid3" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/getID3/trunk/lang/" reference="fr">
@@ -27249,10 +27253,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis4.zip" dtd="paquet">
 <zip>
 	<file>gis4.zip</file>
-	<size>268025</size>
-	<date>1463580244</date>
+	<size>268026</size>
+	<date>1464211142</date>
 	<source>_plugins_/gis/trunk</source>
-	<last_commit>2016-05-18 16:04:03</last_commit>
+	<last_commit>2016-05-25 23:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="gis" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis/trunk/lang/" reference="fr">
@@ -27495,10 +27499,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis_geometries.zip" dtd="paquet">
 <zip>
 	<file>gis_geometries.zip</file>
-	<size>44949</size>
-	<date>1462651446</date>
+	<size>44994</size>
+	<date>1464210242</date>
 	<source>_plugins_/gis_geometries</source>
-	<last_commit>2016-05-07 22:04:06</last_commit>
+	<last_commit>2016-05-25 23:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-gisgeom" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis_geometries/lang/" reference="fr">
@@ -27510,7 +27514,7 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <paquet
 	prefix="gisgeom"
 	categorie="divers"
-	version="1.9.1"
+	version="1.9.2"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="images/gis.png"
@@ -30908,10 +30912,10 @@ Cr&#233;dits:
 <archive id="info_spip.zip" dtd="paquet">
 <zip>
 	<file>info_spip.zip</file>
-	<size>37326</size>
-	<date>1458637442</date>
+	<size>37325</size>
+	<date>1464178742</date>
 	<source>_plugins_/info_spip/trunk</source>
-	<last_commit>2016-03-22 10:04:02</last_commit>
+	<last_commit>2016-05-25 14:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="info_spip" reference="fr">
@@ -30921,7 +30925,7 @@ Cr&#233;dits:
 <paquet
 	prefix="info_spip"
 	categorie="outil"
-	version="0.9.6"
+	version="0.9.7"
 	etat="stable"
 	compatibilite="[2.1.0;3.1.*]"
 	logo="prive/themes/spip/images/info_spip-64.png"
@@ -31178,20 +31182,16 @@ lors de leur inscription et de la modification de leur profil.
 <archive id="inscription_motdepasse.zip" dtd="paquet">
 <zip>
 	<file>inscription_motdepasse.zip</file>
-	<size>8030</size>
-	<date>1463681044</date>
+	<size>7573</size>
+	<date>1464246242</date>
 	<source>_plugins_/inscription_motdepasse/trunk</source>
-	<last_commit>2016-05-19 20:04:03</last_commit>
+	<last_commit>2016-05-26 09:04:02</last_commit>
 </zip>
-<traductions>
-<traduction module="inscriptionmotdepasse" reference="fr">
-</traduction>
-</traductions>
 
 <paquet
 	prefix="inscriptionmotdepasse"
 	categorie="auteur"
-	version="1.0.2"
+	version="1.0.3"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="inscriptionmotdepasse.png"
@@ -36711,10 +36711,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="massicot.zip" dtd="paquet">
 <zip>
 	<file>massicot.zip</file>
-	<size>363259</size>
-	<date>1463671142</date>
+	<size>363646</size>
+	<date>1464203044</date>
 	<source>_plugins_/massicot/trunk</source>
-	<last_commit>2016-05-19 17:19:01</last_commit>
+	<last_commit>2016-05-25 21:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="massicot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/massicot/trunk/lang/" reference="fr">
@@ -36730,7 +36730,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
     prefix="massicot"
     categorie="multimedia"
-    version="0.5.2"
+    version="0.5.3"
     etat="test"
     compatibilite="[3.0.17;3.1.*]"
     logo="prive/themes/spip/images/massicot-48.png"
@@ -36785,10 +36785,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 
 </archive>
 
-<archive id="V1.2.0.zip" dtd="paquet">
+<archive id="mathjax_v1.2.0.zip" dtd="paquet">
 <zip>
-	<file>V1.2.0.zip</file>
-	<size>27043</size>
+	<file>mathjax_v1.2.0.zip</file>
+	<size>27491</size>
 	<date>1450876160</date>
 	<source>_plugins_/mathjax/branches/V1.2.0</source>
 	<last_commit>2015-12-03 22:02:34</last_commit>
@@ -36840,6 +36840,75 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <description>
 <multi>
 [fr]Le plugin remplace les balises &#60;math&#62; et &#60;&#47;math&#62; de SPIP.
+</multi>
+</description>
+</multis>
+
+
+</archive>
+
+<archive id="mathjax.zip" dtd="paquet">
+<zip>
+	<file>mathjax.zip</file>
+	<size>16728</size>
+	<date>1462651472</date>
+	<source>_plugins_/mathjax/trunk</source>
+	<last_commit>2016-05-07 22:04:32</last_commit>
+</zip>
+<traductions>
+<traduction module="mathjax" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mathjax/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/mathjax?lang_cible=fr" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="paquet-mathjax" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mathjax/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-mathjax?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+</traductions>
+
+<paquet
+	prefix="mathjax"
+	categorie="outil"
+	version="1.3.0"
+	etat="test"
+	logo="prive/themes/spip/images/mathjax-32.png"
+	documentation="http://contrib.spip.net/MathJax-pour-SPIP"
+	compatibilite="[3.0.0;3.1.*]"
+	>	
+
+	<nom>MathJax</nom>
+	<!-- Afficher des equation, des fonctions mathematiques -->
+
+	<auteur lien="http://contrib.spip.net/yohannp">Yohann</auteur>
+
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
+		
+	<copyright>2011</copyright>
+	
+	<traduire module="mathjax" reference="fr" gestionnaire="salvatore" />
+
+	<pipeline nom="insert_head" inclure="mathjax_pipelines.php" />
+	<pipeline nom="header_prive" inclure="mathjax_pipelines.php" />
+	
+	<menu nom="configurer_mathjax" titre="mathjax:configuration_mathjax" parent="menu_squelette" icone="images/mathjax-16.png" />
+	
+	<!-- <lib nom="MathJax-master" lien="https://github.com/mathjax/MathJax/archive/master.zip" /> -->
+
+</paquet>
+<multis>
+<nom>
+<multi>
+[fr]MathJax pour SPIP !
+</multi>
+</nom>
+<slogan>
+<multi>
+[fr]Afficher des équations, des fonctions mathématiques
+</multi>
+</slogan>
+<description>
+<multi>
+[fr]Le plugin remplace les balises <math> et </math> de SPIP.
 </multi>
 </description>
 </multis>
@@ -42072,10 +42141,10 @@ Once the necessary plugins are activated, simply determine the language of the s
 <archive id="multilang.zip" dtd="paquet">
 <zip>
 	<file>multilang.zip</file>
-	<size>56731</size>
-	<date>1462651486</date>
+	<size>54274</size>
+	<date>1463998742</date>
 	<source>_plugins_/multilang/trunk</source>
-	<last_commit>2016-05-07 22:04:46</last_commit>
+	<last_commit>2016-05-23 12:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="multilang" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/multilang/trunk/lang/" reference="fr">
@@ -50548,10 +50617,10 @@ Ce plugin est un élément autonome de SPIPMINE.
 <archive id="projets_sites.zip" dtd="paquet">
 <zip>
 	<file>projets_sites.zip</file>
-	<size>77336</size>
-	<date>1463774642</date>
+	<size>77348</size>
+	<date>1464098642</date>
 	<source>_plugins_/projets_sites/trunk</source>
-	<last_commit>2016-05-20 22:04:02</last_commit>
+	<last_commit>2016-05-24 16:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="projets_site" reference="fr">
@@ -50563,7 +50632,7 @@ Ce plugin est un élément autonome de SPIPMINE.
 <paquet
 	prefix="projets_sites"
 	categorie="divers"
-	version="1.8.9"
+	version="1.8.10"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/projets_sites-64.png"
@@ -51417,10 +51486,10 @@ Essayez la page de d&#233;mo {demo/rainette.html} pour des exemples d'utilisatio
 <archive id="rainette.zip" dtd="paquet">
 <zip>
 	<file>rainette.zip</file>
-	<size>2086456</size>
-	<date>1463857442</date>
+	<size>2086695</size>
+	<date>1463908742</date>
 	<source>_plugins_/rainette/branches/v2</source>
-	<last_commit>2016-05-21 21:04:01</last_commit>
+	<last_commit>2016-05-22 11:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="rainette" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/rainette/lang/" reference="fr">
@@ -51443,7 +51512,7 @@ Essayez la page de d&#233;mo {demo/rainette.html} pour des exemples d'utilisatio
 <paquet
 	prefix="rainette"
 	categorie="divers"
-	version="2.4.5"
+	version="2.4.6"
 	etat="stable"
 	compatibilite="[3.0.11;3.1.*]"
 	logo="rainette-64.png"
@@ -52791,20 +52860,26 @@ P.S.&#160;2&#160;: {Le pr&#233;sent plugin ne fonctionne pas si le &#171;&#160;C
 <archive id="rezosocios.zip" dtd="paquet">
 <zip>
 	<file>rezosocios.zip</file>
-	<size>73626</size>
-	<date>1457425142</date>
+	<size>55339</size>
+	<date>1464062642</date>
 	<source>_plugins_/rezosocios/trunk</source>
-	<last_commit>2016-03-08 09:08:35</last_commit>
+	<last_commit>2016-05-24 06:04:02</last_commit>
 </zip>
 <traductions>
-<traduction module="rezosocios" reference="fr">
+<traduction module="paquet-rezosocios" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/rezosocios/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-rezosocios?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="rezosocios" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/rezosocios/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/rezosocios?lang_cible=fr" total="29" traduits="29" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
 </traduction>
 </traductions>
 
 <paquet
 	prefix="rezosocios"
 	categorie="edition"
-	version="0.4.6"
+	version="0.4.7"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	schema="0.2.0"
@@ -52904,13 +52979,19 @@ P.S.&#160;2&#160;: {Le pr&#233;sent plugin ne fonctionne pas si le &#171;&#160;C
 <archive id="roles.zip" dtd="paquet">
 <zip>
 	<file>roles.zip</file>
-	<size>21198</size>
-	<date>1463508242</date>
+	<size>18169</size>
+	<date>1464149044</date>
 	<source>_plugins_/roles/trunk</source>
-	<last_commit>2016-05-17 20:04:02</last_commit>
+	<last_commit>2016-05-25 06:04:04</last_commit>
 </zip>
 <traductions>
-<traduction module="roles" reference="fr">
+<traduction module="paquet-roles" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/roles/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-roles?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="roles" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/roles/trunk/lang" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/roles?lang_cible=fr" total="10" traduits="10" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
 </traduction>
 </traductions>
 
@@ -52951,7 +53032,7 @@ P.S.&#160;2&#160;: {Le pr&#233;sent plugin ne fonctionne pas si le &#171;&#160;C
 </slogan>
 <description>
 <multi>
-[fr]Ce plugin sert d'API pour définir des rôles sur des tables de liaisons.
+[fr]Ce plugin sert d’API pour définir des rôles sur des tables de liaisons.
 </multi>
 </description>
 </multis>
@@ -53353,10 +53434,10 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <archive id="rss_commits.zip" dtd="paquet">
 <zip>
 	<file>rss_commits.zip</file>
-	<size>68328</size>
-	<date>1460318642</date>
+	<size>68337</size>
+	<date>1464098642</date>
 	<source>_plugins_/rss_commits/trunk</source>
-	<last_commit>2016-04-10 22:04:01</last_commit>
+	<last_commit>2016-05-24 16:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="commit" reference="fr">
@@ -53370,7 +53451,7 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <paquet
 	prefix="rss_commits"
 	categorie="divers"
-	version="0.6.5"
+	version="0.6.6"
 	etat="dev"
 	compatibilite="[3.0.8;3.1.*]"
 	logo="prive/themes/spip/images/commits-64.png"
@@ -54134,10 +54215,10 @@ Pour éviter les doublons et les imports successifs, une fois l'article créé, 
 <archive id="saisies_v2.zip" dtd="paquet">
 <zip>
 	<file>saisies_v2.zip</file>
-	<size>186352</size>
-	<date>1463079842</date>
+	<size>186358</size>
+	<date>1464105842</date>
 	<source>_plugins_/saisies/trunk</source>
-	<last_commit>2016-05-12 21:04:01</last_commit>
+	<last_commit>2016-05-24 18:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-saisies" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/saisies/trunk/lang/" reference="fr">
@@ -55137,10 +55218,10 @@ Rozhranie umožňuje manuálne spúšťanie zálohovania a rozhodovať o vytvo
 <archive id="scssphp.zip" dtd="paquet">
 <zip>
 	<file>scssphp.zip</file>
-	<size>65946</size>
-	<date>1450876160</date>
-	<source>_plugins_/scssphp</source>
-	<last_commit>2015-07-24 00:10:09</last_commit>
+	<size>65955</size>
+	<date>1464167042</date>
+	<source>_plugins_/scssphp/branches/v1</source>
+	<last_commit>2016-05-25 11:04:01</last_commit>
 </zip>
 
 <paquet
@@ -56376,10 +56457,10 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 <archive id="shortcut_url.zip" dtd="paquet">
 <zip>
 	<file>shortcut_url.zip</file>
-	<size>646318</size>
-	<date>1463594642</date>
+	<size>647261</size>
+	<date>1464120242</date>
 	<source>_plugins_/shortcut_url/trunk</source>
-	<last_commit>2016-05-18 20:04:01</last_commit>
+	<last_commit>2016-05-24 22:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="shortcut_url" reference="fr">
@@ -70500,10 +70581,10 @@ L&#8217;id&#233;e est de pr&#233;senter une collection d&#8217;objets physiques,
 <archive id="curialicious.zip" dtd="paquet">
 <zip>
 	<file>curialicious.zip</file>
-	<size>34926</size>
-	<date>1463512742</date>
+	<size>34945</size>
+	<date>1463960942</date>
 	<source>_squelettes_/curalicious</source>
-	<last_commit>2016-05-17 21:19:02</last_commit>
+	<last_commit>2016-05-23 01:49:01</last_commit>
 </zip>
 <traductions>
 <traduction module="local" reference="fr">
@@ -70513,7 +70594,7 @@ L&#8217;id&#233;e est de pr&#233;senter une collection d&#8217;objets physiques,
 <paquet
 	prefix="curalicious"
 	categorie="squelette"
-	version="0.1.7"
+	version="0.1.8"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/curalicious.png"

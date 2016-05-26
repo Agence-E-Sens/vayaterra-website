@@ -1,28 +1,28 @@
 <?php 
-session_start(); // on démare toujour la session pour evité les pbm :)
-if (isset($_POST['email']) AND isset($_POST['passwd']) ) //si on a saisie le login et mot de passe
+
+if (isset($_POST['submitModif']) ) 
 {
-	// Autorisation ok : il reste à voir le mot de passe  	
-	$pseudo = htmlspecialchars($_POST['email']);//On protège les données
-	$password = htmlspecialchars($_POST['passwd']);
-	$result = sql_select('*', "spip_membre", "email LIKE '".$pseudo."' AND mdp LIKE '".$password."'", '', '');
-	 if ( $res = sql_fetch($result))
-	{
-		$_SESSION['login'] = $res['Nom'] ." ". $res['Prenom'] ;
-		$alert = '
-		<div class="alert alert-success" role="alert">
-		  <strong>Information :</strong> Connexion effectuée avec succée.
-		</div> ' ;
-	}
-	else // Acces pas OK !  n'oublie de faire la variable de controle pour afiché si le mot passe ou ligin est incorecte
-	{ 
-		$alert = '
-		<div class="alert alert-warning" role="alert">
-		  <strong>Erreur :</strong> E-mail ou mot de passe incorrecte.
-		</div> ' ;
-	}
+		
+	$pseudo = htmlspecialchars($_POST['pseudo']);//On protège les données
+	$prenom = htmlspecialchars($_POST['prenom']);
+	$nom = htmlspecialchars($_POST['nom']);
+	$email = htmlspecialchars($_POST['email']);
+	$bio = htmlspecialchars($_POST['bio']);
+	$adresse = htmlspecialchars($_POST['adresse']);
+	$id = $_POST['id'];
+
+	sql_updateq('spip_auteurs', array(
+	"nom" => $pseudo,
+	"bio" => $bio,
+	"email" => $email,
+	"prenom" => $prenom,
+	"nom_0" => $nom,
+	"adresse" => $adresse,
+	),"id_auteur=". intval($id));
+
 }
  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,95 +32,91 @@ if (isset($_POST['email']) AND isset($_POST['passwd']) ) //si on a saisie le log
 </head>
 
 <body>
+
 <INCLURE{fond=inc/header}>
-<div class="separateur40"></div>
-    <!-- Page Content -->
-		<div class="container" style=" margin-top: 40px; width: 500px; margin: 20 auto;">
+
+
+<br><br><br><br><br><br>
+[(#SESSION{id_auteur}|non) 
+ <!--#LOGIN_PUBLIC-->
+
+<div class="formulaire_spip formulaire_login">
+	<form action="/vayaterra/spip.php?page=compte" method="post" id="formulaire_login">
 	
-		<?php if(isset($alert)){echo $alert;}  ?>
-		</div>
-		<?php
-		if (isset($_SESSION['login']))
-		{ ?>
-			<div class="container">
-			<!-- Page Heading/Breadcrumbs -->
-			<div class="row">
-				<div class="col-lg-12">
-					<h1 class="page-header">Sidebar Page
-						<small>Subheading</small>
-					</h1>
-					<ol class="breadcrumb">
-						<li><a href="index.html">Home</a>
-						</li>
-						<li class="active">Sidebar Page</li>
-					</ol>
-				</div>
-			</div>
-			<!-- /.row -->
+	<div><input type="hidden" value="compte" name="page"><input type="hidden" value="login" name="formulaire_action"><input type="hidden" value="tBnJs0uYwUQRPc4HLGSKFGkl4XU1Aot/K3RnvvPodOrVfafUjklWqHKbEyY51o6t0iLIOy3+VEb2Cbo8fDQXCnRyJZFVSEiONesfOW5uqyIDdswZHbOP4af7vKITTFMxSkGwyyJU2DK2" name="formulaire_action_args"></div><fieldset>
+		<legend>Identifiants personnels</legend>
+		
+		<ul>
+			<li class="editer editer_login obligatoire">
+				<label for="var_login">Login ou adresse email&nbsp;:</label><input type="text" autocorrect="off" autocapitalize="off" autofocus="autofocus" required="required" size="40" value="milounis" id="var_login" name="var_login" class="text">
+			</li>
+			<li class="editer editer_password obligatoire">
+				<label for="password">Mot de passe&nbsp;:</label><input type="password" autocorrect="off" autocapitalize="off" size="40" value="" id="password" name="password" class="text password"><em id="pass_securise"><img width="16" height="16" title="Login sécurisé" alt="Login sécurisé" src="prive/themes/spip/images/cadenas-16.png"></em><ul class="error-list"></ul>
+				<p class="details"><a id="spip_pass" href="spip.php?page=spip_pass&lang=fr">mot&nbsp;de&nbsp;passe&nbsp;oublié&nbsp;?</a></p>
+			</li>
+			 
+			<li class="editer editer_session"><div class="choix">
+				<input type="checkbox" onchange="jQuery(this).addClass('modifie');" checked="checked" value="oui" id="session_remember" name="session_remember" class="checkbox">
+				<label for="session_remember" class="nofx">Rester identifié quelques jours</label>
+			</div></li>
+		</ul>
+	</fieldset>
+	<p class="boutons"><input type="submit" value="Valider" class="submit"></p>
+	</form>
+	
+	
+	
+</div>
+ <div>
+	Vous n'avez pas de compte ? <a href="spip.php?page=inscription">Nouvelle inscription</a>
+</div>
 
-			<!-- Content Row -->
-			<div class="row">
-				<!-- Sidebar Column -->
-				<div class="col-md-3">
-					<div class="list-group">
-						<a href="index.html" class="list-group-item">Home</a>
-						<a href="about.html" class="list-group-item">About</a>
-						<a href="services.html" class="list-group-item">Services</a>
-						<a href="contact.html" class="list-group-item">Contact</a>
-						<a href="portfolio-1-col.html" class="list-group-item">1 Column Portfolio</a>
-						<a href="portfolio-2-col.html" class="list-group-item">2 Column Portfolio</a>
-						<a href="portfolio-3-col.html" class="list-group-item">3 Column Portfolio</a>
-						<a href="portfolio-4-col.html" class="list-group-item">4 Column Portfolio</a>
-						<a href="portfolio-item.html" class="list-group-item">Single Portfolio Item</a>
-						<a href="blog-home-1.html" class="list-group-item">Blog Home 1</a>
-						<a href="blog-home-2.html" class="list-group-item">Blog Home 2</a>
-						<a href="blog-post.html" class="list-group-item">Blog Post</a>
-						<a href="full-width.html" class="list-group-item">Full Width Page</a>
-						<a href="sidebar.html" class="list-group-item active">Sidebar Page</a>
-						<a href="faq.html" class="list-group-item">FAQ</a>
-						<a href="404.html" class="list-group-item">404</a>
-						<a href="pricing.html" class="list-group-item">Pricing Table</a>
-					</div>
-				</div>
-				<!-- Content Column -->
-				<div class="col-md-9">
-					<h2>Section Heading</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
-				</div>
-			</div>
-			<!-- /.row -->
-		</div>
-		<?php 
-		}
-		else
-		{
-		?>
-		<div class="container" style=" width: 500px; margin: 20 auto;">
-		  <section class="login-form">
-			<form method="post" action="" role="login">
-			  <img src="#CHEMIN{img/logo.png}" class="img-responsive" alt="" />
-			  <input type="email" name="email" placeholder="Email" required class="form-control input-lg" value="Votre@email.com" />
-			  
-			  <input type="password" name="passwd" class="form-control input-lg" id="password" placeholder="Password" required="" />
-			  
-			  <button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Connexion</button>
-			  <div>
-				<a href="spip.php?page=inscription">Nouvelle inscription</a> or <a href="#">Mot de passe oublié</a>
-			  </div>
-			  
-			</form>
-			
-			<div class="form-links">
-			  <a href="#">www.vayaterra.com</a>
-			</div>
-		  </section>  
-		</div>
-		<?php } ?>	
+]
 
-   
-</div>	
+[(#SESSION{id_auteur}|oui)
 
-   <!-- /.container -->
+
+<h2>BIENVENUE #SESSION{nom}</h2>
+
+<ul>
+	<li><a href="#">Profil</a></li>
+	<li><a href="#">Projet</a></li>
+	<li><a href="#">Annonce</a></li>
+	<li><a href="#URL_LOGOUT">déconnexion</a></li>
+</ul>
+
+<form action="" method="post">
+	<label>Pseudo :</label>
+	<input type="text" name="pseudo" id="pseudo" value="#SESSION{nom}" />
+
+	<label>Prenom :</label>
+	<input type="text" name="prenom" id="prenom" value="#SESSION{prenom}" />
+
+	<label>Nom :</label>
+	<input type="text" name="nom" id="nom" value="#SESSION{nom_0}" />
+
+	<label>Email :</label>
+	<input type="text" name="email" id="email" value="#SESSION{email}" />
+
+	<label>Ma biographie :</label>
+	<input type="text" name="bio" id="bio" value="#SESSION{bio}" />
+
+	<label>Date de naissance :</label>
+	<input type="date" name="date" id="date" value="#SESSION{date_1}" />
+
+	<label>Adresse :</label>
+	<input type="text" name="adresse" id="adresse" value="#SESSION{adresse}" />
+
+	<input type="hidden" name="id" value="#SESSION{id_auteur}">
+
+	<input type="submit" name="submitModif" value="Modifier" />
+
+</form>
+
+
+]
+
+
 <INCLURE{fond=inc/footer}>
 
 </body>

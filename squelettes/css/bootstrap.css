@@ -3064,6 +3064,11 @@ fieldset[disabled] a.btn {
   background-color: #fff;
   border-color: #ccc;
 }
+.btn-FCFB59 {
+  color: #3E3A51;
+  background-color: #FCFB59;
+}
+
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
