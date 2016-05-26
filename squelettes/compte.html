@@ -8,6 +8,7 @@ if (isset($_POST['submitModif']) )
 	$prenom = htmlspecialchars($_POST['prenom']);
 	$nom = htmlspecialchars($_POST['nom']);
 	$email = htmlspecialchars($_POST['email']);
+	$num = htmlspecialchars($_POST['tel']);
 	$bio = htmlspecialchars($_POST['bio']);
 	$date = htmlspecialchars($_POST['date']);
 	$adresse = htmlspecialchars($_POST['adresse']);
@@ -18,6 +19,7 @@ if (isset($_POST['submitModif']) )
 	"bio" => $bio,
 	"date_1" => $date,
 	"email" => $email,
+	"numero" => $num,
 	"prenom" => $prenom,
 	"nom_0" => $nom,
 	"adresse" => $adresse,
@@ -88,13 +90,7 @@ header('Location: spip.php?page=compte');
 				<input type="text" name="pseudo" id="pseudo" value="#NOM" />
 			</p>
 			<p>
-				<input type="text" name="tel" id="tel" value="Téléphone" />
-
-				<input type="text" name="adresse" id="adresse" value="#ADRESSE" />
-			</p>
-			<p>
-				<input type="text" name="codePost" id="codePost" value="Code postale" />
-				<input type="text" name="ville" id="ville" value="Ville" />
+				<input type="tel" name="tel" id="tel" value="#NUMERO" />
 			</p>
 			<p>
 				[<TEXTAREA name="bio" id="bio" rows="4" cols="46.7">(#BIO|textebrut)</TEXTAREA>]
