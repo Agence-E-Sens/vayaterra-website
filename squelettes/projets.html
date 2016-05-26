@@ -8,42 +8,224 @@
 
 <body>
 <INCLURE{fond=inc/header}>
-<div class="separateur40"></div>
+    <a name="about"></a>
+    <div class="bg-projet">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 banner-projet">
+					<div class="row" >
+						<div class="col-md-3 col-md-offset-5 text-left">
+							<h2 class="section-heading" style="margin-bottom: 0px; color:#fff;">Projets</h2>
+							<hr class="section-heading-spacer" style="margin-bottom: 0px;">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<h4 class="cssfff">Venez découvrir, participez ou financer des projets sur l’écologie aux quatres coin du monde</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 text-center">
+							<div class="form-group">
+								<div class="input-group">
+									<div class="input-group-btn" style=" width:35%">
+										<input type="text" placeholder="Nom" name="s" class="form-control left-rounded" style="border-radius: 10px 0 0 10px" >
+									</div>
+									<div class="input-group-btn" style=" width:20%">
+										<input type="text" placeholder="Date" name="s" class="form-control icon-calendar">
+										
+									</div>
+									<div class="input-group-btn" style=" width:20%">
+										<input type="text" placeholder="Pays" name="s" class="form-control icon-pays">
+									</div>
+									<div class="input-group-btn">
+										<button type="submit" class="btn btn-lg" style="background:#3E3A51; color:#fff; border-radius:0 10px 10px 0; ">Chercher</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+            
+            
+
+        </div>
+        <!-- /.container -->
+    </div>
     <!-- Page Content -->
     <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Derniers Projet</h1>
-            </div>
-        </div>
-        <!-- /.row -->
-
+		<div class="row" >
+			<div class="col-md-3 text-left">
+				<h1 class="section-heading" style="margin-bottom: 0px;">Derniers Projet</h1>
+				<hr class="section-heading-spacer" style="margin-bottom: 0px;">
+			</div>
+		</div>
+<div class="separateur40"></div>
         <!-- Projects Row -->
-        <div class="row">
+		<div class="row" >
          	<BOUCLE_article(ARTICLES){id_rubrique == 16}{par date}>
                 <div class="col-md-4 img-portfolio">
-                    <a href="spip.php?page=detail&id_article=#ID_ARTICLE">
-                     [(#LOGO_ARTICLE_RUBRIQUE|image_reduire{350,200})]
-                    </a>
-                    <h3>
-                        <a href="spip.php?page=detail&id_article=#ID_ARTICLE">#TITRE</a>
-                    </h3>
-                    <p>#DESCRIPTIF</p>
+					<div class="carte-detail">
+						<a href="spip.php?page=detail&id_article=#ID_ARTICLE">
+						 [(#LOGO_ARTICLE_RUBRIQUE)]
+						</a>
+						<div class="row infos-detail">
+							<div class="row">
+								<div class="col-md-7">
+									<h4>
+										<a href="spip.php?page=detail&id_article=#ID_ARTICLE">#TITRE</a>
+									</h4>
+								</div>
+								<div class="col-md-4 col-md-offset-1 text-right">
+									[(#MAJ|jour)] [(#MAJ|nom_mois)] [(#MAJ|annee)]
+								</div>
+							</div>
+							<hr class="section-heading-spacer" style="margin: 0px;"><br>
+							
+							[(#DESCRIPTIF|inserer_attribut{class, 'text-justify'})]
+							<div class="row">
+								<div class="col-md-3 col-md-offset-6 text-right">
+									<a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:#FCFB59;"> </span> 15</a>
+								</div>
+								<div class="col-md-3 text-right">
+									<a href="#"><span class="glyphicon glyphicon-comment" aria-hidden="true"> </span> 6</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
                 </div>
             </BOUCLE_article>
-            <div class="col-md-4 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="portfolio-item.html">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
         </div>
         <!-- /.row -->
+		<div class="row" >
+			<div class="col-md-3 img-portfolio">
+				<div class="carte-detail">
+					<a href="spip.php?page=detail&amp;id_article=8">
+					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
+					</a>
+					<div class="row infos-detail">
+						<div class="row">
+							<div class="col-md-7">
+								<h5>
+									<a href="spip.php?page=detail&amp;id_article=8">Le poêle New Lao</a>
+								</h5>
+							</div>
+							<div class="col-md-5 text-right">
+								<h6>12 mars 2016</h6>
+							</div>
+						</div>
+						<hr style="margin: 0px;" class="section-heading-spacer"><br>
+						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
+						<div class="row">
+							<div class="col-md-3 col-md-offset-6 text-right">
+								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							</div>
+							<div class="col-md-3 text-right">
+								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>		
+		
+			<div class="col-md-3 img-portfolio">
+				<div class="carte-detail">
+					<a href="spip.php?page=detail&amp;id_article=8">
+					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
+					</a>
+					<div class="row infos-detail">
+						<div class="row">
+							<div class="col-md-7">
+								<h5>
+									<a href="spip.php?page=detail&amp;id_article=8">Le poêle New Lao</a>
+								</h5>
+							</div>
+							<div class="col-md-5 text-right">
+								<h6>12 mars 2016</h6>
+							</div>
+						</div>
+						<hr style="margin: 0px;" class="section-heading-spacer"><br>
+						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
+						<div class="row">
+							<div class="col-md-3 col-md-offset-6 text-right">
+								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							</div>
+							<div class="col-md-3 text-right">
+								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>		
+		
+			<div class="col-md-3 img-portfolio">
+				<div class="carte-detail">
+					<a href="spip.php?page=detail&amp;id_article=8">
+					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
+					</a>
+					<div class="row infos-detail">
+						<div class="row">
+							<div class="col-md-7">
+								<h5>
+									<a href="spip.php?page=detail&amp;id_article=8">Le poêle New Lao</a>
+								</h5>
+							</div>
+							<div class="col-md-5 text-right">
+								<h6>12 mars 2016</h6>
+							</div>
+						</div>
+						<hr style="margin: 0px;" class="section-heading-spacer"><br>
+						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
+						<div class="row">
+							<div class="col-md-3 col-md-offset-6 text-right">
+								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							</div>
+							<div class="col-md-3 text-right">
+								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>		
+		
+			<div class="col-md-3 img-portfolio">
+				<div class="carte-detail">
+					<a href="spip.php?page=detail&amp;id_article=8">
+					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
+					</a>
+					<div class="row infos-detail">
+						<div class="row">
+							<div class="col-md-7">
+								<h5>
+									<a href="spip.php?page=detail&amp;id_article=8">Le poêle New Lao</a>
+								</h5>
+							</div>
+							<div class="col-md-5 text-right">
+								<h6>12 mars 2016</h6>
+							</div>
+						</div>
+						<hr style="margin: 0px;" class="section-heading-spacer"><br>
+						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
+						<div class="row">
+							<div class="col-md-3 col-md-offset-6 text-right">
+								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							</div>
+							<div class="col-md-3 text-right">
+								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>		
+		
+		</div>
 
     </div>
     <!-- /.container -->

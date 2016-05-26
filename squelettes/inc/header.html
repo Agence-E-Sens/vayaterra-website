@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="spip.php?page="  style="padding-top:0; margin:10px 0 5px 0;"><img src="#CHEMIN{img/logo.png}" width="60" /></a>
+                <a class="navbar-brand topnav" href="spip.php?page="  style="padding-top:0; margin:10px 0 5px 0;">[(#LOGO_SITE_SPIP|image_reduire{65})]</a>
 				
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,10 +36,10 @@
 		<div style="background:#419341; ">
 			<div class="container" align="right" style=" padding:7px;">
             [(#SESSION{id_auteur}|non)
-			<a class="menu-compte" href="spip.php?page=compte">Connexion / Inscription</a>
+			<a class="menu-compte" href="spip.php?page=compte"><span class=" glyphicon glyphicon-user" aria-hidden="true"> </span> Connexion / Inscription</a>
             ]
             [(#SESSION{id_auteur}|oui) 
-                <a class="menu-compte" href="spip.php?page=compte"> Mon compte </a>
+                <a class="menu-compte" href="spip.php?page=compte"><span class=" glyphicon glyphicon-user" aria-hidden="true"> </span> Mon compte </a>
             ]
 			</div>
 

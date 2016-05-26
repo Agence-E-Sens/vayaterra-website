@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    font-family: Arial,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body,
@@ -111,11 +112,11 @@ header.carousel {
 }
 .team-member {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 10px;
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  border: 1px solid white;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -134,7 +135,7 @@ aside.clients img {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background:#7AD567;
     background-size: cover;
 }
 
@@ -171,7 +172,6 @@ aside.clients img {
 
     ul.intro-social-buttons > li {
         display: block;
-        margin-bottom: 20px;
         padding: 0;
     }
 
@@ -185,21 +185,20 @@ aside.clients img {
 }
 
 .portfolio-modal .modal-content ul.list-inline {
-  margin-bottom: 30px;
-  margin-top: 0;
+  margin:0;
 }
 ul.social-buttons {
   margin-bottom: 0;
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #fff;
   height: 40px;
   width: 40px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
-  color: white;
+  color: #419341;
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -208,7 +207,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #006600;
+  background-color: #7AD567;
+  color:#fff;
 }
 .btn:focus,
 .btn:active,
@@ -227,7 +227,6 @@ ul.social-buttons li a:active {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
 }
 
 .content-section-b {
@@ -237,13 +236,14 @@ ul.social-buttons li a:active {
 }
 
 .section-heading {
+	color:#3E3A51;
     margin-bottom: 30px;
 }
 
 .section-heading-spacer {
     float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
+    width: 100px;
+    border-top: 5px solid #FCFB59;
 }
 
 .banner {
@@ -284,7 +284,6 @@ ul.social-buttons li a:active {
 
     ul.banner-social-buttons > li {
         display: block;
-        margin-bottom: 20px;
         padding: 0;
     }
 

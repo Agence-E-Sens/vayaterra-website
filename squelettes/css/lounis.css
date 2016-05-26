@@ -1,0 +1,76 @@
+.css909090{color:#909090;}
+.cssfff{color:#fff;}
+.separateur100{ margin-top:100px;}
+.separateur20{ height:20px; clear:both;}
+.bg-globe{
+	background: url(../img/img-globe.png) no-repeat left top scroll;
+	background-size:  100% auto;
+	}
+.bg-projet {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+	background: url(../img/bg-arriere-plan-projet.png) repeat-x center top scroll;
+    background-size: auto;
+}
+.banner-projet {
+	background:  rgba(216, 142, 136, 0.6);
+	padding: 10px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	 margin-top:30%;
+}
+.icon-calendar{
+	background:#fff url(../img/icon-calendar.png) no-repeat right ;
+	}
+.icon-pays{
+	background:#fff url(../img/icon-pays.png) no-repeat right ;
+	}
+.carte-detail{
+	background:#656174;
+	
+}
+.carte-detail img{
+	width:100%;
+	height:100%;
+	
+}
+.carte-detail:hover{
+	background:#3E3A51;
+	
+}
+.infos-detail{
+	padding:10px 30px;
+	color:#fff;
+}
+.infos-detail a, .infos-detail a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.icon-aime{ 
+	background:#FCFB59;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding:10px;
+	font-size:24px;
+	margin-right:20px;
+	
+}
+.btn-cal {
+	padding: 5px 20px;
+  color: #3E3A51;
+  background-color: #FCFB59;
+  font-size:18px;
+}
+.btn-cal:focus,
+.btn-cal.focus {
+  color: #fff;
+  background-color: #3E3A51;
+}
+.btn-cal:hover {
+  color: #fff;
+  background-color: #3E3A51;
+}
+
