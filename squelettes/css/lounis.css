@@ -2,10 +2,20 @@
 .cssfff{color:#fff;}
 .separateur100{ margin-top:100px;}
 .separateur20{ height:20px; clear:both;}
+
+
+@media (min-width: 990px) {
 .bg-globe{
-	background: url(../img/img-globe.png) no-repeat left top scroll;
+	background: url(../img/img-globe.png) no-repeat 0 10px scroll;
 	background-size:  100% auto;
+	
 	}
+}
+.bg-globe{
+	padding: 30px 0 0 0;
+	
+	}
+
 .bg-projet {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -28,7 +38,7 @@
 	background:#fff url(../img/icon-pays.png) no-repeat right ;
 	}
 .carte-detail{
-	background:#656174;
+	background:#3E3A51;
 	
 }
 .carte-detail img{
@@ -36,13 +46,11 @@
 	height:100%;
 	
 }
-.carte-detail:hover{
-	background:#3E3A51;
-	
-}
+
 .infos-detail{
 	padding:10px 30px;
 	color:#fff;
+	height
 }
 .infos-detail a, .infos-detail a:hover{
 	color:#fff;
@@ -62,7 +70,7 @@
 	padding: 5px 20px;
   color: #3E3A51;
   background-color: #FCFB59;
-  font-size:18px;
+  font-size:20px;
 }
 .btn-cal:focus,
 .btn-cal.focus {

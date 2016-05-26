@@ -21,7 +21,7 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-body{margin-top:109px;}
+body{margin-top:128px;}
 .topnav {
     font-size: 14px; 
 }
@@ -141,7 +141,6 @@ aside.clients img {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
     padding-bottom: 20%;
 }
 
@@ -207,7 +206,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #7AD567;
+  background-color: #FCFB59;
   color:#fff;
 }
 .btn:focus,
@@ -237,13 +236,14 @@ ul.social-buttons li a:active {
 
 .section-heading {
 	color:#3E3A51;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .section-heading-spacer {
     float: left;
     width: 100px;
-    border-top: 5px solid #FCFB59;
+    border-top: 3px solid #FCFB59;
+	margin:10px 0 ;
 }
 
 .banner {
