@@ -3,26 +3,31 @@
 if (isset($_POST['submitModif']) ) 
 {
 		
+
 	$pseudo = htmlspecialchars($_POST['pseudo']);//On protège les données
 	$prenom = htmlspecialchars($_POST['prenom']);
 	$nom = htmlspecialchars($_POST['nom']);
 	$email = htmlspecialchars($_POST['email']);
 	$bio = htmlspecialchars($_POST['bio']);
+	$date = htmlspecialchars($_POST['date']);
 	$adresse = htmlspecialchars($_POST['adresse']);
 	$id = $_POST['id'];
 
 	sql_updateq('spip_auteurs', array(
 	"nom" => $pseudo,
 	"bio" => $bio,
+	"date_1" => $date,
 	"email" => $email,
 	"prenom" => $prenom,
 	"nom_0" => $nom,
 	"adresse" => $adresse,
 	),"id_auteur=". intval($id));
 
+header('Location: spip.php?page=compte');
+
 }
  ?>
-
+ #CACHE{0}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,86 +41,81 @@ if (isset($_POST['submitModif']) )
 <INCLURE{fond=inc/header}>
 
 
-<br><br><br><br><br><br>
 [(#SESSION{id_auteur}|non) 
- <!--#LOGIN_PUBLIC-->
 
-<div class="formulaire_spip formulaire_login">
-	<form action="/vayaterra/spip.php?page=compte" method="post" id="formulaire_login">
-	
-	<div><input type="hidden" value="compte" name="page"><input type="hidden" value="login" name="formulaire_action"><input type="hidden" value="tBnJs0uYwUQRPc4HLGSKFGkl4XU1Aot/K3RnvvPodOrVfafUjklWqHKbEyY51o6t0iLIOy3+VEb2Cbo8fDQXCnRyJZFVSEiONesfOW5uqyIDdswZHbOP4af7vKITTFMxSkGwyyJU2DK2" name="formulaire_action_args"></div><fieldset>
-		<legend>Identifiants personnels</legend>
-		
-		<ul>
-			<li class="editer editer_login obligatoire">
-				<label for="var_login">Login ou adresse email&nbsp;:</label><input type="text" autocorrect="off" autocapitalize="off" autofocus="autofocus" required="required" size="40" value="milounis" id="var_login" name="var_login" class="text">
-			</li>
-			<li class="editer editer_password obligatoire">
-				<label for="password">Mot de passe&nbsp;:</label><input type="password" autocorrect="off" autocapitalize="off" size="40" value="" id="password" name="password" class="text password"><em id="pass_securise"><img width="16" height="16" title="Login sécurisé" alt="Login sécurisé" src="prive/themes/spip/images/cadenas-16.png"></em><ul class="error-list"></ul>
-				<p class="details"><a id="spip_pass" href="spip.php?page=spip_pass&lang=fr">mot&nbsp;de&nbsp;passe&nbsp;oublié&nbsp;?</a></p>
-			</li>
-			 
-			<li class="editer editer_session"><div class="choix">
-				<input type="checkbox" onchange="jQuery(this).addClass('modifie');" checked="checked" value="oui" id="session_remember" name="session_remember" class="checkbox">
-				<label for="session_remember" class="nofx">Rester identifié quelques jours</label>
-			</div></li>
-		</ul>
-	</fieldset>
-	<p class="boutons"><input type="submit" value="Valider" class="submit"></p>
-	</form>
-	
-	
-	
-</div>
- <div>
-	Vous n'avez pas de compte ? <a href="spip.php?page=inscription">Nouvelle inscription</a>
-</div>
+
+<div class="connexion">
+	<div class="formulaireCo">
+		#LOGIN_PUBLIC
+		 <p class="insc">
+			Vous n'avez pas de compte ? <a href="spip.php?page=inscription">Nouvelle inscription</a>
+		</p>
+	</div>
 
 ]
+
+
 
 [(#SESSION{id_auteur}|oui)
-
-
-<h2>BIENVENUE #SESSION{nom}</h2>
-
-<ul>
-	<li><a href="#">Profil</a></li>
-	<li><a href="#">Projet</a></li>
-	<li><a href="#">Annonce</a></li>
-	<li><a href="#URL_LOGOUT">déconnexion</a></li>
-</ul>
-
-<form action="" method="post">
-	<label>Pseudo :</label>
-	<input type="text" name="pseudo" id="pseudo" value="#SESSION{nom}" />
-
-	<label>Prenom :</label>
-	<input type="text" name="prenom" id="prenom" value="#SESSION{prenom}" />
-
-	<label>Nom :</label>
-	<input type="text" name="nom" id="nom" value="#SESSION{nom_0}" />
-
-	<label>Email :</label>
-	<input type="text" name="email" id="email" value="#SESSION{email}" />
-
-	<label>Ma biographie :</label>
-	<input type="text" name="bio" id="bio" value="#SESSION{bio}" />
-
-	<label>Date de naissance :</label>
-	<input type="date" name="date" id="date" value="#SESSION{date_1}" />
-
-	<label>Adresse :</label>
-	<input type="text" name="adresse" id="adresse" value="#SESSION{adresse}" />
-
-	<input type="hidden" name="id" value="#SESSION{id_auteur}">
-
-	<input type="submit" name="submitModif" value="Modifier" />
-
-</form>
-
+<div class="blocCentral">
+<div class="menuUti">
+	<ul>
+		<li><a href="spip.php?page=compte" class="overMenu">Profil</a></li>
+		<li><a href="spip.php?page=compte_projet">Projet</a></li>
+		<li><a href="#">Annonce</a></li>
+		<li><a href="#URL_LOGOUT{spip.php?page=compte}">Déconnexion</a></li>
+	</ul>
+</div>
 
 ]
 
+<BOUCLE_auteur (AUTEURS) {tout}{id_auteur=#SESSION{id_auteur}}>
+	
+
+
+	<div class="containerProfil">
+
+		<form action="" method="post">
+			<h4>Informations personnelles</h4>
+			<p>
+				<input type="text" name="nom" id="nom" value="#NOM_0" />
+		
+				<input type="text" name="prenom" id="prenom" value="#PRENOM" />
+			</p>
+			<p> 
+				[<input type="date" name="date" id="date" value="(#DATE_1|affdate{'Y-m-d'})" />]
+			<p>
+				<input type="text" name="pseudo" id="pseudo" value="#NOM" />
+			</p>
+			<p>
+				<input type="text" name="tel" id="tel" value="Téléphone" />
+
+				<input type="text" name="adresse" id="adresse" value="#ADRESSE" />
+			</p>
+			<p>
+				<input type="text" name="codePost" id="codePost" value="Code postale" />
+				<input type="text" name="ville" id="ville" value="Ville" />
+			</p>
+			<p>
+				[<TEXTAREA name="bio" id="bio" rows="4" cols="46.7">(#BIO|textebrut)</TEXTAREA>]
+			</p>
+			<p>
+				<h4>Informations de connexion</h4>
+				<input type="text" name="email" id="email" value="#EMAIL" />
+				<input type="hidden" name="id" value="#ID_AUTEUR">
+			</p>
+
+			<input type="submit" name="submitModif" value="Modifier" class="submit"/>
+
+			<div class="LogoAut">
+				[(#LOGO_AUTEUR|image_reduire{100,100})]
+			</div>
+
+		</form>
+	</div>
+
+</BOUCLE_auteur>
+</div>
 
 <INCLURE{fond=inc/footer}>
 

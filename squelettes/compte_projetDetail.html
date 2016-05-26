@@ -1,0 +1,151 @@
+<?php 
+
+if (isset($_POST['submitModif']) ) 
+{
+        
+
+    $titre = htmlspecialchars($_POST['titre']);//On protège les données
+    $texte = htmlspecialchars($_POST['texte']);
+    $bloc = htmlspecialchars($_POST['bloc']);
+    $id = $_POST['id'];
+
+    sql_updateq('spip_articles', array(
+    "titre" => $titre,
+    "texte" => $texte,
+    "blocNote_1" => $bloc,
+    ),"id_article=". intval($id));
+
+header('Location: spip.php?page=compte_projetDetail&id_article=#ID_ARTICLE');
+    //header("Refresh:0");
+
+}
+ ?>
+
+#CACHE{0}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<INCLURE{fond=inc/head}>
+
+</head>
+
+<body>
+<INCLURE{fond=inc/header}>
+<br><br><br><br><br><br><br><br><br>
+
+[(#SESSION{id_auteur}|non) 
+
+<div class="connexion">
+    <div class="formulaireCo">
+        #LOGIN_PUBLIC
+         <p class="insc">
+            Vous n'avez pas de compte ? <a href="spip.php?page=inscription">Nouvelle inscription</a>
+        </p>
+    </div>
+</div>
+
+]
+
+
+[(#SESSION{id_auteur}|oui)
+<div class="blocCentral">
+<div class="menuUti">
+    <ul>
+        <li><a href="spip.php?page=compte">Profil</a></li>
+        <li><a href="spip.php?page=compte_projet"  class="overMenu">Projet</a></li>
+        <li><a href="#">Annonce</a></li>
+        <li><a href="#URL_LOGOUT{spip.php?page=compte}">Déconnexion</a></li>
+    </ul>
+</div>
+<div class="containerProjet">
+]
+
+<BOUCLE_article(ARTICLES) {tout} {statut IN publie} {id_rubrique=16}{id_article}>
+
+<div class="containerProjetDetail">
+
+<h3>#TITRE</h3>
+
+    <form action="" method="post">
+
+        <div class="">
+            [(#LOGO_ARTICLE|image_reduire{350,350})]
+        </div>
+
+        <p>
+        <input type="text" name="titre" id="titre" value="#TITRE" />
+        </p>
+        <p>
+        <input type="text" name="pays" id="pays" value="Pays ou contient" />
+        <input type="text" name="dateD" id="dateD" value="Date de départ" />
+        </p>
+        <p>
+        <input type="text" name="duree" id="duree" value="Durée" />
+        </p>
+        <p>
+            <TEXTAREA name="texte" id="texte" rows="4" cols="46.7">[(#TEXTE|textebrut)]</TEXTAREA>
+        </p>
+         <p>
+            <h5>BLOC NOTE :</h5>
+            <TEXTAREA name="bloc" id="bloc" rows="4" cols="46.7">[(#BLOCNOTE_1|textebrut)]</TEXTAREA>
+        </p>
+
+        <input type="hidden" name="id" value="#ID_ARTICLE">
+
+        <input type="submit" name="submitModif" value="Modifier" class="submit"/>
+
+    </form>
+</div>
+</div>
+
+</BOUCLE_article>
+
+
+<BOUCLE_article2(ARTICLES) {tout} {statut IN prepa} {id_rubrique=16} {id_article}>
+<div class="containerProjetDetail">
+<h4>VOTRE PROJET DOIT ETRE VALIDE ! VEUILLEZ CONTACTER LES ADMINISTRATEURS</h4>
+<h3>#TITRE</h3>
+
+    <form action="" method="post">
+
+        <div class="">
+            [(#LOGO_ARTICLE|image_reduire{350,350})]
+        </div>
+
+        <p>
+        <input type="text" name="titre" id="titre" value="#TITRE" />
+        </p>
+        <p>
+        <input type="text" name="pays" id="pays" value="Pays ou contient" />
+        <input type="text" name="dateD" id="dateD" value="Date de départ" />
+        </p>
+        <p>
+        <input type="text" name="duree" id="duree" value="Durée" />
+        </p>
+        <p>
+            <TEXTAREA name="texte" id="texte" rows="4" cols="46.7">[(#TEXTE|textebrut)]</TEXTAREA>
+        </p>
+         <p>
+            <h5>BLOC NOTE :</h5>
+            <TEXTAREA name="bloc" id="bloc" rows="4" cols="46.7">[(#BLOCNOTE_1|textebrut)]</TEXTAREA>
+        </p>
+        <input type="hidden" name="id" value="#ID_ARTICLE">
+
+        <input type="submit" name="submitModif" value="Modifier" class="submit"/>
+
+    </form>
+</div>
+</div>
+</BOUCLE_article2>
+
+[(#SESSION{id_auteur}|oui) 
+
+</div>
+]
+
+<INCLURE{fond=inc/footer}>
+
+</body>
+
+</html>
