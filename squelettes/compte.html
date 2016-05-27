@@ -25,6 +25,33 @@ if (isset($_POST['submitModif']) )
 	"adresse" => $adresse,
 	),"id_auteur=". intval($id));
 
+
+	$uploads_dir = './IMG';
+	foreach ($_FILES["userfile"]["error"] as $key => $error) {
+
+		$ext = substr($_FILES["userfile"]["name"][$key], -4);
+
+		$extensions_valides = array( '.jpg' , '.gif' , '.png' );
+		if ( in_array($ext,$extensions_valides) ){
+			if ($error == UPLOAD_ERR_OK) {
+
+				$tmp_name = $_FILES["userfile"]["tmp_name"][$key];
+				
+				$nameSup = "/auton".$id.".png";
+				$nameSup1 = "/auton".$id.".jpg";
+				$nameSup2 = "/auton".$id.".gif";
+				if(is_file($uploads_dir.$nameSup)){unlink($uploads_dir.$nameSup);}
+				if(is_file($uploads_dir.$nameSup1)){unlink($uploads_dir.$nameSup1);}
+				if(is_file($uploads_dir.$nameSup2)){unlink($uploads_dir.$nameSup2);}
+
+				$name = "auton".$id.$ext;
+				move_uploaded_file($tmp_name, "$uploads_dir/$name");
+			}
+		}
+	}
+
+
+
 header('Location: spip.php?page=compte');
 
 }
@@ -77,7 +104,7 @@ header('Location: spip.php?page=compte');
 
 	<div class="containerProfil">
 
-		<form action="" method="post">
+		<form action="" method="post" enctype="multipart/form-data">
 			<h4>Informations personnelles</h4>
 			<p>
 				<input type="text" name="nom" id="nom" value="#NOM_0" />
@@ -88,6 +115,11 @@ header('Location: spip.php?page=compte');
 				[<input type="date" name="date" id="date" value="(#DATE_1|affdate{'Y-m-d'})" />]
 			<p>
 				<input type="text" name="pseudo" id="pseudo" value="#NOM" />
+			</p>
+			<p>
+				<input type="hidden" name="MAX_FILE_SIZE" value="9999999" />
+				<label for="icone">Logo de profil (JPG, PNG ou GIF | max. 1 Mo) :</label><br />
+     			<input name="userfile[]" class="tel" type="file" />
 			</p>
 			<p>
 				<input type="tel" name="tel" id="tel" value="#NUMERO" />

@@ -6,14 +6,48 @@ if (isset($_POST['submitModif']) )
 
     $titre = htmlspecialchars($_POST['titre']);//On protège les données
     $texte = htmlspecialchars($_POST['texte']);
+     $desc = htmlspecialchars($_POST['desc']);
+     $pays = htmlspecialchars($_POST['pays']);
     $bloc = htmlspecialchars($_POST['bloc']);
+    $dateD  = htmlspecialchars($_POST['dateD']);
+    $dateF  = htmlspecialchars($_POST['dateF']);
     $id = $_POST['id'];
 
     sql_updateq('spip_articles', array(
     "titre" => $titre,
     "texte" => $texte,
+    "pays" => $pays,
+    "descriptif" => $desc,
+    "date_debut" => $dateD,
+    "date_fin" => $dateF,
     "blocNote_1" => $bloc,
     ),"id_article=". intval($id));
+
+
+$uploads_dir = './IMG';
+    foreach ($_FILES["userfile"]["error"] as $key => $error) {
+
+        $ext = substr($_FILES["userfile"]["name"][$key], -4);
+
+        $extensions_valides = array( '.jpg' , '.gif' , '.png' );
+        if ( in_array($ext,$extensions_valides) ){
+            if ($error == UPLOAD_ERR_OK) {
+
+                $tmp_name = $_FILES["userfile"]["tmp_name"][$key];
+                
+                $nameSup = "/arton".$id.".png";
+                $nameSup1 = "/arton".$id.".jpg";
+                $nameSup2 = "/arton".$id.".gif";
+                if(is_file($uploads_dir.$nameSup)){unlink($uploads_dir.$nameSup);}
+                if(is_file($uploads_dir.$nameSup1)){unlink($uploads_dir.$nameSup1);}
+                if(is_file($uploads_dir.$nameSup2)){unlink($uploads_dir.$nameSup2);}
+
+                $name = "arton".$id.$ext;
+                move_uploaded_file($tmp_name, "$uploads_dir/$name");
+            }
+        }
+    }
+    
 
 header('Location: spip.php?page=compte_projetDetail&id_article=#ID_ARTICLE');
     //header("Refresh:0");
@@ -67,30 +101,46 @@ header('Location: spip.php?page=compte_projetDetail&id_article=#ID_ARTICLE');
 
 <h3>#TITRE</h3>
 
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
 
         <div class="">
             [(#LOGO_ARTICLE|image_reduire{350,350})]
         </div>
 
         <p>
+         Titre :<br/>
         <input type="text" name="titre" id="titre" value="#TITRE" />
         </p>
         <p>
-        <input type="text" name="pays" id="pays" value="Pays ou contient" />
-        <input type="text" name="dateD" id="dateD" value="Date de départ" />
+         Description :<br/>
+            <TEXTAREA name="desc" id="desc" rows="2" cols="46.7">[(#DESCRIPTIF|textebrut)]</TEXTAREA>
         </p>
         <p>
-        <input type="text" name="duree" id="duree" value="Durée" />
+         Pays :<br/>
+        <input type="text" name="pays" id="pays" value="#PAYS" />
+    
         </p>
         <p>
-            <TEXTAREA name="texte" id="texte" rows="4" cols="46.7">[(#TEXTE|textebrut)]</TEXTAREA>
+         Date de début :<br/>
+        [<input type="date" name="dateD" id="dateD" value="(#DATE_DEBUT|affdate{'Y-m-d'})" />]
+        </p>
+        <p>
+        Date de fin : <br/>
+        [<input type="date" name="dateF" id="dateF" value="(#DATE_FIN|affdate{'Y-m-d'})" />]
+        </p>
+        <p>
+         Contenu :<br/>
+            <TEXTAREA name="texte" id="texte" rows="10" cols="46.7">[(#TEXTE|textebrut)]</TEXTAREA>
+        </p>
+        <p>
+            <input type="hidden" name="MAX_FILE_SIZE" value="9999999" />
+            <label for="icone">Logo du projet (JPG, PNG ou GIF | max. 1 Mo) :</label><br />
+            <input name="userfile[]" class="tel" type="file" />
         </p>
          <p>
             <h5>BLOC NOTE :</h5>
             <TEXTAREA name="bloc" id="bloc" rows="4" cols="46.7">[(#BLOCNOTE_1|textebrut)]</TEXTAREA>
         </p>
-
         <input type="hidden" name="id" value="#ID_ARTICLE">
 
         <input type="submit" name="submitModif" value="Modifier" class="submit"/>
@@ -107,24 +157,41 @@ header('Location: spip.php?page=compte_projetDetail&id_article=#ID_ARTICLE');
 <h4>VOTRE PROJET DOIT ETRE VALIDE ! VEUILLEZ CONTACTER LES ADMINISTRATEURS</h4>
 <h3>#TITRE</h3>
 
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
 
         <div class="">
             [(#LOGO_ARTICLE|image_reduire{350,350})]
         </div>
 
         <p>
+         Titre :<br/>
         <input type="text" name="titre" id="titre" value="#TITRE" />
         </p>
         <p>
-        <input type="text" name="pays" id="pays" value="Pays ou contient" />
-        <input type="text" name="dateD" id="dateD" value="Date de départ" />
+         Description :<br/>
+            <TEXTAREA name="desc" id="desc" rows="2" cols="46.7">[(#DESCRIPTIF|textebrut)]</TEXTAREA>
         </p>
         <p>
-        <input type="text" name="duree" id="duree" value="Durée" />
+         Pays :<br/>
+        <input type="text" name="pays" id="pays" value="#PAYS" />
+    
         </p>
         <p>
-            <TEXTAREA name="texte" id="texte" rows="4" cols="46.7">[(#TEXTE|textebrut)]</TEXTAREA>
+         Date de début :<br/>
+        [<input type="date" name="dateD" id="dateD" value="(#DATE_DEBUT|affdate{'Y-m-d'})" />]
+        </p>
+        <p>
+        Date de fin : <br/>
+        [<input type="date" name="dateF" id="dateF" value="(#DATE_FIN|affdate{'Y-m-d'})" />]
+        </p>
+        <p>
+         Contenu :<br/>
+            <TEXTAREA name="texte" id="texte" rows="10" cols="46.7">[(#TEXTE|textebrut)]</TEXTAREA>
+        </p>
+          <p>
+            <input type="hidden" name="MAX_FILE_SIZE" value="9999999" />
+            <label for="icone">Logo du projet (JPG, PNG ou GIF | max. 1 Mo) :</label><br />
+            <input name="userfile[]" class="tel" type="file" />
         </p>
          <p>
             <h5>BLOC NOTE :</h5>

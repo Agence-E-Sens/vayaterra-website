@@ -12528,10 +12528,10 @@ Articles may also be assigned a as home of a section. Fields "id_article_accueil
 <archive id="connecteur.zip" dtd="paquet">
 <zip>
 	<file>connecteur.zip</file>
-	<size>14790</size>
-	<date>1462226642</date>
+	<size>15657</size>
+	<date>1464296642</date>
 	<source>_plugins_/connecteur/trunk</source>
-	<last_commit>2016-05-03 00:04:02</last_commit>
+	<last_commit>2016-05-26 23:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="connecteur" reference="fr">
@@ -12541,7 +12541,7 @@ Articles may also be assigned a as home of a section. Fields "id_article_accueil
 <paquet
 	prefix="connecteur"
 	categorie="auteur"
-	version="1.0.0"
+	version="1.0.1"
 	etat="dev"
 	compatibilite="[3.1.0;3.1.*]"
 	logo="prive/themes/spip/images/connecteur-64.png"
@@ -27253,10 +27253,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis4.zip" dtd="paquet">
 <zip>
 	<file>gis4.zip</file>
-	<size>268026</size>
-	<date>1464211142</date>
+	<size>268025</size>
+	<date>1464275042</date>
 	<source>_plugins_/gis/trunk</source>
-	<last_commit>2016-05-25 23:19:02</last_commit>
+	<last_commit>2016-05-26 17:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="gis" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis/trunk/lang/" reference="fr">
@@ -34663,10 +34663,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="linkcheck.zip" dtd="paquet">
 <zip>
 	<file>linkcheck.zip</file>
-	<size>46375</size>
-	<date>1463803448</date>
+	<size>46416</size>
+	<date>1464250742</date>
 	<source>_plugins_/linkcheck/trunk</source>
-	<last_commit>2016-05-21 06:04:07</last_commit>
+	<last_commit>2016-05-26 10:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="linkcheck" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/linkcheck/trunk/lang/" reference="fr">
@@ -40420,10 +40420,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="facebook.zip" dtd="paquet">
 <zip>
 	<file>facebook.zip</file>
-	<size>155801</size>
-	<date>1462745042</date>
+	<size>155841</size>
+	<date>1464296644</date>
 	<source>_plugins_/facebook/trunk</source>
-	<last_commit>2016-05-09 00:04:02</last_commit>
+	<last_commit>2016-05-26 23:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="facebook" reference="fr">
@@ -40433,7 +40433,7 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <paquet
 	prefix="facebook"
 	categorie="communication"
-	version="1.0.1"
+	version="1.0.2"
 	etat="dev"
 	compatibilite="[3.1.0;3.1.*]"
 	logo="prive/themes/spip/images/facebook-64.png"
@@ -74871,10 +74871,10 @@ De nombreux commentaires sont (ou seront) pr&&#233;sents dans le code source des
 <archive id="zoundation.zip" dtd="paquet">
 <zip>
 	<file>zoundation.zip</file>
-	<size>173817</size>
-	<date>1463306644</date>
+	<size>173822</size>
+	<date>1464278642</date>
 	<source>_squelettes_/zoundation/trunk</source>
-	<last_commit>2016-05-15 12:04:03</last_commit>
+	<last_commit>2016-05-26 18:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="zoundation" reference="fr">
@@ -74884,7 +74884,7 @@ De nombreux commentaires sont (ou seront) pr&&#233;sents dans le code source des
 <paquet
 	prefix="zoundation"
 	categorie="squelette"
-	version="1.0.16"
+	version="1.0.17"
 	etat="dev"
 	compatibilite="[3.0.13;3.1.*]"
 	logo="prive/themes/spip/images/zoundation-64.png"
