@@ -7,6 +7,10 @@
         $titre = htmlspecialchars($_POST['titre']);//On protège les données
         $texte = htmlspecialchars($_POST['texte']);
         $bloc = htmlspecialchars($_POST['bloc']);
+        $desc = htmlspecialchars($_POST['desc']);
+        $dateD  = htmlspecialchars($_POST['dateD']);
+        $dateF  = htmlspecialchars($_POST['dateF']);
+        $pays = htmlspecialchars($_POST['pays']);
         $prepa ="prepa";
         $pri ="pri";
         $fr ="fr";
@@ -16,6 +20,10 @@
         $champs = array(
              "titre" => $titre,
             "texte" => $texte,
+            "pays" => $pays,
+            "descriptif" => $desc,
+            "date_debut" => $dateD,
+            "date_fin" => $dateF,
             "id_rubrique" => 16,
             "id_secteur" => 16,
             "statut" => $prepa,
@@ -53,7 +61,7 @@
 
 <body>
 <INCLURE{fond=inc/header}>
-<br><br><br><br><br><br><br><br><br>
+
 
 [(#SESSION{id_auteur}|non) 
 
@@ -86,25 +94,39 @@
 
 <h3>Ici créez votre projet</h3>
 
-    <form action="" method="post">
+     <form action="" method="post">
+
 
         <p>
-        <input type="text" name="titre" id="titre" value="Titre" />
+         Titre :<br/>
+        <input type="text" name="titre" id="titre" value="" />
         </p>
         <p>
-        <input type="text" name="pays" id="pays" value="Pays ou contient" />
-        <input type="text" name="dateD" id="dateD" value="Date de départ" />
+         Description :<br/>
+            <TEXTAREA name="desc" id="desc" rows="2" cols="46.7"></TEXTAREA>
         </p>
         <p>
-        <input type="text" name="duree" id="duree" value="Durée" />
+         Pays :<br/>
+        <input type="text" name="pays" id="pays" value="" />
+    
         </p>
         <p>
-            <TEXTAREA name="texte" id="texte" rows="4" cols="46.7">Description projet</TEXTAREA>
+         Date de début :<br/>
+        <input type="date" name="dateD" id="dateD" value="" />
+        </p>
+        <p>
+        Date de fin : <br/>
+        <input type="date" name="dateF" id="dateF" value="" />
+        </p>
+        <p>
+         Contenu :<br/>
+            <TEXTAREA name="texte" id="texte" rows="10" cols="46.7"></TEXTAREA>
         </p>
          <p>
             <h5>BLOC NOTE :</h5>
-            <TEXTAREA name="bloc" id="bloc" rows="4" cols="46.7">Ici mettre les notes pour votre projet</TEXTAREA>
+            <TEXTAREA name="bloc" id="bloc" rows="4" cols="46.7"></TEXTAREA>
         </p>
+    
         <input type="hidden" name="id" value="#ID_AUTEUR">
 
         <input type="submit" name="submitCrea" value="Modifier" class="submit"/>
