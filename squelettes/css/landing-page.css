@@ -23,11 +23,12 @@ h6 {
 }
 body{margin-top:128px;}
 .topnav {
-    font-size: 14px; 
+    font-size: 16px; 
+
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 .img-portfolio {
@@ -192,11 +193,11 @@ ul.social-buttons {
 ul.social-buttons li a {
   display: block;
   background-color: #fff;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius: 100%;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 35px;
   color: #419341;
   outline: none;
   -webkit-transition: all 0.3s;
