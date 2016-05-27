@@ -8,13 +8,12 @@
 
 <body>
 <INCLURE{fond=inc/header}>
-<div class="separateur100"></div>
     <!-- Page Content -->
     <div class="container">
 		<BOUCLE_article(ARTICLES){id_rubrique == 16}{id_article}>
             <!-- Page Heading/Breadcrumbs -->
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-sm-6">
 					<div class="row">
 						<div class="col-md-8">
 							<h2 class="section-heading"  style="margin-bottom: 0px;">#TITRE</h2>
@@ -41,7 +40,7 @@
 					<div class="col-md-12 text-justify">
 						<span class="css909090"> Equipe :</span>
 						<div class="row">
-							<div class="col-md-3" style="padding:0 5px;">
+							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
 								<div class="team-member">
 									<img src="#CHEMIN{img/team/1.jpg}" class="img-responsive img-circle" alt="">
 									<h5>Kay Garland</h5>
@@ -54,7 +53,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-md-3" style="padding:0 5px;">
+							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
 								<div class="team-member">
 									<img src="#CHEMIN{img/team/2.jpg}" class="img-responsive img-circle" alt="">
 									<h5>Larry Parker</h5>
@@ -67,7 +66,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-md-3" style="padding:0 5px;">
+							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
 								<div class="team-member">
 									<img src="#CHEMIN{img/team/3.jpg}" class="img-responsive img-circle" alt="">
 									<h5>Diana Pertersen</h5>
@@ -80,7 +79,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-md-3" style="padding:0 5px;">
+							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
 								<div class="team-member">
 									<img src="#CHEMIN{img/team/2.jpg}" class="img-responsive img-circle" alt="">
 									<h5>Larry Parker</h5>
@@ -106,15 +105,16 @@
 						<div align="center">
 							<button type="submit" class="btn btn-lg" style="background:#3E3A51; color:#fff; width:150px;">Financer</button>
 						</div>
+					<div class="separateur20"></div>
 					</div>
                 </div>
-                <div class="col-lg-6" style="padding:20px;">
+                <div class="col-sm-6" style="padding:20px;">
                     [(#LOGO_ARTICLE_RUBRIQUE|inserer_attribut{width, '100%'}|inserer_attribut{height, '100%'})]
 					<!-- Responsive calendar - START -->
 					<div class="separateur20"></div>
 					<div class="responsive-calendar">
 						<div class="controls">
-							<a class="pull-left" data-go="prev"><div class="btn btn-cal">&#9664;</div></a>
+							<a class="pull-left" data-go="prev"><div class="btn btn-cal">&#9668;</div></a>
 							<h3> <span data-head-month></span> <span data-head-year></span></h3>
 							<a class="pull-right" data-go="next"><div class="btn btn-cal">&#9658;</div></a>
 						</div>
@@ -168,61 +168,38 @@
             <!-- /.row -->
             <!-- Portfolio Item Row -->
             <div class="row">
-    
-                <div class="col-md-8">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-							<?php  $i=0;  ?>
-                              <BOUCLE_img_lien(SPIP_DOCUMENTS_LIENS){id_article}>
-                                <BOUCLE_img(DOCUMENTS){id_document}{extension==jpg|png|gif}>
-                           			 <li data-target="#carousel-example-generic" <?php if ($i==0){ echo( ' class="active"'); $i=$i+1; }?> ></li>
-                                 </BOUCLE_img>
-                             </BOUCLE_img_lien>
+   				<h2 class="section-heading">Photos (150)</h2>
+   				<div class="separateur20"></div>
+					<BOUCLE_img_lien1(SPIP_DOCUMENTS_LIENS){id_article}>
+						<BOUCLE_img1(DOCUMENTS){id_document}{extension==jpg|png|gif}>
+			                <div class="col-md-3 col-xs-6" style="margin-bottom:15px;">
+								<a href="#URL_DOCUMENT" data-toggle="lightbox" data-gallery="multiimages">
+                                	<img src="#URL_DOCUMENT" class="img-responsive img-rounded">
+                            	</a>
+			                </div>
+						 </BOUCLE_img1>
+					 </BOUCLE_img_lien1>
 
-                        </ol>
-    
-                        <!-- Wrapper for slides -->
-						<div class="carousel-inner">
-							<?php  $i=0;  ?>
-							<BOUCLE_img_lien1(SPIP_DOCUMENTS_LIENS){id_article}>
-										
-									<BOUCLE_img1(DOCUMENTS){id_document}{extension==jpg|png|gif}>
-										<div class="item <?php if ($i==0){ echo( ' active'); $i=$i+1; }?>">
-											<img class="img-responsive" src="#URL_DOCUMENT" alt="" width="800px" height="600px">
-										</div>
-									 </BOUCLE_img1>
+					 <script type="text/javascript">
+						$(document).ready(function ($) {
 
-							 </BOUCLE_img_lien1>
-						</div>
-						
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                        </a>
-                    </div>
-                </div>
+							// delegate calls to data-toggle="lightbox"
+							$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+								event.preventDefault();
+								return $(this).ekkoLightbox({
+									always_show_close: true
+								});
+							});
+
+						});
+					</script>
     
-                <div class="col-md-4">
-                    <h3>Project Description</h3>
-                    <p>#TEXTE</p>
-					<div class="project-content-box project-tags">
-						<h2>Project Details</h2> 
-						<ul>
-							<li><i class="fa fa-calendar"></i> <span>Date:</span>[(#MAJ|jour)] [(#MAJ|nom_mois)] [(#MAJ|annee)]</li>
-							<li><i class="fa fa-map-marker"></i> <span>Location:</span> UAE, Abu Dhabi</li>
-							<li><i class="fa fa-tag"></i> <span>Category:</span> Building, House, Projects</li>
-							<li><i class="fa fa-user"></i> <span>Investor:</span>Vayaterra</li>
-						</ul>
-					</div>
-                </div>
     
             </div>
-            <!-- /.row -->
-			 <strong>VIDEO</strong>
+
+            <div class="row">
+   				<h2 class="section-heading">vidéos </h2>
+   				<div class="separateur20"></div>
 				<BOUCLE_video_lien(SPIP_DOCUMENTS_LIENS){id_article}>
 						
 					<BOUCLE_video(DOCUMENTS){id_document}{extension==bin}>
@@ -231,6 +208,9 @@
 					 </BOUCLE_video>
 
 				 </BOUCLE_video_lien>                                
+
+            </div>
+            <!-- /.row -->
 
        </BOUCLE_article>
 

@@ -11,9 +11,8 @@
     <a name="about"></a>
     <div class="bg-projet">
         <div class="container">
-
             <div class="row">
-                <div class="col-md-8 col-md-offset-2 banner-projet">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 banner-projet">
 					<div class="row" >
 						<div class="col-md-3 col-md-offset-5 text-left">
 							<h2 class="section-heading" style="margin-bottom: 0px; color:#fff;">Projets</h2>
@@ -57,7 +56,7 @@
     <!-- Page Content -->
     <div class="container">
 		<div class="row" >
-			<div class="col-md-3 text-left">
+			<div class="col-md-6 text-left">
 				<h1 class="section-heading" style="margin-bottom: 0px;">Derniers Projet</h1>
 				<hr class="section-heading-spacer" style="margin-bottom: 0px;">
 			</div>
@@ -66,7 +65,7 @@
         <!-- Projects Row -->
 		<div class="row" >
          	<BOUCLE_article(ARTICLES){id_rubrique == 16}{par date}>
-                <div class="col-md-4 img-portfolio">
+                <div class="col-md-4 col-sm-6 col-xs-12 img-portfolio">
 					<div class="carte-detail">
 						<a href="spip.php?page=detail&id_article=#ID_ARTICLE">
 						 [(#LOGO_ARTICLE_RUBRIQUE)]
@@ -84,12 +83,12 @@
 							</div>
 							<hr class="section-heading-spacer" style="margin: 0px;"><br>
 							
-							[(#DESCRIPTIF|inserer_attribut{class, 'text-justify'})]
+							[(#DESCRIPTIF|inserer_attribut{class, 'text-justify'}|PtoBR|couper{100})]
 							<div class="row">
-								<div class="col-md-3 col-md-offset-6 text-right">
+								<div class="col-xs-3 col-xs-offset-6 text-right" style="padding:0px;">
 									<a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:#FCFB59;"> </span> 15</a>
 								</div>
-								<div class="col-md-3 text-right">
+								<div class="col-xs-2 text-right" style="padding:0 10px 0 0;">
 									<a href="#"><span class="glyphicon glyphicon-comment" aria-hidden="true"> </span> 6</a>
 								</div>
 							</div>
@@ -101,7 +100,7 @@
         </div>
         <!-- /.row -->
 		<div class="row" >
-			<div class="col-md-3 img-portfolio">
+			<div class="col-md-3 col-sm-6 col-xs-12 img-portfolio">
 				<div class="carte-detail">
 					<a href="spip.php?page=detail&amp;id_article=8">
 					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
@@ -119,20 +118,20 @@
 						</div>
 						<hr style="margin: 0px;" class="section-heading-spacer"><br>
 						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
-						<div class="row">
-							<div class="col-md-3 col-md-offset-6 text-right">
-								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							<div class="row">
+								<div class="col-xs-3 col-xs-offset-6 text-right" style="padding:0px;">
+									<a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:#FCFB59;"> </span> 15</a>
+								</div>
+								<div class="col-xs-2 text-right" style="padding:0 10px 0 0;">
+									<a href="#"><span class="glyphicon glyphicon-comment" aria-hidden="true"> </span> 6</a>
+								</div>
 							</div>
-							<div class="col-md-3 text-right">
-								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
-							</div>
-						</div>
 						
 					</div>
 				</div>
 			</div>		
 		
-			<div class="col-md-3 img-portfolio">
+			<div class="col-md-3 col-sm-6 col-xs-12 img-portfolio">
 				<div class="carte-detail">
 					<a href="spip.php?page=detail&amp;id_article=8">
 					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
@@ -150,20 +149,20 @@
 						</div>
 						<hr style="margin: 0px;" class="section-heading-spacer"><br>
 						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
-						<div class="row">
-							<div class="col-md-3 col-md-offset-6 text-right">
-								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							<div class="row">
+								<div class="col-xs-3 col-xs-offset-6 text-right" style="padding:0px;">
+									<a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:#FCFB59;"> </span> 15</a>
+								</div>
+								<div class="col-xs-2 text-right" style="padding:0 10px 0 0;">
+									<a href="#"><span class="glyphicon glyphicon-comment" aria-hidden="true"> </span> 6</a>
+								</div>
 							</div>
-							<div class="col-md-3 text-right">
-								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
-							</div>
-						</div>
 						
 					</div>
 				</div>
 			</div>		
 		
-			<div class="col-md-3 img-portfolio">
+			<div class="col-md-3 col-sm-6 col-xs-12 img-portfolio">
 				<div class="carte-detail">
 					<a href="spip.php?page=detail&amp;id_article=8">
 					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
@@ -181,20 +180,20 @@
 						</div>
 						<hr style="margin: 0px;" class="section-heading-spacer"><br>
 						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
-						<div class="row">
-							<div class="col-md-3 col-md-offset-6 text-right">
-								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							<div class="row">
+								<div class="col-xs-3 col-xs-offset-6 text-right" style="padding:0px;">
+									<a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:#FCFB59;"> </span> 15</a>
+								</div>
+								<div class="col-xs-2 text-right" style="padding:0 10px 0 0;">
+									<a href="#"><span class="glyphicon glyphicon-comment" aria-hidden="true"> </span> 6</a>
+								</div>
 							</div>
-							<div class="col-md-3 text-right">
-								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
-							</div>
-						</div>
 						
 					</div>
 				</div>
 			</div>		
 		
-			<div class="col-md-3 img-portfolio">
+			<div class="col-md-3 col-sm-6 col-xs-12 img-portfolio">
 				<div class="carte-detail">
 					<a href="spip.php?page=detail&amp;id_article=8">
 					 <img width="449" height="315" src="IMG/photo2.jpg" alt="" class="spip_logos">
@@ -212,14 +211,14 @@
 						</div>
 						<hr style="margin: 0px;" class="section-heading-spacer"><br>
 						<p class="text-justify" style=" font-size:12px;">Aujourd’hui, 95% des Cambodgiens utilisent le bois pour la cuisson des aliments...</p>
-						<div class="row">
-							<div class="col-md-3 col-md-offset-6 text-right">
-								<a href="#"><span style="color:#FCFB59;" aria-hidden="true" class="glyphicon glyphicon-heart"> </span> 15</a>
+							<div class="row">
+								<div class="col-xs-3 col-xs-offset-6 text-right" style="padding:0px;">
+									<a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:#FCFB59;"> </span> 15</a>
+								</div>
+								<div class="col-xs-2 text-right" style="padding:0 10px 0 0;">
+									<a href="#"><span class="glyphicon glyphicon-comment" aria-hidden="true"> </span> 6</a>
+								</div>
 							</div>
-							<div class="col-md-3 text-right">
-								<a href="#"><span aria-hidden="true" class="glyphicon glyphicon-comment"> </span> 6</a>
-							</div>
-						</div>
 						
 					</div>
 				</div>
