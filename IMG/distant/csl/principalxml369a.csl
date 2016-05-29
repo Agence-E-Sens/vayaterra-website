@@ -732,10 +732,10 @@ Comme il peut y avoir toute sorte de cas, ce n’est pas ce plugin qui décide q
 <archive id="abonnements_zones_v1.zip" dtd="paquet">
 <zip>
 	<file>abonnements_zones_v1.zip</file>
-	<size>8636</size>
-	<date>1462557890</date>
+	<size>8933</size>
+	<date>1464479342</date>
 	<source>_plugins_/abonnements_zones/trunk</source>
-	<last_commit>2016-05-06 20:04:49</last_commit>
+	<last_commit>2016-05-29 01:49:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-abozones" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/abonnements_zones/trunk/lang/" reference="fr">
@@ -753,7 +753,7 @@ Comme il peut y avoir toute sorte de cas, ce n’est pas ce plugin qui décide q
 <paquet
 	prefix="abozones"
 	categorie="auteur"
-	version="1.0.3"
+	version="1.0.5"
 	etat="stable"
 	compatibilite="[3.0.5;3.0.*]"
 	logo="abozones.png"
@@ -5072,10 +5072,10 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 <archive id="article_pdf_2_0.zip" dtd="paquet">
 <zip>
 	<file>article_pdf_2_0.zip</file>
-	<size>155714</size>
-	<date>1462557900</date>
+	<size>155696</size>
+	<date>1464357842</date>
 	<source>_plugins_/article_pdf</source>
-	<last_commit>2016-05-06 20:04:59</last_commit>
+	<last_commit>2016-05-27 16:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="articlepdf" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/article_pdf/lang/" reference="fr">
@@ -5104,7 +5104,7 @@ Le plugin Articles_Lister (Alis) propose d’ajouter au menu des statistiques un
 <paquet
 	prefix="article_pdf"
 	categorie="edition"
-	version="0.4.8"
+	version="0.4.9"
 	etat="stable"
 	compatibilite="[2.0.0;3.1.*]"
 	logo="prive/themes/spip/images/article_pdf-64.png"
@@ -25647,10 +25647,10 @@ Pour un fonctionnement optimal, il faut installer des programmes compl&#233;ment
 <archive id="fulltext_v1.zip" dtd="paquet">
 <zip>
 	<file>fulltext_v1.zip</file>
-	<size>135711</size>
-	<date>1463166242</date>
+	<size>135698</size>
+	<date>1464361442</date>
 	<source>_plugins_/fulltext/trunk</source>
-	<last_commit>2016-05-13 21:04:01</last_commit>
+	<last_commit>2016-05-27 17:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="fulltext" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fulltext/trunk/lang/" reference="fr">
@@ -29550,18 +29550,18 @@ Fournit le filtre <code>|gravatar</code>, à utiliser par exemple comme
 <archive id="icalendar.zip" dtd="paquet">
 <zip>
 	<file>icalendar.zip</file>
-	<size>81687</size>
-	<date>1452794642</date>
+	<size>81686</size>
+	<date>1464350642</date>
 	<source>_plugins_/icalendar</source>
-	<last_commit>2016-01-14 18:24:28</last_commit>
+	<last_commit>2016-05-27 14:04:01</last_commit>
 </zip>
 
 <paquet
 	prefix="icalendar"
 	categorie="date"
-	version="0.4.1"
+	version="0.4.2"
 	etat="dev"
-	compatibilite="[2.1.0;3.0.*]"
+	compatibilite="[2.1.0;3.1.*]"
 	logo="icalendar.png"
 	documentation="http://contrib.spip.net/Plugin-iCalendar"
 >	
@@ -46347,10 +46347,10 @@ To vám umožňuje vytvárať stránky s informáciami právneho charakteru, č
 <archive id="paniers_v1.zip" dtd="paquet">
 <zip>
 	<file>paniers_v1.zip</file>
-	<size>34755</size>
-	<date>1462651506</date>
+	<size>34757</size>
+	<date>1464433442</date>
 	<source>_plugins_/paniers/trunk</source>
-	<last_commit>2016-05-07 22:05:05</last_commit>
+	<last_commit>2016-05-28 13:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paniers" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/paniers/trunk/lang/" reference="fr">
@@ -46380,7 +46380,7 @@ To vám umožňuje vytvárať stránky s informáciami právneho charakteru, č
 <paquet
 	prefix="paniers"
 	categorie="divers"
-	version="1.0.11"
+	version="1.0.12"
 	etat="test"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/paniers-32.png"
@@ -51486,10 +51486,10 @@ Essayez la page de d&#233;mo {demo/rainette.html} pour des exemples d'utilisatio
 <archive id="rainette.zip" dtd="paquet">
 <zip>
 	<file>rainette.zip</file>
-	<size>2086695</size>
-	<date>1463908742</date>
+	<size>2086696</size>
+	<date>1464437042</date>
 	<source>_plugins_/rainette/branches/v2</source>
-	<last_commit>2016-05-22 11:19:02</last_commit>
+	<last_commit>2016-05-28 14:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="rainette" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/rainette/lang/" reference="fr">
@@ -51512,12 +51512,12 @@ Essayez la page de d&#233;mo {demo/rainette.html} pour des exemples d'utilisatio
 <paquet
 	prefix="rainette"
 	categorie="divers"
-	version="2.4.6"
+	version="2.4.7"
 	etat="stable"
 	compatibilite="[3.0.11;3.1.*]"
 	logo="rainette-64.png"
 	demonstration="demo/rainette"
-	documentation="http://contrib.spip.net/article3133"
+	documentation="http://contrib.spip.net/article4217"
 >
 
 	<nom>Rainette</nom>
@@ -56270,10 +56270,10 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 <archive id="seo-dev.zip" dtd="paquet">
 <zip>
 	<file>seo-dev.zip</file>
-	<size>59637</size>
-	<date>1462652346</date>
+	<size>59589</size>
+	<date>1464365042</date>
 	<source>_plugins_/seo/trunk</source>
-	<last_commit>2016-05-07 22:19:05</last_commit>
+	<last_commit>2016-05-27 18:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-seo" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/seo/trunk/lang/" reference="fr">
@@ -68132,10 +68132,10 @@ WebM und Mkv sogra auf mobilen Endgeräten.
 <archive id="webfonts.zip" dtd="plugin">
 <zip>
 	<file>webfonts.zip</file>
-	<size>26250</size>
-	<date>1463645042</date>
-	<source>_plugins_/webfonts</source>
-	<last_commit>2016-05-19 10:04:02</last_commit>
+	<size>26254</size>
+	<date>1464426244</date>
+	<source>_plugins_/webfonts/trunk</source>
+	<last_commit>2016-05-28 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="webfonts" reference="fr">

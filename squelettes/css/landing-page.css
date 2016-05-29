@@ -3,28 +3,46 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@font-face {
+  font-family: 'CaviarDreams';
+  font-style: normal;
+  src: url('../fonts/CaviarDreams.ttf');
+
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  src: url('../fonts/OpenSans-Regular.ttf');
+
+}
 
 body,
 html {
     width: 100%;
     height: 100%;
-    font-family: Arial,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+    font-family: 'OpenSans',"Arial",Helvetica,Arial,sans-serif;
 
-body,
+}
+.fontCD {
+      font-family: 'CaviarDreams',"Arial",Helvetica,Arial,sans-serif !important;
+
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    font-family: "OpenSans",Helvetica,Arial,sans-serif;
+
 }
 body{margin-top:128px;}
 .topnav {
     font-size: 16px; 
-
+    font-weight: bold;
+    font-family: 'CaviarDreams',"Arial",Helvetica,Arial,sans-serif;
 }
 
 .lead {
