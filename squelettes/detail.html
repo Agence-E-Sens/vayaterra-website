@@ -29,10 +29,10 @@
 					</div>
 					<br>
 					<div class="col-md-12 text-justify">
-						<span class="css909090">Date de départ : [(#MAJ|jour)] [(#MAJ|nom_mois)] [(#MAJ|annee)]</span>
+						<span class="css909090">Date de départ : [(#DATE_DEBUT|jour)] [(#DATE_DEBUT|nom_mois)] [(#DATE_DEBUT|annee)]</span>
 					</div>
 					<div class="col-md-12 text-justify">
-						<span class="css909090"> Durée : 4 mois</span>
+						<span class="css909090"> Date fin  : [(#DATE_FIN|jour)] [(#DATE_FIN|nom_mois)] [(#DATE_FIN|annee)]</span>
 					</div>
 					<div class="col-md-12 text-justify">
 						<span class="css909090"> Pays : Inde</span>
@@ -40,70 +40,36 @@
 					<div class="col-md-12 text-justify">
 						<span class="css909090"> Equipe :</span>
 						<div class="row">
-							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
-								<div class="team-member">
-									<img src="#CHEMIN{img/team/1.jpg}" class="img-responsive img-circle" alt="">
-									<h5>Kay Garland</h5>
-									<button type="submit" class="btn btn-sm" style="background:#3E3A51; color:#fff; ">Voir le profil</button>
-									<ul class="list-inline social-buttons">
-										<li class="col-md-6"><a href="#"><i class="fa fa-twitter"></i></a>
-										</li>
-										<li class="col-md-6"><a href="#"><i class="fa fa-facebook"></i></a>
-										</li>
-									</ul>
+						<BOUCLE_auteur_lien1(SPIP_AUTEURS_LIENS){id_article}>
+							<BOUCLE_auteur(AUTEURS){id_auteur}>
+								<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
+									<div class="team-member">
+										[(#LOGO_AUTEUR|inserer_attribut{class, 'img-responsive img-circle'})]
+										<h5>#PRENOM #NOM_0</h5>
+										<a type="submit" href="spip.php?page=page_profil&id_auteur=#ID_AUTEUR" class="btn btn-sm" style="background:#3E3A51; color:#fff; ">Voir le profil</a>
+										<ul class="list-inline social-buttons">
+											<li class="col-md-6"><a href="#"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li class="col-md-6"><a href="#"><i class="fa fa-facebook"></i></a>
+											</li>
+										</ul>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
-								<div class="team-member">
-									<img src="#CHEMIN{img/team/2.jpg}" class="img-responsive img-circle" alt="">
-									<h5>Larry Parker</h5>
-									<button type="submit" class="btn btn-sm" style="background:#3E3A51; color:#fff; ">Voir le profil</button>
-									<ul class="list-inline social-buttons">
-										<li class="col-md-6"><a href="#"><i class="fa fa-twitter"></i></a>
-										</li>
-										<li class="col-md-6"><a href="#"><i class="fa fa-facebook"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
-								<div class="team-member">
-									<img src="#CHEMIN{img/team/3.jpg}" class="img-responsive img-circle" alt="">
-									<h5>Diana Pertersen</h5>
-									<button type="submit" class="btn btn-sm" style="background:#3E3A51; color:#fff; ">Voir le profil</button>
-									<ul class="list-inline social-buttons">
-										<li class="col-md-6"><a href="#"><i class="fa fa-twitter"></i></a>
-										</li>
-										<li class="col-md-6"><a href="#"><i class="fa fa-facebook"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
-								<div class="team-member">
-									<img src="#CHEMIN{img/team/2.jpg}" class="img-responsive img-circle" alt="">
-									<h5>Larry Parker</h5>
-									<button type="submit" class="btn btn-sm" style="background:#3E3A51; color:#fff; ">Voir le profil</button>
-									<ul class="list-inline social-buttons">
-										<li class="col-md-6"><a href="#"><i class="fa fa-twitter"></i></a>
-										</li>
-										<li class="col-md-6"><a href="#"><i class="fa fa-facebook"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
+							 </BOUCLE_auteur>
+						</BOUCLE_auteur_lien1>
+
 						</div>
 					</div>
 					<div class="separateur20"></div>
 					<div class="col-md-12 text-justify">
 						<div align="center">
-							<button type="submit" class="btn btn-lg" style="background:#3E3A51; color:#fff; width:150px;">Participer</button>
+							<button type="submit" class="btn btn-lg" style="background:#3E3A51; color:#fff; width:250px;">Participer au projet</button>
 						</div>
 					</div>
 					<div class="separateur20"></div>
 					<div class="col-md-12 text-justify">
 						<div align="center">
-							<button type="submit" class="btn btn-lg" style="background:#3E3A51; color:#fff; width:150px;">Financer</button>
+							<button type="submit" class="btn btn-lg" style="background:#3E3A51; color:#fff; width:250px;">Financer le projet</button>
 						</div>
 					<div class="separateur20"></div>
 					</div>
