@@ -1650,10 +1650,10 @@ _ Zavedené cyly SPIPu sa upravia  podľa zistených prístupových práv návš
 <archive id="acces_restreint_partiel.zip" dtd="paquet">
 <zip>
 	<file>acces_restreint_partiel.zip</file>
-	<size>30461</size>
-	<date>1455894244</date>
+	<size>30695</size>
+	<date>1464541442</date>
 	<source>_plugins_/acces_restreint_partiel/trunk</source>
-	<last_commit>2016-02-19 15:29:10</last_commit>
+	<last_commit>2016-05-29 19:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="arp" reference="fr">
@@ -1663,7 +1663,7 @@ _ Zavedené cyly SPIPu sa upravia  podľa zistených prístupových práv návš
 <paquet
 	prefix="arp"
 	categorie="edition"
-	version="1.0.0"
+	version="1.0.2"
 	etat="dev"
 	compatibilite="[3.0.9;3.0.*]"
 	logo="prive/themes/spip/images/arp-64.png"
@@ -10968,10 +10968,10 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <archive id="coche_mots_v1.zip" dtd="paquet">
 <zip>
 	<file>coche_mots_v1.zip</file>
-	<size>12256</size>
-	<date>1456041842</date>
+	<size>12482</size>
+	<date>1464545042</date>
 	<source>_plugins_/coche_mots/trunk</source>
-	<last_commit>2016-02-21 08:52:58</last_commit>
+	<last_commit>2016-05-29 20:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="cmots" reference="fr">
@@ -10981,7 +10981,7 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <paquet
 	prefix="cmots"
 	categorie="edition"
-	version="1.0.2"
+	version="1.1.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/coche_mots-32.png"
@@ -26425,10 +26425,10 @@ _ Na optimálne fungovanie potrebujete na serveri niektoré ďalšie programy a�
 <archive id="geographie_v0.zip" dtd="plugin">
 <zip>
 	<file>geographie_v0.zip</file>
-	<size>1210975</size>
-	<date>1453680242</date>
+	<size>1215390</size>
+	<date>1464556742</date>
 	<source>_plugins_/geographie/branches/v0</source>
-	<last_commit>2016-01-25 01:04:02</last_commit>
+	<last_commit>2016-05-29 23:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="departement" reference="fr">
@@ -26438,7 +26438,7 @@ _ Na optimálne fungovanie potrebujete na serveri niektoré ďalšie programy a�
 <plugin>
   <nom>Geographie</nom>
   <auteur>Cedric Morin [yterium.net->http://www.yterium.net]</auteur>
-  <version>0.6.1</version>
+  <version>0.6.2</version>
   <version_base>0.4.2</version_base>
   <etat>stable</etat>
   <description>Bases g&#233;ographiques Pays, et pour la France : R&#233;gion, d&#233;partement, communes g&#233;olocalis&#233;es</description>
@@ -34579,10 +34579,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="lim.zip" dtd="paquet">
 <zip>
 	<file>lim.zip</file>
-	<size>62049</size>
-	<date>1461744242</date>
+	<size>62310</size>
+	<date>1464595442</date>
 	<source>_plugins_/lim/trunk</source>
-	<last_commit>2016-04-27 10:04:01</last_commit>
+	<last_commit>2016-05-30 10:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="lim" reference="fr">
@@ -34592,7 +34592,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="lim"
 	categorie="maintenance"
-	version="1.1.14"
+	version="1.1.16"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/lim-64.png"
@@ -48589,10 +48589,10 @@ Okrem toho PlugOnet umožňuje overiť manuálne napísané súbory paquet.xml a
 <archive id="polyhierarchie_v3.zip" dtd="paquet">
 <zip>
 	<file>polyhierarchie_v3.zip</file>
-	<size>31899</size>
-	<date>1462651514</date>
+	<size>31898</size>
+	<date>1464581042</date>
 	<source>_plugins_/polyhierarchie/trunk</source>
-	<last_commit>2016-05-07 22:05:13</last_commit>
+	<last_commit>2016-05-30 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="paquet-polyhier" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/polyhierarchie/trunk/lang/" reference="fr">
@@ -56116,10 +56116,10 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 <archive id="seminaire.zip" dtd="paquet">
 <zip>
 	<file>seminaire.zip</file>
-	<size>47702</size>
-	<date>1450876164</date>
+	<size>47760</size>
+	<date>1464531542</date>
 	<source>_plugins_/seminaire/branches/v2.1</source>
-	<last_commit>2014-10-23 11:15:17</last_commit>
+	<last_commit>2016-05-29 16:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="seminaire" reference="fr">
@@ -56129,7 +56129,7 @@ Each event is characterzed by keywords which define its type, seminar, workgroup
 <paquet
 	prefix="seminaire"
 	categorie="date"
-	version="2.1.12"
+	version="2.1.13"
 	etat="stable"
 	compatibilite="[3.0.0;3.0.*]"
 	logo="prive/themes/spip/images/seminaire-64.png"
@@ -63227,25 +63227,25 @@ _ Ce plugin  fournit la librairie SWFupload et une fonction de vérification de 
 <archive id="switchcase.zip" dtd="paquet">
 <zip>
 	<file>switchcase.zip</file>
-	<size>24078</size>
-	<date>1463424800</date>
+	<size>24633</size>
+	<date>1464545042</date>
 	<source>_plugins_/switchcase/trunk</source>
-	<last_commit>1970-01-01 01:00:00</last_commit>
+	<last_commit>2016-05-29 20:04:01</last_commit>
 </zip>
 
 <paquet
 	prefix="switchcase"
 	categorie="outil"
-	version="0.1.0"
+	version="0.1.1"
 	etat="test"
-	compatibilite="[3.0.0;3.1.*]"
+	compatibilite="[2.1.0;3.1.*]"
 	logo="images/switchcase-32.png"
 	documentation="http://contrib.spip.net/4800"
->	
- 
+>
+
 	<nom>Balises #SWITCH #CASE</nom>
-	<!-- Lecteur de tables SQL -->
- 
+	<!-- Balises #SWITCH et #CASE pour les squelettes -->
+
 	<auteur lien="http://contrib.spip.net/JLuc">JLuc</auteur>
 	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL</licence>
 

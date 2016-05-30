@@ -40,8 +40,7 @@
 					<div class="col-md-12 text-justify">
 						<span class="css909090"> Equipe :</span>
 						<div class="row">
-						<BOUCLE_auteur_lien1(SPIP_AUTEURS_LIENS){id_article}>
-							<BOUCLE_auteur(AUTEURS){id_auteur}>
+							<BOUCLE_auteur(AUTEURS){id_article} >
 								<div class="col-md-3  col-sm-6 col-xs-6" style="padding:0 5px;">
 									<div class="team-member">
 										[(#LOGO_AUTEUR|inserer_attribut{class, 'img-responsive img-circle'})]
@@ -56,7 +55,6 @@
 									</div>
 								</div>
 							 </BOUCLE_auteur>
-						</BOUCLE_auteur_lien1>
 
 						</div>
 					</div>
@@ -136,15 +134,13 @@
             <div class="row">
    				<h2 class="section-heading">Photos (150)</h2>
    				<div class="separateur20"></div>
-					<BOUCLE_img_lien1(SPIP_DOCUMENTS_LIENS){id_article}>
-						<BOUCLE_img1(DOCUMENTS){id_document}{extension==jpg|png|gif}>
+						<BOUCLE_img1(DOCUMENTS){id_article}{extension==jpg|png|gif}>
 			                <div class="col-md-3 col-xs-6" style="margin-bottom:15px;">
 								<a href="#URL_DOCUMENT" data-toggle="lightbox" data-gallery="multiimages">
                                 	<img src="#URL_DOCUMENT" class="img-responsive img-rounded">
                             	</a>
 			                </div>
 						 </BOUCLE_img1>
-					 </BOUCLE_img_lien1>
 
 					 <script type="text/javascript">
 						$(document).ready(function ($) {
@@ -166,14 +162,12 @@
             <div class="row">
    				<h2 class="section-heading">vidéos </h2>
    				<div class="separateur20"></div>
-				<BOUCLE_video_lien(SPIP_DOCUMENTS_LIENS){id_article}>
-						
-					<BOUCLE_video(DOCUMENTS){id_document}{extension==bin}>
+					
+					<BOUCLE_video(DOCUMENTS){id_article}{extension==bin}>
 						#DESCRIPTIF
 					   
 					 </BOUCLE_video>
 
-				 </BOUCLE_video_lien>                                
 
             </div>
             <!-- /.row -->
@@ -195,7 +189,47 @@
 				</div>
 			</div>
 			<div  style="padding:0 5px;">
-				aaaaa
+				<div class="col-md-10 col-sm-10 col-xs-12"">
+						<h4>Titre commentaire</h4>
+				</div>
+				<div class="col-md-10 col-sm-10 col-xs-12"">
+					<p class="lead css909090">Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis, per omnes tamen quotquot sunt partes terrarum, ut domina suscipitur et regina et ubique patrum reverenda cum auctoritate canities populique Romani nomen circumspectum et verecundum.</p>
+				</div>
+
+				<div class="col-md-10 col-sm-10 col-xs-12 text-right"">
+					<p class="lead css909090">25 mars 2016</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="separateur20"></div>
+		<div class="row">
+			<div class="col-md-2  col-sm-3 col-xs-12" style="padding:0 5px;">
+				<div class="team-member">
+					<img src="#CHEMIN{img/team/1.jpg}" class="img-responsive img-circle" alt="">
+					<h5>Diana Pertersen</h5>
+				</div>
+			</div>
+			<div  style="padding:0 5px;">
+				<div class="col-md-10 col-sm-10 col-xs-12"">
+						<h4>Titre commentaire</h4>
+				</div>
+				<div class="col-md-10 col-sm-10 col-xs-12"">
+					<p class="lead css909090">Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis, per omnes tamen quotquot sunt partes terrarum, ut domina suscipitur et regina et ubique patrum reverenda cum auctoritate canities populique Romani nomen circumspectum et verecundum.</p>
+				</div>
+
+				<div class="col-md-10 col-sm-10 col-xs-12 text-right"">
+					<p class="lead css909090">25 mars 2016</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="separateur20"></div>
+			<div class="col-md-12">
+				<div align="right">
+					<button type="submit" class="btn btn-lg" style="background:#3E3A51; color:#fff; width:150px;">Commenter</button>
+				</div>
 			</div>
 		</div>
 		<div class="separateur40"></div>

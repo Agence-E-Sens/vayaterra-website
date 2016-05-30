@@ -2,6 +2,7 @@
 /tmp/*
 /local/*
 /prive/*
+/config/connect.php
 /squelettes-dist/*
 <<<<<<< HEAD
 /IMG/distant/csl/*.tmp
