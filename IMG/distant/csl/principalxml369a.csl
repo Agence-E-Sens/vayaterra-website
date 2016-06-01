@@ -1440,10 +1440,10 @@ _ Zavedené cyly SPIPu sa upravia  podľa zistených prístupových práv návš
 <archive id="acces_restreint.zip" dtd="paquet">
 <zip>
 	<file>acces_restreint.zip</file>
-	<size>96418</size>
-	<date>1463159042</date>
+	<size>94706</size>
+	<date>1464771844</date>
 	<source>_plugins_/acces_restreint/trunk</source>
-	<last_commit>2016-05-13 19:04:01</last_commit>
+	<last_commit>2016-06-01 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="accesrestreint" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/acces_restreint/trunk/lang/" reference="fr">
@@ -2946,10 +2946,10 @@ Une documentation interne est disponible lorsque le plugin est actif sur la page
 <archive id="agenda_3_5.zip" dtd="paquet">
 <zip>
 	<file>agenda_3_5.zip</file>
-	<size>169710</size>
-	<date>1463803442</date>
+	<size>165747</size>
+	<date>1464769142</date>
 	<source>_plugins_/agenda/trunk</source>
-	<last_commit>2016-05-21 06:04:01</last_commit>
+	<last_commit>2016-06-01 10:19:01</last_commit>
 </zip>
 <traductions>
 <traduction module="agenda" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/agenda/trunk/lang/" reference="fr">
@@ -6581,10 +6581,10 @@ Enfin, la campagne s'affiche pendant la p&#233;riode que vous d&#233;finissez da
 <archive id="bellespuces.zip" dtd="plugin">
 <zip>
 	<file>bellespuces.zip</file>
-	<size>3214</size>
-	<date>1450876140</date>
+	<size>3211</size>
+	<date>1464699842</date>
 	<source>_plugins_/bellespuces</source>
-	<last_commit>2015-09-16 10:27:15</last_commit>
+	<last_commit>2016-05-31 15:04:02</last_commit>
 </zip>
 
 <plugin>
@@ -8255,10 +8255,10 @@ _ Ikona [Tempest->http://tempest.deviantart.com/] pod licenciou CC BY-NC-ND.
 <archive id="calendrier_mini-2.0.zip" dtd="paquet">
 <zip>
 	<file>calendrier_mini-2.0.zip</file>
-	<size>40009</size>
-	<date>1462957444</date>
+	<size>40002</size>
+	<date>1464769144</date>
 	<source>_plugins_/calendrier_mini/trunk</source>
-	<last_commit>2016-05-11 11:04:03</last_commit>
+	<last_commit>2016-06-01 10:19:04</last_commit>
 </zip>
 <traductions>
 <traduction module="minical" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/calendrier_mini/trunk/lang/" reference="fr">
@@ -10968,10 +10968,10 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <archive id="coche_mots_v1.zip" dtd="paquet">
 <zip>
 	<file>coche_mots_v1.zip</file>
-	<size>12482</size>
-	<date>1464545042</date>
+	<size>12500</size>
+	<date>1464638644</date>
 	<source>_plugins_/coche_mots/trunk</source>
-	<last_commit>2016-05-29 20:04:01</last_commit>
+	<last_commit>2016-05-30 22:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="cmots" reference="fr">
@@ -10981,7 +10981,7 @@ Ic&#244;nes issues de la collection [FatCow->http://www.fatcow.com/free-icons].
 <paquet
 	prefix="cmots"
 	categorie="edition"
-	version="1.1.0"
+	version="1.1.2"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/coche_mots-32.png"
@@ -13783,10 +13783,10 @@ Plugin développé dans le cadre du gestionnaire de projets [SPIPMINE->http://co
 <archive id="cookiebar_3_0.zip" dtd="paquet">
 <zip>
 	<file>cookiebar_3_0.zip</file>
-	<size>19619</size>
-	<date>1464095044</date>
+	<size>20644</size>
+	<date>1464667442</date>
 	<source>_plugins_/cookiebar/trunk</source>
-	<last_commit>2016-05-24 15:04:03</last_commit>
+	<last_commit>2016-05-31 06:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="cookiebar" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/cookiebar/trunk/lang/" reference="fr">
@@ -13802,6 +13802,9 @@ Plugin développé dans le cadre du gestionnaire de projets [SPIPMINE->http://co
 	<langue code="es" url="http://trad.spip.net/tradlang_module/cookiebar?lang_cible=es" total="38" traduits="20" relire="0" modifs="0" nouveaux="18" pourcent="52.63">
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/cookiebar?lang_cible=fr" total="38" traduits="38" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/cookiebar?lang_cible=nl" total="38" traduits="38" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 </traduction>
 <traduction module="paquet-cookiebar" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/cookiebar/trunk/lang/" reference="fr">
@@ -17127,10 +17130,10 @@ Los nombres de divisas est&#225;n en Ingl&#233;s, Franc&#233;s y Espa&#241;ol.
 <archive id="dictionnaires_3.zip" dtd="paquet">
 <zip>
 	<file>dictionnaires_3.zip</file>
-	<size>72220</size>
-	<date>1462648748</date>
+	<size>73903</size>
+	<date>1464667442</date>
 	<source>_plugins_/dictionnaires/trunk</source>
-	<last_commit>2016-05-07 21:19:07</last_commit>
+	<last_commit>2016-05-31 06:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="definition" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/dictionnaires/trunk/lang/" reference="fr">
@@ -17147,9 +17150,15 @@ Los nombres de divisas est&#225;n en Ingl&#233;s, Franc&#233;s y Espa&#241;ol.
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/dictionnaire?lang_cible=fr" total="27" traduits="27" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/dictionnaire?lang_cible=nl" total="27" traduits="27" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
 </traduction>
 <traduction module="paquet-dictionnaires" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/dictionnaires/trunk/lang/" reference="fr">
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-dictionnaires?lang_cible=fr" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-dictionnaires?lang_cible=nl" total="3" traduits="3" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 </traduction>
 </traductions>
@@ -17191,16 +17200,19 @@ Los nombres de divisas est&#225;n en Ingl&#233;s, Franc&#233;s y Espa&#241;ol.
 <nom>
 <multi>
 [fr]Dictionnaires
+[nl]Woordenlijsten (Dictionnaires)
 </multi>
 </nom>
 <slogan>
 <multi>
 [fr]Créer des dictionnaires
+[nl]Maak woordenlijsten
 </multi>
 </slogan>
 <description>
 <multi>
 [fr]Permet la création de dictionnaires regroupant des définitions. Les termes définis sont automatiquement détectés dans les textes du site et il est alors possible de les insérer dans le HTML du texte de manière accessible.
+[nl]Maakt de creatie van woordenlijsten mogelijk waarin definities zijn opgenomen. De gedefinieerde termen worden automatisch gedetecteerd in de tekst van de site, waardoor hun definitie inde HTML van de tekst wordt opgenomen en toegankelijk is.
 </multi>
 </description>
 </multis>
@@ -22125,10 +22137,10 @@ Pour personnaliser l'export, recopiez et adaptez le squelette {{lister_auteurs.h
 <archive id="fabrique-3.0.zip" dtd="paquet">
 <zip>
 	<file>fabrique-3.0.zip</file>
-	<size>155928</size>
-	<date>1450876148</date>
+	<size>155934</size>
+	<date>1464771842</date>
 	<source>_plugins_/fabrique/branches/v1</source>
-	<last_commit>2015-11-10 12:01:20</last_commit>
+	<last_commit>2016-06-01 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="fabrique" reference="fr">
@@ -22138,7 +22150,7 @@ Pour personnaliser l'export, recopiez et adaptez le squelette {{lister_auteurs.h
 <paquet
 	prefix="fabrique"
 	categorie="outil"
-	version="1.20.9"
+	version="1.20.10"
 	etat="stable"
 	compatibilite="[3.0.0;3.0.*]"
 	logo="prive/themes/spip/images/fabrique-64.png"
@@ -22187,10 +22199,10 @@ Pour personnaliser l'export, recopiez et adaptez le squelette {{lister_auteurs.h
 <archive id="fabrique.zip" dtd="paquet">
 <zip>
 	<file>fabrique.zip</file>
-	<size>170189</size>
-	<date>1463231942</date>
+	<size>170194</size>
+	<date>1464771842</date>
 	<source>_plugins_/fabrique/trunk</source>
-	<last_commit>2016-05-14 15:19:01</last_commit>
+	<last_commit>2016-06-01 11:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="fabrique" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fabrique/trunk/lang/" reference="fr">
@@ -22212,7 +22224,7 @@ Pour personnaliser l'export, recopiez et adaptez le squelette {{lister_auteurs.h
 <paquet
 	prefix="fabrique"
 	categorie="outil"
-	version="2.0.31"
+	version="2.0.32"
 	etat="test"
 	compatibilite="[3.1.0;3.1.*]"
 	logo="prive/themes/spip/images/fabrique-64.png"
@@ -24013,10 +24025,10 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 <archive id="formidable.zip" dtd="paquet">
 <zip>
 	<file>formidable.zip</file>
-	<size>191032</size>
-	<date>1464203044</date>
+	<size>185972</size>
+	<date>1464768244</date>
 	<source>_plugins_/formidable/trunk</source>
-	<last_commit>2016-05-25 21:04:04</last_commit>
+	<last_commit>2016-06-01 10:04:02</last_commit>
 </zip>
 <traductions>
 <traduction module="formidable" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/formidable/trunk/lang/" reference="fr">
@@ -24052,6 +24064,14 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 	</langue>
 </traduction>
+<traduction module="formulaire" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/formidable/trunk/lang/" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/formulaire?lang_cible=fr" total="5" traduits="5" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
+<traduction module="formulaires_reponse" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/formidable/trunk/lang/" reference="fr">
+	<langue code="fr" url="http://trad.spip.net/tradlang_module/formulaires_reponse?lang_cible=fr" total="8" traduits="8" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+</traduction>
 <traduction module="paquet-formidable" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/formidable/trunk/lang/" reference="fr">
 	<langue code="en" url="http://trad.spip.net/tradlang_module/paquet-formidable?lang_cible=en" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Gilles" lien="http://trad.spip.net/auteur/gilles" />
@@ -24061,10 +24081,6 @@ Une page de démonstration est disponible à l'adresse {{?page=demo/fonctions_im
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-formidable?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-</traduction>
-<traduction module="formulaire" reference="fr">
-</traduction>
-<traduction module="formulaires_reponse" reference="fr">
 </traduction>
 </traductions>
 
@@ -25647,10 +25663,10 @@ Pour un fonctionnement optimal, il faut installer des programmes compl&#233;ment
 <archive id="fulltext_v1.zip" dtd="paquet">
 <zip>
 	<file>fulltext_v1.zip</file>
-	<size>135698</size>
-	<date>1464361442</date>
+	<size>135651</size>
+	<date>1464769144</date>
 	<source>_plugins_/fulltext/trunk</source>
-	<last_commit>2016-05-27 17:04:01</last_commit>
+	<last_commit>2016-06-01 10:19:03</last_commit>
 </zip>
 <traductions>
 <traduction module="fulltext" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/fulltext/trunk/lang/" reference="fr">
@@ -27253,10 +27269,10 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <archive id="gis4.zip" dtd="paquet">
 <zip>
 	<file>gis4.zip</file>
-	<size>268025</size>
-	<date>1464275042</date>
+	<size>268460</size>
+	<date>1464779942</date>
 	<source>_plugins_/gis/trunk</source>
-	<last_commit>2016-05-26 17:04:01</last_commit>
+	<last_commit>2016-06-01 13:19:02</last_commit>
 </zip>
 <traductions>
 <traduction module="gis" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/gis/trunk/lang/" reference="fr">
@@ -27277,7 +27293,7 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/gis?lang_cible=fr" total="166" traduits="166" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/gis?lang_cible=nl" total="166" traduits="139" relire="0" modifs="1" nouveaux="26" pourcent="83.73">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/gis?lang_cible=nl" total="166" traduits="166" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="b_b" lien="http://trad.spip.net/auteur/b_b" />
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
@@ -27313,7 +27329,7 @@ _ Icon from [mattrich->http://mattrich.deviantart.com/art/Picnic-101256405] unde
 <paquet
 	prefix="gis"
 	categorie="divers"
-	version="4.36.4"
+	version="4.36.5"
 	schema="2.1.0"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
@@ -34663,16 +34679,16 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="linkcheck.zip" dtd="paquet">
 <zip>
 	<file>linkcheck.zip</file>
-	<size>46416</size>
-	<date>1464250742</date>
+	<size>46408</size>
+	<date>1464667444</date>
 	<source>_plugins_/linkcheck/trunk</source>
-	<last_commit>2016-05-26 10:19:01</last_commit>
+	<last_commit>2016-05-31 06:04:03</last_commit>
 </zip>
 <traductions>
 <traduction module="linkcheck" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/linkcheck/trunk/lang/" reference="fr">
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/linkcheck?lang_cible=fr" total="56" traduits="56" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="nl" url="http://trad.spip.net/tradlang_module/linkcheck?lang_cible=nl" total="56" traduits="52" relire="0" modifs="4" nouveaux="0" pourcent="92.86">
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/linkcheck?lang_cible=nl" total="56" traduits="56" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 </traduction>
@@ -36245,10 +36261,10 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="mailshot-v1.zip" dtd="paquet">
 <zip>
 	<file>mailshot-v1.zip</file>
-	<size>114533</size>
-	<date>1463803448</date>
+	<size>114550</size>
+	<date>1464710642</date>
 	<source>_plugins_/mailshot/trunk</source>
-	<last_commit>2016-05-21 06:04:07</last_commit>
+	<last_commit>2016-05-31 18:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="mailshot" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/mailshot/trunk/lang/" reference="fr">
@@ -36289,7 +36305,7 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <paquet
 	prefix="mailshot"
 	categorie="communication"
-	version="1.17.2"
+	version="1.17.3"
 	etat="stable"
 	compatibilite="[3.0.5;3.1.*]"
 	logo="prive/themes/spip/images/mailshot-32.png"
@@ -37047,18 +37063,18 @@ Ic&#244;ne issue de la collection [Farm-Fresh Web Icons->http://www.fatcow.com/f
 <archive id="medias_responsive.zip" dtd="paquet">
 <zip>
 	<file>medias_responsive.zip</file>
-	<size>8915</size>
-	<date>1450876134</date>
+	<size>8916</size>
+	<date>1464739442</date>
 	<source>_plugins_/medias_responsive</source>
-	<last_commit>2014-09-12 10:26:01</last_commit>
+	<last_commit>2016-06-01 02:04:01</last_commit>
 </zip>
 
 <paquet
 	prefix="medias_responsive"
 	categorie="outil"
-	version="0.2.0"
+	version="0.2.1"
 	etat="test"
-	compatibilite="[3.0.0;3.0.*]"
+	compatibilite="[3.0.0;3.1.*]"
 	logo="imgs/medias_responsive.png"
 >
 
@@ -40157,10 +40173,10 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 <archive id="minibando-dev.zip" dtd="paquet">
 <zip>
 	<file>minibando-dev.zip</file>
-	<size>47447</size>
-	<date>1462651480</date>
+	<size>48754</size>
+	<date>1464667444</date>
 	<source>_plugins_/minibando/trunk</source>
-	<last_commit>2016-05-07 22:04:40</last_commit>
+	<last_commit>2016-05-31 06:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="minibando" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/minibando/trunk/lang/" reference="fr">
@@ -40191,6 +40207,9 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/minibando?lang_cible=fr" total="14" traduits="14" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/minibando?lang_cible=nl" total="14" traduits="14" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
+	</langue>
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/minibando?lang_cible=sk" total="14" traduits="6" relire="0" modifs="0" nouveaux="8" pourcent="42.86">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
@@ -40206,6 +40225,9 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 		<traducteur nom="Raquel S. Bujaldón" lien="http://trad.spip.net/auteur/raquel-s-bujaldon" />
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/paquet-minibando?lang_cible=fr" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+	</langue>
+	<langue code="nl" url="http://trad.spip.net/tradlang_module/paquet-minibando?lang_cible=nl" total="2" traduits="2" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="Hanjo" lien="http://trad.spip.net/auteur/hanjo" />
 	</langue>
 </traduction>
 </traductions>
@@ -40242,6 +40264,7 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 [en]A minibando for a maximum of functionalities!
 [es]¡Un minibando para el máximo de funcionalidades!
 [fr]Un minibando pour un maximum de fonctionnalités !
+[nl]Minibando, een knoppenbalk met maximale functionaliteit!
 </multi>
 </slogan>
 <description>
@@ -40250,6 +40273,7 @@ Uses the library [twitteroauth->http://github.com/abraham/twitteroauth] of Abrah
 [en]The minibando plugin replaces the administration buttons of SPIP by a toolbar that shows the items available in the top navigation of the SPIP private area.
 [es]El plugin minibando remplaza los botones de administración de SPIP por una barra de herramientas que incorpora elementos disponibles en la barra de navegación superior del espacio privado de SPIP. 
 [fr]Le plugin minibando remplace les boutons d’administration de SPIP par une barre d’outils qui reprend les éléments disponibles dans la navigation haute de l’espace privé de SPIP.
+[nl]De plugin minibando vervangt de beheerknoppen van SPIP door een knoppenbalk met alle elementen die zich in de menubalk van het privé gedeelte van SPIP bevinden.
 </multi>
 </description>
 </multis>
@@ -44417,10 +44441,10 @@ Varios modelos disponibles:
 <archive id="oembed.zip" dtd="paquet">
 <zip>
 	<file>oembed.zip</file>
-	<size>51380</size>
-	<date>1462651500</date>
+	<size>51435</size>
+	<date>1464769144</date>
 	<source>_plugins_/oembed</source>
-	<last_commit>2016-05-07 22:04:59</last_commit>
+	<last_commit>2016-06-01 10:19:03</last_commit>
 </zip>
 <traductions>
 <traduction module="oembed" gestionnaire="salvatore" url="http://trad.spip.net" source="svn://zone.spip.org/spip-zone/_plugins_/oembed/lang/" reference="fr">
@@ -47932,10 +47956,10 @@ _ © 2008-2012 - Distribué sous licence GNU/GPL
 <archive id="plan3.zip" dtd="paquet">
 <zip>
 	<file>plan3.zip</file>
-	<size>179260</size>
-	<date>1462961044</date>
+	<size>179335</size>
+	<date>1464782642</date>
 	<source>_plugins_/plan/branches/v1</source>
-	<last_commit>2016-05-11 12:04:04</last_commit>
+	<last_commit>2016-06-01 14:04:01</last_commit>
 </zip>
 <traductions>
 <traduction module="plan" reference="fr">
@@ -57559,10 +57583,10 @@ R&#233;cup&#233;ration et mise en base des exports SITRA, gestion des exports mu
 <archive id="sjcycle_v2.zip" dtd="paquet">
 <zip>
 	<file>sjcycle_v2.zip</file>
-	<size>88540</size>
-	<date>1461330242</date>
+	<size>84649</size>
+	<date>1464768244</date>
 	<source>_plugins_/sjcycle/branches/v2</source>
-	<last_commit>2016-04-22 15:04:01</last_commit>
+	<last_commit>2016-06-01 10:04:04</last_commit>
 </zip>
 <traductions>
 <traduction module="faq-sjcycle" reference="fr">
