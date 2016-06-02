@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 400;
     font-family: "OpenSans",Helvetica,Arial,sans-serif;
 
 }
@@ -176,7 +176,6 @@ aside.clients img {
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 @media(max-width:767px) {
